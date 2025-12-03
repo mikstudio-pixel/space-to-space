@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space-to-Space</title>
+    <title>Space-to-Space | Research</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="research.css">
 </head>
-<body>
+<body class="research-page">
 
     <div class="overlay-ui">
         
         <nav class="side-nav left">
-            <a href="#projects">projects</a>
+            <a href="index.html#projects">projects</a>
             <a href="#about">about</a>
             <a href="#contact">contact</a>
         </nav>
@@ -19,11 +20,15 @@
         <nav class="side-nav right">
             <a href="practice.html">practice</a>
             <a href="architecture.html">architecture</a>
-            <a href="research.html">research</a>
+            <a href="research.html" class="active">research</a>
             <a href="#theory">theory</a>
         </nav>
 
         <div class="controls">
+            <div class="control-row">
+                <label for="darkModeToggle">Dark Mode</label>
+                <button id="darkModeToggle" class="toggle-btn">○</button>
+            </div>
             <label for="depthSlider">Room Depth</label>
             <input type="range" id="depthSlider" min="500" max="3000" value="1000">
         </div>
@@ -51,35 +56,27 @@
                 <div class="marker bl"></div>
                 <div class="marker br"></div>
                 
-                <!-- Back Wall Content Zone -->
-                <div class="zone-content back-content">
-                    <div class="content-item debug-num">1</div>
-                    <div class="content-item debug-num">2</div>
-                    <div class="content-item debug-num">3</div>
+                <!-- Back Wall Content Zone - Falling Numbers -->
+                <div class="zone-content back-content" id="backContent">
                 </div>
             </div>
             
-            <!-- Floor Content Zone (Placed inside room context) -->
+            <!-- Floor Content Zone -->
             <div class="zone-wrapper floor-wrapper">
-                <div class="zone-content floor-content">
-                    <div class="content-item debug-num">1</div>
-                    <div class="content-item debug-num">2</div>
-                    <div class="content-item debug-num">3</div>
+                <div class="zone-content floor-content" id="floorContent">
                 </div>
             </div>
 
             <!-- Ceiling Content Zone -->
             <div class="zone-wrapper ceiling-wrapper">
-                <div class="zone-content ceiling-content">
-                    <div class="content-item debug-num">1</div>
-                    <div class="content-item debug-num">2</div>
-                    <div class="content-item debug-num">3</div>
+                <div class="zone-content ceiling-content" id="ceilingContent">
                 </div>
             </div>
 
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="research.js"></script>
 </body>
 </html>
+

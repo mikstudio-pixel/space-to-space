@@ -90,6 +90,47 @@ body {
     font-size: 12px;
 }
 
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.counter-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.counter-buttons button {
+    background: transparent;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-buttons button:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+.partition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--room-width) !important;
+    height: var(--room-height) !important;
+    border: 1px solid var(--main-color) !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    pointer-events: none;
+    z-index: 5;
+}
+
 input[type=range] {
     width: 150px;
     accent-color: var(--main-color);

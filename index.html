@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space-to-Space</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="overlay-ui">
+        <div class="logo">
+            <!-- Stylized PART logo in wireframe style -->
+            <svg viewBox="0 0 220 60" class="logo-svg">
+                <!-- P -->
+                <path d="M10,50 L10,10 L40,10 L40,30 L10,30" stroke="var(--main-color)" stroke-width="2" fill="none"/>
+                
+                <!-- A -->
+                <polyline points="60,50 80,10 100,50" stroke="var(--main-color)" stroke-width="2" fill="none"/>
+                <line x1="70" y1="35" x2="90" y2="35" stroke="var(--main-color)" stroke-width="2"/>
+                
+                <!-- R -->
+                <path d="M110,50 L110,10 L140,10 L140,30 L110,30 M120,30 L140,50" stroke="var(--main-color)" stroke-width="2" fill="none"/>
+                
+                <!-- T -->
+                <line x1="150" y1="10" x2="190" y2="10" stroke="var(--main-color)" stroke-width="2"/>
+                <line x1="170" y1="10" x2="170" y2="50" stroke="var(--main-color)" stroke-width="2"/>
+            </svg>
+        </div>
+        
+        <nav class="side-nav left">
+            <a href="#projects">projects</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+        </nav>
+        
+        <nav class="side-nav right">
+            <a href="#practice">practice</a>
+            <a href="#architecture">architecture</a>
+            <a href="#research">research</a>
+            <a href="#theory">theory</a>
+        </nav>
+
+        <div class="controls">
+            <label for="depthSlider">Room Depth</label>
+            <input type="range" id="depthSlider" min="500" max="3000" value="1000">
+        </div>
+    </div>
+
+    <div class="scene">
+        <!-- SVG Wireframe Layer -->
+        <svg id="wireframe" class="wireframe-overlay">
+            <line class="depth-line tl"></line>
+            <line class="depth-line tr"></line>
+            <line class="depth-line bl"></line>
+            <line class="depth-line br"></line>
+            <polygon class="back-rect"></polygon>
+        </svg>
+
+        <div class="room">
+            <div class="wall ceiling"></div>
+            <div class="wall floor"></div>
+            <div class="wall left-wall"></div>
+            <div class="wall right-wall"></div>
+            <div class="wall back-wall">
+                <!-- Invisible markers for tracking corners -->
+                <div class="marker tl"></div>
+                <div class="marker tr"></div>
+                <div class="marker bl"></div>
+                <div class="marker br"></div>
+                
+                <!-- Back Wall Content Zone -->
+                <div class="zone-content back-content">
+                    <div class="content-item debug-num">1</div>
+                    <div class="content-item debug-num">2</div>
+                    <div class="content-item debug-num">3</div>
+                </div>
+            </div>
+            
+            <!-- Floor Content Zone (Placed inside room context) -->
+            <div class="zone-wrapper floor-wrapper">
+                <div class="zone-content floor-content">
+                    <div class="content-item debug-num">1</div>
+                    <div class="content-item debug-num">2</div>
+                    <div class="content-item debug-num">3</div>
+                </div>
+            </div>
+
+            <!-- Ceiling Content Zone -->
+            <div class="zone-wrapper ceiling-wrapper">
+                <div class="zone-content ceiling-content">
+                    <div class="content-item debug-num">1</div>
+                    <div class="content-item debug-num">2</div>
+                    <div class="content-item debug-num">3</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

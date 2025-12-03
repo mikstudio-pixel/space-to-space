@@ -1,0 +1,333 @@
+:root {
+    --main-color: #ff3333; /* Red color */
+    --bg-color: #ffffff;
+    --grid-size: 40px;
+    --grid-line: 1px;
+    
+    /* 3D Room Variables */
+    --room-width: 100vw; /* Full viewport width */
+    --room-height: 100vh; /* Full viewport height */
+    --room-depth: 1000px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* We will implement custom scroll */
+    background-color: var(--bg-color);
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: var(--main-color);
+}
+
+/* UI Overlay */
+.overlay-ui {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    pointer-events: none;
+    padding: 20px;
+}
+
+.overlay-ui * {
+    pointer-events: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    width: 220px;
+    height: 60px;
+}
+
+.side-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    /* Create a long vertical line for the nav container if needed, but design seems minimal */
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: var(--main-color);
+    text-transform: lowercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* Vertical text */
+    writing-mode: vertical-rl;
+    transform: rotate(180deg); /* Adjust orientation */
+}
+
+.side-nav.left {
+    left: 40px;
+    align-items: center;
+}
+
+.side-nav.right {
+    right: 40px;
+    align-items: center;
+}
+
+.controls {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 12px;
+}
+
+input[type=range] {
+    width: 150px;
+    accent-color: var(--main-color);
+}
+
+/* 3D Scene */
+.scene {
+    width: 100vw;
+    height: 100vh;
+    perspective: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.room {
+    position: relative;
+    width: var(--room-width);
+    height: var(--room-height);
+    transform-style: preserve-3d;
+    transform: translateZ(calc(var(--room-depth) / -2));
+    /* Transition removed to prevent sync issues with JS scroll/depth updates */
+}
+
+.wall {
+    position: absolute;
+    background-color: var(--bg-color);
+    /* Removed Grid Pattern */
+    /* Borders will define the space now, but we want only specific lines */
+    border: none; 
+    opacity: 1;
+}
+
+/* Wall Transforms & Specific Borders for the "8 lines" look */
+/* Borders are handled by SVG overlay now to maintain constant thickness */
+
+.back-wall {
+    width: var(--room-width);
+    height: var(--room-height);
+    transform: translateZ(calc(var(--room-depth) / -2));
+    z-index: -1;
+    /* border removed */
+}
+
+.left-wall {
+    width: var(--room-depth);
+    height: var(--room-height);
+    transform: rotateY(90deg) translateZ(calc(var(--room-width) / -2));
+    left: calc(50% - var(--room-depth) / 2);
+    top: 0;
+    /* borders removed */
+}
+
+.right-wall {
+    width: var(--room-depth);
+    height: var(--room-height);
+    transform: rotateY(-90deg) translateZ(calc(var(--room-width) / -2));
+    left: calc(50% - var(--room-depth) / 2);
+    top: 0;
+    /* borders removed */
+}
+
+.ceiling {
+    width: var(--room-width);
+    height: var(--room-depth);
+    transform: rotateX(-90deg) translateZ(calc(var(--room-height) / -2));
+    top: calc(50% - var(--room-depth) / 2);
+    left: 0;
+    /* No borders needed if side walls handle the edges */
+}
+
+.floor {
+    width: var(--room-width);
+    height: var(--room-depth);
+    transform: rotateX(90deg) translateZ(calc(var(--room-height) / -2));
+    top: calc(50% - var(--room-depth) / 2);
+    left: 0;
+    /* No borders needed */
+}
+
+/* Markers for SVG tracking */
+.marker {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+.marker.tl { top: 0; left: 0; }
+.marker.tr { top: 0; right: 0; }
+.marker.bl { bottom: 0; left: 0; }
+.marker.br { bottom: 0; right: 0; }
+
+/* SVG Wireframe */
+.wireframe-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10; /* Above room walls but below UI? Or just above everything in scene */
+}
+
+.wireframe-overlay line,
+.wireframe-overlay polygon {
+    stroke: var(--main-color);
+    stroke-width: 1px; /* Constant thickness! */
+    fill: none;
+    vector-effect: non-scaling-stroke; /* Ensures stroke doesn't scale if SVG scales (not needed here but good practice) */
+}
+
+/* Zone Wrappers to position content planes */
+.zone-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-style: preserve-3d;
+}
+
+/* Floor Wrapper: Aligned with Floor Plane */
+.floor-wrapper {
+    /* Floor is rotated X 90deg. We match that. */
+    /* Actually, we want to position the WRAPPER so that its content (0,0) starts at the front-left of floor? */
+    /* Let's mimic the .floor transform logic but keep it independent of the wall div */
+    /* Floor center is: rotateX(90deg) translateZ(height/-2) */
+    /* But we want to scroll "through" it. */
+    /* Easier: Position it exactly like .floor */
+    transform: rotateX(90deg) translateZ(calc(var(--room-height) / -2));
+    width: var(--room-width);
+    height: var(--room-depth); /* Depth is height in this orientation */
+    top: calc(50% - var(--room-depth) / 2);
+    left: 0;
+    /* The wrapper changes size with room-depth! This is good. */
+}
+
+/* Ceiling Wrapper */
+.ceiling-wrapper {
+    transform: rotateX(-90deg) translateZ(calc(var(--room-height) / -2));
+    width: var(--room-width);
+    height: var(--room-depth);
+    top: calc(50% - var(--room-depth) / 2);
+    left: 0;
+}
+
+/* Back Content is already inside .back-wall, so it inherits transform! */
+/* Just need to position the inner container */
+.back-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Setup flex/grid for content if needed, or absolute items */
+}
+
+/* Generic Zone Content Styling */
+.zone-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    
+    /* Flex Layout to prevent overlap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15vh; /* Reduced gap for numbers to be closer */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+/* Content Items in Zones */
+.zone-content .content-item {
+    position: relative; /* Changed from absolute to relative for flex flow */
+    left: auto;
+    top: auto;
+    transform: none; /* Reset basic transform, controlled by wrapper/flex */
+    width: 60%;
+    text-align: center;
+    backface-visibility: visible;
+}
+
+.debug-num {
+    font-size: 15rem;
+    font-weight: bold;
+    line-height: 1;
+    color: var(--main-color);
+}
+
+/* Specific adjustments per zone */
+
+.floor-content {
+    /* Floor: Items stack into depth. */
+    /* Current logic showed 3 closest to camera, 1 furthest. */
+    /* We want 1 closest (Start), 3 furthest (End). */
+    /* So we reverse the column order. */
+    flex-direction: column-reverse;
+    /* Align items to the 'end' of the flex container (which is the 'start' of Y axis due to reverse?) */
+    /* Flex-Start = Camera. Flex-End = Wall. */
+    /* We want items to be touching the wall. */
+    justify-content: flex-end;
+}
+
+.floor-content .content-item {
+    transform: none; 
+}
+
+.back-content {
+    /* Back Wall: Items stack vertically. */
+    /* We want continuity from floor. */
+    /* Floor ends, then Back Wall begins. */
+    /* So first item of back wall should be at the BOTTOM. */
+    justify-content: flex-end;
+    /* Or reverse order? flex-direction: column-reverse */
+    flex-direction: column-reverse; 
+}
+
+.back-content .content-item {
+    /* No specific transform needed */
+}
+
+.ceiling-content {
+    /* Ceiling: Items stack into Z. */
+    /* We want symmetry with floor: 1 closest to Start (Camera), 3 closest to Wall. */
+    /* So we use column-reverse (1 at Y-max/Camera, 3 at Y-min/Wall). */
+    flex-direction: column-reverse;
+    /* Align to Wall (Y-min). */
+    justify-content: flex-end;
+}
+
+.ceiling-content .content-item {
+    /* Reset rotation based on feedback "now it's reversed". */
+    /* Default orientation (Top points to Wall) is correct for tunnel view. */
+    transform: none;
+}

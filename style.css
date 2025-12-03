@@ -41,13 +41,6 @@ body {
     pointer-events: auto;
 }
 
-.logo {
-    position: absolute;
-    top: 40px;
-    left: 60px;
-    width: 220px;
-    height: 60px;
-}
 
 .side-nav {
     position: absolute;
@@ -69,6 +62,11 @@ body {
     /* Vertical text */
     writing-mode: vertical-rl;
     transform: rotate(180deg); /* Adjust orientation */
+}
+
+.side-nav a.active {
+    /* Optional: style for active link if needed */
+    /* text-decoration: underline; */
 }
 
 .side-nav.left {
@@ -285,6 +283,18 @@ input[type=range] {
     color: var(--main-color);
 }
 
+.practice-text {
+    font-size: 22vw;
+    font-weight: bold;
+    line-height: 0.8;
+    color: var(--main-color);
+    width: calc(100% - 20px) !important; /* Full width minus margins */
+    margin: 0 10px; /* 10px margin on sides */
+    padding: 20px 0; /* Padding between elements */
+    text-transform: uppercase;
+    text-align: center;
+}
+
 /* Specific adjustments per zone */
 
 .floor-content {
@@ -330,4 +340,68 @@ input[type=range] {
     /* Reset rotation based on feedback "now it's reversed". */
     /* Default orientation (Top points to Wall) is correct for tunnel view. */
     transform: none;
+}
+
+/* Practice Scene specific overrides */
+.practice-scene .floor-content {
+    gap: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* Floor: items anchored at back wall (Y=depth), grow towards camera */
+    flex-direction: column;
+    justify-content: flex-end; /* Align to back wall (end of wrapper) */
+}
+
+.practice-scene .ceiling-content {
+    gap: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* Ceiling: items anchored at back wall, grow towards camera */
+    flex-direction: column;
+    justify-content: flex-end; /* Align to back wall */
+}
+
+.practice-scene .back-content {
+    /* Back wall content centered */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.practice-scene .floor-content .content-item {
+    flex: 1;
+    height: auto;
+    display: flex;
+    align-items: flex-end; /* Align text to bottom (back wall edge) */
+    justify-content: center;
+    width: 100%;
+}
+
+.practice-scene .ceiling-content .content-item {
+    flex: 1;
+    height: auto;
+    display: flex;
+    align-items: flex-end; /* Align text to bottom (back wall edge) */
+    justify-content: center;
+    width: 100%;
+}
+
+.practice-scene .floor-content .practice-text {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    /* Scale from bottom (back wall) towards top (camera) */
+    transform-origin: center bottom;
+}
+
+.practice-scene .ceiling-content .practice-text {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    /* Scale from bottom (back wall) towards top (camera) */
+    transform-origin: center bottom;
+}
+
+/* Back wall text should NOT be stretched */
+.practice-scene .back-content .practice-text {
+    transform: none !important;
 }

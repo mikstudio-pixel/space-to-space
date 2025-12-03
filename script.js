@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const floorContent = document.querySelector('.floor-content');
     const backContent = document.querySelector('.back-content');
     const ceilingContent = document.querySelector('.ceiling-content');
+    const contentItems = document.querySelectorAll('.content-item');
 
     // Wireframe Elements
     const markers = {
@@ -24,7 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
         roomDepth: parseInt(depthSlider.value),
         roomHeight: window.innerHeight, // Matching CSS 100vh
         scrollPos: 0,
-        maxScroll: 5000 
+        maxScroll: 5000,
+        initialRoomDepth: parseInt(depthSlider.value) // Store initial depth for practice scene
     };
 
     // Initial setup
@@ -47,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Custom Scroll Logic
     let targetScroll = 0;
+    const isPracticeScene = document.querySelector('.practice-scene') !== null;
     
     window.addEventListener('wheel', (e) => {
         e.preventDefault(); // Prevent default to control the experience fully
@@ -78,9 +81,76 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     function updateRoomDepth(val) {
+        const oldDepth = state.roomDepth;
         state.roomDepth = val;
         document.documentElement.style.setProperty('--room-depth', `${val}px`);
+        
+        // Specific logic for practice scene text stretching
+        if (document.querySelector('.practice-scene')) {
+            updatePracticeTextStretch();
+            // For practice scene, DON'T update content positions when depth changes
+            // Only stretch the text - position stays the same
+            // Wireframe still needs to update
+            return;
+        }
+
         updateContentPositions();
+    }
+
+    function updatePracticeTextStretch() {
+        // Find floor and ceiling content items in practice scene
+        const items = document.querySelectorAll('.practice-scene .floor-content .practice-text, .practice-scene .ceiling-content .practice-text');
+        if (items.length === 0) return;
+        
+        // We have 2 items per zone usually. 
+        // The zone height is roomDepth.
+        // Item height (container) is roomDepth / 2.
+        // We want to stretch the text to fill this height.
+        // Standard font height is roughly 0.8em (based on line-height).
+        // But we can't easily measure em in px without computed style.
+        // Let's try to just scaleY based on a factor derived from roomDepth.
+        
+        // Base depth 1000px -> Scale 1?
+        // If depth 2000px -> Scale 2?
+        // This assumes the font-size was designed for 1000px.
+        // Current font-size is 22vw. It is width-dependent, not height-dependent.
+        // So on a wide screen, text is tall. On narrow, short.
+        // We want it to stretch to fill Depth.
+        
+        // Let's measure the natural height of the text element (unscaled).
+        // We need to reset transform to measure?
+        // Or just use a reference value.
+        
+        // Better: Compute required scale.
+        // Container Height = state.roomDepth / 2 (assuming 2 items).
+        // We need the text to be that tall.
+        
+        items.forEach(item => {
+            // Reset transform temporarily to measure? No, expensive.
+            // Assume layout gives it full height because of flex: 1
+            // But text content doesn't fill it.
+            
+            // Let's use a purely CSS variable approach if possible?
+            // No, JS is easier here.
+            
+            // We need the font's pixel height.
+            // fontSize in px approx.
+            const style = window.getComputedStyle(item);
+            const fontSize = parseFloat(style.fontSize);
+            const lineHeight = 0.8; // From CSS
+            const textHeight = fontSize * lineHeight;
+            
+            // Available height per item
+            // We assume 2 items. If more, divide by count.
+            // Count per zone.
+            const parent = item.closest('.zone-content');
+            const count = parent.querySelectorAll('.content-item').length;
+            const availableHeight = state.roomDepth / count;
+            
+            const scaleY = availableHeight / textHeight;
+            
+            item.style.transform = `scaleY(${scaleY})`;
+        });
     }
 
     function getPositionOnTrack(distance) {
@@ -126,67 +196,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateContentPositions() {
-        // Move content within zones based on scrollPos
-        // Floor: Moves along Z (away from camera)
-        // Back Wall: Moves along Y (upwards)
-        // Ceiling: Moves along Z (towards camera)
-
-        // Scale factor: 1 scroll unit = 1 pixel movement
+        const isPractice = document.querySelector('.practice-scene') !== null;
         
-        // Floor Logic:
-        // Items start at front (bottom) and move to back.
-        // transform translateY(-scrollPos)? No, it's 3D.
-        // Floor plane is X-rotated. Y-axis of the DIV is actually Z-axis of room (depth).
-        // So translateY moves along depth.
-        // Positive translateY moves "down" the div -> "back" into the room.
-        // We want content to move AWAY. So translateY(-scrollPos)?
-        // Wait. Floor wrapper is rotated 90deg.
-        // Coordinate system of .floor-wrapper:
-        // X: Left-Right. Y: Top-Bottom (which is Back-Front in 3D space? or Front-Back?)
-        // Let's test direction.
+        if (isPractice) {
+            // Practice scene: Use INITIAL depth for offsets so they don't change when slider moves
+            // This ensures content stays in place when adjusting depth
+            const fixedDepth = state.initialRoomDepth;
+            
+            // Floor content
+            floorContent.style.transform = `translateY(${-state.scrollPos}px)`;
+            
+            // Back wall content starts after floor content ends
+            backContent.style.transform = `translateY(${-state.scrollPos + fixedDepth}px)`;
+            
+            // Ceiling content starts after back wall
+            ceilingContent.style.transform = `translateY(${-state.scrollPos + fixedDepth + state.roomHeight}px)`;
+            return;
+        }
         
-        // For now, let's assume scrollPos is just an offset we apply to the container or items.
-        // Better to apply to container for performance?
-        // But we might want parallax or individual item control later.
-        // Let's apply to container.
-        
-         // Floor: Move content 'up' (visually back into room? No, towards camera).
-         // We determined floorContent translateY(-scroll) moves it K NÁM (Front).
-         // This is correct for "moving through" effect.
-         floorContent.style.transform = `translateY(${-state.scrollPos}px)`;
+        // Original scroll-based logic for index page
+        // Floor: Move content towards camera
+        floorContent.style.transform = `translateY(${-state.scrollPos}px)`;
          
-         // Back Wall: Move content 'up' (visually up).
-         // Continuous flow.
-         backContent.style.transform = `translateY(${-state.scrollPos + state.roomHeight}px)`; 
+        // Back Wall: Move content up, continuous flow
+        backContent.style.transform = `translateY(${-state.scrollPos + state.roomHeight}px)`; 
          
-         // Ceiling Logic:
-         // Rotated -90. Y axis points Front (towards camera).
-         // We want ceiling content to move towards camera (same flow as floor).
-         // So we need to move it along Positive Y.
-         // But user says "scrolls in opposite direction".
-         // Maybe my axis assumption for ceiling wrapper was wrong relative to scroll direction?
-         // If Floor moves (-scroll), and Ceiling moves (+scroll), they move in opposite coordinate directions.
-         // But visually both move K NÁM.
-         // If user says it's wrong, maybe Ceiling SHOULD move AWAY?
-         // Or maybe the content order is wrong?
-         // Let's try inverting the Ceiling scroll direction to match Floor sign?
-         // If Floor is -scroll, let's try Ceiling as -scroll (plus offset).
-         // If I use -scroll on Ceiling:
-         // Moves along -Y -> Dozadu (Away).
-         // Let's try this. Maybe the "průlet" efekt on ceiling needs to go backwards?
-         // No, that breaks physics of a tunnel.
-         
-         // Wait, if I scroll DOWN -> I go FORWARD.
-         // Ceiling content should appear from far and go over my head.
-         // So it moves Front. (+Y for Ceiling).
-         // My previous code was `state.scrollPos - offset`. (Increasing positive).
-         // Maybe the "opposite direction" comment means it moves TOO FAST or starts wrong?
-         // Or maybe the user means "it moves backwards" (items disappear into the distance)?
-         
-         // Let's try inverting it based on feedback.
-         // New logic: -scrollPos.
-         // ceilingContent.style.transform = `translateY(${-state.scrollPos + offset}px)`;
-         
-         ceilingContent.style.transform = `translateY(${-state.scrollPos + (state.roomDepth + state.roomHeight)}px)`;
-     }
+        // Ceiling: Move content towards camera
+        ceilingContent.style.transform = `translateY(${-state.scrollPos + (state.roomDepth + state.roomHeight)}px)`;
+    }
  });

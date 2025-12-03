@@ -76,9 +76,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const startDepth = 3000; // Nejvzdálenější
         const endDepth = 500;    // Nejbližší
         const depthDuration = 2000; // ms - délka animace perspektivy
-        const scrollAmount = 2150;   // px - kolik scrollnout
-        const scrollDuration = 1600;  // ms - délka scroll animace
-        const scrollStartAt = 0.3; // 0-1: Kdy začít scroll (0 = hned, 0.5 = v polovině depth animace, 1 = po depth animaci)
+        const scrollAmount = 2700;   // px - kolik scrollnout
+        const scrollDuration = 2200;  // ms - délka scroll animace
+        const scrollStartAt = 0.1; // 0-1: Kdy začít scroll (0 = hned, 0.5 = v polovině depth animace, 1 = po depth animaci)
         
         const scrollStartTime = depthDuration * scrollStartAt;
         const totalDuration = Math.max(depthDuration, scrollStartTime + scrollDuration);

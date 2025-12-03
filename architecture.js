@@ -26,11 +26,38 @@ document.addEventListener('DOMContentLoaded', () => {
     let state = {
         roomDepth: parseInt(depthSlider.value),
         roomHeight: window.innerHeight,
-        planeCount: 1
+        planeCount: 1,
+        introAnimationDone: false
     };
 
     // Initial setup
     updateRoomDepth(state.roomDepth);
+    
+    // Start intro animation
+    performIntroAnimation();
+    
+    // Dark Mode Setup
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    if (darkModeToggle) {
+        // Načíst uloženou preferenci
+        const savedMode = localStorage.getItem('darkMode');
+        if (savedMode === 'true') {
+            document.body.classList.add('dark-mode');
+            darkModeToggle.textContent = '●';
+            darkModeToggle.classList.add('active');
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            
+            darkModeToggle.textContent = isDark ? '●' : '○';
+            darkModeToggle.classList.toggle('active', isDark);
+            
+            // Uložit preferenci
+            localStorage.setItem('darkMode', isDark);
+        });
+    }
     
     // Event Listeners
     depthSlider.addEventListener('input', (e) => {
@@ -131,6 +158,73 @@ document.addEventListener('DOMContentLoaded', () => {
         line.setAttribute('y1', y1);
         line.setAttribute('x2', x2);
         line.setAttribute('y2', y2);
+    }
+
+    // Intro Animation Function
+    function performIntroAnimation() {
+        const planeAddDuration = 800; // 1 sekunda pro přidání 3 ploch (celkem 4)
+        const targetPlaneCount = 8;
+        const delayBetweenPlanes = planeAddDuration / (targetPlaneCount - 1); // ~333ms mezi každou plochou
+        
+        const depthStartDelay = 200; // Krátká pauza před začátkem depth animace
+        const depthStartAt = planeAddDuration + depthStartDelay; // Začít až po přidání ploch
+        const startDepth = parseInt(depthSlider.value); // Aktuální (1000)
+        const endDepth = 3000; // Maximum
+        const depthDuration = 1000; // 2 sekundy pro oddálení
+        
+        const totalDuration = depthStartAt + depthDuration;
+        const startTime = Date.now();
+        
+        let lastPlaneAdded = 1; // Začínáme s 1 plochou
+        
+        function animateIntro() {
+            const elapsed = Date.now() - startTime;
+            
+            // Fáze 1: Postupné přidávání ploch (1 sekunda)
+            if (elapsed < planeAddDuration) {
+                const targetCount = Math.min(
+                    Math.floor(elapsed / delayBetweenPlanes) + 1,
+                    targetPlaneCount
+                );
+                
+                if (targetCount > lastPlaneAdded) {
+                    state.planeCount = targetCount;
+                    updatePlaneCount();
+                    lastPlaneAdded = targetCount;
+                }
+            } else if (lastPlaneAdded < targetPlaneCount) {
+                // Ujistit se, že jsme přidali všechny plochy
+                state.planeCount = targetPlaneCount;
+                updatePlaneCount();
+                lastPlaneAdded = targetPlaneCount;
+            }
+            
+            // Fáze 2: Animace hloubky (začíná po planeAddDuration + delay)
+            if (elapsed >= depthStartAt && elapsed < depthStartAt + depthDuration) {
+                const depthProgress = (elapsed - depthStartAt) / depthDuration;
+                const eased = easeInOutCubic(depthProgress);
+                const currentDepth = startDepth + (endDepth - startDepth) * eased;
+                
+                depthSlider.value = currentDepth;
+                updateRoomDepth(currentDepth);
+            }
+            
+            // Pokračuj dokud není hotovo vše
+            if (elapsed < totalDuration) {
+                requestAnimationFrame(animateIntro);
+            } else {
+                state.introAnimationDone = true;
+            }
+        }
+        
+        animateIntro();
+    }
+    
+    // Easing funkce pro plynulejší animaci
+    function easeInOutCubic(t) {
+        return t < 0.5 
+            ? 4 * t * t * t 
+            : 1 - Math.pow(-2 * t + 2, 3) / 2;
     }
 
     // Animation Loop for Wireframe (needed because CSS transitions might be happening, or resize)

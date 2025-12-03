@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space-to-Space - Architecture</title>
+    <title>Space-to-Space - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="architecture-page">
+<body>
 
     <div class="overlay-ui">
         
         <nav class="side-nav left">
             <a href="index.html">animation</a>
-            <a href="home.html">home</a>
+            <a href="home.html" class="active">home</a>
             <a href="#contact">contact</a>
         </nav>
         
         <nav class="side-nav right">
             <a href="practice.html">stretch</a>
-            <a href="#" class="active">depth</a>
+            <a href="architecture.html">depth</a>
             <a href="research.html">crazy numbers</a>
             <a href="index.html">default</a>
         </nav>
@@ -27,13 +27,6 @@
             <div class="control-row">
                 <label for="darkModeToggle">Dark Mode</label>
                 <button id="darkModeToggle" class="toggle-btn">○</button>
-            </div>
-            <div class="control-group">
-                <label for="planeCounter">Planes: <span id="planeCountVal">1</span></label>
-                <div class="counter-buttons">
-                    <button id="btnMinus">-</button>
-                    <button id="btnPlus">+</button>
-                </div>
             </div>
             <label for="depthSlider">Room Depth</label>
             <input type="range" id="depthSlider" min="500" max="3000" value="1000">
@@ -55,9 +48,6 @@
             <div class="wall floor"></div>
             <div class="wall left-wall"></div>
             <div class="wall right-wall"></div>
-            
-            <!-- Dynamic partitions will be added here -->
-            
             <div class="wall back-wall">
                 <!-- Invisible markers for tracking corners -->
                 <div class="marker tl"></div>
@@ -67,12 +57,40 @@
                 
                 <!-- Back Wall Content Zone -->
                 <div class="zone-content back-content">
-                    <!-- Content removed for architecture experiment focus -->
+                    <div class="content-item practice-text">SPACE</div>
+                    <div class="content-item practice-text">SPACE</div>
+                    <div class="content-item debug-num">1</div>
+                    <div class="content-item debug-num">2</div>
+                    <div class="content-item debug-num">3</div>
                 </div>
             </div>
+            
+            <!-- Floor Content Zone (Placed inside room context) -->
+            <div class="zone-wrapper floor-wrapper">
+                <div class="zone-content floor-content">
+                    <div class="content-item practice-text">SPACE</div>
+                    <div class="content-item practice-text">SPACE</div>
+                    <div class="content-item debug-num">1</div>
+                    <div class="content-item debug-num">2</div>
+                    <div class="content-item debug-num">3</div>
+                </div>
+            </div>
+
+            <!-- Ceiling Content Zone -->
+            <div class="zone-wrapper ceiling-wrapper">
+                <div class="zone-content ceiling-content">
+                    <div class="content-item practice-text">SPACE</div>
+                    <div class="content-item practice-text">SPACE</div>
+                    <div class="content-item debug-num">1</div>
+                    <div class="content-item debug-num">2</div>
+                    <div class="content-item debug-num">3</div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-    <script src="architecture.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+

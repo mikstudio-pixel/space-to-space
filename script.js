@@ -21,8 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const backRect = document.querySelector('.back-rect');
 
-    // Check if we're on practice scene
+    // Check if we're on practice scene or home page
     const isPracticeScene = document.querySelector('.practice-scene') !== null;
+    const isHomePage = window.location.pathname.includes('home.html');
 
     let state = {
         roomDepth: parseInt(depthSlider.value),
@@ -40,9 +41,38 @@ document.addEventListener('DOMContentLoaded', () => {
     // We call updateContentPositions in the loop, but good to init
     updateContentPositions();
 
-    // Intro Animation - only on index page (not practice)
-    if (!isPracticeScene) {
-        performIntroAnimation();
+    // Intro Animation - different types based on page
+    if (!isHomePage) {
+        if (isPracticeScene) {
+            // Practice: pouze oddálení
+            performPracticeIntroAnimation();
+        } else {
+            // Index: plná animace s scrollem
+            performIntroAnimation();
+        }
+    }
+
+    // Dark Mode Setup
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    if (darkModeToggle) {
+        // Načíst uloženou preferenci
+        const savedMode = localStorage.getItem('darkMode');
+        if (savedMode === 'true') {
+            document.body.classList.add('dark-mode');
+            darkModeToggle.textContent = '●';
+            darkModeToggle.classList.add('active');
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            
+            darkModeToggle.textContent = isDark ? '●' : '○';
+            darkModeToggle.classList.toggle('active', isDark);
+            
+            // Uložit preferenci
+            localStorage.setItem('darkMode', isDark);
+        });
     }
 
     // Event Listeners
@@ -113,6 +143,40 @@ document.addEventListener('DOMContentLoaded', () => {
             if (elapsed < totalDuration) {
                 requestAnimationFrame(animateIntro);
             } else {
+                state.introAnimationDone = true;
+            }
+        }
+        
+        animateIntro();
+    }
+    
+    // Practice Intro Animation Function - pouze oddálení
+    function performPracticeIntroAnimation() {
+        const startDepth = 500;  // Nejbližší
+        const endDepth = 3000;   // Nejvzdálenější
+        const depthDuration = 1500; // 1.5 sekundy
+        
+        const startTime = Date.now();
+        
+        // Nastavit počáteční hloubku
+        depthSlider.value = startDepth;
+        updateRoomDepth(startDepth);
+        
+        function animateIntro() {
+            const elapsed = Date.now() - startTime;
+            
+            // Animace hloubky
+            if (elapsed < depthDuration) {
+                const progress = elapsed / depthDuration;
+                const eased = easeInOutCubic(progress);
+                const currentDepth = startDepth + (endDepth - startDepth) * eased;
+                
+                depthSlider.value = currentDepth;
+                updateRoomDepth(currentDepth);
+                
+                requestAnimationFrame(animateIntro);
+            } else {
+                // Konec animace
                 state.introAnimationDone = true;
             }
         }

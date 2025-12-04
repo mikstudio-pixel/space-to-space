@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space-to-Space</title>
+    <title>Space-to-Space - Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,9 +11,9 @@
     <div class="overlay-ui">
         
         <nav class="side-nav left">
-            <a href="index.html" class="active">animation</a>
+            <a href="index.html">animation</a>
             <a href="home.html">home</a>
-            <a href="contact.html">contact</a>
+            <a href="contact.html" class="active">contact</a>
         </nav>
         
         <nav class="side-nav right">
@@ -29,7 +29,7 @@
                 <button id="darkModeToggle" class="toggle-btn">○</button>
             </div>
             <label for="depthSlider">Room Depth</label>
-            <input type="range" id="depthSlider" min="500" max="3000" value="1000">
+            <input type="range" id="depthSlider" min="0" max="20000" value="1000">
         </div>
     </div>
 
@@ -42,6 +42,18 @@
             <line class="depth-line br"></line>
             <polygon class="back-rect"></polygon>
         </svg>
+
+        <!-- Rotating Cube - outside room to avoid transforms -->
+        <div class="cube-container">
+            <div class="cube">
+                <div class="cube-face front"></div>
+                <div class="cube-face back"></div>
+                <div class="cube-face right"></div>
+                <div class="cube-face left"></div>
+                <div class="cube-face top"></div>
+                <div class="cube-face bottom"></div>
+            </div>
+        </div>
 
         <div class="room">
             <div class="wall ceiling"></div>
@@ -91,5 +103,72 @@
     </div>
 
     <script src="script.js"></script>
+    <style>
+        /* Cube Container */
+        .cube-container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform-style: preserve-3d;
+            z-index: 50;
+            transform: translate(-50%, -50%);
+        }
+        
+        /* The Cube */
+        .cube {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: rotateCube 20s infinite linear;
+            transform-origin: center center;
+        }
+        
+        @keyframes rotateCube {
+            from {
+                transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            }
+            to {
+                transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            }
+        }
+        
+        /* Cube Faces */
+        .cube-face {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border: 3px solid var(--main-color);
+            background-color: rgba(255, 51, 51, 0.05);
+            opacity: 0.9;
+            backface-visibility: visible;
+        }
+        
+        .cube-face.front {
+            transform: translateZ(100px);
+        }
+        
+        .cube-face.back {
+            transform: translateZ(-100px) rotateY(180deg);
+        }
+        
+        .cube-face.right {
+            transform: rotateY(90deg) translateZ(100px);
+        }
+        
+        .cube-face.left {
+            transform: rotateY(-90deg) translateZ(100px);
+        }
+        
+        .cube-face.top {
+            transform: rotateX(90deg) translateZ(100px);
+        }
+        
+        .cube-face.bottom {
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+    </style>
 </body>
 </html>
+
+

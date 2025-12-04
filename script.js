@@ -21,9 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const backRect = document.querySelector('.back-rect');
 
-    // Check if we're on practice scene or home page
+    // Check if we're on practice scene, home page or contact page
     const isPracticeScene = document.querySelector('.practice-scene') !== null;
     const isHomePage = window.location.pathname.includes('home.html');
+    const isContactPage = window.location.pathname.includes('contact.html');
 
     let state = {
         roomDepth: parseInt(depthSlider.value),
@@ -42,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateContentPositions();
 
     // Intro Animation - different types based on page
-    if (!isHomePage) {
+    if (!isHomePage && !isContactPage) {
         if (isPracticeScene) {
             // Practice: pouze oddálení
             performPracticeIntroAnimation();

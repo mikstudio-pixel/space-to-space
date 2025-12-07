@@ -38,6 +38,15 @@ body {
 }
 
 .overlay-ui * {
+    /* Reset pointer-events to none for containers to avoid blocking 3D scene */
+    pointer-events: none;
+}
+
+.overlay-ui a,
+.overlay-ui button,
+.overlay-ui input,
+.overlay-ui label,
+.overlay-ui .toggle-btn {
     pointer-events: auto;
 }
 
@@ -49,6 +58,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 100px;
+    width: 0; /* Minimize width so container doesn't block clicks */
+    white-space: nowrap; /* Keep text on one line */
     /* Create a long vertical line for the nav container if needed, but design seems minimal */
 }
 
@@ -128,7 +139,7 @@ body {
     background: transparent !important;
     background-color: transparent !important;
     pointer-events: none;
-    z-index: 5;
+    /* Removed z-index: 5 to prevent stacking context issues */
 }
 
 input[type=range] {
@@ -165,15 +176,28 @@ input[type=range] {
     opacity: 1;
 }
 
-/* Wall Transforms & Specific Borders for the "8 lines" look */
-/* Borders are handled by SVG overlay now to maintain constant thickness */
+/* SVG Wireframe - HIDDEN to fix occlusion issues */
+.wireframe-overlay {
+    display: none;
+}
+
+.wall {
+    position: absolute;
+    background-color: var(--bg-color);
+    /* Borders added to replace wireframe in 3D */
+    border: none; 
+    opacity: 1;
+    pointer-events: none !important; /* Ensure walls don't block clicks on content */
+}
+
+/* Wall Transforms & Borders for the "8 lines" look */
 
 .back-wall {
     width: var(--room-width);
     height: var(--room-height);
     transform: translateZ(calc(var(--room-depth) / -2));
     z-index: -1;
-    /* border removed */
+    border: 1px solid var(--main-color);
 }
 
 .left-wall {
@@ -182,7 +206,7 @@ input[type=range] {
     transform: rotateY(90deg) translateZ(calc(var(--room-width) / -2));
     left: calc(50% - var(--room-depth) / 2);
     top: 0;
-    /* borders removed */
+    /* No borders needed here if ceiling/floor handle the corners */
 }
 
 .right-wall {
@@ -191,7 +215,7 @@ input[type=range] {
     transform: rotateY(-90deg) translateZ(calc(var(--room-width) / -2));
     left: calc(50% - var(--room-depth) / 2);
     top: 0;
-    /* borders removed */
+    /* No borders needed here if ceiling/floor handle the corners */
 }
 
 .ceiling {
@@ -200,7 +224,9 @@ input[type=range] {
     transform: rotateX(-90deg) translateZ(calc(var(--room-height) / -2));
     top: calc(50% - var(--room-depth) / 2);
     left: 0;
-    /* No borders needed if side walls handle the edges */
+    /* Side borders create the top-left and top-right depth lines */
+    border-left: 1px solid var(--main-color);
+    border-right: 1px solid var(--main-color);
 }
 
 .floor {
@@ -209,7 +235,9 @@ input[type=range] {
     transform: rotateX(90deg) translateZ(calc(var(--room-height) / -2));
     top: calc(50% - var(--room-depth) / 2);
     left: 0;
-    /* No borders needed */
+    /* Side borders create the bottom-left and bottom-right depth lines */
+    border-left: 1px solid var(--main-color);
+    border-right: 1px solid var(--main-color);
 }
 
 /* Markers for SVG tracking */
@@ -232,6 +260,7 @@ input[type=range] {
     height: 100%;
     pointer-events: none;
     z-index: 10; /* Above room walls but below UI? Or just above everything in scene */
+    display: none; /* Hidden to use CSS borders for correct 3D occlusion */
 }
 
 .wireframe-overlay line,
@@ -474,4 +503,102 @@ body.dark-mode .falling-num {
 
 body.dark-mode .partition {
     background-color: var(--bg-color);
+}
+
+/* Gallery Page Specifics */
+.gallery-card {
+    position: absolute;
+    /* Default centering is removed here, handled by classes */
+    width: 400px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    pointer-events: auto;
+    backface-visibility: visible;
+    text-decoration: none; /* Remove underline from anchor */
+    transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+    transform-style: preserve-3d; /* Key for preserving 3d context */
+}
+
+/* Positioning Classes */
+.pos-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pos-tl {
+    top: 15%;
+    left: 15%;
+    transform: none;
+}
+
+.pos-tr {
+    top: 15%;
+    right: 15%;
+    transform: none;
+}
+
+.pos-bl {
+    bottom: 15%;
+    left: 15%;
+    transform: none;
+}
+
+.pos-br {
+    bottom: 15%;
+    right: 15%;
+    transform: none;
+}
+
+/* Hover Effects */
+.gallery-card:hover {
+    border-color: #fff;
+    background: rgba(255, 51, 51, 0.2);
+    cursor: pointer;
+    /* Hover scale logic moved to specific modifiers below */
+}
+
+/* Scale on hover must respect the initial transform */
+.gallery-card.pos-center:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+.gallery-card:not(.pos-center):hover {
+    transform: scale(1.05);
+}
+
+.gallery-card img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.gallery-card h2 {
+    color: var(--main-color);
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Override partition behavior for gallery */
+.gallery-page .partition {
+    /* Remove flex centering because we use absolute positioning on cards inside */
+    display: block; 
+    background-color: transparent !important;
+    /* Keep default border from .partition unless desired otherwise */
+    transform-style: preserve-3d; /* Ensure children are in 3D space */
+}
+
+/* Dark mode adjustment for gallery card */
+body.dark-mode .gallery-card {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(255, 51, 51, 0.2);
 }

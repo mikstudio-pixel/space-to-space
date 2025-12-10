@@ -107,39 +107,18 @@ document.addEventListener('DOMContentLoaded', () => {
         animate();
     }
 
-    // Scroll Handling (mouse wheel + touch swipe)
-    const wheelSpeed = 2.5;
-    const touchMultiplier = 3; // Stronger response for shorter swipe distance
-    let lastTouchY = null;
-
-    function applyScrollDelta(delta) {
-        state.targetScrollZ += delta;
-        state.targetScrollZ = Math.max(0, Math.min(state.targetScrollZ, state.maxScroll));
-    }
-
+    // Scroll Handling
     window.addEventListener('wheel', (e) => {
         // e.deltaY is usually positive for scrolling down/pulling towards user -> "Moving Forward"
         // Let's say scroll down = move forward into tunnel
-        applyScrollDelta(e.deltaY * wheelSpeed);
-    }, { passive: true });
-
-    window.addEventListener('touchstart', (e) => {
-        if (e.touches.length === 0) return;
-        lastTouchY = e.touches[0].clientY;
-    }, { passive: true });
-
-    window.addEventListener('touchmove', (e) => {
-        if (lastTouchY === null || e.touches.length === 0) return;
-        const currentY = e.touches[0].clientY;
-        const deltaY = (lastTouchY - currentY) * touchMultiplier;
-        lastTouchY = currentY;
-        applyScrollDelta(deltaY);
-        e.preventDefault(); // Keep control similar to wheel to avoid native scroll
-    }, { passive: false });
-
-    window.addEventListener('touchend', () => {
-        lastTouchY = null;
-    }, { passive: true });
+        const speed = 2.5;
+        state.targetScrollZ += e.deltaY * speed;
+        
+        // Limit scroll
+        // Min: 0 (start)
+        // Max: state.maxScroll (end of tunnel)
+        state.targetScrollZ = Math.max(0, Math.min(state.targetScrollZ, state.maxScroll));
+    });
 
     function animate() {
         // Smooth Scroll (Lerp)

@@ -1,0 +1,350 @@
+{
+  "generatedFrom": "data/projects.json",
+  "mediaCount": 43,
+  "media": [
+    {
+      "institutionSlug": "aluo-ljubljana",
+      "projectSlug": "seapack",
+      "projectName": "Seapack",
+      "path": "assets/projects/aluo-ljubljana/pre-selection/ALUO_Dizdarević_Umihana_Gorenak_Marko_Tudjan_Anja_Vranješ_Nina_BDC-Seapack.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-001/ALUO Ljubljana/pre-selection/ALUO_Dizdarević_Umihana_Gorenak_Marko_Tudjan_Anja_Vranješ_Nina_BDC-Seapack.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "aluo-ljubljana",
+      "projectSlug": "what-remains",
+      "projectName": "What remains",
+      "path": "assets/projects/aluo-ljubljana/pre-selection/ALUO_Kordiš_Jaka_Lesjak_Matic_Štrubelj_Črt_BDC-What remains.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-001/ALUO Ljubljana/pre-selection/ALUO_Kordiš_Jaka_Lesjak_Matic_Štrubelj_Črt_BDC-What remains.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "aluo-ljubljana",
+      "projectSlug": "woodn-t-it-be-nice",
+      "projectName": "WOODn t it be nice",
+      "path": "assets/projects/aluo-ljubljana/pre-selection/ALUO_Čepin_Zoja_Kralj_Jure_Kralj_Maša_Maček_Klara_Štupar_Leon Rojk_BDC-WOODn_t it be nice.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-002/ALUO Ljubljana/pre-selection/ALUO_Čepin_Zoja_Kralj_Jure_Kralj_Maša_Maček_Klara_Štupar_Leon Rojk_BDC-WOODn_t it be nice.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "asp-wroclaw",
+      "projectSlug": "sieczka-matches",
+      "projectName": "SIECZKA MATCHES",
+      "path": "assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-002/ASP Wroclaw/pre-selection/SIECZKA_MATCHES/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "asp-wroclaw",
+      "projectSlug": "wo-kowski-w-domu",
+      "projectName": "WOŁKOWSKI W-DOMU",
+      "path": "assets/projects/asp-wroclaw/pre-selection/wo-kowski-w-domu/media/ASP-WROCLAW_Wolkowski_Mateusz_W-domu.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-002/ASP Wroclaw/pre-selection/WOŁKOWSKI_W-DOMU/MEDIA/ASP-WROCLAW_Wolkowski_Mateusz_W-domu.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "au-banska-bystrica",
+      "projectSlug": "sluka-odfukni-ma",
+      "projectName": "Sluka Odfúkni ma !",
+      "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/AU Banská Bystrica /predvýber/Sluka_Odfúkni_ma_!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "au-banska-bystrica",
+      "projectSlug": "sluka-odfukni-ma",
+      "projectName": "Sluka Odfúkni ma !",
+      "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/AU Banská Bystrica /predvýber/Sluka_Odfúkni_ma_!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "au-banska-bystrica",
+      "projectSlug": "sluka-odfukni-ma",
+      "projectName": "Sluka Odfúkni ma !",
+      "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/AU Banská Bystrica /predvýber/Sluka_Odfúkni_ma_!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "au-banska-bystrica",
+      "projectSlug": "seliga-as-if-nothing-happened",
+      "projectName": "Šeliga AS IF NOTHING HAPPENED",
+      "path": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/Review by λrokh.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-002/AU Banská Bystrica /predvýber/Šeliga_AS_IF_NOTHING_HAPPENED/Media/Review by λrokh.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-mun-hai-duong-tran-spider",
+      "projectName": "FI MUN Hai Duong Tran Spider",
+      "path": "assets/projects/muni-brno/fi-mun-hai-duong-tran-spider/12-2017_Hai Duong Tran - Spider_video s popiskem.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/FI MUN_Hai Duong Tran_Spider/12-2017_Hai Duong Tran - Spider_video s popiskem.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-mun-hai-duong-tran-spider",
+      "projectName": "FI MUN Hai Duong Tran Spider",
+      "path": "assets/projects/muni-brno/fi-mun-hai-duong-tran-spider/FI MUNI_Hai Duong Tran_Spider_video.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/FI MUN_Hai Duong Tran_Spider/FI MUNI_Hai Duong Tran_Spider_video.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-muni-mikusinec-jozef-space-simulation",
+      "projectName": "FI MUNI Mikusinec Jozef Space Simulation",
+      "path": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/FI MUNI_Mikusinec_Jozef_Space Simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-muni-minarik-vojtech-rainbow-rift",
+      "projectName": "FI MUNI MInarik Vojtech Rainbow Rift",
+      "path": "assets/projects/muni-brno/fi-muni-minarik-vojtech-rainbow-rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Landscape.mov",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/FI MUNI_MInarik_Vojtech_Rainbow Rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Landscape.mov",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-muni-minarik-vojtech-rainbow-rift",
+      "projectName": "FI MUNI MInarik Vojtech Rainbow Rift",
+      "path": "assets/projects/muni-brno/fi-muni-minarik-vojtech-rainbow-rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Portrait.mov",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/FI MUNI_MInarik_Vojtech_Rainbow Rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Portrait.mov",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-muni-musil-bronislav-drum-and-bezier",
+      "projectName": "Fi MUNI Musil Bronislav Drum and Bezier",
+      "path": "assets/projects/muni-brno/fi-muni-musil-bronislav-drum-and-bezier/FI MUNI_Bronislav Musil - Drum and Beziere_video.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/MUNI Brno/Fi MUNI Musil_Bronislav_Drum and Bezier/FI MUNI_Bronislav Musil - Drum and Beziere_video.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-muni-nastoupil-martin-resonance-in-space",
+      "projectName": "FI MUNI Nastoupil Martin Resonance in Space",
+      "path": "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/MUNI Brno/FI MUNI_Nastoupil_Martin_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-muni-portesova-sarka-mom-i-m-not-playing-i-m-making-art",
+      "projectName": "FI MUNI Portesova Sarka Mom, I m not playing, I m making ART",
+      "path": "assets/projects/muni-brno/fi-muni-portesova-sarka-mom-i-m-not-playing-i-m-making-art/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-muni-svoboda-adam-nebula",
+      "projectName": "FI MUNI Svoboda Adam Nebula",
+      "path": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/FI MUNI_Svoboda_Adam_Nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-muni-svoboda-adam-nebula",
+      "projectName": "FI MUNI Svoboda Adam Nebula",
+      "path": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/MUNI Brno/FI MUNI_Svoboda_Adam_Nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "fi-muni-talcik-matus-darwin-s-cube",
+      "projectName": "Fi MUNI Talcik Matus - Darwin s Cube",
+      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/Fi MUNI_Talcik_Matus - Darwin_s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "muni-fi-chudicek-ondrej-toy-design",
+      "projectName": "MUNI-FI Chudicek Ondrej-Toy Design",
+      "path": "assets/projects/muni-brno/muni-fi-chudicek-ondrej-toy-design/media/MUNI-FI_Chudicek_Ondrej.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/MUNI Brno/MUNI-FI_Chudicek_Ondrej-Toy_Design/media/MUNI-FI_Chudicek_Ondrej.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "muni-fi-dohnal-marek-toy-design",
+      "projectName": "MUNI-FI Dohnal Marek-Toy Design",
+      "path": "assets/projects/muni-brno/muni-fi-dohnal-marek-toy-design/media/MUNI-FI_Dohnal_Marek.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/MUNI Brno/MUNI-FI_Dohnal_Marek-Toy_Design/media/MUNI-FI_Dohnal_Marek.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "muni-fi-lodnanova-michaela-toy-design",
+      "projectName": "MUNI-FI Lodnanova Michaela-Toy Design",
+      "path": "assets/projects/muni-brno/muni-fi-lodnanova-michaela-toy-design/media/MUNI-FI_Lodnanova_Michaela.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/MUNI-FI_Lodnanova_Michaela-Toy_Design/media/MUNI-FI_Lodnanova_Michaela.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "muni-fi-navarro-hernandez-nuno-toy-design",
+      "projectName": "MUNI-FI Navarro Hernandez Nuno-Toy Design",
+      "path": "assets/projects/muni-brno/muni-fi-navarro-hernandez-nuno-toy-design/media/MUNI-FI_Navarro_Hernandez_Nuno.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/MUNI Brno/MUNI-FI_Navarro_Hernandez_Nuno-Toy_Design/media/MUNI-FI_Navarro_Hernandez_Nuno.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "muni-fi-stefekova-nina-toy-design",
+      "projectName": "MUNI-FI Stefekova Nina-Toy Design",
+      "path": "assets/projects/muni-brno/muni-fi-stefekova-nina-toy-design/media/MUNI-FI_Stefekova_Nina.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/MUNI Brno/MUNI-FI_Stefekova_Nina-Toy_Design/media/MUNI-FI_Stefekova_Nina.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "resonance-in-space",
+      "projectName": "resonance in space",
+      "path": "assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
+      "sourcePath": "assets/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "tuzvo",
+      "projectSlug": "brajerova-errans",
+      "projectName": "Brajerová errans",
+      "path": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/TUZVO/predvýber/Brajerová_errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "tuzvo",
+      "projectSlug": "koisova-spojova-hub",
+      "projectName": "Koišová SPOJOVÁ HUB",
+      "path": "assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/TUZVO/predvýber/Koišová_SPOJOVÁ HUB/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "tuzvo",
+      "projectSlug": "segedova-umama",
+      "projectName": "Šegedová UMAMA",
+      "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/TUZVO/predvýber/Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "tuzvo",
+      "projectSlug": "segedova-warka-house",
+      "projectName": "Šegedová WARKA house",
+      "path": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/TUZVO/predvýber/Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "tuzvo",
+      "projectSlug": "segedova-zs-spojova-school-garden",
+      "projectName": "Šegedová ZŠ SPOJOVÁ school garden",
+      "path": "assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-004/TUZVO/predvýber/Šegedová_ZŠ SPOJOVÁ school garden /media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "ustp-austria",
+      "projectSlug": "mav-5786",
+      "projectName": "MAV 5786",
+      "path": "assets/projects/ustp-austria/mav-5786/mav trailer exp1.m4v",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/USTP Austria/MAV 5786/mav trailer exp1.m4v",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "utb-prvy-predvyber",
+      "projectSlug": "video",
+      "projectName": "video",
+      "path": "assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4",
+      "sourcePath": "assets/UTB (prvý predvýber)/Ateliér prumyslový design/Hrdina_Na Mars !!!/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "utb-prvy-predvyber",
+      "projectSlug": "brandisova-space-to-space",
+      "projectName": "brandisova space to space",
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/brandisova-space-to-space/ant gif poster.gif",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-002/UTB (prvý predvýber)/Ateliér grafický design/brandisova_space_to_space_/ant gif poster.gif",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "utb-prvy-predvyber",
+      "projectSlug": "jenikova-katerina",
+      "projectName": "Jenikova Katerina",
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/jenikova-katerina/space to space_Kateřina_Jeníková_UTB.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-002/UTB (prvý predvýber)/Ateliér grafický design/Jenikova Katerina/space to space_Kateřina_Jeníková_UTB.mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "utb-prvy-predvyber",
+      "projectSlug": "marietta-brandisova",
+      "projectName": "Marietta Brandisová",
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/UTB (prvý predvýber)/Ateliér grafický design/__VÝBER NA VÝSTAVU/Marietta Brandisová/ant gif poster.gif",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "utb-prvy-predvyber",
+      "projectSlug": "marietta-brandisova",
+      "projectName": "Marietta Brandisová",
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/UTB (prvý predvýber)/Ateliér grafický design/__VÝBER NA VÝSTAVU/Marietta Brandisová/beetle gif poster.gif",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "utb-prvy-predvyber",
+      "projectSlug": "marietta-brandisova",
+      "projectName": "Marietta Brandisová",
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/fly gif poster.gif",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/UTB (prvý predvýber)/Ateliér grafický design/__VÝBER NA VÝSTAVU/Marietta Brandisová/fly gif poster.gif",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "utb-prvy-predvyber",
+      "projectSlug": "space-to-space-brandisova",
+      "projectName": "space to space brandisova",
+      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/ant gif poster.gif",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-002/UTB (prvý predvýber)/___studenti co sa sami prihlasili z UTB/space_to_space_brandisova/space_to_space_brandisova/ant gif poster.gif",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "utb-prvy-predvyber",
+      "projectSlug": "space-to-space-brandisova",
+      "projectName": "space to space brandisova",
+      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/beetle gif poster.gif",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-002/UTB (prvý predvýber)/___studenti co sa sami prihlasili z UTB/space_to_space_brandisova/space_to_space_brandisova/beetle gif poster.gif",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "utb-prvy-predvyber",
+      "projectSlug": "space-to-space-brandisova",
+      "projectName": "space to space brandisova",
+      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/fly gif poster.gif",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/UTB (prvý predvýber)/___studenti co sa sami prihlasili z UTB/space_to_space_brandisova/space_to_space_brandisova/fly gif poster.gif",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "vsvu",
+      "projectSlug": "huraj-filip-mars53",
+      "projectName": "Huraj Filip MARS53",
+      "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-001/VŠVU/Huraj_Filip_MARS53/media/vsvu_huraj_filip_animácia_MARS 53..mp4",
+      "reason": "excluded-from-git"
+    },
+    {
+      "institutionSlug": "vsvu",
+      "projectSlug": "krcova-michaela-i",
+      "projectName": "Krčová Michaela I",
+      "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-001/VŠVU/Krčová_Michaela_I/VŠVU_Krčová_Michaela_I_08.mp4",
+      "reason": "excluded-from-git"
+    }
+  ]
+}

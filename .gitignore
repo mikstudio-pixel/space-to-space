@@ -1,0 +1,30 @@
+.DS_Store
+**/.DS_Store
+
+assets/mav trailer exp1.m4v
+assets/video-thumbnail.png
+assets/VISTA.jpg
+assets/Stools Shuttlecock.jpg
+assets/Light and Darkness.jpg
+assets/BambooWhispers.png
+assets/DepoRooms.jpg
+
+assets/projects/**/*.jpg
+assets/projects/**/*.jpeg
+assets/projects/**/*.png
+assets/projects/**/*.gif
+assets/projects/**/*.tif
+assets/projects/**/*.tiff
+assets/projects/**/*.mp4
+assets/projects/**/*.m4v
+assets/projects/**/*.mov
+assets/projects/**/*.JPG
+assets/projects/**/*.JPEG
+assets/projects/**/*.PNG
+assets/projects/**/*.GIF
+assets/projects/**/*.TIF
+assets/projects/**/*.TIFF
+assets/projects/**/*.MP4
+assets/projects/**/*.M4V
+assets/projects/**/*.MOV
+assets/projects/muni-brno/muni-fi-dohnal-marek-illustration/552405-Dohnal_Marek-space2space_poster.pdf

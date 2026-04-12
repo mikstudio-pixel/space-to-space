@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space-to-Space - Contact</title>
+    <title>Space-to-Space - Video</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="contact-video-page">
 
     <div class="overlay-ui">
         
         <nav class="side-nav left">
             <a href="index.html">animation</a>
             <a href="home.html">home</a>
-            <a href="contact.html" class="active">3D object</a>
+            <a href="contact.html" class="active">video</a>
             <a href="gallery.html">gallery</a>
         </nav>
         
@@ -33,8 +33,12 @@
                 <label for="colorModeToggle">B/W Mode</label>
                 <button id="colorModeToggle" class="toggle-btn">○</button>
             </div>
-            <label for="depthSlider">Room Depth</label>
-            <input type="range" id="depthSlider" min="0" max="20000" value="1000">
+            <div class="control-row">
+                <label for="videoModeToggle">1 Video Perspective</label>
+                <button id="videoModeToggle" class="toggle-btn">○</button>
+            </div>
+            <label for="depthSlider">Tunnel Depth</label>
+            <input type="range" id="depthSlider" min="1" max="5000" value="1000">
         </div>
     </div>
 
@@ -48,23 +52,39 @@
             <polygon class="back-rect"></polygon>
         </svg>
 
-        <!-- Rotating Cube - outside room to avoid transforms -->
-        <div class="cube-container">
-            <div class="cube">
-                <div class="cube-face front"></div>
-                <div class="cube-face back"></div>
-                <div class="cube-face right"></div>
-                <div class="cube-face left"></div>
-                <div class="cube-face top"></div>
-                <div class="cube-face bottom"></div>
-            </div>
-        </div>
-
         <div class="room">
-            <div class="wall ceiling"></div>
-            <div class="wall floor"></div>
-            <div class="wall left-wall"></div>
-            <div class="wall right-wall"></div>
+            <div class="wall ceiling">
+                <div class="zone-content ceiling-content video-surface">
+                    <video class="surface-video is-projected" autoplay muted loop playsinline preload="metadata" data-sync-video="ceiling">
+                        <source src="assets/mav trailer exp1.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="surface-canvas is-projected" data-perspective-canvas="ceiling"></canvas>
+                </div>
+            </div>
+            <div class="wall floor">
+                <div class="zone-content floor-content video-surface">
+                    <video class="surface-video is-projected" autoplay muted loop playsinline preload="metadata" data-sync-video="floor">
+                        <source src="assets/mav trailer exp1.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="surface-canvas is-projected" data-perspective-canvas="floor"></canvas>
+                </div>
+            </div>
+            <div class="wall left-wall">
+                <div class="zone-content left-content video-surface">
+                    <video class="surface-video is-projected" autoplay muted loop playsinline preload="metadata" data-sync-video="left">
+                        <source src="assets/mav trailer exp1.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="surface-canvas is-projected" data-perspective-canvas="left"></canvas>
+                </div>
+            </div>
+            <div class="wall right-wall">
+                <div class="zone-content right-content video-surface">
+                    <video class="surface-video is-projected" autoplay muted loop playsinline preload="metadata" data-sync-video="right">
+                        <source src="assets/mav trailer exp1.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="surface-canvas is-projected" data-perspective-canvas="right"></canvas>
+                </div>
+            </div>
             <div class="wall back-wall">
                 <!-- Invisible markers for tracking corners -->
                 <div class="marker tl"></div>
@@ -72,108 +92,19 @@
                 <div class="marker bl"></div>
                 <div class="marker br"></div>
                 
-                <!-- Back Wall Content Zone -->
-                <div class="zone-content back-content">
-                    <div class="content-item practice-text">SPACE</div>
-                    <div class="content-item practice-text">SPACE</div>
-                    <div class="content-item debug-num">1</div>
-                    <div class="content-item debug-num">2</div>
-                    <div class="content-item debug-num">3</div>
+                <div class="zone-content back-content video-surface is-flat">
+                    <video class="surface-video is-flat" autoplay muted loop playsinline preload="metadata" data-sync-video="back" data-sync-master="true">
+                        <source src="assets/mav trailer exp1.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="surface-canvas is-flat" data-perspective-canvas="back"></canvas>
                 </div>
             </div>
-            
-            <!-- Floor Content Zone (Placed inside room context) -->
-            <div class="zone-wrapper floor-wrapper">
-                <div class="zone-content floor-content">
-                    <div class="content-item practice-text">SPACE</div>
-                    <div class="content-item practice-text">SPACE</div>
-                    <div class="content-item debug-num">1</div>
-                    <div class="content-item debug-num">2</div>
-                    <div class="content-item debug-num">3</div>
-                </div>
-            </div>
-
-            <!-- Ceiling Content Zone -->
-            <div class="zone-wrapper ceiling-wrapper">
-                <div class="zone-content ceiling-content">
-                    <div class="content-item practice-text">SPACE</div>
-                    <div class="content-item practice-text">SPACE</div>
-                    <div class="content-item debug-num">1</div>
-                    <div class="content-item debug-num">2</div>
-                    <div class="content-item debug-num">3</div>
-                </div>
-            </div>
-
         </div>
     </div>
 
     <script src="script.js"></script>
+    <script src="contact-video.js"></script>
     <script src="theme-toggle.js"></script>
-    <style>
-        /* Cube Container */
-        .cube-container {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform-style: preserve-3d;
-            z-index: 50;
-            transform: translate(-50%, -50%);
-        }
-        
-        /* The Cube */
-        .cube {
-            width: 200px;
-            height: 200px;
-            position: relative;
-            transform-style: preserve-3d;
-            animation: rotateCube 20s infinite linear;
-            transform-origin: center center;
-        }
-        
-        @keyframes rotateCube {
-            from {
-                transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-            }
-            to {
-                transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-            }
-        }
-        
-        /* Cube Faces */
-        .cube-face {
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            border: 3px solid var(--main-color);
-            background-color: rgba(255, 51, 51, 0.05);
-            opacity: 0.9;
-            backface-visibility: visible;
-        }
-        
-        .cube-face.front {
-            transform: translateZ(100px);
-        }
-        
-        .cube-face.back {
-            transform: translateZ(-100px) rotateY(180deg);
-        }
-        
-        .cube-face.right {
-            transform: rotateY(90deg) translateZ(100px);
-        }
-        
-        .cube-face.left {
-            transform: rotateY(-90deg) translateZ(100px);
-        }
-        
-        .cube-face.top {
-            transform: rotateX(90deg) translateZ(100px);
-        }
-        
-        .cube-face.bottom {
-            transform: rotateX(-90deg) translateZ(100px);
-        }
-    </style>
 </body>
 </html>
 

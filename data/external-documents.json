@@ -1,0 +1,14 @@
+{
+  "generatedFrom": "data/projects.json",
+  "documentCount": 1,
+  "documents": [
+    {
+      "institutionSlug": "muni-brno",
+      "projectSlug": "muni-fi-dohnal-marek-illustration",
+      "projectName": "MUNI-FI Dohnal Marek-Illustration",
+      "path": "assets/projects/muni-brno/muni-fi-dohnal-marek-illustration/552405-Dohnal_Marek-space2space_poster.pdf",
+      "sourcePath": "assets/drive-download-20260325T115852Z-1-003/MUNI Brno/MUNI-FI_Dohnal_Marek-Illustration/552405-Dohnal_Marek-space2space_poster.pdf",
+      "reason": "excluded-from-git"
+    }
+  ]
+}

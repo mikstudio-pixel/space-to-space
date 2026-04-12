@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const body = document.body;
     const depthSlider = document.getElementById('depthSlider');
+    const scene = document.querySelector('.scene');
     const room = document.querySelector('.room');
     const backWall = document.querySelector('.back-wall');
     
@@ -28,6 +30,12 @@ document.addEventListener('DOMContentLoaded', () => {
         roomHeight: window.innerHeight,
         planeCount: 1,
         introAnimationDone: false
+    };
+    const frontViewState = {
+        isActive: false,
+        restoreDepth: parseInt(depthSlider.value, 10),
+        animationFrame: null,
+        suppressSync: false
     };
 
     // Initial setup
@@ -63,7 +71,30 @@ document.addEventListener('DOMContentLoaded', () => {
     depthSlider.addEventListener('input', (e) => {
         const val = parseInt(e.target.value);
         updateRoomDepth(val);
+        syncFrontViewState(val);
     });
+
+    if (scene) {
+        scene.addEventListener('click', (e) => {
+            const polygon = getBackWallPolygon();
+            if (polygon.length !== 4) {
+                return;
+            }
+
+            if (isPointInsidePolygon(e.clientX, e.clientY, polygon)) {
+                toggleFrontView();
+            }
+        });
+
+        scene.addEventListener('wheel', (e) => {
+            if (!frontViewState.isActive) {
+                return;
+            }
+
+            e.preventDefault();
+            restoreFrontView();
+        }, { passive: false });
+    }
 
     window.addEventListener('resize', () => {
         state.roomHeight = window.innerHeight;
@@ -130,6 +161,158 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // When depth changes, we need to re-calculate partition positions
         generatePartitions();
+    }
+
+    function getFrontDepth() {
+        return parseInt(depthSlider.min, 10);
+    }
+
+    function setFrontViewActive(isActive) {
+        frontViewState.isActive = isActive;
+        body.classList.toggle('front-view-active', isActive);
+    }
+
+    function setDepthSliderValue(val) {
+        depthSlider.value = String(val);
+        depthSlider.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+
+    function animateDepthTo(targetDepth, options = {}) {
+        const {
+            duration = 420,
+            frontViewActive = frontViewState.isActive
+        } = options;
+        const startDepth = parseFloat(depthSlider.value);
+        const finalDepth = parseFloat(targetDepth);
+
+        if (frontViewState.animationFrame !== null) {
+            cancelAnimationFrame(frontViewState.animationFrame);
+            frontViewState.animationFrame = null;
+        }
+
+        setFrontViewActive(frontViewActive);
+
+        if (!Number.isFinite(startDepth) || !Number.isFinite(finalDepth)) {
+            return;
+        }
+
+        if (Math.abs(finalDepth - startDepth) < 0.5) {
+            frontViewState.suppressSync = true;
+            setDepthSliderValue(finalDepth);
+            frontViewState.suppressSync = false;
+            return;
+        }
+
+        const startTime = performance.now();
+        frontViewState.suppressSync = true;
+
+        function step(now) {
+            const progress = Math.min((now - startTime) / duration, 1);
+            const eased = easeInOutCubic(progress);
+            const nextDepth = startDepth + (finalDepth - startDepth) * eased;
+
+            setDepthSliderValue(nextDepth);
+
+            if (progress < 1) {
+                frontViewState.animationFrame = requestAnimationFrame(step);
+                return;
+            }
+
+            frontViewState.animationFrame = null;
+            setDepthSliderValue(finalDepth);
+            frontViewState.suppressSync = false;
+        }
+
+        frontViewState.animationFrame = requestAnimationFrame(step);
+    }
+
+    function syncFrontViewState(val) {
+        if (frontViewState.suppressSync) {
+            return;
+        }
+
+        const frontDepth = getFrontDepth();
+        if (Number.isNaN(val) || Number.isNaN(frontDepth)) {
+            return;
+        }
+
+        if (frontViewState.isActive) {
+            if (val !== frontDepth) {
+                setFrontViewActive(false);
+                frontViewState.restoreDepth = val;
+            }
+            return;
+        }
+
+        if (val !== frontDepth) {
+            frontViewState.restoreDepth = val;
+        }
+    }
+
+    function getBackWallPolygon() {
+        if (!markers.tl || !markers.tr || !markers.br || !markers.bl) {
+            return [];
+        }
+
+        const tl = markers.tl.getBoundingClientRect();
+        const tr = markers.tr.getBoundingClientRect();
+        const br = markers.br.getBoundingClientRect();
+        const bl = markers.bl.getBoundingClientRect();
+
+        return [
+            { x: tl.left, y: tl.top },
+            { x: tr.left, y: tr.top },
+            { x: br.left, y: br.top },
+            { x: bl.left, y: bl.top }
+        ];
+    }
+
+    function isPointInsidePolygon(x, y, polygon) {
+        let isInside = false;
+
+        for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+            const xi = polygon[i].x;
+            const yi = polygon[i].y;
+            const xj = polygon[j].x;
+            const yj = polygon[j].y;
+
+            const intersects = ((yi > y) !== (yj > y))
+                && (x < ((xj - xi) * (y - yi)) / ((yj - yi) || 1e-7) + xi);
+
+            if (intersects) {
+                isInside = !isInside;
+            }
+        }
+
+        return isInside;
+    }
+
+    function toggleFrontView() {
+        const frontDepth = getFrontDepth();
+        const currentDepth = parseInt(depthSlider.value, 10);
+
+        if (Number.isNaN(frontDepth) || Number.isNaN(currentDepth)) {
+            return;
+        }
+
+        if (frontViewState.isActive) {
+            animateDepthTo(frontViewState.restoreDepth, { frontViewActive: false });
+            return;
+        }
+
+        if (currentDepth !== frontDepth) {
+            frontViewState.restoreDepth = currentDepth;
+        }
+
+        animateDepthTo(frontDepth, { frontViewActive: true });
+    }
+
+    function restoreFrontView() {
+        if (!frontViewState.isActive) {
+            return;
+        }
+
+        animateDepthTo(frontViewState.restoreDepth, { frontViewActive: false });
     }
 
     function updateWireframe() {

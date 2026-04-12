@@ -1,8 +1,11 @@
 :root {
     --main-color: #ff3333; /* Red color */
     --bg-color: #d8d8d8;
+    --dynamic-tint-rgb: 216, 216, 216;
+    --dynamic-tint-alpha: 0;
     --grid-size: 40px;
     --grid-line: 1px;
+    --wireframe-line-width: 1.5px;
     
     /* 3D Room Variables */
     --room-width: 100vw; /* Full viewport width */
@@ -21,8 +24,23 @@ body {
     height: 100vh;
     overflow: hidden; /* We will implement custom scroll */
     background-color: var(--bg-color);
+    background-image: linear-gradient(
+        rgba(var(--dynamic-tint-rgb), var(--dynamic-tint-alpha)),
+        rgba(var(--dynamic-tint-rgb), var(--dynamic-tint-alpha))
+    );
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     color: var(--main-color);
+    transition: background-image 240ms ease, background-color 240ms ease, box-shadow 240ms ease;
+    box-shadow: inset 0 0 0 9999px rgba(var(--dynamic-tint-rgb), calc(var(--dynamic-tint-alpha) * 0.35));
+}
+
+/* Home: bez barevného nádechu z obrázků — jen černá */
+body.home-page,
+body.home-page.dark-mode {
+    background-color: #000;
+    --bg-color: #000;
+    --dynamic-tint-alpha: 0;
+    box-shadow: none;
 }
 
 /* UI Overlay */
@@ -50,6 +68,41 @@ body {
     pointer-events: auto;
 }
 
+.gallery-intro {
+    position: fixed;
+    inset: 0;
+    z-index: 160;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    pointer-events: none;
+    perspective: var(--gallery-intro-perspective, 18000px);
+    transform-style: preserve-3d;
+    opacity: var(--gallery-intro-opacity, 0);
+    visibility: hidden;
+}
+
+.gallery-intro-title {
+    color: var(--main-color);
+    max-width: 92vw;
+    font-size: clamp(28px, 10vw, 180px);
+    font-weight: 700;
+    text-transform: lowercase;
+    letter-spacing: var(--gallery-intro-letter-spacing, 0.02em);
+    line-height: 0.9;
+    text-align: center;
+    white-space: nowrap;
+    transform: translate3d(0, 0, var(--gallery-intro-z, 0px)) scale(var(--gallery-intro-scale, 1));
+    transform-origin: center center;
+    opacity: var(--gallery-intro-title-opacity, 1);
+    will-change: transform, opacity, letter-spacing;
+}
+
+body.gallery-intro-active .gallery-intro {
+    visibility: visible;
+}
+
 
 .side-nav {
     position: absolute;
@@ -61,6 +114,7 @@ body {
     width: 0; /* Minimize width so container doesn't block clicks */
     white-space: nowrap; /* Keep text on one line */
     /* Create a long vertical line for the nav container if needed, but design seems minimal */
+    transition: opacity 260ms ease, transform 260ms ease;
 }
 
 .side-nav a {
@@ -75,19 +129,107 @@ body {
     transform: rotate(180deg); /* Adjust orientation */
 }
 
-.side-nav a.active {
-    /* Optional: style for active link if needed */
-    /* text-decoration: underline; */
-}
-
 .side-nav.left {
     left: 40px;
     align-items: center;
 }
 
+body.front-view-active .side-nav.left {
+    opacity: 0;
+    transform: translate(-18px, -50%);
+}
+
 .side-nav.right {
     right: 40px;
     align-items: center;
+}
+
+body.front-view-active .side-nav.right {
+    opacity: 0;
+    transform: translate(18px, -50%);
+}
+
+.outline-nav {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    pointer-events: auto;
+    transition: opacity 260ms ease, transform 260ms ease;
+}
+
+body.front-view-active .outline-nav {
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(18px, -50%);
+}
+
+.outline-nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.outline-nav-item {
+    position: relative;
+    width: 34px;
+    height: 12px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.outline-nav-line {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 18px;
+    height: 1px;
+    background: var(--main-color);
+    opacity: 0.45;
+    transform: translateY(-50%);
+    transition: width 180ms ease, opacity 180ms ease, transform 180ms ease;
+}
+
+.outline-nav-item:hover .outline-nav-line,
+.outline-nav-item:focus-visible .outline-nav-line,
+.outline-nav-item.is-active .outline-nav-line {
+    width: 34px;
+    opacity: 1;
+    transform: translateY(-50%) translateX(-2px);
+}
+
+.outline-nav-label {
+    position: absolute;
+    top: 50%;
+    right: 42px;
+    padding: 5px 8px;
+    color: var(--main-color);
+    background: color-mix(in srgb, var(--bg-color) 84%, transparent);
+    border: 1px solid color-mix(in srgb, var(--main-color) 35%, transparent);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-50%) translateX(6px);
+    transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.outline-nav-item:hover .outline-nav-label,
+.outline-nav-item:focus-visible .outline-nav-label,
+.outline-nav.is-engaged .outline-nav-item.is-active .outline-nav-label {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+}
+
+.outline-nav-item:focus-visible {
+    outline: none;
 }
 
 .controls {
@@ -99,6 +241,13 @@ body {
     align-items: flex-end;
     gap: 10px;
     font-size: 12px;
+    transition: opacity 260ms ease, transform 260ms ease;
+}
+
+body.front-view-active .controls {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(18px);
 }
 
 .control-group {
@@ -135,7 +284,9 @@ body {
     left: 0;
     width: var(--room-width) !important;
     height: var(--room-height) !important;
-    border: 1px solid var(--main-color) !important;
+    border: var(--wireframe-line-width) solid var(--main-color) !important;
+    border-left-width: var(--wireframe-line-width) !important;
+    border-right-width: var(--wireframe-line-width) !important;
     background: transparent !important;
     background-color: transparent !important;
     pointer-events: none;
@@ -152,9 +303,10 @@ input[type=range] {
 
 /* 3D Scene */
 .scene {
+    position: relative;
     width: 100vw;
     height: 100vh;
-    perspective: 1200px;
+    perspective: var(--gallery-scene-perspective, 1200px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,6 +315,7 @@ input[type=range] {
 
 .room {
     position: relative;
+    z-index: 2;
     width: var(--room-width);
     height: var(--room-height);
     transform-style: preserve-3d;
@@ -181,18 +334,19 @@ input[type=range] {
     opacity: 1;
 }
 
-/* SVG Wireframe - HIDDEN to fix occlusion issues */
-.wireframe-overlay {
-    display: none;
-}
-
 .wall {
     position: absolute;
     background-color: var(--bg-color);
+    background-image: linear-gradient(
+        rgba(var(--dynamic-tint-rgb), var(--dynamic-tint-alpha)),
+        rgba(var(--dynamic-tint-rgb), var(--dynamic-tint-alpha))
+    );
     /* Borders added to replace wireframe in 3D */
     border: none; 
     opacity: 1;
     pointer-events: none !important; /* Ensure walls don't block clicks on content */
+    transition: background-image 240ms ease, background-color 240ms ease, box-shadow 240ms ease;
+    box-shadow: inset 0 0 0 9999px rgba(var(--dynamic-tint-rgb), calc(var(--dynamic-tint-alpha) * 0.8));
 }
 
 /* Wall Transforms & Borders for the "8 lines" look */
@@ -202,7 +356,7 @@ input[type=range] {
     height: var(--room-height);
     transform: translateZ(calc(var(--room-depth) / -2));
     z-index: -1;
-    border: 1px solid var(--main-color);
+    border: none;
 }
 
 .left-wall {
@@ -230,8 +384,8 @@ input[type=range] {
     top: calc(50% - var(--room-depth) / 2);
     left: 0;
     /* Side borders create the top-left and top-right depth lines */
-    border-left: 1px solid var(--main-color);
-    border-right: 1px solid var(--main-color);
+    border-left: none;
+    border-right: none;
 }
 
 .floor {
@@ -241,8 +395,8 @@ input[type=range] {
     top: calc(50% - var(--room-depth) / 2);
     left: 0;
     /* Side borders create the bottom-left and bottom-right depth lines */
-    border-left: 1px solid var(--main-color);
-    border-right: 1px solid var(--main-color);
+    border-left: none;
+    border-right: none;
 }
 
 /* Markers for SVG tracking */
@@ -264,16 +418,25 @@ input[type=range] {
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: 10; /* Above room walls but below UI? Or just above everything in scene */
-    display: none; /* Hidden to use CSS borders for correct 3D occlusion */
+    z-index: 1;
+    display: block;
+}
+
+.animation-page .wireframe-overlay,
+.home-page .wireframe-overlay {
+    z-index: 30;
 }
 
 .wireframe-overlay line,
 .wireframe-overlay polygon {
     stroke: var(--main-color);
-    stroke-width: 1px; /* Constant thickness! */
+    stroke-width: var(--wireframe-line-width);
     fill: none;
-    vector-effect: non-scaling-stroke; /* Ensures stroke doesn't scale if SVG scales (not needed here but good practice) */
+    vector-effect: non-scaling-stroke;
+    shape-rendering: geometricPrecision;
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    filter: drop-shadow(0 0 1px var(--bg-color));
 }
 
 /* Zone Wrappers to position content planes */
@@ -401,10 +564,6 @@ input[type=range] {
     flex-direction: column-reverse; 
 }
 
-.back-content .content-item {
-    /* No specific transform needed */
-}
-
 .ceiling-content {
     /* Ceiling: Items stack into Z. */
     /* We want symmetry with floor: 1 closest to Start (Camera), 3 closest to Wall. */
@@ -514,12 +673,26 @@ body.dark-mode .partition {
 }
 
 /* Gallery Page Specifics */
+.gallery-page .overlay-ui {
+    opacity: var(--gallery-ui-opacity, 1);
+    transform: translateY(var(--gallery-ui-offset, 0));
+    transition: opacity 320ms ease, transform 320ms ease;
+}
+
+.gallery-page .scene {
+    opacity: var(--gallery-scene-opacity, 1);
+}
+
+.gallery-page .wireframe-overlay {
+    opacity: var(--gallery-wireframe-opacity, 1);
+}
+
 .gallery-card {
     position: absolute;
     /* Default centering is removed here, handled by classes */
     width: 320px;
     height: 450px;
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--bg-color);
     border: 1px solid var(--main-color);
     display: flex;
     flex-direction: column;
@@ -533,6 +706,7 @@ body.dark-mode .partition {
     transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
     transform-style: preserve-3d; /* Key for preserving 3d context */
     overflow: hidden;
+    z-index: 3;
     /* GPU Acceleration hints */
     will-change: transform;
     contain: layout style paint;
@@ -572,7 +746,7 @@ body.dark-mode .partition {
 /* Hover Effects */
 .gallery-card:hover {
     border-color: #fff;
-    background: rgba(255, 51, 51, 0.15);
+    background: color-mix(in srgb, var(--bg-color) 82%, var(--main-color));
     cursor: pointer;
     /* Hover scale logic moved to specific modifiers below */
 }
@@ -622,11 +796,30 @@ body.dark-mode .partition {
     background-color: transparent !important;
     /* Keep default border from .partition unless desired otherwise */
     transform-style: preserve-3d; /* Ensure children are in 3D space */
+    border-left: var(--wireframe-line-width) solid var(--main-color) !important;
+    border-right: var(--wireframe-line-width) solid var(--main-color) !important;
+}
+
+.gallery-page .wall {
+    background: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+body.gallery-intro-active.gallery-page {
+    --gallery-ui-opacity: 0;
+    --gallery-ui-offset: 18px;
+}
+
+body.gallery-intro-active .overlay-ui,
+body.gallery-intro-active .overlay-ui *,
+body.gallery-intro-active .gallery-card {
+    pointer-events: none !important;
 }
 
 /* Dark mode adjustment for gallery card */
 body.dark-mode .gallery-card {
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--bg-color);
     box-shadow: 0 0 20px rgba(255, 51, 51, 0.2);
 }
 
@@ -698,32 +891,77 @@ body.bw-mode .gallery-card img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 5vh 10vw;
-    gap: 4vh;
-    border-bottom: 1px solid var(--main-color);
+    justify-content: flex-start;
+    padding: 8vh 10vw 12vh;
+    gap: 5vh;
+    border-bottom: none;
     /* GPU optimization */
     contain: layout style paint;
     will-change: transform;
-}
-
-.project-card:last-child {
-    border-bottom: none;
 }
 
 .project-card img {
     max-width: 70%;
     max-height: 50vh;
     object-fit: contain;
-    border: 1px solid var(--main-color);
+    border: none;
     /* GPU optimization */
     will-change: transform;
     backface-visibility: hidden;
 }
 
+.project-card--contained {
+    justify-content: center;
+    padding: 6vh 10vw 10vh;
+    gap: 4vh;
+}
+
+.project-media-grid {
+    width: min(78vw, 1100px);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.project-media-grid img {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    max-height: 32vh;
+    object-fit: cover;
+}
+
+.project-media-grid img:nth-child(1) {
+    grid-column: span 4;
+}
+
+.project-media-grid img:nth-child(2) {
+    grid-column: span 2;
+}
+
+.project-media-grid img:nth-child(3),
+.project-media-grid img:nth-child(4),
+.project-media-grid img:nth-child(5) {
+    grid-column: span 2;
+}
+
 .project-info {
     text-align: center;
     max-width: 800px;
+}
+
+.project-card--image-only {
+    justify-content: center;
+    min-height: auto;
+    padding: 0;
+    gap: 0;
+}
+
+.project-card--image-only img {
+    max-width: min(84vw, 1120px);
+    width: min(84vw, 1120px);
+    max-height: none;
+    height: auto;
 }
 
 .project-info h2 {
@@ -773,9 +1011,170 @@ body.bw-mode .project-card img {
     border-color: var(--main-color);
 }
 
+@media (max-width: 900px) {
+    .outline-nav {
+        display: none;
+    }
+
+    .project-media-grid {
+        width: min(88vw, 1120px);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    .project-media-grid img:nth-child(1),
+    .project-media-grid img:nth-child(2),
+    .project-media-grid img:nth-child(3),
+    .project-media-grid img:nth-child(4),
+    .project-media-grid img:nth-child(5) {
+        grid-column: span 1;
+        max-height: 24vh;
+    }
+
+    .project-card--image-only img {
+        max-width: 88vw;
+        width: 88vw;
+        max-height: none;
+    }
+}
+
 body.bw-mode .project-info h2,
 body.bw-mode .project-authors,
 body.bw-mode .project-school,
 body.bw-mode .project-desc {
     text-shadow: none;
+}
+
+/* ============================================
+   CONTACT PAGE - VIDEO ROOM
+   ============================================ */
+
+.contact-video-page .wall {
+    overflow: hidden;
+    border: none !important;
+    background-color: #000;
+}
+
+.contact-video-page .wireframe-overlay {
+    z-index: 30;
+}
+
+.contact-video-page .wireframe-overlay line,
+.contact-video-page .wireframe-overlay polygon {
+    filter: drop-shadow(0 0 1px var(--bg-color)) drop-shadow(0 0 2px var(--bg-color));
+}
+
+.contact-video-page .zone-content.video-surface {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    gap: 0;
+    pointer-events: none;
+    background: #000;
+    overflow: hidden;
+    transform: translateZ(-2px);
+    backface-visibility: hidden;
+}
+
+.contact-video-page .zone-content.video-surface::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 0 0 2px #000;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.contact-video-page .surface-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    background: #000;
+    filter: saturate(1.05) contrast(1.02);
+    z-index: 1;
+}
+
+.contact-video-page .surface-canvas {
+    position: absolute;
+    inset: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 1;
+}
+
+/* Slight overscan hides subpixel seams between transformed planes. */
+.contact-video-page .surface-video.is-projected,
+.contact-video-page .surface-canvas.is-projected {
+    inset: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+}
+
+.contact-video-page .surface-video.is-projected {
+    opacity: 0.92;
+    mix-blend-mode: normal;
+}
+
+.contact-video-page.video-mode-copies .surface-video.is-projected {
+    top: 50%;
+    left: 50%;
+    width: calc(100vw + 4px);
+    height: calc(100vh + 4px);
+    transform: translate(-50%, -50%);
+    object-position: center center;
+}
+
+.contact-video-page.video-mode-perspective .surface-video.is-projected {
+    display: none;
+}
+
+.contact-video-page.video-mode-perspective .surface-canvas.is-projected {
+    display: block;
+}
+
+.contact-video-page.video-mode-perspective .back-content .surface-video.is-flat {
+    display: none;
+}
+
+.contact-video-page.video-mode-perspective .back-content .surface-canvas.is-flat {
+    display: block;
+}
+
+.contact-video-page .back-content.video-surface {
+    border: none;
+}
+
+.contact-video-page .back-content .surface-video.is-flat {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: none;
+    opacity: 1;
+    filter: none;
+}
+
+.contact-video-page .left-content,
+.contact-video-page .right-content {
+    width: 100%;
+    height: 100%;
+}
+
+body.dark-mode.contact-video-page .zone-content.video-surface,
+body.dark-mode.contact-video-page .surface-video {
+    background: #000;
+}
+
+body.bw-mode.contact-video-page .surface-video {
+    filter: grayscale(1) contrast(1.1);
 }

@@ -1,0 +1,20 @@
+The Connie project, created by Nina Štefeková, is a conceptual toy designed to help children navigate fears associated with structural instability and hazardous environments. The project targets a range of anxieties including slippery surfaces, fragile structures, exposed heights, and outdated vehicles—places where a single misstep could lead to serious injury.
+Narrative and Backstory
+
+The character, Connie, is framed as a "magical civil engineer". Her backstory is rooted in a tragic event: she was originally a regular toy belonging to the daughter of a real estate developer who cut corners to maximize profits. This negligence led to a building collapse that caused multiple injuries and deaths. Following the accident, Connie "ran away" to become a superhero dedicated to checking unstable structures, repairing rotten bridges, and rescuing people. This narrative transforms a source of anxiety into a proactive mission of safety and restoration.
+Design and Physical Components
+
+The physical toy is a repurposed doll outfitted with professional engineering gear to reflect her new identity. Her ensemble and accessories include:
+
+    Work Attire: Hand-sewn T-shirt and custom crochet overalls.
+
+    Safety Gear: A 3D-printed orange hard hat and safety vest.
+
+    Tools: A 3D-printed wrench for repairs.
+
+    Magical Potion: A small "healing potion" used as part of her rescue missions.
+
+The packaging is a "girly" twist on classic doll boxes, utilizing a magenta color scheme but featuring technical blueprint-inspired graphics and slogans like "Making you safe" and "Every day tools".
+Digital Integration
+
+The project extends into a VR Experience, which the designer describes as a "classic quest type" game. In this digital environment, players are tasked with gathering all of Connie's magical elements to assist her in saving people. By combining physical play with a narrative-driven digital simulation, the project encourages children to view potentially frightening structural environments through the lens of safety, engineering, and heroism.

@@ -1,0 +1,20 @@
+The Martin - The Postman Robot project, designed by Nuño Navarro Hernández for the PV268 Digital Design course, presents a robotic companion created to assist children with anxieties related to the domestic environment. The project focuses on helping users navigate "scary" parts of the home and complete intimidating daily tasks.
+Character Identity and Background
+
+The central character is M4RTn (also referred to as Martin or M-4 RoboTron), a specialized "mail robot". While his primary identity is a postman, his role in the child's life is that of a mechanical helper. The name evolved through several iterations, including "RoboTron" and "M4," before settling on the more personable "Martin".
+
+Design and "Weapons" for Safety
+
+To address childhood fears, Martin is equipped with specific mechanical features that the designer refers to as "weapons," which are actually tools for exploration and assistance:
+
+Mechanical Hand: A large, silver-colored articulated limb that allows the robot to interact with objects in potentially "scary" or hard-to-reach areas of the house.
+
+Night Vision Goggles: Specialized eyewear designed to help the robot (and by extension, the child) see into dark corners, effectively neutralizing the fear of the unknown in poorly lit rooms.
+
+The physical model is a small, humanoid figure with a metallic head and a blue torso, often photographed alongside electronic components like circuit boards to emphasize his robotic nature.
+
+Packaging and Visuals
+
+The project's packaging stays true to the character's profession as a postman. The boxes are designed to look like traditional airmail packages, complete with red and blue striped borders and a space for the owner's name ("This M. RoboTron belongs to...").
+
+The visual documentation includes sketches of the robot's facial expressions and goggles, showing a focus on creating a character that is both technologically advanced and emotionally approachable. By turning mundane chores and scary household spots into a collaborative mission with a "mail robot," the project recontextualizes domestic anxiety as a shared adventure in home maintenance.

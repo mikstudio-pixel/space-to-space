@@ -6,22 +6,19 @@
     <title>Space-to-Space - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home-page">
 
     <div class="overlay-ui">
         
         <nav class="side-nav left">
             <a href="index.html">animation</a>
             <a href="home.html" class="active">home</a>
-            <a href="contact.html">3D object</a>
+            <a href="contact.html">video</a>
             <a href="gallery.html">gallery</a>
         </nav>
         
-        <nav class="side-nav right">
-            <a href="practice.html">stretch</a>
-            <a href="architecture.html">depth</a>
-            <a href="research.html">crazy numbers</a>
-            <a href="index.html">default</a>
+        <nav class="outline-nav" aria-label="Page sections">
+            <div class="outline-nav-items"></div>
         </nav>
 
         <div class="controls">
@@ -34,7 +31,7 @@
                 <button id="colorModeToggle" class="toggle-btn">○</button>
             </div>
             <label for="depthSlider">Room Depth</label>
-            <input type="range" id="depthSlider" min="0" max="20000" value="1000">
+            <input type="range" id="depthSlider" min="0" max="20000" value="120">
         </div>
     </div>
 
@@ -62,252 +59,99 @@
                 
                 <!-- Back Wall Content Zone -->
                 <div class="zone-content back-content home-projects">
-                    
-                    <!-- Project 1: ThisChairDoesNotExist -->
-                    <article class="project-card">
-                        <img src="assets/ThisChairDoesNotExist.jpg" alt="ThisChairDoesNotExist" loading="lazy" decoding="async">
+                    <article class="project-card project-card--contained" data-tint-rgb="161,139,131">
+                        <div class="project-media-grid" aria-label="Franas old railway roundhouse gallery">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_01_home.webp" alt="Franas old railway roundhouse 1" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
+                        </div>
                         <div class="project-info">
-                            <h2>ThisChairDoesNotExist</h2>
-                            <p class="project-authors">Valeriya Truskavetska, Marťa Hrnčiříková, Vít Olšina, Jiří Šprtel, Tristan Tvrdý, Jakub Hrdina</p>
-                            <p class="project-school">Tomas Bata University in Zlín</p>
-                            <p class="project-desc">The latest iteration of ModificAI explores the possibilities of generating chair designs using text prompts and reverse processes. By intersecting digital and traditional design, it brings new creative approaches using 3D printing.</p>
+                            <h2>Franas old railway roundhouse</h2>
+                            <p class="project-authors">Julia Franas</p>
+                            <p class="project-school">ASP Wroclaw</p>
+                            <p class="project-desc">Diplomový projekt adaptace staré lokomotivní rotundy v Kuźnikách ve Vratislavi na centrum kultury a mezigenerační aktivity. Návrh propojuje ochranu industriálního dědictví se sociální integrací, vzděláváním a komunitním životem.</p>
                         </div>
                     </article>
-
-                    <!-- Project 2: From End to End -->
-                    <article class="project-card">
-                        <img src="assets/From End to End .jpg" alt="From End to End" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>From End to End</h2>
-                            <p class="project-authors">various authors</p>
-                            <p class="project-school">Bezalel Academy of Arts and Design Jerusalem</p>
-                            <p class="project-desc">Inspired by the oldest leather shoe by Ötzi, the authors' original reimagination, combining craft with technology, have given it a new interpretation reflecting today's society and environment.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 3: VISTA -->
-                    <article class="project-card">
-                        <img src="assets/VISTA.jpg" alt="VISTA" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>VISTA</h2>
-                            <p class="project-authors">Hana Kobierská</p>
-                            <p class="project-school">Tomas Bata University in Zlín</p>
-                            <p class="project-desc">The collection of silver jewelry is inspired by tree rings, symbolizing the slow and patient process of growth. They remind us that in nature, as in everyday life, it is important to give things time to reach their full potential.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 4: Stools Shuttlecock -->
-                    <article class="project-card">
-                        <img src="assets/Stools Shuttlecock.jpg" alt="Stools Shuttlecock" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>Stools Shuttlecock</h2>
-                            <p class="project-authors">Benjamín Korbela</p>
-                            <p class="project-school">Technical University in Zvolen</p>
-                            <p class="project-desc">A pair of seating elements articulates the inspiration of badminton. It presents a look into the background of this pairs sport and transforms its characteristic features into an authentic form of furniture.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 5: Light and Darkness -->
-                    <article class="project-card">
-                        <img src="assets/Light and Darkness.jpg" alt="Light and Darkness" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>Light and Darkness</h2>
-                            <p class="project-authors">Bianka Demčáková</p>
-                            <p class="project-school">Tomas Bata University in Zlín</p>
-                            <p class="project-desc">A short animated film about the power of social media to draw us into a world that is difficult to escape from. It follows the main character as he becomes entangled in the virtual world.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 6: Bamboo Whispers -->
-                    <article class="project-card">
-                        <img src="assets/BambooWhispers.png" alt="Bamboo Whispers" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>Bamboo Whispers</h2>
-                            <p class="project-authors">Leong Ka Wai</p>
-                            <p class="project-school">National Taipei University of Technology</p>
-                            <p class="project-desc">Inspired by bamboo, this coffee set blends Eastern cultural elements with modern minimalism. It includes a dripper, cup, and pour-over kettle—each usable individually or combined.</p>
-                        </div>
-                    </article>
-
-                    <!-- Project 7: DepoRooms -->
-                    <article class="project-card">
-                        <img src="assets/DepoRooms.jpg" alt="DepoRooms" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>DepoRooms</h2>
-                            <p class="project-authors">Hana Šegedová</p>
-                            <p class="project-school">Technical University in Zvolen</p>
-                            <p class="project-desc">The project transforms an old water tower into short-term accommodation, where less is more. The compact cells provide everything necessary and, thanks to thoughtful solutions, they do not need anything extra.</p>
-                        </div>
-                    </article>
-
                 </div>
             </div>
             
             <!-- Floor Content Zone (Placed inside room context) -->
             <div class="zone-wrapper floor-wrapper">
                 <div class="zone-content floor-content home-projects">
-                    
-                    <!-- Project 1: ThisChairDoesNotExist -->
-                    <article class="project-card">
-                        <img src="assets/ThisChairDoesNotExist.jpg" alt="ThisChairDoesNotExist" loading="lazy" decoding="async">
+                    <article class="project-card project-card--contained" data-tint-rgb="161,139,131">
+                        <div class="project-media-grid" aria-label="Franas old railway roundhouse gallery">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_01_home.webp" alt="Franas old railway roundhouse 1" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
+                        </div>
                         <div class="project-info">
-                            <h2>ThisChairDoesNotExist</h2>
-                            <p class="project-authors">Valeriya Truskavetska, Marťa Hrnčiříková, Vít Olšina, Jiří Šprtel, Tristan Tvrdý, Jakub Hrdina</p>
-                            <p class="project-school">Tomas Bata University in Zlín</p>
-                            <p class="project-desc">The latest iteration of ModificAI explores the possibilities of generating chair designs using text prompts and reverse processes. By intersecting digital and traditional design, it brings new creative approaches using 3D printing.</p>
+                            <h2>Franas old railway roundhouse</h2>
+                            <p class="project-authors">Julia Franas</p>
+                            <p class="project-school">ASP Wroclaw</p>
+                            <p class="project-desc">Diplomový projekt adaptace staré lokomotivní rotundy v Kuźnikách ve Vratislavi na centrum kultury a mezigenerační aktivity. Návrh propojuje ochranu industriálního dědictví se sociální integrací, vzděláváním a komunitním životem.</p>
                         </div>
                     </article>
-
-                    <!-- Project 2: From End to End -->
-                    <article class="project-card">
-                        <img src="assets/From End to End .jpg" alt="From End to End" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>From End to End</h2>
-                            <p class="project-authors">various authors</p>
-                            <p class="project-school">Bezalel Academy of Arts and Design Jerusalem</p>
-                            <p class="project-desc">Inspired by the oldest leather shoe by Ötzi, the authors' original reimagination, combining craft with technology, have given it a new interpretation reflecting today's society and environment.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 3: VISTA -->
-                    <article class="project-card">
-                        <img src="assets/VISTA.jpg" alt="VISTA" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>VISTA</h2>
-                            <p class="project-authors">Hana Kobierská</p>
-                            <p class="project-school">Tomas Bata University in Zlín</p>
-                            <p class="project-desc">The collection of silver jewelry is inspired by tree rings, symbolizing the slow and patient process of growth. They remind us that in nature, as in everyday life, it is important to give things time to reach their full potential.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 4: Stools Shuttlecock -->
-                    <article class="project-card">
-                        <img src="assets/Stools Shuttlecock.jpg" alt="Stools Shuttlecock" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>Stools Shuttlecock</h2>
-                            <p class="project-authors">Benjamín Korbela</p>
-                            <p class="project-school">Technical University in Zvolen</p>
-                            <p class="project-desc">A pair of seating elements articulates the inspiration of badminton. It presents a look into the background of this pairs sport and transforms its characteristic features into an authentic form of furniture.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 5: Light and Darkness -->
-                    <article class="project-card">
-                        <img src="assets/Light and Darkness.jpg" alt="Light and Darkness" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>Light and Darkness</h2>
-                            <p class="project-authors">Bianka Demčáková</p>
-                            <p class="project-school">Tomas Bata University in Zlín</p>
-                            <p class="project-desc">A short animated film about the power of social media to draw us into a world that is difficult to escape from. It follows the main character as he becomes entangled in the virtual world.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 6: Bamboo Whispers -->
-                    <article class="project-card">
-                        <img src="assets/BambooWhispers.png" alt="Bamboo Whispers" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>Bamboo Whispers</h2>
-                            <p class="project-authors">Leong Ka Wai</p>
-                            <p class="project-school">National Taipei University of Technology</p>
-                            <p class="project-desc">Inspired by bamboo, this coffee set blends Eastern cultural elements with modern minimalism. It includes a dripper, cup, and pour-over kettle—each usable individually or combined.</p>
-                        </div>
-                    </article>
-
-                    <!-- Project 7: DepoRooms -->
-                    <article class="project-card">
-                        <img src="assets/DepoRooms.jpg" alt="DepoRooms" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>DepoRooms</h2>
-                            <p class="project-authors">Hana Šegedová</p>
-                            <p class="project-school">Technical University in Zvolen</p>
-                            <p class="project-desc">The project transforms an old water tower into short-term accommodation, where less is more. The compact cells provide everything necessary and, thanks to thoughtful solutions, they do not need anything extra.</p>
-                        </div>
-                    </article>
-
                 </div>
             </div>
 
             <!-- Ceiling Content Zone -->
             <div class="zone-wrapper ceiling-wrapper">
                 <div class="zone-content ceiling-content home-projects">
-                    
-                    <!-- Project 1: ThisChairDoesNotExist -->
-                    <article class="project-card">
-                        <img src="assets/ThisChairDoesNotExist.jpg" alt="ThisChairDoesNotExist" loading="lazy" decoding="async">
+                    <article class="project-card project-card--contained" data-tint-rgb="161,139,131">
+                        <div class="project-media-grid" aria-label="Franas old railway roundhouse gallery">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_01_home.webp" alt="Franas old railway roundhouse 1" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
+                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
+                        </div>
                         <div class="project-info">
-                            <h2>ThisChairDoesNotExist</h2>
-                            <p class="project-authors">Valeriya Truskavetska, Marťa Hrnčiříková, Vít Olšina, Jiří Šprtel, Tristan Tvrdý, Jakub Hrdina</p>
-                            <p class="project-school">Tomas Bata University in Zlín</p>
-                            <p class="project-desc">The latest iteration of ModificAI explores the possibilities of generating chair designs using text prompts and reverse processes. By intersecting digital and traditional design, it brings new creative approaches using 3D printing.</p>
+                            <h2>Franas old railway roundhouse</h2>
+                            <p class="project-authors">Julia Franas</p>
+                            <p class="project-school">ASP Wroclaw</p>
+                            <p class="project-desc">Diplomový projekt adaptace staré lokomotivní rotundy v Kuźnikách ve Vratislavi na centrum kultury a mezigenerační aktivity. Návrh propojuje ochranu industriálního dědictví se sociální integrací, vzděláváním a komunitním životem.</p>
                         </div>
                     </article>
-
-                    <!-- Project 2: From End to End -->
-                    <article class="project-card">
-                        <img src="assets/From End to End .jpg" alt="From End to End" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>From End to End</h2>
-                            <p class="project-authors">various authors</p>
-                            <p class="project-school">Bezalel Academy of Arts and Design Jerusalem</p>
-                            <p class="project-desc">Inspired by the oldest leather shoe by Ötzi, the authors' original reimagination, combining craft with technology, have given it a new interpretation reflecting today's society and environment.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 3: VISTA -->
-                    <article class="project-card">
-                        <img src="assets/VISTA.jpg" alt="VISTA" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>VISTA</h2>
-                            <p class="project-authors">Hana Kobierská</p>
-                            <p class="project-school">Tomas Bata University in Zlín</p>
-                            <p class="project-desc">The collection of silver jewelry is inspired by tree rings, symbolizing the slow and patient process of growth. They remind us that in nature, as in everyday life, it is important to give things time to reach their full potential.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 4: Stools Shuttlecock -->
-                    <article class="project-card">
-                        <img src="assets/Stools Shuttlecock.jpg" alt="Stools Shuttlecock" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>Stools Shuttlecock</h2>
-                            <p class="project-authors">Benjamín Korbela</p>
-                            <p class="project-school">Technical University in Zvolen</p>
-                            <p class="project-desc">A pair of seating elements articulates the inspiration of badminton. It presents a look into the background of this pairs sport and transforms its characteristic features into an authentic form of furniture.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 5: Light and Darkness -->
-                    <article class="project-card">
-                        <img src="assets/Light and Darkness.jpg" alt="Light and Darkness" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>Light and Darkness</h2>
-                            <p class="project-authors">Bianka Demčáková</p>
-                            <p class="project-school">Tomas Bata University in Zlín</p>
-                            <p class="project-desc">A short animated film about the power of social media to draw us into a world that is difficult to escape from. It follows the main character as he becomes entangled in the virtual world.</p>
-                        </div>
+                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
+                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
                     </article>
-
-                    <!-- Project 6: Bamboo Whispers -->
-                    <article class="project-card">
-                        <img src="assets/BambooWhispers.png" alt="Bamboo Whispers" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>Bamboo Whispers</h2>
-                            <p class="project-authors">Leong Ka Wai</p>
-                            <p class="project-school">National Taipei University of Technology</p>
-                            <p class="project-desc">Inspired by bamboo, this coffee set blends Eastern cultural elements with modern minimalism. It includes a dripper, cup, and pour-over kettle—each usable individually or combined.</p>
-                        </div>
-                    </article>
-
-                    <!-- Project 7: DepoRooms -->
-                    <article class="project-card">
-                        <img src="assets/DepoRooms.jpg" alt="DepoRooms" loading="lazy" decoding="async">
-                        <div class="project-info">
-                            <h2>DepoRooms</h2>
-                            <p class="project-authors">Hana Šegedová</p>
-                            <p class="project-school">Technical University in Zvolen</p>
-                            <p class="project-desc">The project transforms an old water tower into short-term accommodation, where less is more. The compact cells provide everything necessary and, thanks to thoughtful solutions, they do not need anything extra.</p>
-                        </div>
-                    </article>
-
                 </div>
             </div>
 

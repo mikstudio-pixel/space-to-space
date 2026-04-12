@@ -1,0 +1,14 @@
+REVENANT EARTH 2 - PC REQUIREMENTS
+- CPU: Dual Core 2GHz
+- RAM: 8 GB
+- GPU: WebGL2 Support
+- OS: Windows 10
+- Browser: Google Chrome
+- Internet: Stable connection required
+
+
+REVENANT EARTH 2 - PLAY INSTRUCTIONS
+
+1 - Go to https://mylapqn.itch.io/revenant-earth
+2 - Click the "Run Game" button
+3 - Pres F11 to run the game in Full Screen

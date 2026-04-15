@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space-to-Space - Home</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="js/theme-preload.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="home-page">
 
     <div class="overlay-ui">
         
         <nav class="side-nav left">
-            <a href="index.html">animation</a>
-            <a href="home.html" class="active">home</a>
+            <a href="index.html">projects</a>
+            <a href="home.html" class="active">project</a>
             <a href="contact.html">video</a>
-            <a href="gallery.html">gallery</a>
         </nav>
         
         <nav class="outline-nav" aria-label="Page sections">
@@ -32,6 +32,7 @@
             </div>
             <label for="depthSlider">Room Depth</label>
             <input type="range" id="depthSlider" min="0" max="20000" value="120">
+            <p id="projectStatus" class="project-status" hidden></p>
         </div>
     </div>
 
@@ -58,108 +59,26 @@
                 <div class="marker br"></div>
                 
                 <!-- Back Wall Content Zone -->
-                <div class="zone-content back-content home-projects">
-                    <article class="project-card project-card--contained" data-tint-rgb="161,139,131">
-                        <div class="project-media-grid" aria-label="Franas old railway roundhouse gallery">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_01_home.webp" alt="Franas old railway roundhouse 1" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
-                        </div>
-                        <div class="project-info">
-                            <h2>Franas old railway roundhouse</h2>
-                            <p class="project-authors">Julia Franas</p>
-                            <p class="project-school">ASP Wroclaw</p>
-                            <p class="project-desc">Diplomový projekt adaptace staré lokomotivní rotundy v Kuźnikách ve Vratislavi na centrum kultury a mezigenerační aktivity. Návrh propojuje ochranu industriálního dědictví se sociální integrací, vzděláváním a komunitním životem.</p>
-                        </div>
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
-                    </article>
-                </div>
+                <div class="zone-content back-content home-projects"></div>
             </div>
             
             <!-- Floor Content Zone (Placed inside room context) -->
             <div class="zone-wrapper floor-wrapper">
-                <div class="zone-content floor-content home-projects">
-                    <article class="project-card project-card--contained" data-tint-rgb="161,139,131">
-                        <div class="project-media-grid" aria-label="Franas old railway roundhouse gallery">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_01_home.webp" alt="Franas old railway roundhouse 1" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
-                        </div>
-                        <div class="project-info">
-                            <h2>Franas old railway roundhouse</h2>
-                            <p class="project-authors">Julia Franas</p>
-                            <p class="project-school">ASP Wroclaw</p>
-                            <p class="project-desc">Diplomový projekt adaptace staré lokomotivní rotundy v Kuźnikách ve Vratislavi na centrum kultury a mezigenerační aktivity. Návrh propojuje ochranu industriálního dědictví se sociální integrací, vzděláváním a komunitním životem.</p>
-                        </div>
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
-                    </article>
-                </div>
+                <div class="zone-content floor-content home-projects"></div>
             </div>
 
             <!-- Ceiling Content Zone -->
             <div class="zone-wrapper ceiling-wrapper">
-                <div class="zone-content ceiling-content home-projects">
-                    <article class="project-card project-card--contained" data-tint-rgb="161,139,131">
-                        <div class="project-media-grid" aria-label="Franas old railway roundhouse gallery">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_01_home.webp" alt="Franas old railway roundhouse 1" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
-                            <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
-                        </div>
-                        <div class="project-info">
-                            <h2>Franas old railway roundhouse</h2>
-                            <p class="project-authors">Julia Franas</p>
-                            <p class="project-school">ASP Wroclaw</p>
-                            <p class="project-desc">Diplomový projekt adaptace staré lokomotivní rotundy v Kuźnikách ve Vratislavi na centrum kultury a mezigenerační aktivity. Návrh propojuje ochranu industriálního dědictví se sociální integrací, vzděláváním a komunitním životem.</p>
-                        </div>
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_02_home.webp" alt="Franas old railway roundhouse 2" loading="lazy" decoding="async">
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_03_home.webp" alt="Franas old railway roundhouse 3" loading="lazy" decoding="async">
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_04_home.webp" alt="Franas old railway roundhouse 4" loading="lazy" decoding="async">
-                    </article>
-                    <article class="project-card project-card--image-only" data-tint-rgb="161,139,131">
-                        <img src="assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/media/web/ASP_Wroclaw_Julia_Franas_dyplom_05_home.webp" alt="Franas old railway roundhouse 5" loading="lazy" decoding="async">
-                    </article>
-                </div>
+                <div class="zone-content ceiling-content home-projects"></div>
             </div>
 
         </div>
     </div>
 
-    <script src="script.js"></script>
-    <script src="theme-toggle.js"></script>
+    <script src="data/projects-data.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/project-detail.js"></script>
+    <script src="js/theme-toggle.js"></script>
 </body>
 </html>
 

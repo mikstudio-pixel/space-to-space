@@ -8,20 +8,18 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PROJECTS_JSON_PATH = ROOT / "data" / "projects.json"
-EXTERNAL_MEDIA_PATH = ROOT / "data" / "external-media.json"
 PROJECTS_ASSETS_ROOT = ROOT / "assets" / "projects"
-TEXT_FILES_TO_REWRITE = [*ROOT.glob("*.html"), *ROOT.glob("*.js")]
+SITE_ASSETS_ROOT = ROOT / "assets" / "site"
+TEXT_FILES_TO_REWRITE = [*ROOT.glob("*.html"), *(ROOT / "js").glob("*.js")]
 
 RASTER_EXTENSIONS = {".jpg", ".jpeg", ".png", ".tif", ".tiff"}
-PRUNED_MEDIA_EXTENSIONS = {".mp4", ".m4v", ".mov", ".gif"}
-ROOT_ASSET_IMAGES = [
-    "assets/video-thumbnail.png",
-    "assets/VISTA.jpg",
-    "assets/Stools Shuttlecock.jpg",
-    "assets/Light and Darkness.jpg",
-    "assets/BambooWhispers.png",
-    "assets/DepoRooms.jpg",
+SITE_ASSET_IMAGES = [
+    "assets/site/video-thumbnail.png",
+    "assets/site/VISTA.jpg",
+    "assets/site/Stools Shuttlecock.jpg",
+    "assets/site/Light and Darkness.jpg",
+    "assets/site/BambooWhispers.png",
+    "assets/site/DepoRooms.jpg",
 ]
 
 
@@ -53,8 +51,7 @@ def convert_with_cwebp(source: Path, destination: Path) -> None:
 
 
 def convert_raster_image(source: Path) -> ConversionResult | None:
-    suffix = source.suffix.lower()
-    if suffix not in RASTER_EXTENSIONS:
+    if source.suffix.lower() not in RASTER_EXTENSIONS:
         return None
 
     destination = source.with_suffix(".webp")
@@ -76,15 +73,12 @@ def convert_raster_image(source: Path) -> ConversionResult | None:
 
 def collect_raster_files() -> list[Path]:
     files: list[Path] = []
+
     for path in PROJECTS_ASSETS_ROOT.rglob("*"):
-        if not path.is_file():
-            continue
-        if path.name == ".DS_Store":
-            continue
-        if path.suffix.lower() in RASTER_EXTENSIONS:
+        if path.is_file() and path.name != ".DS_Store" and path.suffix.lower() in RASTER_EXTENSIONS:
             files.append(path)
 
-    for relative in ROOT_ASSET_IMAGES:
+    for relative in SITE_ASSET_IMAGES:
         path = ROOT / relative
         if path.is_file():
             files.append(path)
@@ -110,62 +104,6 @@ def rewrite_text_asset_paths(path_mapping: dict[str, str]) -> int:
     return rewritten_files
 
 
-def rewrite_projects_manifest(path_mapping: dict[str, str]) -> tuple[int, int]:
-    payload = json.loads(PROJECTS_JSON_PATH.read_text(encoding="utf-8"))
-    converted_records = 0
-    pruned_records = 0
-    external_media: list[dict[str, object]] = []
-
-    for project in payload.get("projects", []):
-        media_records = []
-        for record in project.get("media", []):
-            old_path = record.get("path")
-            if not isinstance(old_path, str):
-                media_records.append(record)
-                continue
-
-            suffix = Path(old_path).suffix.lower()
-            if suffix in PRUNED_MEDIA_EXTENSIONS:
-                external_record = {
-                    "institutionSlug": project.get("institutionSlug"),
-                    "projectSlug": project.get("slug"),
-                    "projectName": project.get("name"),
-                    "path": old_path,
-                    "sourcePath": record.get("sourcePath"),
-                    "reason": "excluded-from-git",
-                }
-                external_media.append(external_record)
-                pruned_records += 1
-                continue
-
-            new_path = path_mapping.get(old_path)
-            if new_path is not None:
-                record["path"] = new_path
-                record["name"] = Path(new_path).name
-                converted_records += 1
-
-            media_records.append(record)
-
-        project["media"] = media_records
-
-    PROJECTS_JSON_PATH.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-
-    external_media_payload = {
-        "generatedFrom": "data/projects.json",
-        "mediaCount": len(external_media),
-        "media": external_media,
-    }
-    EXTERNAL_MEDIA_PATH.write_text(
-        json.dumps(external_media_payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-
-    return converted_records, pruned_records
-
-
 def main() -> None:
     path_mapping: dict[str, str] = {}
     created_webp_count = 0
@@ -181,15 +119,12 @@ def main() -> None:
             created_webp_count += 1
 
     rewritten_text_files = rewrite_text_asset_paths(path_mapping)
-    converted_manifest_records, pruned_manifest_records = rewrite_projects_manifest(path_mapping)
 
     summary = {
         "createdWebpCount": created_webp_count,
         "mappedAssetCount": len(path_mapping),
         "rewrittenTextFiles": rewritten_text_files,
-        "convertedManifestRecords": converted_manifest_records,
-        "prunedManifestRecords": pruned_manifest_records,
-        "externalMediaManifest": to_repo_path(EXTERNAL_MEDIA_PATH),
+        "siteAssetsRoot": to_repo_path(SITE_ASSETS_ROOT),
     }
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 

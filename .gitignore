@@ -1,13 +1,13 @@
 .DS_Store
 **/.DS_Store
 
-assets/mav trailer exp1.m4v
-assets/video-thumbnail.png
-assets/VISTA.jpg
-assets/Stools Shuttlecock.jpg
-assets/Light and Darkness.jpg
-assets/BambooWhispers.png
-assets/DepoRooms.jpg
+assets/site/mav trailer exp1.m4v
+assets/site/video-thumbnail.png
+assets/site/VISTA.jpg
+assets/site/Stools Shuttlecock.jpg
+assets/site/Light and Darkness.jpg
+assets/site/BambooWhispers.png
+assets/site/DepoRooms.jpg
 
 assets/projects/**/*.jpg
 assets/projects/**/*.jpeg

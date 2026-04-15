@@ -587,6 +587,31 @@ document.addEventListener('DOMContentLoaded', () => {
         updateHomeOutlineNavActive();
     }
 
+    function refreshHomeProjectLayout() {
+        if (!isHomePage) {
+            return;
+        }
+
+        baseContentHeight = null;
+        targetScroll = 0;
+        state.scrollPos = 0;
+        homeOutlineState.activeIndex = -1;
+        tintState.imageCache = new WeakMap();
+        tintState.cardCache = new WeakMap();
+
+        updateContentPositions();
+        refreshWireframe();
+        initDynamicTint();
+        buildHomeOutlineNav();
+        scheduleDynamicTintUpdate();
+    }
+
+    if (isHomePage) {
+        window.SpaceToSpaceHome = {
+            refresh: refreshHomeProjectLayout
+        };
+    }
+
     // Initial setup
     updateRoomDepth(state.roomDepth);
     

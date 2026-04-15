@@ -1,4 +1,4 @@
-{
+window.SpaceToSpaceProjectsData = {
   "generatedAt": "2026-04-13T21:37:11.093243+00:00",
   "generatedFrom": "data/projects-selected.json",
   "workCount": 56,
@@ -4220,4 +4220,4 @@
       "menuAssetType": "image"
     }
   ]
-}
+};

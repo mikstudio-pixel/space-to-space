@@ -14,7 +14,7 @@ WORKSPACE_ROOT = Path(__file__).resolve().parents[1]
 ASSETS_DIR = WORKSPACE_ROOT / "assets"
 OUTPUT_ROOT = ASSETS_DIR / "projects"
 DATA_DIR = WORKSPACE_ROOT / "data"
-MANIFEST_PATH = DATA_DIR / "projects.json"
+MANIFEST_PATH = DATA_DIR / "projects-old.json"
 
 LEGACY_ASSETS = {
     "ThisChairDoesNotExist.jpg",

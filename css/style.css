@@ -1,0 +1,1320 @@
+:root {
+    --main-color: #ff3333; /* Red color */
+    --bg-color: #d8d8d8;
+    --dynamic-tint-rgb: 216, 216, 216;
+    --dynamic-tint-alpha: 0;
+    --grid-size: 40px;
+    --grid-line: 1px;
+    --wireframe-line-width: 1.5px;
+    
+    /* 3D Room Variables */
+    --room-width: 100vw; /* Full viewport width */
+    --room-height: 100vh; /* Full viewport height */
+    --room-depth: 1000px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* We will implement custom scroll */
+    background-color: var(--bg-color);
+    background-image: linear-gradient(
+        rgba(var(--dynamic-tint-rgb), var(--dynamic-tint-alpha)),
+        rgba(var(--dynamic-tint-rgb), var(--dynamic-tint-alpha))
+    );
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: var(--main-color);
+    transition: background-image 240ms ease, background-color 240ms ease, box-shadow 240ms ease;
+    box-shadow: inset 0 0 0 9999px rgba(var(--dynamic-tint-rgb), calc(var(--dynamic-tint-alpha) * 0.35));
+}
+
+/* Home: bez barevného nádechu z obrázků — jen černá */
+body.home-page,
+body.home-page.dark-mode,
+:root.dark-mode body.home-page {
+    background-color: #000;
+    --bg-color: #000;
+    --dynamic-tint-alpha: 0;
+    box-shadow: none;
+}
+
+body.gallery-page,
+body.gallery-page.dark-mode,
+:root.dark-mode body.gallery-page {
+    box-shadow: none;
+}
+
+/* UI Overlay */
+.overlay-ui {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    pointer-events: none;
+    padding: 20px;
+}
+
+.overlay-ui * {
+    /* Reset pointer-events to none for containers to avoid blocking 3D scene */
+    pointer-events: none;
+}
+
+.overlay-ui a,
+.overlay-ui button,
+.overlay-ui input,
+.overlay-ui label,
+.overlay-ui .toggle-btn {
+    pointer-events: auto;
+}
+
+.gallery-intro {
+    position: fixed;
+    inset: 0;
+    z-index: 160;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    pointer-events: none;
+    opacity: var(--gallery-intro-opacity, 0);
+    visibility: hidden;
+}
+
+.gallery-intro-title {
+    color: var(--main-color);
+    max-width: 92vw;
+    font-size: clamp(28px, 10vw, 180px);
+    font-weight: 700;
+    text-transform: lowercase;
+    letter-spacing: 0.06em;
+    line-height: 0.9;
+    text-align: center;
+    white-space: nowrap;
+    transform: scale(var(--gallery-intro-scale, 1));
+    transform-origin: center center;
+    opacity: 1;
+}
+
+body.gallery-intro-active .gallery-intro {
+    visibility: visible;
+}
+
+
+.side-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 0; /* Minimize width so container doesn't block clicks */
+    white-space: nowrap; /* Keep text on one line */
+    /* Create a long vertical line for the nav container if needed, but design seems minimal */
+    transition: opacity 260ms ease, transform 260ms ease;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: var(--main-color);
+    text-transform: lowercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* Vertical text */
+    writing-mode: vertical-rl;
+    transform: rotate(180deg); /* Adjust orientation */
+}
+
+.side-nav.left {
+    left: 40px;
+    align-items: center;
+}
+
+body.front-view-active .side-nav.left {
+    opacity: 0;
+    transform: translate(-18px, -50%);
+}
+
+.side-nav.right {
+    right: 40px;
+    align-items: center;
+}
+
+body.front-view-active .side-nav.right {
+    opacity: 0;
+    transform: translate(18px, -50%);
+}
+
+.outline-nav {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    pointer-events: auto;
+    transition: opacity 260ms ease, transform 260ms ease;
+}
+
+body.front-view-active .outline-nav {
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(18px, -50%);
+}
+
+.outline-nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.outline-nav-item {
+    position: relative;
+    width: 34px;
+    height: 12px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.outline-nav-line {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 18px;
+    height: 1px;
+    background: var(--main-color);
+    opacity: 0.45;
+    transform: translateY(-50%);
+    transition: width 180ms ease, opacity 180ms ease, transform 180ms ease;
+}
+
+.outline-nav-item:hover .outline-nav-line,
+.outline-nav-item:focus-visible .outline-nav-line,
+.outline-nav-item.is-active .outline-nav-line {
+    width: 34px;
+    opacity: 1;
+    transform: translateY(-50%) translateX(-2px);
+}
+
+.outline-nav-label {
+    position: absolute;
+    top: 50%;
+    right: 42px;
+    padding: 5px 8px;
+    color: var(--main-color);
+    background: color-mix(in srgb, var(--bg-color) 84%, transparent);
+    border: 1px solid color-mix(in srgb, var(--main-color) 35%, transparent);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-50%) translateX(6px);
+    transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.outline-nav-item:hover .outline-nav-label,
+.outline-nav-item:focus-visible .outline-nav-label,
+.outline-nav.is-engaged .outline-nav-item.is-active .outline-nav-label {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+}
+
+.outline-nav-item:focus-visible {
+    outline: none;
+}
+
+.controls {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 12px;
+    transition: opacity 260ms ease, transform 260ms ease;
+}
+
+body.front-view-active .controls {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(18px);
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.counter-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.counter-buttons button {
+    background: transparent;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-buttons button:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+.partition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--room-width) !important;
+    height: var(--room-height) !important;
+    border: var(--wireframe-line-width) solid var(--main-color) !important;
+    border-left-width: var(--wireframe-line-width) !important;
+    border-right-width: var(--wireframe-line-width) !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    pointer-events: none;
+}
+
+input[type=range] {
+    width: 150px;
+    accent-color: var(--main-color);
+}
+
+/* 3D Scene */
+.scene {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    perspective: var(--gallery-scene-perspective, 1200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.room {
+    position: relative;
+    z-index: 2;
+    width: var(--room-width);
+    height: var(--room-height);
+    transform-style: preserve-3d;
+    transform: translateZ(calc(var(--room-depth) / -2));
+    /* Transition removed to prevent sync issues with JS scroll/depth updates */
+}
+
+.wall {
+    position: absolute;
+    background-color: var(--bg-color);
+    /* Removed Grid Pattern */
+    /* Borders will define the space now, but we want only specific lines */
+    border: none; 
+    opacity: 1;
+}
+
+.wall {
+    position: absolute;
+    background-color: var(--bg-color);
+    background-image: linear-gradient(
+        rgba(var(--dynamic-tint-rgb), var(--dynamic-tint-alpha)),
+        rgba(var(--dynamic-tint-rgb), var(--dynamic-tint-alpha))
+    );
+    /* Borders added to replace wireframe in 3D */
+    border: none; 
+    opacity: 1;
+    pointer-events: none !important; /* Ensure walls don't block clicks on content */
+    transition: background-image 240ms ease, background-color 240ms ease, box-shadow 240ms ease;
+    box-shadow: inset 0 0 0 9999px rgba(var(--dynamic-tint-rgb), calc(var(--dynamic-tint-alpha) * 0.8));
+}
+
+/* Wall Transforms & Borders for the "8 lines" look */
+
+.back-wall {
+    width: var(--room-width);
+    height: var(--room-height);
+    transform: translateZ(calc(var(--room-depth) / -2));
+    z-index: -1;
+    border: none;
+}
+
+.left-wall {
+    width: var(--room-depth);
+    height: var(--room-height);
+    transform: rotateY(90deg) translateZ(calc(var(--room-width) / -2));
+    left: calc(50% - var(--room-depth) / 2);
+    top: 0;
+    /* No borders needed here if ceiling/floor handle the corners */
+}
+
+.right-wall {
+    width: var(--room-depth);
+    height: var(--room-height);
+    transform: rotateY(-90deg) translateZ(calc(var(--room-width) / -2));
+    left: calc(50% - var(--room-depth) / 2);
+    top: 0;
+    /* No borders needed here if ceiling/floor handle the corners */
+}
+
+.ceiling {
+    width: var(--room-width);
+    height: var(--room-depth);
+    transform: rotateX(-90deg) translateZ(calc(var(--room-height) / -2));
+    top: calc(50% - var(--room-depth) / 2);
+    left: 0;
+    /* Side borders create the top-left and top-right depth lines */
+    border-left: none;
+    border-right: none;
+}
+
+.floor {
+    width: var(--room-width);
+    height: var(--room-depth);
+    transform: rotateX(90deg) translateZ(calc(var(--room-height) / -2));
+    top: calc(50% - var(--room-depth) / 2);
+    left: 0;
+    /* Side borders create the bottom-left and bottom-right depth lines */
+    border-left: none;
+    border-right: none;
+}
+
+/* Markers for SVG tracking */
+.marker {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+.marker.tl { top: 0; left: 0; }
+.marker.tr { top: 0; right: 0; }
+.marker.bl { bottom: 0; left: 0; }
+.marker.br { bottom: 0; right: 0; }
+
+/* SVG Wireframe */
+.wireframe-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    display: block;
+}
+
+.animation-page .wireframe-overlay,
+.home-page .wireframe-overlay {
+    z-index: 30;
+}
+
+.wireframe-overlay line,
+.wireframe-overlay polygon {
+    stroke: var(--main-color);
+    stroke-width: var(--wireframe-line-width);
+    fill: none;
+    vector-effect: non-scaling-stroke;
+    shape-rendering: geometricPrecision;
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    filter: drop-shadow(0 0 1px var(--bg-color));
+}
+
+/* Zone Wrappers to position content planes */
+.zone-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-style: preserve-3d;
+}
+
+/* Floor Wrapper: Aligned with Floor Plane */
+.floor-wrapper {
+    /* Floor is rotated X 90deg. We match that. */
+    /* Actually, we want to position the WRAPPER so that its content (0,0) starts at the front-left of floor? */
+    /* Let's mimic the .floor transform logic but keep it independent of the wall div */
+    /* Floor center is: rotateX(90deg) translateZ(height/-2) */
+    /* But we want to scroll "through" it. */
+    /* Easier: Position it exactly like .floor */
+    transform: rotateX(90deg) translateZ(calc(var(--room-height) / -2));
+    width: var(--room-width);
+    height: var(--room-depth); /* Depth is height in this orientation */
+    top: calc(50% - var(--room-depth) / 2);
+    left: 0;
+    /* The wrapper changes size with room-depth! This is good. */
+}
+
+/* Ceiling Wrapper */
+.ceiling-wrapper {
+    transform: rotateX(-90deg) translateZ(calc(var(--room-height) / -2));
+    width: var(--room-width);
+    height: var(--room-depth);
+    top: calc(50% - var(--room-depth) / 2);
+    left: 0;
+}
+
+/* Back Content is already inside .back-wall, so it inherits transform! */
+/* Just need to position the inner container */
+.back-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Setup flex/grid for content if needed, or absolute items */
+}
+
+/* Generic Zone Content Styling */
+.zone-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    
+    /* Flex Layout to prevent overlap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15vh; /* Reduced gap for numbers to be closer */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    /* GPU optimization */
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+/* Content Items in Zones */
+.zone-content .content-item {
+    position: relative; /* Changed from absolute to relative for flex flow */
+    left: auto;
+    top: auto;
+    transform: none; /* Reset basic transform, controlled by wrapper/flex */
+    width: 60%;
+    text-align: center;
+    backface-visibility: visible;
+}
+
+.debug-num {
+    font-size: 15rem;
+    font-weight: bold;
+    line-height: 1;
+    color: var(--main-color);
+}
+
+.practice-text {
+    font-size: 22vw;
+    font-weight: bold;
+    line-height: 0.8;
+    color: var(--main-color);
+    width: calc(100% - 20px) !important; /* Full width minus margins */
+    margin: 0 10px; /* 10px margin on sides */
+    padding: 20px 0; /* Padding between elements */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Specific adjustments per zone */
+
+.floor-content {
+    /* Floor: Items stack into depth. */
+    /* Current logic showed 3 closest to camera, 1 furthest. */
+    /* We want 1 closest (Start), 3 furthest (End). */
+    /* So we reverse the column order. */
+    flex-direction: column-reverse;
+    /* Align items to the 'end' of the flex container (which is the 'start' of Y axis due to reverse?) */
+    /* Flex-Start = Camera. Flex-End = Wall. */
+    /* We want items to be touching the wall. */
+    justify-content: flex-end;
+}
+
+.floor-content .content-item {
+    transform: none; 
+}
+
+.back-content {
+    /* Back Wall: Items stack vertically. */
+    /* We want continuity from floor. */
+    /* Floor ends, then Back Wall begins. */
+    /* So first item of back wall should be at the BOTTOM. */
+    justify-content: flex-end;
+    /* Or reverse order? flex-direction: column-reverse */
+    flex-direction: column-reverse; 
+}
+
+.ceiling-content {
+    /* Ceiling: Items stack into Z. */
+    /* We want symmetry with floor: 1 closest to Start (Camera), 3 closest to Wall. */
+    /* So we use column-reverse (1 at Y-max/Camera, 3 at Y-min/Wall). */
+    flex-direction: column-reverse;
+    /* Align to Wall (Y-min). */
+    justify-content: flex-end;
+}
+
+.ceiling-content .content-item {
+    /* Reset rotation based on feedback "now it's reversed". */
+    /* Default orientation (Top points to Wall) is correct for tunnel view. */
+    transform: none;
+}
+
+/* Practice Scene specific overrides */
+.practice-scene .floor-content {
+    gap: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* Floor: items anchored at back wall (Y=depth), grow towards camera */
+    flex-direction: column;
+    justify-content: flex-end; /* Align to back wall (end of wrapper) */
+}
+
+.practice-scene .ceiling-content {
+    gap: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* Ceiling: items anchored at back wall, grow towards camera */
+    flex-direction: column;
+    justify-content: flex-end; /* Align to back wall */
+}
+
+.practice-scene .back-content {
+    /* Back wall content centered */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.practice-scene .floor-content .content-item {
+    flex: 1;
+    height: auto;
+    display: flex;
+    align-items: flex-end; /* Align text to bottom (back wall edge) */
+    justify-content: center;
+    width: 100%;
+}
+
+.practice-scene .ceiling-content .content-item {
+    flex: 1;
+    height: auto;
+    display: flex;
+    align-items: flex-end; /* Align text to bottom (back wall edge) */
+    justify-content: center;
+    width: 100%;
+}
+
+.practice-scene .floor-content .practice-text {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    /* Scale from bottom (back wall) towards top (camera) */
+    transform-origin: center bottom;
+}
+
+.practice-scene .ceiling-content .practice-text {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    /* Scale from bottom (back wall) towards top (camera) */
+    transform-origin: center bottom;
+}
+
+/* Back wall text should NOT be stretched */
+.practice-scene .back-content .practice-text {
+    transform: none !important;
+}
+
+/* ============================================
+   DARK MODE
+   ============================================ */
+
+body.dark-mode,
+:root.dark-mode body {
+    --bg-color: #0a0a0a;
+    --main-color: #ff3333;
+}
+
+body.dark-mode .wall,
+:root.dark-mode .wall {
+    background-color: var(--bg-color);
+}
+
+body.dark-mode .content-item,
+:root.dark-mode .content-item {
+    text-shadow: 0 0 20px rgba(255, 51, 51, 0.3);
+}
+
+body.dark-mode .practice-text,
+:root.dark-mode .practice-text {
+    text-shadow: 0 0 30px rgba(255, 51, 51, 0.4);
+}
+
+body.dark-mode .falling-num,
+:root.dark-mode .falling-num {
+    text-shadow: 0 0 40px rgba(255, 51, 51, 0.5);
+}
+
+body.dark-mode .partition,
+:root.dark-mode .partition {
+    background-color: var(--bg-color);
+}
+
+/* Gallery Page Specifics */
+.gallery-page .overlay-ui {
+    opacity: var(--gallery-ui-opacity, 1);
+    transform: translateY(var(--gallery-ui-offset, 0));
+    transition: opacity 320ms ease, transform 320ms ease;
+}
+
+.gallery-page .scene {
+    opacity: var(--gallery-scene-opacity, 1);
+}
+
+.gallery-page .wireframe-overlay {
+    opacity: var(--gallery-wireframe-opacity, 1);
+}
+
+.gallery-page .wireframe-overlay line,
+.gallery-page .wireframe-overlay polygon {
+    filter: none;
+}
+
+.gallery-card {
+    position: absolute;
+    /* Default centering is removed here, handled by classes */
+    width: 320px;
+    height: 450px;
+    background: var(--bg-color);
+    border: 1px solid var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    pointer-events: auto;
+    text-decoration: none; /* Remove underline from anchor */
+    transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+    transform-style: preserve-3d; /* Key for preserving 3d context */
+    overflow: hidden;
+    z-index: 3;
+}
+
+/* Positioning Classes */
+.pos-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pos-tl {
+    top: 15%;
+    left: 15%;
+    transform: none;
+}
+
+.pos-tr {
+    top: 15%;
+    right: 15%;
+    transform: none;
+}
+
+.pos-bl {
+    bottom: 15%;
+    left: 15%;
+    transform: none;
+}
+
+.pos-br {
+    bottom: 15%;
+    right: 15%;
+    transform: none;
+}
+
+/* Hover Effects */
+.gallery-card:hover {
+    border-color: #fff;
+    background: color-mix(in srgb, var(--bg-color) 82%, var(--main-color));
+    cursor: pointer;
+    /* Hover scale logic moved to specific modifiers below */
+}
+
+.gallery-card:hover img,
+.gallery-card:hover .gallery-card-image {
+    opacity: 1;
+}
+
+/* Scale on hover must respect the initial transform */
+.gallery-card.pos-center:hover {
+    transform: translate(-50%, -50%) scale(1.03);
+}
+
+.gallery-card:not(.pos-center):hover {
+    transform: scale(1.03);
+}
+
+.gallery-card-media-shell {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    margin-bottom: 15px;
+    border: 1px solid var(--main-color);
+    overflow: hidden;
+    background:
+        linear-gradient(
+            135deg,
+            color-mix(in srgb, var(--bg-color) 92%, transparent),
+            color-mix(in srgb, var(--main-color) 14%, var(--bg-color))
+        );
+}
+
+.gallery-card-media-placeholder {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            135deg,
+            color-mix(in srgb, var(--bg-color) 88%, transparent),
+            color-mix(in srgb, var(--main-color) 18%, var(--bg-color))
+        );
+    opacity: 0.55;
+    transition: opacity 180ms ease;
+}
+
+.gallery-card img,
+.gallery-card-image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    opacity: 0.9;
+    backface-visibility: hidden;
+    image-rendering: optimizeSpeed;
+    transition: opacity 180ms ease;
+}
+
+.gallery-card video {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    opacity: 0.9;
+    backface-visibility: hidden;
+    transition: opacity 180ms ease;
+}
+
+.gallery-card[data-media-ready="false"] .gallery-card-image,
+.gallery-card-image[data-media-state="detached"],
+.gallery-card-image:not([src]) {
+    opacity: 0;
+}
+
+.gallery-card[data-media-ready="true"] .gallery-card-media-placeholder {
+    opacity: 0;
+}
+
+.gallery-card h2 {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+    line-height: 1.3;
+}
+
+/* Override partition behavior for gallery */
+.gallery-page .partition {
+    /* Remove flex centering because we use absolute positioning on cards inside */
+    display: block; 
+    background-color: transparent !important;
+    /* Keep default border from .partition unless desired otherwise */
+    transform-style: preserve-3d; /* Ensure children are in 3D space */
+    border-left: var(--wireframe-line-width) solid var(--main-color) !important;
+    border-right: var(--wireframe-line-width) solid var(--main-color) !important;
+}
+
+.gallery-page .wall {
+    background: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+body.gallery-intro-active.gallery-page {
+    --gallery-ui-opacity: 0;
+    --gallery-ui-offset: 18px;
+}
+
+body.gallery-intro-active .overlay-ui,
+body.gallery-intro-active .overlay-ui *,
+body.gallery-intro-active .gallery-card {
+    pointer-events: none !important;
+}
+
+/* Dark mode adjustment for gallery card */
+body.dark-mode .gallery-card,
+:root.dark-mode .gallery-card {
+    background: var(--bg-color);
+    box-shadow: 0 0 12px rgba(255, 51, 51, 0.14);
+}
+
+/* ============================================
+   B/W MODE (High Contrast)
+   ============================================ */
+
+body.bw-mode,
+:root.bw-mode body {
+    --main-color: #000000;
+    --bg-color: #ffffff;
+}
+
+body.bw-mode.dark-mode,
+:root.bw-mode.dark-mode body {
+    --main-color: #ffffff;
+    --bg-color: #000000;
+}
+
+/* Override fixed red colors and shadows */
+body.bw-mode .falling-num,
+body.bw-mode .falling-num:nth-child(n),
+:root.bw-mode .falling-num,
+:root.bw-mode .falling-num:nth-child(n) {
+    color: var(--main-color) !important;
+    text-shadow: none !important;
+}
+
+body.bw-mode.dark-mode .falling-num,
+:root.bw-mode.dark-mode .falling-num {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
+}
+
+body.bw-mode .content-item,
+body.bw-mode .practice-text,
+:root.bw-mode .content-item,
+:root.bw-mode .practice-text {
+    text-shadow: none !important;
+}
+
+body.bw-mode.dark-mode .content-item,
+body.bw-mode .practice-text,
+:root.bw-mode.dark-mode .content-item,
+:root.bw-mode .practice-text {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
+}
+
+body.bw-mode .gallery-card:hover,
+:root.bw-mode .gallery-card:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+body.bw-mode.dark-mode .gallery-card,
+:root.bw-mode.dark-mode .gallery-card {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+body.bw-mode .gallery-card img,
+:root.bw-mode .gallery-card img {
+    background-color: var(--main-color) !important;
+}
+
+/* ============================================
+   HOME PAGE - PROJECT CARDS
+   ============================================ */
+
+.home-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    padding: 0;
+}
+
+.project-card {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8vh 10vw 12vh;
+    gap: 5vh;
+    border-bottom: none;
+    /* GPU optimization */
+    contain: layout style paint;
+    will-change: transform;
+}
+
+.project-card img {
+    max-width: 70%;
+    max-height: 50vh;
+    object-fit: contain;
+    border: none;
+    /* GPU optimization */
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+.project-card video {
+    max-width: 70%;
+    max-height: 50vh;
+    object-fit: contain;
+    border: none;
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+.project-card--contained {
+    justify-content: center;
+    padding: 6vh 10vw 10vh;
+    gap: 4vh;
+}
+
+.project-media-grid {
+    width: min(78vw, 1100px);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.project-media-grid img {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    max-height: 32vh;
+    object-fit: cover;
+}
+
+.project-media-grid video {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    max-height: 32vh;
+    object-fit: cover;
+}
+
+.project-media-grid > :nth-child(1) {
+    grid-column: span 4;
+}
+
+.project-media-grid > :nth-child(2) {
+    grid-column: span 2;
+}
+
+.project-media-grid > :nth-child(3),
+.project-media-grid > :nth-child(4),
+.project-media-grid > :nth-child(5) {
+    grid-column: span 2;
+}
+
+.project-info {
+    text-align: center;
+    max-width: 800px;
+}
+
+.project-card--image-only {
+    justify-content: center;
+    min-height: auto;
+    padding: 0;
+    gap: 0;
+}
+
+.project-card--image-only img {
+    max-width: min(84vw, 1120px);
+    width: min(84vw, 1120px);
+    max-height: none;
+    height: auto;
+}
+
+.project-card--image-only video {
+    max-width: min(84vw, 1120px);
+    width: min(84vw, 1120px);
+    max-height: none;
+    height: auto;
+}
+
+.project-info h2 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+    color: var(--main-color);
+}
+
+.project-authors {
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--main-color);
+    opacity: 0.9;
+}
+
+.project-school {
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+    font-style: italic;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+    opacity: 0.7;
+}
+
+.project-desc {
+    font-size: clamp(0.9rem, 1.3vw, 1.1rem);
+    line-height: 1.6;
+    color: var(--main-color);
+    opacity: 0.85;
+}
+
+.project-contact-list {
+    margin-top: 1.5rem;
+}
+
+.project-contact-item {
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+    color: var(--main-color);
+    opacity: 0.75;
+    margin-bottom: 0.35rem;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.project-links a {
+    color: var(--main-color);
+    text-decoration: none;
+    border: 1px solid currentColor;
+    padding: 0.5rem 0.85rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.project-links a:hover,
+.project-links a:focus-visible {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+.project-status {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--main-color);
+    opacity: 0.75;
+    max-width: 18rem;
+}
+
+/* Dark mode adjustments for project cards */
+body.dark-mode .project-card img,
+:root.dark-mode .project-card img {
+    border-color: var(--main-color);
+    box-shadow: 0 0 30px rgba(255, 51, 51, 0.15);
+}
+
+body.dark-mode .project-info h2,
+:root.dark-mode .project-info h2 {
+    text-shadow: 0 0 20px rgba(255, 51, 51, 0.3);
+}
+
+/* B/W mode adjustments */
+body.bw-mode .project-card img,
+:root.bw-mode .project-card img {
+    border-color: var(--main-color);
+}
+
+@media (max-width: 900px) {
+    .outline-nav {
+        display: none;
+    }
+
+    .project-media-grid {
+        width: min(88vw, 1120px);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    .project-media-grid > :nth-child(1),
+    .project-media-grid > :nth-child(2),
+    .project-media-grid > :nth-child(3),
+    .project-media-grid > :nth-child(4),
+    .project-media-grid > :nth-child(5) {
+        grid-column: span 1;
+        max-height: 24vh;
+    }
+
+    .project-card--image-only img {
+        max-width: 88vw;
+        width: 88vw;
+        max-height: none;
+    }
+}
+
+body.bw-mode .project-info h2,
+body.bw-mode .project-authors,
+body.bw-mode .project-school,
+body.bw-mode .project-desc,
+:root.bw-mode .project-info h2,
+:root.bw-mode .project-authors,
+:root.bw-mode .project-school,
+:root.bw-mode .project-desc {
+    text-shadow: none;
+}
+
+/* ============================================
+   CONTACT PAGE - VIDEO ROOM
+   ============================================ */
+
+.contact-video-page .wall {
+    overflow: hidden;
+    border: none !important;
+    background-color: #000;
+}
+
+.contact-video-page .wireframe-overlay {
+    z-index: 30;
+}
+
+.contact-video-page .wireframe-overlay line,
+.contact-video-page .wireframe-overlay polygon {
+    filter: drop-shadow(0 0 1px var(--bg-color)) drop-shadow(0 0 2px var(--bg-color));
+}
+
+.contact-video-page .zone-content.video-surface {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    gap: 0;
+    pointer-events: none;
+    background: #000;
+    overflow: hidden;
+    transform: translateZ(-2px);
+    backface-visibility: hidden;
+}
+
+.contact-video-page .zone-content.video-surface::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 0 0 2px #000;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.contact-video-page .surface-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    background: #000;
+    filter: saturate(1.05) contrast(1.02);
+    z-index: 1;
+}
+
+.contact-video-page .surface-canvas {
+    position: absolute;
+    inset: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 1;
+}
+
+/* Slight overscan hides subpixel seams between transformed planes. */
+.contact-video-page .surface-video.is-projected,
+.contact-video-page .surface-canvas.is-projected {
+    inset: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+}
+
+.contact-video-page .surface-video.is-projected {
+    opacity: 0.92;
+    mix-blend-mode: normal;
+}
+
+.contact-video-page.video-mode-copies .surface-video.is-projected {
+    top: 50%;
+    left: 50%;
+    width: calc(100vw + 4px);
+    height: calc(100vh + 4px);
+    transform: translate(-50%, -50%);
+    object-position: center center;
+}
+
+.contact-video-page.video-mode-perspective .surface-video.is-projected {
+    display: none;
+}
+
+.contact-video-page.video-mode-perspective .surface-canvas.is-projected {
+    display: block;
+}
+
+.contact-video-page.video-mode-perspective .back-content .surface-video.is-flat {
+    display: none;
+}
+
+.contact-video-page.video-mode-perspective .back-content .surface-canvas.is-flat {
+    display: block;
+}
+
+.contact-video-page .back-content.video-surface {
+    border: none;
+}
+
+.contact-video-page .back-content .surface-video.is-flat {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: none;
+    opacity: 1;
+    filter: none;
+}
+
+.contact-video-page .left-content,
+.contact-video-page .right-content {
+    width: 100%;
+    height: 100%;
+}
+
+body.dark-mode.contact-video-page .zone-content.video-surface,
+body.dark-mode.contact-video-page .surface-video,
+:root.dark-mode body.contact-video-page .zone-content.video-surface,
+:root.dark-mode body.contact-video-page .surface-video {
+    background: #000;
+}
+
+body.bw-mode.contact-video-page .surface-video,
+:root.bw-mode body.contact-video-page .surface-video {
+    filter: grayscale(1) contrast(1.1);
+}

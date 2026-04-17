@@ -1,528 +1,405 @@
 {
-  "description": "Soubory vhodné pro Cloudflare R2 (videa + větší PDF).",
-  "generatedAt": "2026-04-13T18:43:22Z",
-  "pdfMinBytes": 524288,
-  "pdfMinKib": 512,
+  "description": "Assety ponechané mimo GitHub kvůli velikosti; vhodné pro budoucí upload na Cloudflare R2.",
+  "generatedAt": "2026-04-17T22:13:17Z",
+  "githubMaxBytes": 20971520,
+  "githubMaxMib": 20,
   "counts": {
-    "video": 38,
-    "pdfLarge": 27,
-    "pdfSkippedSmall": 37,
-    "totalFiles": 65
+    "scannedFiles": 1132,
+    "githubEligible": 1070,
+    "r2Candidates": 62
   },
-  "totalBytes": 6912517811,
-  "totalBytesHuman": "6.44 GiB",
+  "bytes": {
+    "githubEligible": 1944749941,
+    "r2Candidates": 7865923444
+  },
+  "kinds": {
+    "githubEligible": {
+      "document": 144,
+      "image": 919,
+      "video": 7
+    },
+    "r2Candidates": {
+      "document": 9,
+      "image": 22,
+      "video": 31
+    }
+  },
   "files": [
     {
       "path": "assets/projects/aluo-ljubljana/pre-selection/ALUO_Dizdarević_Umihana_Gorenak_Marko_Tudjan_Anja_Vranješ_Nina_BDC-Seapack.mp4",
       "bytes": 552029418,
+      "bytesHuman": "526.46 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/aluo-ljubljana/pre-selection/ALUO_Kordiš_Jaka_Lesjak_Matic_Štrubelj_Črt_BDC-What remains.mp4",
       "bytes": 342376845,
+      "bytesHuman": "326.52 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/aluo-ljubljana/pre-selection/ALUO_Čepin_Zoja_Kralj_Jure_Kralj_Maša_Maček_Klara_Štupar_Leon Rojk_BDC-WOODn_t it be nice.mp4",
       "bytes": 44763756,
+      "bytesHuman": "42.69 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
       "bytes": 427574969,
+      "bytesHuman": "407.77 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/asp-wroclaw/pre-selection/wo-kowski-w-domu/media/ASP-WROCLAW_Wolkowski_Mateusz_W-domu.mp4",
       "bytes": 349699988,
+      "bytesHuman": "333.50 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/Review by λrokh.mp4",
       "bytes": 496323350,
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04.mp4",
-      "bytes": 10424737,
+      "bytesHuman": "473.33 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
       "bytes": 46219647,
+      "bytesHuman": "44.08 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4",
       "bytes": 239573803,
+      "bytesHuman": "228.48 MiB",
       "kind": "video"
+    },
+    {
+      "path": "assets/projects/baaz-jerusalem/pre-selection/bezalel id department 2026 (1).xlsx",
+      "bytes": 28611496,
+      "bytesHuman": "27.29 MiB",
+      "kind": "document"
     },
     {
       "path": "assets/projects/muni-brno/fi-mun-hai-duong-tran-spider/12-2017_Hai Duong Tran - Spider_video s popiskem.mp4",
       "bytes": 57107991,
+      "bytesHuman": "54.46 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/muni-brno/fi-mun-hai-duong-tran-spider/FI MUNI_Hai Duong Tran_Spider_video.mp4",
       "bytes": 53057022,
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video.mp4",
-      "bytes": 8330634,
+      "bytesHuman": "50.60 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/muni-brno/fi-muni-minarik-vojtech-rainbow-rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Landscape.mov",
       "bytes": 66039566,
+      "bytesHuman": "62.98 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/muni-brno/fi-muni-minarik-vojtech-rainbow-rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Portrait.mov",
       "bytes": 34008273,
+      "bytesHuman": "32.43 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/muni-brno/fi-muni-musil-bronislav-drum-and-bezier/FI MUNI_Bronislav Musil - Drum and Beziere_video.mp4",
       "bytes": 123079551,
+      "bytesHuman": "117.38 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
       "bytes": 103393083,
+      "bytesHuman": "98.60 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/muni-brno/fi-muni-portesova-sarka-mom-i-m-not-playing-i-m-making-art/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART.mp4",
       "bytes": 45284057,
+      "bytesHuman": "43.19 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
       "bytes": 270128487,
+      "bytesHuman": "257.61 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4",
       "bytes": 139931669,
+      "bytesHuman": "133.45 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video.mp4",
-      "bytes": 8372882,
-      "kind": "video"
+      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_01.tif",
+      "bytes": 24722688,
+      "bytesHuman": "23.58 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_02.tif",
+      "bytes": 24722688,
+      "bytesHuman": "23.58 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_03.tif",
+      "bytes": 24722688,
+      "bytesHuman": "23.58 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_04.tif",
+      "bytes": 24722688,
+      "bytesHuman": "23.58 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_05.tif",
+      "bytes": 24722688,
+      "bytesHuman": "23.58 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_06.tif",
+      "bytes": 24722688,
+      "bytesHuman": "23.58 MiB",
+      "kind": "image"
     },
     {
       "path": "assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
       "bytes": 103393083,
+      "bytesHuman": "98.60 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/muni-brno/muni-fi-chudicek-ondrej-toy-design/media/MUNI-FI_Chudicek_Ondrej.mp4",
-      "bytes": 16940434,
-      "kind": "video"
+      "path": "assets/projects/muni-brno/muni-fi-dohnal-marek-illustration/552405-Dohnal_Marek-space2space_poster.pdf",
+      "bytes": 120485541,
+      "bytesHuman": "114.90 MiB",
+      "kind": "document"
     },
     {
       "path": "assets/projects/muni-brno/muni-fi-dohnal-marek-toy-design/media/MUNI-FI_Dohnal_Marek.mp4",
       "bytes": 65119813,
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/muni-fi-lodnanova-michaela-toy-design/media/MUNI-FI_Lodnanova_Michaela.mp4",
-      "bytes": 10332504,
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/muni-fi-navarro-hernandez-nuno-toy-design/media/MUNI-FI_Navarro_Hernandez_Nuno.mp4",
-      "bytes": 17810529,
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/muni-fi-stefekova-nina-toy-design/media/MUNI-FI_Stefekova_Nina.mp4",
-      "bytes": 9433356,
+      "bytesHuman": "62.10 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4",
       "bytes": 236791208,
+      "bytesHuman": "225.82 MiB",
       "kind": "video"
+    },
+    {
+      "path": "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_presentation.pptx",
+      "bytes": 40733655,
+      "bytesHuman": "38.85 MiB",
+      "kind": "document"
     },
     {
       "path": "assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
       "bytes": 143794561,
+      "bytesHuman": "137.13 MiB",
       "kind": "video"
+    },
+    {
+      "path": "assets/projects/tuzvo/pre-selection/krnacova-space-no-01/presentations/space no.01 – .pptx",
+      "bytes": 39090323,
+      "bytesHuman": "37.28 MiB",
+      "kind": "document"
+    },
+    {
+      "path": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/Novosadová_Infinity loop_presentation.pptx",
+      "bytes": 24540479,
+      "bytesHuman": "23.40 MiB",
+      "kind": "document"
     },
     {
       "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4",
       "bytes": 46756025,
+      "bytesHuman": "44.59 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4",
       "bytes": 173986419,
+      "bytesHuman": "165.93 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
       "bytes": 385014718,
+      "bytesHuman": "367.18 MiB",
       "kind": "video"
+    },
+    {
+      "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/2.png",
+      "bytes": 23562005,
+      "bytesHuman": "22.47 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/4.png",
+      "bytes": 21924977,
+      "bytesHuman": "20.91 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/5.png",
+      "bytes": 22643253,
+      "bytesHuman": "21.59 MiB",
+      "kind": "image"
     },
     {
       "path": "assets/projects/ustp-austria/mav-5786/mav trailer exp1.m4v",
       "bytes": 118499916,
+      "bytesHuman": "113.01 MiB",
       "kind": "video"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf",
+      "bytes": 22050646,
+      "bytesHuman": "21.03 MiB",
+      "kind": "document"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/brandisova-space-to-space/ant gif poster.gif",
+      "bytes": 90211110,
+      "bytesHuman": "86.03 MiB",
+      "kind": "image"
     },
     {
       "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/jenikova-katerina/space to space_Kateřina_Jeníková_UTB.mp4",
       "bytes": 148340385,
+      "bytesHuman": "141.47 MiB",
       "kind": "video"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/kristina-hodekova-space-to-space/klauzury_kuliskova.pdf",
+      "bytes": 25381437,
+      "bytesHuman": "24.21 MiB",
+      "kind": "document"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/sona-kuliskova-space-to-space/klauzury_kuliskova.pdf",
+      "bytes": 25381437,
+      "bytesHuman": "24.21 MiB",
+      "kind": "document"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
+      "bytes": 90211110,
+      "bytesHuman": "86.03 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant poster img.jpg",
+      "bytes": 22916961,
+      "bytesHuman": "21.86 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif",
+      "bytes": 84112775,
+      "bytesHuman": "80.22 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle poster img.jpg",
+      "bytes": 21758848,
+      "bytesHuman": "20.75 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/fly gif poster.gif",
+      "bytes": 95359856,
+      "bytesHuman": "90.94 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/fly poster img.jpg",
+      "bytes": 23359425,
+      "bytesHuman": "22.28 MiB",
+      "kind": "image"
     },
     {
       "path": "assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4",
       "bytes": 782828255,
+      "bytesHuman": "746.56 MiB",
       "kind": "video"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/jakubekova-utb-produkt/rehabilitacna_pomocka_plagat.pdf",
+      "bytes": 45935483,
+      "bytesHuman": "43.81 MiB",
+      "kind": "document"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/ant gif poster.gif",
+      "bytes": 90211110,
+      "bytesHuman": "86.03 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/beetle gif poster.gif",
+      "bytes": 84112775,
+      "bytesHuman": "80.22 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/fly gif poster.gif",
+      "bytes": 95359856,
+      "bytesHuman": "90.94 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.png",
+      "bytes": 36257025,
+      "bytesHuman": "34.58 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_05.png",
+      "bytes": 37375806,
+      "bytesHuman": "35.64 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_06.png",
+      "bytes": 38660160,
+      "bytesHuman": "36.87 MiB",
+      "kind": "image"
     },
     {
       "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4",
       "bytes": 261018877,
+      "bytesHuman": "248.93 MiB",
       "kind": "video"
     },
     {
       "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4",
       "bytes": 437063256,
+      "bytesHuman": "416.82 MiB",
       "kind": "video"
     },
     {
       "path": "assets/site/mav trailer exp1.m4v",
       "bytes": 118499916,
+      "bytesHuman": "113.01 MiB",
       "kind": "video"
     },
     {
       "path": "assets/site/mav trailer exp1.mp4",
       "bytes": 55641860,
+      "bytesHuman": "53.06 MiB",
       "kind": "video"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/annotations/ASP-Wroclaw_Alexandre_Guezenoc_Poster_Descirption.pdf",
-      "bytes": 5152265,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/Poster_Descirption.pdf",
-      "bytes": 5152265,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/anatoly-koval-engaged-signs/annotations/ASP-Wroclaw_Anatoly_Koval_Znaki-Zaangazowane_Engaged_Signs.pdf",
-      "bytes": 13023769,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/anatoly-koval-engaged-signs/media-asp-wroclaw-anatoly-koval-posters/ASP-Wroclaw_Anatoly_Koval_Znaki-Zaangazowane_Engaged_Signs.pdf",
-      "bytes": 13023769,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/sieczka-matches/annotations/Matches_Description.pdf",
-      "bytes": 661882,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/muni-brno/muni-fi-dohnal-marek-illustration/552405-Dohnal_Marek-space2space_poster.pdf",
-      "bytes": 120485541,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/taipei-tech/pre-selection/zalozny-projekt/creative_lamp_anotacia.pdf",
-      "bytes": 6163134,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/tuzvo/pre-selection/muchova-layra/media/muchova_viola_layra_presentation.pdf",
-      "bytes": 12290071,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/ustp-austria/mav-5786/mav text-1_en.pdf",
-      "bytes": 1004858,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam Kratochvíl prezentace Space to space.pdf",
-      "bytes": 19387579,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf",
-      "bytes": 22050646,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/brandisova-space-to-space/anotacia.pdf",
-      "bytes": 1852404,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/kristina-hodekova-space-to-space/klauzury_kuliskova.pdf",
-      "bytes": 25381437,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/kristina-hodekova-space-to-space/klauzury_plagat2_B1.pdf",
-      "bytes": 1446272,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/kristina-hodekova-space-to-space/klauzúra_plagát1_B1.pdf",
-      "bytes": 1145969,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/prezentace-Ester_halamíčková.pdf",
-      "bytes": 5703236,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/princova_space-to-spaceX.pdf",
-      "bytes": 3587179,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/sona-kuliskova-space-to-space/klauzury_kuliskova.pdf",
-      "bytes": 25381437,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/sona-kuliskova-space-to-space/klauzury_plagat2_B1.pdf",
-      "bytes": 1446272,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/sona-kuliskova-space-to-space/klauzúra_plagát1_B1.pdf",
-      "bytes": 1145969,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/space_to_space_prezentace_anna_chodurova 2.pdf",
-      "bytes": 5283018,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/spacetospace_prezentacia_michaela_durišová.pdf",
-      "bytes": 20858361,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/anotacia.pdf",
-      "bytes": 1854019,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/drabinova/SPACE TO SPACE_Drabinová_Plakát.pdf",
-      "bytes": 1495186,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/drabinova/SPACE TO SPACE_Drabinová_Prezentace.pdf",
-      "bytes": 768543,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/jakubekova-utb-produkt/rehabilitacna_pomocka_plagat.pdf",
-      "bytes": 45935483,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/anotacia.pdf",
-      "bytes": 1852404,
-      "kind": "pdf"
     }
   ],
-  "skippedSmallPdfs": [
-    {
-      "path": "assets/projects/utb-prvy-predvyber/upload UTB pre-selection.pdf",
-      "bytes": 170657,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/au-banska-bystrica/upload pre-selection AU BB.pdf",
-      "bytes": 166472,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/baaz-jerusalem/upload pre-selection BAAZ.pdf",
-      "bytes": 166389,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/upload pre-selection ASP WROCLAW.pdf",
-      "bytes": 166018,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/ehb-belgium/upload pre-selection EhB Belgium.pdf",
-      "bytes": 166010,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/muni-brno/upload pre-selection MUNI Brno.pdf",
-      "bytes": 166006,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/taipei-tech/upload pre-selection Taipei Tech.pdf",
-      "bytes": 165988,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/tuzvo/upload pre-selection TUZVO.pdf",
-      "bytes": 165984,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/aluo-ljubljana/upload pre-selection ALUO.pdf",
-      "bytes": 165852,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/ustp-austria/upload pre-selection USTP Austria.pdf",
-      "bytes": 165653,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/vsvu/upload pre-selection VŠVU.pdf",
-      "bytes": 165085,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/ualg/upload pre-selection UAlg.pdf",
-      "bytes": 165067,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/vsvu/Vyzva_Space to space_.pdf",
-      "bytes": 157162,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/vsvu/krcova-michaela-i/annotation.pdf",
-      "bytes": 81783,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/jakubekova-utb-produkt/rehabilitacna_pomocka_anotacia.pdf",
-      "bytes": 76727,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/franas-old-railway-roundhouse/Franas_annotations.pdf",
-      "bytes": 59929,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/vsvu/huraj-filip-mars53/annotations/vsvu_huraj_filip_annotation.pdf",
-      "bytes": 50879,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/Kulewicz_annotations.pdf",
-      "bytes": 40623,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/ehb-belgium/baptist-microcosms/annotations/EhB_Baptist_Dennis_Microcosms_Annotation.pdf",
-      "bytes": 31925,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/chas-moth/annotations/aspwroclaw_chas_agata_moth_annotations.pdf",
-      "bytes": 29749,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/aluo-ljubljana/seapack/annotations/ALUO_Seapack_annotations.pdf",
-      "bytes": 29157,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_annotation_cz_en.pdf",
-      "bytes": 29000,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/sergiel-ease/annotations/aspwroclaw_sergiel_jagoda_ease_annotations.pdf",
-      "bytes": 28083,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/jenikova-katerina/Space to space_Kateřina Jeníková_UTB.pdf",
-      "bytes": 24519,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/annotations/UTB_Navratilova_Lena_Jasmina_Annotation_CZ.pdf",
-      "bytes": 24024,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/annotations/UTB_Navratilova_Lena_Jasmina_Annotation_EN.pdf",
-      "bytes": 22417,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/zawadzka-transparenttalk/annotations/ASPWroclaw_Zawadzka_Alicja_TransparentTalk_annotation.pdf",
-      "bytes": 21151,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/grycman-rebloom/annotations/UTB_Grycman_Ondřej_Rebloom_Annotation_CZ.pdf",
-      "bytes": 19889,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/annotations/UTB_Marek_Matouš_RevenantEarth2_Annotation_CZ.pdf",
-      "bytes": 19817,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/smekalova-geometrika/annotations/UTB_Smékalová_Veronika_Geometrika_Annotation_CZ.pdf",
-      "bytes": 19392,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/au-banska-bystrica/pre-selection/arpas-boh-sa-nachadza-v-malickostiach/annotations/Boh_sa_nachádza_v_maličkostiach_Annotation_SK.pdf",
-      "bytes": 19285,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/grycman-rebloom/annotations/UTB_Grycman_Ondřej_Reboolm_Annotation_EN.pdf",
-      "bytes": 19250,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/annotations/UTB_Marek_Matouš_RevenantEarth2_Annotation_EN.pdf.pdf",
-      "bytes": 19133,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/smekalova-geometrika/annotations/UTB_Smékalová_Veronika_Geometrika_Annotation_ENG.pdf",
-      "bytes": 19101,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/au-banska-bystrica/pre-selection/arpas-boh-sa-nachadza-v-malickostiach/annotations/Boh_sa_nachádza_v_maličkostiach_Annotation_EN.pdf",
-      "bytes": 16857,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/asp-wroclaw/pre-selection/ziajka-light-up/annotations/The Eugeniusz Geppert Academy Of Art And Design In Wroclaw_Ziajka_Zuzanna_LIGHT UP_annotation about work.pdf",
-      "bytes": 16395,
-      "kind": "pdf"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_annotation_cz_en.pdf",
-      "bytes": 14049,
-      "kind": "pdf"
-    }
-  ]
+  "bytesHuman": {
+    "githubEligible": "1.81 GiB",
+    "r2Candidates": "7.33 GiB"
+  }
 }

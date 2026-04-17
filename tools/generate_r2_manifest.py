@@ -1,84 +1,179 @@
 #!/usr/bin/env python3
 """
-Generuje manifest souborů pro nahrání na Cloudflare R2:
-  - všechna videa pod assets/ (mp4, m4v, mov, webm)
-  - PDF větší než --pdf-min-kib (default 512 KiB)
+Generuje seznam assetů, které jsou příliš velké pro běžné verzování v GitHubu
+a proto zatím zůstávají lokálně pro budoucí upload na Cloudflare R2.
 
 Výstupy:
-  tools/r2-upload-manifest.json  — metadata + přeskočené malé PDF
-  tools/r2-upload-paths.txt      — jedna relativní cesta na řádek
+  tools/r2-upload-manifest.json  — metadata + seznam velkých souborů
+  tools/r2-upload-paths.txt      — relativní cesty velkých souborů
+  .gitignore                     — aktualizovaný managed blok s velkými soubory
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
+GITIGNORE = ROOT / ".gitignore"
+R2_MANIFEST = ROOT / "tools" / "r2-upload-manifest.json"
+R2_PATHS = ROOT / "tools" / "r2-upload-paths.txt"
+GITIGNORE_BEGIN = "# BEGIN managed large assets"
+GITIGNORE_END = "# END managed large assets"
+
 VIDEO_EXT = {".mp4", ".m4v", ".mov", ".webm"}
+IMAGE_EXT = {".jpg", ".jpeg", ".png", ".gif", ".tif", ".tiff", ".webp"}
+DOCUMENT_EXT = {".pdf", ".doc", ".docx", ".odt", ".txt", ".ppt", ".pptx", ".xlsx", ".rtf"}
+
+
+def asset_kind(path: Path) -> str:
+    suffix = path.suffix.lower()
+    if suffix in VIDEO_EXT:
+        return "video"
+    if suffix in IMAGE_EXT:
+        return "image"
+    if suffix in DOCUMENT_EXT:
+        return "document"
+    return "other"
+
+
+def bytes_to_human(num_bytes: int) -> str:
+    if num_bytes >= 1024**3:
+        return f"{num_bytes / (1024**3):.2f} GiB"
+    if num_bytes >= 1024**2:
+        return f"{num_bytes / (1024**2):.2f} MiB"
+    if num_bytes >= 1024:
+        return f"{num_bytes / 1024:.2f} KiB"
+    return f"{num_bytes} B"
+
+
+def collect_asset_entries() -> list[dict[str, object]]:
+    entries: list[dict[str, object]] = []
+    for path in sorted(ASSETS.rglob("*"), key=lambda item: str(item)):
+        if not path.is_file() or path.name in {".DS_Store"} or path.name.startswith("._"):
+            continue
+        rel = path.relative_to(ROOT).as_posix()
+        size = path.stat().st_size
+        entries.append(
+            {
+                "path": rel,
+                "bytes": size,
+                "bytesHuman": bytes_to_human(size),
+                "kind": asset_kind(path),
+            }
+        )
+    return entries
+
+
+def summarize_by_kind(entries: list[dict[str, object]]) -> dict[str, int]:
+    counter = Counter(str(entry["kind"]) for entry in entries)
+    return dict(sorted(counter.items()))
+
+
+def rewrite_gitignore(ignored_paths: list[str]) -> None:
+    comment_lines = [
+        "# Large asset files kept local until uploaded to Cloudflare R2.",
+        "# Regenerate with: python3 tools/generate_r2_manifest.py",
+    ]
+    block_lines = [
+        *comment_lines,
+        GITIGNORE_BEGIN,
+        *ignored_paths,
+        GITIGNORE_END,
+    ]
+    existing_lines = GITIGNORE.read_text(encoding="utf-8").splitlines()
+    updated_lines: list[str] = []
+    inside_managed_block = False
+    block_replaced = False
+
+    for line in existing_lines:
+        if line == GITIGNORE_BEGIN:
+            while updated_lines[-len(comment_lines):] == comment_lines:
+                del updated_lines[-len(comment_lines):]
+            if not block_replaced:
+                updated_lines.extend(block_lines)
+                block_replaced = True
+            inside_managed_block = True
+            continue
+        if inside_managed_block:
+            if line == GITIGNORE_END:
+                inside_managed_block = False
+            continue
+        updated_lines.append(line)
+
+    if inside_managed_block:
+        raise RuntimeError(f"Nenalezen ukončovací marker {GITIGNORE_END} v .gitignore")
+
+    if not block_replaced:
+        if updated_lines and updated_lines[-1] != "":
+            updated_lines.append("")
+        updated_lines.extend(block_lines)
+
+    GITIGNORE.write_text("\n".join(updated_lines).rstrip("\n") + "\n", encoding="utf-8")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "--pdf-min-kib",
+        "--github-max-mib",
         type=int,
-        default=512,
-        help="Minimální velikost PDF v KiB pro zařazení (default 512).",
+        default=20,
+        help="Velikostní limit pro soubory verzované v GitHubu (default 20 MiB).",
     )
     args = parser.parse_args()
-    pdf_min = max(0, args.pdf_min_kib) * 1024
+    github_max_bytes = max(1, args.github_max_mib) * 1024 * 1024
 
-    videos: list[dict[str, object]] = []
-    pdfs: list[dict[str, object]] = []
+    all_entries = collect_asset_entries()
+    github_eligible = [entry for entry in all_entries if int(entry["bytes"]) < github_max_bytes]
+    r2_candidates = [entry for entry in all_entries if int(entry["bytes"]) >= github_max_bytes]
+    r2_paths = [str(entry["path"]) for entry in r2_candidates]
 
-    for path in sorted(ASSETS.rglob("*"), key=lambda p: str(p)):
-        if not path.is_file():
-            continue
-        suf = path.suffix.lower()
-        rel = path.relative_to(ROOT).as_posix()
-        size = path.stat().st_size
-        if suf in VIDEO_EXT:
-            videos.append({"path": rel, "bytes": size, "kind": "video"})
-        elif suf == ".pdf":
-            pdfs.append({"path": rel, "bytes": size, "kind": "pdf"})
-
-    large_pdfs = [e for e in pdfs if int(e["bytes"]) >= pdf_min]
-    small_pdfs = [e for e in pdfs if int(e["bytes"]) < pdf_min]
-
-    upload = videos + sorted(large_pdfs, key=lambda x: str(x["path"]))
-    total_bytes = sum(int(e["bytes"]) for e in upload)
+    rewrite_gitignore(r2_paths)
 
     manifest = {
-        "description": "Soubory vhodné pro Cloudflare R2 (videa + větší PDF).",
+        "description": "Assety ponechané mimo GitHub kvůli velikosti; vhodné pro budoucí upload na Cloudflare R2.",
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "pdfMinBytes": pdf_min,
-        "pdfMinKib": args.pdf_min_kib,
+        "githubMaxBytes": github_max_bytes,
+        "githubMaxMib": args.github_max_mib,
         "counts": {
-            "video": len(videos),
-            "pdfLarge": len(large_pdfs),
-            "pdfSkippedSmall": len(small_pdfs),
-            "totalFiles": len(upload),
+            "scannedFiles": len(all_entries),
+            "githubEligible": len(github_eligible),
+            "r2Candidates": len(r2_candidates),
         },
-        "totalBytes": total_bytes,
-        "totalBytesHuman": f"{total_bytes / (1024**3):.2f} GiB",
-        "files": upload,
-        "skippedSmallPdfs": sorted(small_pdfs, key=lambda x: -int(x["bytes"])),
+        "bytes": {
+            "githubEligible": sum(int(entry["bytes"]) for entry in github_eligible),
+            "r2Candidates": sum(int(entry["bytes"]) for entry in r2_candidates),
+        },
+        "kinds": {
+            "githubEligible": summarize_by_kind(github_eligible),
+            "r2Candidates": summarize_by_kind(r2_candidates),
+        },
+        "files": r2_candidates,
+    }
+    manifest["bytesHuman"] = {
+        "githubEligible": bytes_to_human(int(manifest["bytes"]["githubEligible"])),
+        "r2Candidates": bytes_to_human(int(manifest["bytes"]["r2Candidates"])),
     }
 
-    out_json = ROOT / "tools" / "r2-upload-manifest.json"
-    out_txt = ROOT / "tools" / "r2-upload-paths.txt"
-    out_json.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    out_txt.write_text("\n".join(str(e["path"]) for e in upload) + "\n", encoding="utf-8")
+    R2_MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    R2_PATHS.write_text("\n".join(r2_paths) + ("\n" if r2_paths else ""), encoding="utf-8")
 
-    print(f"Napsáno {out_json.name}: {len(upload)} souborů, ~{manifest['totalBytesHuman']}")
-    print(f"Napsáno {out_txt.name}")
     print(
-        f"PDF: {len(large_pdfs)} velkých (≥{args.pdf_min_kib} KiB), "
-        f"{len(small_pdfs)} menších přeskočeno"
+        json.dumps(
+            {
+                "githubMaxMib": args.github_max_mib,
+                "scannedFiles": len(all_entries),
+                "githubEligible": len(github_eligible),
+                "r2Candidates": len(r2_candidates),
+                "r2BytesHuman": manifest["bytesHuman"]["r2Candidates"],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
     )
 
 

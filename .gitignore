@@ -1,30 +1,69 @@
 .DS_Store
 **/.DS_Store
 
-assets/site/mav trailer exp1.m4v
-assets/site/video-thumbnail.png
-assets/site/VISTA.jpg
-assets/site/Stools Shuttlecock.jpg
-assets/site/Light and Darkness.jpg
-assets/site/BambooWhispers.png
-assets/site/DepoRooms.jpg
-
-assets/projects/**/*.jpg
-assets/projects/**/*.jpeg
-assets/projects/**/*.png
-assets/projects/**/*.gif
-assets/projects/**/*.tif
-assets/projects/**/*.tiff
-assets/projects/**/*.mp4
-assets/projects/**/*.m4v
-assets/projects/**/*.mov
-assets/projects/**/*.JPG
-assets/projects/**/*.JPEG
-assets/projects/**/*.PNG
-assets/projects/**/*.GIF
-assets/projects/**/*.TIF
-assets/projects/**/*.TIFF
-assets/projects/**/*.MP4
-assets/projects/**/*.M4V
-assets/projects/**/*.MOV
+# Large asset files kept local until uploaded to Cloudflare R2.
+# Regenerate with: python3 tools/generate_r2_manifest.py
+# BEGIN managed large assets
+assets/projects/aluo-ljubljana/pre-selection/ALUO_Dizdarević_Umihana_Gorenak_Marko_Tudjan_Anja_Vranješ_Nina_BDC-Seapack.mp4
+assets/projects/aluo-ljubljana/pre-selection/ALUO_Kordiš_Jaka_Lesjak_Matic_Štrubelj_Črt_BDC-What remains.mp4
+assets/projects/aluo-ljubljana/pre-selection/ALUO_Čepin_Zoja_Kralj_Jure_Kralj_Maša_Maček_Klara_Štupar_Leon Rojk_BDC-WOODn_t it be nice.mp4
+assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4
+assets/projects/asp-wroclaw/pre-selection/wo-kowski-w-domu/media/ASP-WROCLAW_Wolkowski_Mateusz_W-domu.mp4
+assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/Review by λrokh.mp4
+assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4
+assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4
+assets/projects/baaz-jerusalem/pre-selection/bezalel id department 2026 (1).xlsx
+assets/projects/muni-brno/fi-mun-hai-duong-tran-spider/12-2017_Hai Duong Tran - Spider_video s popiskem.mp4
+assets/projects/muni-brno/fi-mun-hai-duong-tran-spider/FI MUNI_Hai Duong Tran_Spider_video.mp4
+assets/projects/muni-brno/fi-muni-minarik-vojtech-rainbow-rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Landscape.mov
+assets/projects/muni-brno/fi-muni-minarik-vojtech-rainbow-rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Portrait.mov
+assets/projects/muni-brno/fi-muni-musil-bronislav-drum-and-bezier/FI MUNI_Bronislav Musil - Drum and Beziere_video.mp4
+assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4
+assets/projects/muni-brno/fi-muni-portesova-sarka-mom-i-m-not-playing-i-m-making-art/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART.mp4
+assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4
+assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4
+assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_01.tif
+assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_02.tif
+assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_03.tif
+assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_04.tif
+assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_05.tif
+assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_06.tif
+assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4
 assets/projects/muni-brno/muni-fi-dohnal-marek-illustration/552405-Dohnal_Marek-space2space_poster.pdf
+assets/projects/muni-brno/muni-fi-dohnal-marek-toy-design/media/MUNI-FI_Dohnal_Marek.mp4
+assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4
+assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_presentation.pptx
+assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4
+assets/projects/tuzvo/pre-selection/krnacova-space-no-01/presentations/space no.01 – .pptx
+assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/Novosadová_Infinity loop_presentation.pptx
+assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4
+assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4
+assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4
+assets/projects/tuzvo/pre-selection/zabka-shinrin/media/2.png
+assets/projects/tuzvo/pre-selection/zabka-shinrin/media/4.png
+assets/projects/tuzvo/pre-selection/zabka-shinrin/media/5.png
+assets/projects/ustp-austria/mav-5786/mav trailer exp1.m4v
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/brandisova-space-to-space/ant gif poster.gif
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/jenikova-katerina/space to space_Kateřina_Jeníková_UTB.mp4
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/kristina-hodekova-space-to-space/klauzury_kuliskova.pdf
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/sona-kuliskova-space-to-space/klauzury_kuliskova.pdf
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant poster img.jpg
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle poster img.jpg
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/fly gif poster.gif
+assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/fly poster img.jpg
+assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4
+assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/jakubekova-utb-produkt/rehabilitacna_pomocka_plagat.pdf
+assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/ant gif poster.gif
+assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/beetle gif poster.gif
+assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/fly gif poster.gif
+assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.png
+assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_05.png
+assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_06.png
+assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4
+assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4
+assets/site/mav trailer exp1.m4v
+assets/site/mav trailer exp1.mp4
+# END managed large assets

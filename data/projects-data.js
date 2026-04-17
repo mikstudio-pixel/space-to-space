@@ -1,5 +1,5 @@
 window.SpaceToSpaceProjectsData = {
-  "generatedAt": "2026-04-13T21:37:11.093243+00:00",
+  "generatedAt": "2026-04-17T22:25:18.930697+00:00",
   "generatedFrom": "data/projects-selected.json",
   "workCount": 56,
   "works": [
@@ -185,16 +185,16 @@ window.SpaceToSpaceProjectsData = {
       "resolvedAssets": [
         {
           "source": "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA_School_Garden_video.mp4",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
           "type": "video"
         }
       ],
       "resolvedImages": [],
       "resolvedVideos": [
-        "assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
+      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
       "menuAssetType": "video"
     },
     {
@@ -266,7 +266,7 @@ window.SpaceToSpaceProjectsData = {
         },
         {
           "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4",
           "type": "video"
         }
       ],
@@ -279,7 +279,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_06.jpeg"
       ],
       "resolvedVideos": [
-        "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_01.jpeg",
@@ -347,7 +347,7 @@ window.SpaceToSpaceProjectsData = {
         },
         {
           "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka_house_video.MP4",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4",
           "type": "video"
         }
       ],
@@ -359,7 +359,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_05.webp"
       ],
       "resolvedVideos": [
-        "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_01.jpeg",
@@ -518,7 +518,7 @@ window.SpaceToSpaceProjectsData = {
         },
         {
           "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4",
-          "path": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4",
           "type": "video"
         }
       ],
@@ -530,7 +530,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_05.JPG.JPG"
       ],
       "resolvedVideos": [
-        "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_01.JPG",
@@ -980,16 +980,16 @@ window.SpaceToSpaceProjectsData = {
       "resolvedAssets": [
         {
           "source": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
-          "path": "assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
           "type": "video"
         }
       ],
       "resolvedImages": [],
       "resolvedVideos": [
-        "assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
+      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
       "menuAssetType": "video"
     },
     {
@@ -1346,12 +1346,12 @@ window.SpaceToSpaceProjectsData = {
         },
         {
           "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait.mp4",
-          "path": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
           "type": "video"
         },
         {
           "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short.mp4",
-          "path": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4",
           "type": "video"
         }
       ],
@@ -1359,8 +1359,8 @@ window.SpaceToSpaceProjectsData = {
         "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula.png"
       ],
       "resolvedVideos": [
-        "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
-        "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula.png",
@@ -1399,7 +1399,7 @@ window.SpaceToSpaceProjectsData = {
       "resolvedAssets": [
         {
           "source": "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space.mp4",
-          "path": "assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
           "type": "video"
         },
         {
@@ -1424,7 +1424,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space_03.png"
       ],
       "resolvedVideos": [
-        "assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space_01.png",
@@ -1527,12 +1527,12 @@ window.SpaceToSpaceProjectsData = {
         },
         {
           "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
           "type": "video"
         },
         {
           "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4",
           "type": "video"
         }
       ],
@@ -1543,8 +1543,8 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedVideos": [
         "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04.mp4",
-        "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
-        "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.webp",
@@ -1787,14 +1787,14 @@ window.SpaceToSpaceProjectsData = {
       "resolvedAssets": [
         {
           "source": "UTB/Adam Čanecký_Orienting the system/Adam_Canecky_prezentacia2.pdf",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf",
           "type": "document"
         }
       ],
       "resolvedImages": [],
       "resolvedVideos": [],
       "resolvedDocuments": [
-        "assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf"
       ],
       "menuAsset": "assets/site/video-thumbnail.webp",
       "menuAssetType": "placeholder"
@@ -1901,22 +1901,22 @@ window.SpaceToSpaceProjectsData = {
       "resolvedAssets": [
         {
           "source": "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.gif",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
           "type": "video"
         },
         {
           "source": "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.gif",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif",
           "type": "video"
         }
       ],
       "resolvedImages": [],
       "resolvedVideos": [
-        "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
-        "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
+      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
       "menuAssetType": "video"
     },
     {
@@ -3208,7 +3208,7 @@ window.SpaceToSpaceProjectsData = {
       "resolvedAssets": [
         {
           "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars!!!_video.mp4",
-          "path": "assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4",
           "type": "video"
         },
         {
@@ -3425,7 +3425,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (9).png"
       ],
       "resolvedVideos": [
-        "assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (0).jpg",
@@ -3513,7 +3513,7 @@ window.SpaceToSpaceProjectsData = {
         },
         {
           "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08.mp4",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4",
           "type": "video"
         },
         {
@@ -3545,7 +3545,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_11.webp"
       ],
       "resolvedVideos": [
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_01.png",
@@ -3592,7 +3592,7 @@ window.SpaceToSpaceProjectsData = {
       "resolvedAssets": [
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.png",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.png",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.png",
           "type": "image"
         },
         {
@@ -3612,33 +3612,33 @@ window.SpaceToSpaceProjectsData = {
         },
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_05.png",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_05.png",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_05.png",
           "type": "image"
         },
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_06.png",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_06.png",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_06.png",
           "type": "image"
         },
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS_53..mp4",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4",
           "type": "video"
         }
       ],
       "resolvedImages": [
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.png",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.png",
         "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_02.png",
         "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_03.png",
         "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_04.png",
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_05.png",
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_06.png"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_05.png",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_06.png"
       ],
       "resolvedVideos": [
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.png",
+      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.png",
       "menuAssetType": "image"
     },
     {
@@ -3857,7 +3857,7 @@ window.SpaceToSpaceProjectsData = {
         },
         {
           "source": "TUZVO/Martin Žabka_Shinrin/media/2.png",
-          "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/2.png",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/2.png",
           "type": "image"
         },
         {
@@ -3867,21 +3867,21 @@ window.SpaceToSpaceProjectsData = {
         },
         {
           "source": "TUZVO/Martin Žabka_Shinrin/media/4.png",
-          "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/4.png",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/4.png",
           "type": "image"
         },
         {
           "source": "TUZVO/Martin Žabka_Shinrin/media/5.png",
-          "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/5.png",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/5.png",
           "type": "image"
         }
       ],
       "resolvedImages": [
         "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/1.png",
-        "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/2.png",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/2.png",
         "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/3.png",
-        "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/4.png",
-        "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/5.png"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/4.png",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/5.png"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
@@ -3986,16 +3986,16 @@ window.SpaceToSpaceProjectsData = {
       "resolvedAssets": [
         {
           "source": "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ_HUB_video.mp4",
-          "path": "assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
           "type": "video"
         }
       ],
       "resolvedImages": [],
       "resolvedVideos": [
-        "assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
+      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
       "menuAssetType": "video"
     },
     {
@@ -4219,5 +4219,7 @@ window.SpaceToSpaceProjectsData = {
       "menuAsset": "assets/projects/taipei-tech/pre-selection/caihongyang-stone/media/orbstone_product.jpg",
       "menuAssetType": "image"
     }
-  ]
+  ],
+  "mediaBase": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev",
+  "mediaBasePathRules": 62
 };

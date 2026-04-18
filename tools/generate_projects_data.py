@@ -136,6 +136,7 @@ def resolve_source_path(
     asset_index: dict[str, list[dict[str, object]]],
 ) -> dict[str, object] | None:
     basename = strip_known_extensions(Path(source).name)
+    source_suffix = Path(source).suffix.lower()
     key = normalize_for_match(basename)
     candidates = asset_index.get(key, [])
     if not candidates:
@@ -147,12 +148,15 @@ def resolve_source_path(
     source_key = normalize_for_match(source)
 
     def score(candidate: dict[str, object]) -> tuple[int, int]:
+        candidate_path = str(candidate["path"])
         path_key = str(candidate["pathKey"])
         total = 0
         if str(candidate["basenameKey"]) == key:
             total += 200
         if key and key in source_key:
             total += 60
+        if source_suffix and Path(candidate_path).suffix.lower() == source_suffix:
+            total += 120
         for token in school_tokens:
             if token in path_key:
                 total += 25
@@ -162,7 +166,7 @@ def resolve_source_path(
         for token in author_tokens:
             if token in path_key:
                 total += 6
-        return total, -len(str(candidate["path"]))
+        return total, -len(candidate_path)
 
     return max(candidates, key=score)
 

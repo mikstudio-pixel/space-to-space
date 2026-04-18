@@ -145,6 +145,13 @@ function createVisualCard(asset, index) {
 }
 
 function createMediaElement(asset, altText, isGrid) {
+    const frame = document.createElement('div');
+    frame.className = 'project-media-frame';
+
+    if (isR2AssetPath(asset.path)) {
+        frame.appendChild(createR2Badge());
+    }
+
     if (asset.type === 'video') {
         const video = document.createElement('video');
         video.src = asset.path;
@@ -155,7 +162,8 @@ function createMediaElement(asset, altText, isGrid) {
         video.playsInline = true;
         video.preload = 'metadata';
         video.setAttribute('aria-label', altText);
-        return video;
+        frame.appendChild(video);
+        return frame;
     }
 
     const img = document.createElement('img');
@@ -164,7 +172,16 @@ function createMediaElement(asset, altText, isGrid) {
     img.loading = isGrid ? 'eager' : 'lazy';
     img.decoding = 'async';
     img.className = 'project-media';
-    return img;
+    frame.appendChild(img);
+    return frame;
+}
+
+function createR2Badge() {
+    const badge = document.createElement('span');
+    badge.className = 'media-badge-r2';
+    badge.textContent = 'R2';
+    badge.setAttribute('aria-label', 'Media hosted on R2');
+    return badge;
 }
 
 function createContacts(contacts) {
@@ -268,4 +285,8 @@ async function loadProjectsPayload() {
     }
 
     return response.json();
+}
+
+function isR2AssetPath(path) {
+    return typeof path === 'string' && path.includes('.r2.dev/');
 }

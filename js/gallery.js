@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             title: work.title || `Project ${index + 1}`,
             menuAsset: work.menuAsset || 'assets/site/video-thumbnail.webp',
             menuAssetType: work.menuAssetType || 'image',
+            menuAssetIsR2: isR2AssetPath(work.menuAsset),
             position: positions[index % positions.length],
             url: `home.html?slug=${encodeURIComponent(work.slug)}`
         }));
@@ -292,6 +293,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         placeholder.setAttribute('aria-hidden', 'true');
         shell.appendChild(placeholder);
 
+        if (project.menuAssetIsR2) {
+            shell.appendChild(createR2Badge());
+        }
+
         if (project.menuAssetType === 'video') {
             const video = document.createElement('video');
             video.className = 'gallery-card-image';
@@ -325,6 +330,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             source: project.menuAsset,
             type: 'image'
         };
+    }
+
+    function createR2Badge() {
+        const badge = document.createElement('span');
+        badge.className = 'media-badge-r2';
+        badge.textContent = 'R2';
+        badge.setAttribute('aria-label', 'Media hosted on R2');
+        return badge;
     }
 
     function bindProjectMediaState(plane) {
@@ -903,4 +916,8 @@ async function loadProjectsPayload() {
     }
 
     return response.json();
+}
+
+function isR2AssetPath(path) {
+    return typeof path === 'string' && path.includes('.r2.dev/');
 }

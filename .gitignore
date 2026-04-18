@@ -67,3 +67,9 @@ assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4
 assets/site/mav trailer exp1.m4v
 assets/site/mav trailer exp1.mp4
 # END managed large assets
+
+# Python cache
+.pycache/
+
+# Python cache
+.pycache/

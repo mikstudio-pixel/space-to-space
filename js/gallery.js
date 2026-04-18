@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const backWall = document.querySelector('.back-wall');
     const outlineNav = document.querySelector('.outline-nav');
     const outlineNavItems = document.querySelector('.outline-nav-items');
+    const outlineNavCategories = document.querySelector('.outline-nav-categories');
+    const outlineNavSelectedCategory = document.querySelector('.outline-nav-selected-category');
+    const outlineNavFooter = document.querySelector('.outline-nav-footer');
     const status = document.getElementById('projectMenuStatus');
 
     const svgLines = {
@@ -20,6 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const spacing = 1400;
     const startOffset = 120;
     const positions = ['pos-center', 'pos-tl', 'pos-tr', 'pos-bl', 'pos-br'];
+    const galleryCategoryLabels = ['rituals', 'ecologies', 'memory', 'play', 'speculative'];
     const renderedTunnelSegments = 12;
     const maxRenderedScrollDistance = spacing * (renderedTunnelSegments + 2);
     const mediaAttachDistance = spacing * 7.05;
@@ -30,6 +34,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     const scrollEpsilon = 0.01;
     const mediaUpdateThreshold = spacing * 0.35;
     const stackingUpdateThreshold = spacing * 0.2;
+    const outlineNavConfig = {
+        defaultGap: 12,
+        minGap: 0,
+        itemHeight: 12,
+        viewportMargin: 96,
+        maxHeightRatio: 0.85,
+        stackGap: 14,
+        footerReservedHeight: 108
+    };
     const introConfig = {
         duration: 3000,
         startPerspective: 18000,
@@ -54,6 +67,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     let projects = [];
     let galleryOutlineButtons = [];
+    let galleryCategoryButtons = [];
     let galleryOutlineIdleTimer = null;
     let projectPlanes = [];
     let queuedMediaAttachIndexes = new Set();
@@ -68,6 +82,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     const wheelSpeed = 2.5;
     const touchMultiplier = 3;
     const darkModeToggle = document.getElementById('darkModeToggle');
+    const categoryState = {
+        isOpen: false,
+        selectedCategory: null
+    };
 
     const state = {
         scrollZ: 0,
@@ -92,6 +110,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         projects = eligibleWorks.map((work, index) => ({
             slug: work.slug,
             title: work.title || `Project ${index + 1}`,
+            category: galleryCategoryLabels[index % galleryCategoryLabels.length],
             menuAsset: work.menuAsset || 'assets/site/video-thumbnail.webp',
             menuAssetType: work.menuAssetType || 'image',
             menuAssetIsR2: isR2AssetPath(work.menuAsset),
@@ -215,12 +234,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             applyIntroStyles(progress);
             setRoomPosition(lerp(getBaseRoomZ() + introConfig.startRoomOffset, getBaseRoomZ(), eased));
-            refreshGalleryScene({
-                forceMedia: true,
-                forceStacking: true,
-                forceOutline: true,
-                includeWireframe: true
-            });
+            // Scroll position doesn't change during intro, so partition transforms,
+            // media attach distances, stacking order and outline nav state are all
+            // identical to what initGallery() already set up. The only thing that
+            // depends on the animated perspective/room position is the SVG wireframe.
+            updateWireframe();
 
             if (progress < 1) {
                 requestAnimationFrame(animateIntro);
@@ -246,6 +264,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const card = document.createElement('a');
             card.className = `gallery-card ${project.position}`;
             card.href = project.url;
+            card.dataset.visibilityState = 'future';
 
             const media = createGalleryMedia(project);
             const title = document.createElement('h2');
@@ -268,7 +287,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 mediaState: 'detached',
                 mediaReady: false,
                 isCulled: false,
-                isRendered: true
+                isRendered: true,
+                zIndex: null
             };
             bindProjectMediaState(plane);
             syncProjectMediaState(plane);
@@ -276,6 +296,27 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         buildGalleryOutlineNav();
+        buildGalleryCategoryNav();
+        setGalleryCategoryMenuOpen(false);
+        if (outlineNavSelectedCategory && !outlineNavSelectedCategory.dataset.bound) {
+            outlineNavSelectedCategory.dataset.bound = 'true';
+            outlineNavSelectedCategory.addEventListener('click', () => {
+                if (!categoryState.selectedCategory) {
+                    return;
+                }
+                categoryState.selectedCategory = null;
+                setGalleryCategoryMenuOpen(false);
+                applyGalleryCategoryFilter();
+                pingGalleryOutlineNav();
+                requestGalleryRender();
+            });
+        }
+        if (outlineNavFooter && !outlineNavFooter.dataset.bound) {
+            outlineNavFooter.dataset.bound = 'true';
+            outlineNavFooter.addEventListener('click', () => {
+                setGalleryCategoryMenuOpen(!categoryState.isOpen);
+            });
+        }
         refreshGalleryScene({
             forceMedia: true,
             forceStacking: true,
@@ -686,23 +727,160 @@ document.addEventListener('DOMContentLoaded', async () => {
         }, 1200);
     }
 
-    function updateGalleryOutlineNavActive(activeIndex = getNearestProjectIndex()) {
-        if (galleryOutlineButtons.length === 0 || activeIndex < 0) {
+    function getVisibleOutlineEntries() {
+        return galleryOutlineButtons.filter((entry) => !entry.button.hidden);
+    }
+
+    function getNearestProjectIndexForCategory(category, originIndex = getNearestProjectIndex()) {
+        let nearestMatchIndex = -1;
+        let nearestDistance = Number.POSITIVE_INFINITY;
+
+        projects.forEach((project, index) => {
+            if (project.category !== category) {
+                return;
+            }
+
+            const distance = Math.abs(index - originIndex);
+            if (distance < nearestDistance) {
+                nearestDistance = distance;
+                nearestMatchIndex = index;
+            }
+        });
+
+        return nearestMatchIndex;
+    }
+
+    function syncOutlineNavFooter() {
+        if (!outlineNavFooter) {
             return;
         }
 
-        if (activeOutlineIndex >= 0 && galleryOutlineButtons[activeOutlineIndex]) {
-            galleryOutlineButtons[activeOutlineIndex].classList.remove('is-active');
+        const footerLabel = 'categories';
+        const footerLabelElement = outlineNavFooter.querySelector('.outline-nav-footer-label');
+        if (footerLabelElement) {
+            footerLabelElement.textContent = footerLabel;
+        }
+        outlineNavFooter.setAttribute(
+            'aria-label',
+            categoryState.selectedCategory
+                ? `categories, selected ${categoryState.selectedCategory}`
+                : footerLabel
+        );
+        outlineNavFooter.classList.toggle('is-selected', Boolean(categoryState.selectedCategory));
+        outlineNavFooter.setAttribute('aria-expanded', categoryState.isOpen ? 'true' : 'false');
+
+        if (outlineNavSelectedCategory) {
+            const selectedCategoryLabel = outlineNavSelectedCategory.querySelector('.outline-nav-selected-category-label');
+            if (selectedCategoryLabel) {
+                selectedCategoryLabel.textContent = categoryState.selectedCategory || '';
+            }
+            outlineNavSelectedCategory.classList.toggle('is-visible', Boolean(categoryState.selectedCategory));
+            outlineNavSelectedCategory.setAttribute(
+                'aria-label',
+                categoryState.selectedCategory
+                    ? `Clear selected category ${categoryState.selectedCategory}`
+                    : 'No category selected'
+            );
+        }
+    }
+
+    function updateGalleryCategoryNavState() {
+        galleryCategoryButtons.forEach(({ button, category }) => {
+            button.classList.toggle('is-selected', category === categoryState.selectedCategory);
+        });
+    }
+
+    function setGalleryCategoryMenuOpen(isOpen) {
+        categoryState.isOpen = isOpen;
+        outlineNav?.classList.toggle('is-category-open', isOpen);
+        outlineNavCategories?.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+        syncOutlineNavFooter();
+        updateGalleryCategoryNavState();
+    }
+
+    function applyGalleryCategoryFilter({ snapToCategory = false } = {}) {
+        const selectedCategory = categoryState.selectedCategory;
+
+        galleryOutlineButtons.forEach((entry) => {
+            const isVisible = !selectedCategory || entry.category === selectedCategory;
+            entry.button.hidden = !isVisible;
+            entry.button.setAttribute('aria-hidden', isVisible ? 'false' : 'true');
+        });
+
+        if (selectedCategory && snapToCategory) {
+            const nearestMatchIndex = getNearestProjectIndexForCategory(selectedCategory);
+            if (nearestMatchIndex >= 0) {
+                state.targetScrollZ = getProjectTargetScroll(nearestMatchIndex);
+            }
+        }
+
+        updateGalleryOutlineNavLayout();
+        updateGalleryOutlineNavActive();
+        updateGalleryCategoryNavState();
+        syncOutlineNavFooter();
+    }
+
+    function updateGalleryOutlineNavActive(activeIndex = getNearestProjectIndex()) {
+        if (galleryOutlineButtons.length === 0) {
+            return;
         }
 
         activeOutlineIndex = activeIndex;
-        galleryOutlineButtons[activeOutlineIndex]?.classList.add('is-active');
+        galleryOutlineButtons.forEach((entry) => {
+            const isActive = !entry.button.hidden && entry.index === activeIndex;
+            entry.button.classList.toggle('is-active', isActive);
+        });
+    }
+
+    function updateGalleryOutlineNavLayout() {
+        if (!outlineNavItems || galleryOutlineButtons.length === 0) {
+            return;
+        }
+
+        const visibleEntries = getVisibleOutlineEntries();
+        const itemCount = Math.max(visibleEntries.length, 1);
+        const viewportHeight = window.innerHeight;
+        const totalMaxHeight = Math.max(
+            outlineNavConfig.itemHeight,
+            (viewportHeight - outlineNavConfig.viewportMargin) * outlineNavConfig.maxHeightRatio
+        );
+        const footerHeight = outlineNavFooter
+            ? Math.max(outlineNavFooter.getBoundingClientRect().height, outlineNavConfig.footerReservedHeight)
+            : outlineNavConfig.footerReservedHeight;
+        const footerReservedHeight = footerHeight + outlineNavConfig.stackGap;
+        const availableHeight = Math.max(
+            outlineNavConfig.itemHeight,
+            totalMaxHeight - footerReservedHeight
+        );
+        const resolvedGap = clamp(
+            (availableHeight / itemCount) - outlineNavConfig.itemHeight,
+            outlineNavConfig.minGap,
+            outlineNavConfig.defaultGap
+        );
+        const itemHitHeight = outlineNavConfig.itemHeight + resolvedGap;
+
+        outlineNav?.style.setProperty('--outline-nav-total-max-height', `${totalMaxHeight}px`);
+        outlineNav?.style.setProperty('--outline-nav-max-height', `${availableHeight}px`);
+        outlineNavItems.style.setProperty('--outline-nav-gap', `${resolvedGap}px`);
+        outlineNavItems.style.setProperty('--outline-nav-max-height', `${availableHeight}px`);
+        outlineNavItems.style.setProperty('--outline-nav-item-hit-height', `${itemHitHeight}px`);
+        outlineNavCategories?.style.setProperty('--outline-nav-max-height', `${availableHeight}px`);
     }
 
     function updateProjectPlaneStacking(nearestIndex = getNearestProjectIndex()) {
         if (projectPlanes.length === 0) {
             return;
         }
+
+        projectPlanes.forEach((plane) => {
+            let visibilityState = 'future';
+            if (plane.index < nearestIndex) {
+                visibilityState = 'past';
+            } else if (plane.index === nearestIndex) {
+                visibilityState = 'active';
+            }
+            plane.card.dataset.visibilityState = visibilityState;
+        });
 
         const sortedPlanes = projectPlanes.filter((plane) => plane.isRendered).sort((planeA, planeB) => {
             const distanceA = Math.abs(getProjectTargetScroll(planeA.index) - state.scrollZ);
@@ -711,7 +889,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         sortedPlanes.forEach((plane, rank) => {
-            plane.partition.style.zIndex = String(sortedPlanes.length - rank);
+            const nextZ = sortedPlanes.length - rank;
+            if (plane.zIndex === nextZ) {
+                return;
+            }
+            plane.zIndex = nextZ;
+            plane.partition.style.zIndex = String(nextZ);
         });
 
         lastStackingNearestIndex = nearestIndex;
@@ -743,15 +926,57 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             button.addEventListener('click', () => {
                 state.targetScrollZ = getProjectTargetScroll(index);
+                setGalleryCategoryMenuOpen(false);
                 pingGalleryOutlineNav();
                 requestGalleryRender();
             });
 
-            return button;
+            return {
+                button,
+                category: project.category,
+                index
+            };
         });
 
+        applyGalleryCategoryFilter();
         pingGalleryOutlineNav();
         updateGalleryOutlineNavActive();
+    }
+
+    function buildGalleryCategoryNav() {
+        if (!outlineNavCategories) {
+            return;
+        }
+
+        const categories = Array.from(new Set(projects.map((project) => project.category)));
+        outlineNavCategories.innerHTML = '';
+        galleryCategoryButtons = categories.map((category) => {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'outline-nav-category';
+            const label = document.createElement('span');
+            label.className = 'outline-nav-category-label';
+            label.textContent = category;
+            button.appendChild(label);
+            button.setAttribute('aria-label', `Show ${category} projects`);
+            outlineNavCategories.appendChild(button);
+
+            button.addEventListener('click', () => {
+                categoryState.selectedCategory = category;
+                setGalleryCategoryMenuOpen(false);
+                applyGalleryCategoryFilter({ snapToCategory: true });
+                pingGalleryOutlineNav();
+                requestGalleryRender();
+            });
+
+            return {
+                button,
+                category
+            };
+        });
+
+        updateGalleryCategoryNavState();
+        syncOutlineNavFooter();
     }
 
     function applyScrollDelta(delta) {
@@ -872,6 +1097,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         state.roomHeight = window.innerHeight;
         state.viewportWidth = window.innerWidth;
         state.viewportHeight = window.innerHeight;
+        updateGalleryOutlineNavLayout();
         refreshGalleryScene({
             forceMedia: true,
             forceStacking: true,

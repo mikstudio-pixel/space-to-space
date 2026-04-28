@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const wireframeOverlay = document.querySelector('.wireframe-overlay');
     const isWireframeVisible = wireframeOverlay && window.getComputedStyle(wireframeOverlay).display !== 'none';
     const shouldPlayIntro = !['0', 'false', 'skip'].includes((params.get('intro') || '').toLowerCase());
+    const mobilePreviewVideoQuery = window.matchMedia('(max-width: 767px), (hover: none) and (pointer: coarse)');
 
     let projects = [];
     let galleryOutlineButtons = [];
@@ -369,7 +370,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const video = document.createElement('video');
             video.className = 'gallery-card-image';
             video.muted = true;
-            video.autoplay = true;
+            video.autoplay = !shouldDisablePreviewVideoPlayback();
             video.loop = true;
             video.playsInline = true;
             video.preload = 'none';
@@ -453,6 +454,27 @@ document.addEventListener('DOMContentLoaded', async () => {
         plane.mediaElement.dataset.mediaReady = readyValue;
     }
 
+    function shouldDisablePreviewVideoPlayback() {
+        return mobilePreviewVideoQuery.matches;
+    }
+
+    function disableProjectVideoPreview(plane) {
+        cancelQueuedProjectMedia(plane);
+        plane.mediaElement.autoplay = false;
+
+        if (plane.mediaState === 'detached' && !plane.mediaElement.hasAttribute('src')) {
+            return;
+        }
+
+        plane.mediaElement.pause();
+        plane.mediaElement.preload = 'none';
+        plane.mediaElement.removeAttribute('src');
+        plane.mediaElement.load();
+        plane.mediaState = 'detached';
+        plane.mediaReady = false;
+        syncProjectMediaState(plane);
+    }
+
     function cancelQueuedProjectMedia(plane) {
         if (!queuedMediaAttachIndexes.has(plane.index)) {
             return;
@@ -521,11 +543,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         const distance = Math.abs(targetScroll - state.scrollZ);
+
+        if (plane.mediaType === 'video' && shouldDisablePreviewVideoPlayback()) {
+            disableProjectVideoPreview(plane);
+            return;
+        }
+
         plane.mediaState = 'attached';
         plane.mediaReady = false;
         syncProjectMediaState(plane);
 
         if (plane.mediaType === 'video') {
+            plane.mediaElement.autoplay = true;
             plane.mediaElement.preload = 'metadata';
             plane.mediaElement.src = plane.mediaSource;
             plane.mediaElement.load();
@@ -572,6 +601,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             const targetScroll = getProjectTargetScroll(plane.index);
             if (targetScroll === null) {
                 detachProjectMedia(plane);
+                return;
+            }
+
+            if (plane.mediaType === 'video' && shouldDisablePreviewVideoPlayback()) {
+                disableProjectVideoPreview(plane);
                 return;
             }
 

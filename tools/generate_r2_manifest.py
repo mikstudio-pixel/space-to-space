@@ -28,6 +28,13 @@ GITIGNORE_END = "# END managed large assets"
 VIDEO_EXT = {".mp4", ".m4v", ".mov", ".webm"}
 IMAGE_EXT = {".jpg", ".jpeg", ".png", ".gif", ".tif", ".tiff", ".webp"}
 DOCUMENT_EXT = {".pdf", ".doc", ".docx", ".odt", ".txt", ".ppt", ".pptx", ".xlsx", ".rtf"}
+SUPPORTED_EXT = VIDEO_EXT | IMAGE_EXT | DOCUMENT_EXT
+IGNORED_DIRS = {"node_modules"}
+IGNORED_FILES = {
+    ".DS_Store",
+    "README_works_vybrani_fianl.md",
+    "works_vybrani_fianl.json",
+}
 
 
 def asset_kind(path: Path) -> str:
@@ -54,7 +61,12 @@ def bytes_to_human(num_bytes: int) -> str:
 def collect_asset_entries() -> list[dict[str, object]]:
     entries: list[dict[str, object]] = []
     for path in sorted(ASSETS.rglob("*"), key=lambda item: str(item)):
-        if not path.is_file() or path.name in {".DS_Store"} or path.name.startswith("._"):
+        if not path.is_file() or path.name.startswith("._") or path.name in IGNORED_FILES:
+            continue
+        rel_path = path.relative_to(ASSETS)
+        if any(part in IGNORED_DIRS for part in rel_path.parts):
+            continue
+        if path.suffix.lower() not in SUPPORTED_EXT:
             continue
         rel = path.relative_to(ROOT).as_posix()
         size = path.stat().st_size

@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const body = document.body;
+    const params = new URLSearchParams(window.location.search);
     const scene = document.querySelector('.scene');
     const intro = document.querySelector('.gallery-intro');
     const introTitle = document.querySelector('.gallery-intro-title');
@@ -23,7 +24,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const spacing = 1400;
     const startOffset = 120;
     const positions = ['pos-center', 'pos-tl', 'pos-tr', 'pos-bl', 'pos-br'];
-    const galleryCategoryLabels = ['rituals', 'ecologies', 'memory', 'play', 'speculative'];
     const renderedTunnelSegments = 12;
     const maxRenderedScrollDistance = spacing * (renderedTunnelSegments + 2);
     const mediaAttachDistance = spacing * 7.05;
@@ -42,6 +42,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         maxHeightRatio: 0.85,
         stackGap: 14,
         footerReservedHeight: 108
+    };
+    const categoryTransitionConfig = {
+        hideStepMs: 42,
+        showStepMs: 56,
+        settleMs: 240,
+        switchPauseMs: 90
+    };
+    const outlineRevealConfig = {
+        initialDelayMs: 40,
+        stepMs: 26
     };
     const introConfig = {
         duration: 3000,
@@ -64,10 +74,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const wireframeOverlay = document.querySelector('.wireframe-overlay');
     const isWireframeVisible = wireframeOverlay && window.getComputedStyle(wireframeOverlay).display !== 'none';
+    const shouldPlayIntro = !['0', 'false', 'skip'].includes((params.get('intro') || '').toLowerCase());
 
     let projects = [];
     let galleryOutlineButtons = [];
     let galleryCategoryButtons = [];
+    let visibleProjectIndexes = [];
+    let visibleProjectLookup = new Map();
     let galleryOutlineIdleTimer = null;
     let projectPlanes = [];
     let queuedMediaAttachIndexes = new Set();
@@ -79,9 +92,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     let lastMediaUpdateScrollZ = Number.NaN;
     let lastStackingUpdateScrollZ = Number.NaN;
     let lastStackingNearestIndex = -1;
+    let categoryTransitionToken = 0;
+    let outlineRevealToken = 0;
+    let isCategoryTransitionActive = false;
     const wheelSpeed = 2.5;
     const touchMultiplier = 3;
-    const darkModeToggle = document.getElementById('darkModeToggle');
     const categoryState = {
         isOpen: false,
         selectedCategory: null
@@ -97,11 +112,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         viewportWidth: window.innerWidth,
         viewportHeight: window.innerHeight,
         scenePerspective: introConfig.endPerspective,
-        introActive: Boolean(body && scene && intro && introTitle),
+        introActive: Boolean(body && scene && intro && introTitle && shouldPlayIntro),
         introAnimationDone: false
     };
 
-    initDarkMode();
+    body.classList.toggle('dark-mode', document.documentElement.classList.contains('dark-mode'));
 
     try {
         const payload = await loadProjectsPayload();
@@ -110,9 +125,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         projects = eligibleWorks.map((work, index) => ({
             slug: work.slug,
             title: work.title || `Project ${index + 1}`,
-            category: galleryCategoryLabels[index % galleryCategoryLabels.length],
+            category: typeof work.category === 'string'
+                ? work.category.trim()
+                : '',
             menuAsset: work.menuAsset || 'assets/site/video-thumbnail.webp',
             menuAssetType: work.menuAssetType || 'image',
+            menuAssetBytes: Number.isFinite(work.menuAssetBytes) ? work.menuAssetBytes : 0,
+            menuAssetBytesHuman: typeof work.menuAssetBytesHuman === 'string' ? work.menuAssetBytesHuman : 'size unavailable',
             menuAssetIsR2: isR2AssetPath(work.menuAsset),
             position: positions[index % positions.length],
             url: `home.html?slug=${encodeURIComponent(work.slug)}`
@@ -149,6 +168,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function lerp(start, end, t) {
         return start + (end - start) * t;
+    }
+
+    function wait(ms) {
+        return new Promise((resolve) => {
+            window.setTimeout(resolve, ms);
+        });
     }
 
     function easeInOutCubic(t) {
@@ -217,6 +242,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             forceOutline: true,
             includeWireframe: true
         });
+        void animateOutlineNavReveal();
     }
 
     function runGalleryIntro() {
@@ -265,6 +291,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             card.className = `gallery-card ${project.position}`;
             card.href = project.url;
             card.dataset.visibilityState = 'future';
+            card.dataset.filterTransitionState = 'visible';
 
             const media = createGalleryMedia(project);
             const title = document.createElement('h2');
@@ -304,11 +331,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (!categoryState.selectedCategory) {
                     return;
                 }
-                categoryState.selectedCategory = null;
-                setGalleryCategoryMenuOpen(false);
-                applyGalleryCategoryFilter();
                 pingGalleryOutlineNav();
-                requestGalleryRender();
+                void runCategoryFilterTransition(null);
             });
         }
         if (outlineNavFooter && !outlineNavFooter.dataset.bound) {
@@ -334,9 +358,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         placeholder.setAttribute('aria-hidden', 'true');
         shell.appendChild(placeholder);
 
-        if (project.menuAssetIsR2) {
-            shell.appendChild(createR2Badge());
-        }
+        shell.appendChild(
+            createMediaDebugOverlay(project.menuAsset, {
+                showR2Badge: project.menuAssetIsR2,
+                sizeLabel: project.menuAssetBytesHuman
+            })
+        );
 
         if (project.menuAssetType === 'video') {
             const video = document.createElement('video');
@@ -373,12 +400,22 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
     }
 
-    function createR2Badge() {
-        const badge = document.createElement('span');
-        badge.className = 'media-badge-r2';
-        badge.textContent = 'R2';
-        badge.setAttribute('aria-label', 'Media hosted on R2');
-        return badge;
+    function createMediaDebugOverlay(assetPath, options = {}) {
+        if (window.SpaceToSpaceMediaDebug && typeof window.SpaceToSpaceMediaDebug.createOverlay === 'function') {
+            return window.SpaceToSpaceMediaDebug.createOverlay(assetPath, options);
+        }
+
+        const overlay = document.createElement('div');
+        overlay.className = 'media-debug-overlay';
+
+        if (options.showR2Badge) {
+            const badge = document.createElement('span');
+            badge.className = 'media-badge-r2';
+            badge.textContent = 'R';
+            overlay.appendChild(badge);
+        }
+
+        return overlay;
     }
 
     function bindProjectMediaState(plane) {
@@ -460,8 +497,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         pendingMediaAttachQueue.push(plane);
         if (!skipSort) {
             pendingMediaAttachQueue.sort((planeA, planeB) => {
-                const distanceA = Math.abs(getProjectTargetScroll(planeA.index) - state.scrollZ);
-                const distanceB = Math.abs(getProjectTargetScroll(planeB.index) - state.scrollZ);
+                const targetScrollA = getProjectTargetScroll(planeA.index);
+                const targetScrollB = getProjectTargetScroll(planeB.index);
+                const distanceA = targetScrollA === null ? Number.POSITIVE_INFINITY : Math.abs(targetScrollA - state.scrollZ);
+                const distanceB = targetScrollB === null ? Number.POSITIVE_INFINITY : Math.abs(targetScrollB - state.scrollZ);
                 return distanceA - distanceB;
             });
         }
@@ -476,7 +515,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
-        const distance = Math.abs(getProjectTargetScroll(plane.index) - state.scrollZ);
+        const targetScroll = getProjectTargetScroll(plane.index);
+        if (targetScroll === null) {
+            return;
+        }
+
+        const distance = Math.abs(targetScroll - state.scrollZ);
         plane.mediaState = 'attached';
         plane.mediaReady = false;
         syncProjectMediaState(plane);
@@ -525,7 +569,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const attachablePlanes = [];
         projectPlanes.forEach((plane) => {
-            const distance = Math.abs(getProjectTargetScroll(plane.index) - state.scrollZ);
+            const targetScroll = getProjectTargetScroll(plane.index);
+            if (targetScroll === null) {
+                detachProjectMedia(plane);
+                return;
+            }
+
+            const distance = Math.abs(targetScroll - state.scrollZ);
             if (distance <= mediaAttachDistance) {
                 attachablePlanes.push(plane);
                 return;
@@ -549,7 +599,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function getPlaneLocalZ(index) {
-        return (state.roomDepth / 2) - (getProjectTargetScroll(index) - state.scrollZ);
+        const targetScroll = getProjectTargetScroll(index);
+        if (targetScroll === null) {
+            return null;
+        }
+
+        return (state.roomDepth / 2) - (targetScroll - state.scrollZ);
     }
 
     function updateProjectPlaneTransforms() {
@@ -558,7 +613,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         projectPlanes.forEach((plane) => {
-            const scrollDistance = getProjectTargetScroll(plane.index) - state.scrollZ;
+            const targetScroll = getProjectTargetScroll(plane.index);
+            if (targetScroll === null) {
+                if (plane.isRendered) {
+                    plane.isRendered = false;
+                    plane.partition.style.display = 'none';
+                }
+                if (plane.mediaState === 'attached') {
+                    detachProjectMedia(plane);
+                }
+                plane.isCulled = true;
+                plane.partition.style.visibility = 'hidden';
+                return;
+            }
+
+            const scrollDistance = targetScroll - state.scrollZ;
             const shouldRender = Math.abs(scrollDistance) <= maxRenderedScrollDistance;
 
             if (plane.isRendered !== shouldRender) {
@@ -575,6 +644,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             const localZ = getPlaneLocalZ(plane.index);
+            if (localZ === null) {
+                plane.isCulled = true;
+                plane.partition.style.visibility = 'hidden';
+                return;
+            }
             if (Math.abs(localZ - plane.localZ) < 0.01) {
                 return;
             }
@@ -653,11 +727,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function getNearestProjectIndex(scrollZ = state.scrollZ) {
-        if (projects.length === 0) {
+        if (visibleProjectIndexes.length === 0) {
             return -1;
         }
 
-        return clamp(Math.round((scrollZ - startOffset) / spacing), 0, projects.length - 1);
+        const visibleIndex = clamp(
+            Math.round((scrollZ - startOffset) / spacing),
+            0,
+            visibleProjectIndexes.length - 1
+        );
+        return visibleProjectIndexes[visibleIndex];
     }
 
     function shouldUpdateVisibleProjectMedia(force = false) {
@@ -709,7 +788,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function getProjectTargetScroll(index) {
-        return Math.max(0, Math.min(index * spacing + startOffset, state.maxScroll));
+        const visibleIndex = visibleProjectLookup.get(index);
+        if (typeof visibleIndex !== 'number') {
+            return null;
+        }
+
+        return Math.max(0, Math.min(visibleIndex * spacing + startOffset, state.maxScroll));
     }
 
     function pingGalleryOutlineNav() {
@@ -731,23 +815,190 @@ document.addEventListener('DOMContentLoaded', async () => {
         return galleryOutlineButtons.filter((entry) => !entry.button.hidden);
     }
 
-    function getNearestProjectIndexForCategory(category, originIndex = getNearestProjectIndex()) {
-        let nearestMatchIndex = -1;
-        let nearestDistance = Number.POSITIVE_INFINITY;
+    function setOutlineEntriesRevealState(entries, revealState) {
+        entries.forEach((entry) => {
+            entry.button.dataset.outlineRevealState = revealState;
+        });
+    }
 
-        projects.forEach((project, index) => {
-            if (project.category !== category) {
+    async function animateOutlineNavReveal() {
+        if (galleryOutlineButtons.length === 0) {
+            return;
+        }
+
+        const token = ++outlineRevealToken;
+        const visibleEntries = getVisibleOutlineEntries();
+        setOutlineEntriesRevealState(visibleEntries, 'hidden');
+        await wait(outlineRevealConfig.initialDelayMs);
+
+        for (const entry of visibleEntries) {
+            if (token !== outlineRevealToken) {
                 return;
             }
 
-            const distance = Math.abs(index - originIndex);
-            if (distance < nearestDistance) {
-                nearestDistance = distance;
-                nearestMatchIndex = index;
+            entry.button.dataset.outlineRevealState = 'visible';
+            await wait(outlineRevealConfig.stepMs);
+        }
+    }
+
+    function getProjectIndexesForCategory(selectedCategory = categoryState.selectedCategory) {
+        const nextIndexes = [];
+
+        projects.forEach((project, index) => {
+            if (selectedCategory && project.category !== selectedCategory) {
+                return;
             }
+
+            nextIndexes.push(index);
         });
 
-        return nearestMatchIndex;
+        return nextIndexes;
+    }
+
+    function rebuildVisibleProjectIndexes() {
+        visibleProjectIndexes = getProjectIndexesForCategory();
+        visibleProjectLookup = new Map();
+
+        visibleProjectIndexes.forEach((index, visibleIndex) => {
+            visibleProjectLookup.set(index, visibleIndex);
+        });
+
+        state.maxScroll = Math.max(0, (visibleProjectIndexes.length + 2) * spacing);
+        state.scrollZ = clamp(state.scrollZ, 0, state.maxScroll);
+        state.targetScrollZ = clamp(state.targetScrollZ, 0, state.maxScroll);
+    }
+
+    function getAnimatedProjectIndexes(indexes) {
+        return indexes.filter((index) => {
+            const plane = projectPlanes[index];
+            return plane
+                && plane.partition.style.display !== 'none'
+                && plane.partition.style.visibility !== 'hidden';
+        });
+    }
+
+    function setProjectFilterTransitionState(indexes, transitionState) {
+        indexes.forEach((index) => {
+            const plane = projectPlanes[index];
+            if (!plane) {
+                return;
+            }
+
+            plane.card.dataset.filterTransitionState = transitionState;
+        });
+    }
+
+    async function animateProjectFilterOut(indexes, token) {
+        const animatedIndexes = getAnimatedProjectIndexes(indexes);
+        for (const index of animatedIndexes) {
+            if (token !== categoryTransitionToken) {
+                return false;
+            }
+
+            setProjectFilterTransitionState([index], 'hiding');
+            await wait(categoryTransitionConfig.hideStepMs);
+        }
+
+        if (animatedIndexes.length > 0) {
+            await wait(categoryTransitionConfig.settleMs);
+        }
+
+        if (token !== categoryTransitionToken) {
+            return false;
+        }
+
+        setProjectFilterTransitionState(indexes, 'hidden');
+        return true;
+    }
+
+    async function animateProjectFilterIn(indexes, token) {
+        const animatedIndexes = getAnimatedProjectIndexes(indexes);
+        for (const index of animatedIndexes) {
+            if (token !== categoryTransitionToken) {
+                return false;
+            }
+
+            setProjectFilterTransitionState([index], 'showing');
+            await wait(categoryTransitionConfig.showStepMs);
+        }
+
+        if (animatedIndexes.length > 0) {
+            await wait(categoryTransitionConfig.settleMs);
+        }
+
+        if (token !== categoryTransitionToken) {
+            return false;
+        }
+
+        setProjectFilterTransitionState(indexes, 'visible');
+        return true;
+    }
+
+    async function animateScrollTo(targetScroll, token) {
+        state.targetScrollZ = clamp(targetScroll, 0, state.maxScroll);
+        requestGalleryRender();
+
+        while (Math.abs(state.targetScrollZ - state.scrollZ) > scrollEpsilon) {
+            if (token !== categoryTransitionToken) {
+                return false;
+            }
+
+            await wait(16);
+        }
+
+        state.scrollZ = state.targetScrollZ;
+        return true;
+    }
+
+    async function runCategoryFilterTransition(nextCategory) {
+        if (categoryState.selectedCategory === nextCategory) {
+            setGalleryCategoryMenuOpen(false);
+            return;
+        }
+
+        const previousVisibleIndexes = visibleProjectIndexes.slice();
+        const token = ++categoryTransitionToken;
+        isCategoryTransitionActive = true;
+        body.classList.add('gallery-filter-transitioning');
+        state.targetScrollZ = state.scrollZ;
+        setGalleryCategoryMenuOpen(false);
+        categoryState.selectedCategory = nextCategory;
+        updateGalleryCategoryNavState();
+        syncOutlineNavFooter();
+
+        const hideCompleted = await animateProjectFilterOut(previousVisibleIndexes, token);
+        if (!hideCompleted || token !== categoryTransitionToken) {
+            return;
+        }
+
+        const scrollCompleted = await animateScrollTo(0, token);
+        if (!scrollCompleted || token !== categoryTransitionToken) {
+            return;
+        }
+
+        const nextVisibleIndexes = getProjectIndexesForCategory(nextCategory);
+        setProjectFilterTransitionState(nextVisibleIndexes, 'hidden');
+        applyGalleryCategoryFilter({ snapToCategory: false, revealState: 'hidden' });
+        await wait(categoryTransitionConfig.switchPauseMs);
+
+        if (token !== categoryTransitionToken) {
+            return;
+        }
+
+        const showCompleted = await animateProjectFilterIn(nextVisibleIndexes, token);
+        if (!showCompleted || token !== categoryTransitionToken) {
+            return;
+        }
+
+        refreshGalleryScene({
+            forceMedia: true,
+            forceStacking: true,
+            forceOutline: true,
+            includeWireframe: true
+        });
+        isCategoryTransitionActive = false;
+        body.classList.remove('gallery-filter-transitioning');
+        void animateOutlineNavReveal();
     }
 
     function syncOutlineNavFooter() {
@@ -798,26 +1049,33 @@ document.addEventListener('DOMContentLoaded', async () => {
         updateGalleryCategoryNavState();
     }
 
-    function applyGalleryCategoryFilter({ snapToCategory = false } = {}) {
+    function applyGalleryCategoryFilter({ snapToCategory = false, revealState = 'visible' } = {}) {
         const selectedCategory = categoryState.selectedCategory;
 
         galleryOutlineButtons.forEach((entry) => {
             const isVisible = !selectedCategory || entry.category === selectedCategory;
             entry.button.hidden = !isVisible;
             entry.button.setAttribute('aria-hidden', isVisible ? 'false' : 'true');
+            entry.button.dataset.outlineRevealState = isVisible ? revealState : 'hidden';
         });
 
-        if (selectedCategory && snapToCategory) {
-            const nearestMatchIndex = getNearestProjectIndexForCategory(selectedCategory);
-            if (nearestMatchIndex >= 0) {
-                state.targetScrollZ = getProjectTargetScroll(nearestMatchIndex);
-            }
+        rebuildVisibleProjectIndexes();
+
+        if (snapToCategory) {
+            state.scrollZ = 0;
+            state.targetScrollZ = 0;
         }
 
         updateGalleryOutlineNavLayout();
         updateGalleryOutlineNavActive();
         updateGalleryCategoryNavState();
         syncOutlineNavFooter();
+        refreshGalleryScene({
+            forceMedia: true,
+            forceStacking: true,
+            forceOutline: true,
+            includeWireframe: true
+        });
     }
 
     function updateGalleryOutlineNavActive(activeIndex = getNearestProjectIndex()) {
@@ -882,7 +1140,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             plane.card.dataset.visibilityState = visibilityState;
         });
 
-        const sortedPlanes = projectPlanes.filter((plane) => plane.isRendered).sort((planeA, planeB) => {
+        const sortedPlanes = projectPlanes.filter((plane) => {
+            return plane.isRendered && getProjectTargetScroll(plane.index) !== null;
+        }).sort((planeA, planeB) => {
             const distanceA = Math.abs(getProjectTargetScroll(planeA.index) - state.scrollZ);
             const distanceB = Math.abs(getProjectTargetScroll(planeB.index) - state.scrollZ);
             return distanceA - distanceB;
@@ -912,6 +1172,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             button.type = 'button';
             button.className = 'outline-nav-item';
             button.setAttribute('aria-label', project.title);
+            button.dataset.outlineRevealState = state.introActive ? 'hidden' : 'visible';
 
             const line = document.createElement('span');
             line.className = 'outline-nav-line';
@@ -925,7 +1186,15 @@ document.addEventListener('DOMContentLoaded', async () => {
             outlineNavItems.appendChild(button);
 
             button.addEventListener('click', () => {
-                state.targetScrollZ = getProjectTargetScroll(index);
+                if (isCategoryTransitionActive) {
+                    return;
+                }
+
+                const targetScroll = getProjectTargetScroll(index);
+                if (targetScroll === null) {
+                    return;
+                }
+                state.targetScrollZ = targetScroll;
                 setGalleryCategoryMenuOpen(false);
                 pingGalleryOutlineNav();
                 requestGalleryRender();
@@ -938,7 +1207,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             };
         });
 
-        applyGalleryCategoryFilter();
+        applyGalleryCategoryFilter({ revealState: state.introActive ? 'hidden' : 'visible' });
         pingGalleryOutlineNav();
         updateGalleryOutlineNavActive();
     }
@@ -948,7 +1217,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
-        const categories = Array.from(new Set(projects.map((project) => project.category)));
+        const categories = Array.from(
+            new Set(
+                projects
+                    .map((project) => project.category)
+                    .filter(Boolean)
+            )
+        );
         outlineNavCategories.innerHTML = '';
         galleryCategoryButtons = categories.map((category) => {
             const button = document.createElement('button');
@@ -962,11 +1237,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             outlineNavCategories.appendChild(button);
 
             button.addEventListener('click', () => {
-                categoryState.selectedCategory = category;
-                setGalleryCategoryMenuOpen(false);
-                applyGalleryCategoryFilter({ snapToCategory: true });
                 pingGalleryOutlineNav();
-                requestGalleryRender();
+                void runCategoryFilterTransition(category);
             });
 
             return {
@@ -980,7 +1252,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function applyScrollDelta(delta) {
-        if (state.introActive) {
+        if (state.introActive || isCategoryTransitionActive) {
             return;
         }
 
@@ -1106,29 +1378,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     });
 
-    function initDarkMode() {
-        if (!darkModeToggle) {
-            return;
-        }
-
-        const savedMode = localStorage.getItem('darkMode');
-        if (savedMode === 'true') {
-            body.classList.add('dark-mode');
-            darkModeToggle.textContent = '●';
-            darkModeToggle.classList.add('active');
-        } else {
-            darkModeToggle.textContent = '○';
-            darkModeToggle.classList.remove('active');
-        }
-
-        darkModeToggle.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-            const isDark = body.classList.contains('dark-mode');
-            darkModeToggle.textContent = isDark ? '●' : '○';
-            darkModeToggle.classList.toggle('active', isDark);
-            localStorage.setItem('darkMode', isDark);
-        });
-    }
 });
 
 async function loadProjectsPayload() {

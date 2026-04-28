@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (window.SpaceToSpaceHome && typeof window.SpaceToSpaceHome.refresh === 'function') {
             window.SpaceToSpaceHome.refresh();
+            if (typeof window.SpaceToSpaceHome.playIntro === 'function') {
+                window.SpaceToSpaceHome.playIntro();
+            }
         }
     } catch (error) {
         const message = error instanceof Error ? error.message : 'Unknown error';
@@ -44,12 +47,7 @@ function renderProject(project, containers) {
     const visualAssets = normalizeVisualAssets(project);
     const infoCard = createInfoCard(project, visualAssets);
     const trailingCards = visualAssets.slice(1).map((asset, index) => createVisualCard(asset, index + 2));
-    const resourceCard = createResourceCard(project);
-
     const cards = [infoCard, ...trailingCards];
-    if (resourceCard) {
-        cards.push(resourceCard);
-    }
 
     containers.forEach((container) => {
         container.innerHTML = '';
@@ -57,6 +55,8 @@ function renderProject(project, containers) {
             container.appendChild(card.cloneNode(true));
         });
     });
+
+    bindProjectInteractions(containers);
 }
 
 function normalizeVisualAssets(project) {
@@ -73,6 +73,8 @@ function normalizeVisualAssets(project) {
             path: menuAsset,
             type: typeof project.menuAssetType === 'string' && project.menuAssetType === 'video' ? 'video' : 'image',
             source: menuAsset,
+            bytes: Number.isFinite(project.menuAssetBytes) ? project.menuAssetBytes : 0,
+            bytesHuman: typeof project.menuAssetBytesHuman === 'string' ? project.menuAssetBytesHuman : 'size unavailable',
         },
     ];
 }
@@ -146,11 +148,20 @@ function createVisualCard(asset, index) {
 
 function createMediaElement(asset, altText, isGrid) {
     const frame = document.createElement('div');
-    frame.className = 'project-media-frame';
+    frame.className = 'project-media-frame project-focus-trigger';
+    frame.setAttribute('role', 'button');
+    frame.tabIndex = 0;
+    frame.dataset.projectFocusTrigger = 'true';
+    frame.dataset.projectFocusKind = asset.type === 'video' ? 'video' : 'image';
+    frame.dataset.projectFocusSrc = asset.path;
+    frame.dataset.projectFocusLabel = altText;
 
-    if (isR2AssetPath(asset.path)) {
-        frame.appendChild(createR2Badge());
-    }
+    frame.appendChild(
+        createMediaDebugOverlay(asset.path, {
+            showR2Badge: isR2AssetPath(asset.path),
+            sizeLabel: typeof asset.bytesHuman === 'string' ? asset.bytesHuman : 'size unavailable'
+        })
+    );
 
     if (asset.type === 'video') {
         const video = document.createElement('video');
@@ -176,12 +187,22 @@ function createMediaElement(asset, altText, isGrid) {
     return frame;
 }
 
-function createR2Badge() {
-    const badge = document.createElement('span');
-    badge.className = 'media-badge-r2';
-    badge.textContent = 'R2';
-    badge.setAttribute('aria-label', 'Media hosted on R2');
-    return badge;
+function createMediaDebugOverlay(assetPath, options = {}) {
+    if (window.SpaceToSpaceMediaDebug && typeof window.SpaceToSpaceMediaDebug.createOverlay === 'function') {
+        return window.SpaceToSpaceMediaDebug.createOverlay(assetPath, options);
+    }
+
+    const overlay = document.createElement('div');
+    overlay.className = 'media-debug-overlay';
+
+    if (options.showR2Badge) {
+        const badge = document.createElement('span');
+        badge.className = 'media-badge-r2';
+        badge.textContent = 'R';
+        overlay.appendChild(badge);
+    }
+
+    return overlay;
 }
 
 function createContacts(contacts) {
@@ -220,6 +241,10 @@ function createDocumentLinks(project) {
         link.textContent = `Document ${index + 1}`;
         link.target = '_blank';
         link.rel = 'noreferrer';
+        link.dataset.projectFocusTrigger = 'true';
+        link.dataset.projectFocusKind = 'document';
+        link.dataset.projectFocusSrc = path;
+        link.dataset.projectFocusLabel = `Document ${index + 1}`;
         wrapper.appendChild(link);
     });
 
@@ -289,4 +314,55 @@ async function loadProjectsPayload() {
 
 function isR2AssetPath(path) {
     return typeof path === 'string' && path.includes('.r2.dev/');
+}
+
+function bindProjectInteractions(containers) {
+    containers.forEach((container) => {
+        if (container.dataset.projectInteractionsBound === 'true') {
+            return;
+        }
+
+        container.dataset.projectInteractionsBound = 'true';
+
+        container.addEventListener('click', (event) => {
+            const trigger = event.target.closest('[data-project-focus-trigger="true"]');
+            if (!(trigger instanceof HTMLElement)) {
+                return;
+            }
+
+            handleProjectFocusTrigger(trigger, event);
+        });
+
+        container.addEventListener('keydown', (event) => {
+            if (event.key !== 'Enter' && event.key !== ' ') {
+                return;
+            }
+
+            const trigger = event.target.closest('[data-project-focus-trigger="true"]');
+            if (!(trigger instanceof HTMLElement)) {
+                return;
+            }
+
+            handleProjectFocusTrigger(trigger, event);
+        });
+    });
+}
+
+function handleProjectFocusTrigger(trigger, event) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    const { projectFocusKind: kind, projectFocusSrc: src, projectFocusLabel: label } = trigger.dataset;
+    if (!src) {
+        return;
+    }
+
+    if (window.SpaceToSpaceHome && typeof window.SpaceToSpaceHome.focusMedia === 'function') {
+        window.SpaceToSpaceHome.focusMedia({ kind, src, label, trigger });
+        return;
+    }
+
+    if (kind === 'document') {
+        window.open(src, '_blank', 'noopener,noreferrer');
+    }
 }

@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Space-to-Space - Home</title>
     <script src="js/theme-preload.js"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -12,20 +15,31 @@
     <div class="overlay-ui">
         
         <nav class="side-nav left">
-            <a href="index.html">projects</a>
-            <a href="home.html" class="active">project</a>
-            <a href="contact.html">video</a>
+            <div class="side-nav-group">
+                <a href="index.html" class="side-nav-brand">SPACE TO SPACE</a>
+            </div>
+            <div class="side-nav-group">
+                <a href="index.html?intro=0">projects</a>
+                <a href="about.html">about</a>
+            </div>
+        </nav>
+
+        <nav class="theme-nav" aria-label="Theme toggle">
+            <button id="darkModeToggle" type="button">light</button>
         </nav>
         
         <nav class="outline-nav" aria-label="Page sections">
             <div class="outline-nav-items"></div>
         </nav>
 
-        <div class="controls">
-            <div class="control-row">
-                <label for="darkModeToggle">Dark Mode</label>
-                <button id="darkModeToggle" class="toggle-btn">○</button>
+        <div class="debug-controls" aria-label="Debug controls">
+            <div class="debug-control-row">
+                <label for="mediaDebugToggle">Media Debug</label>
+                <button id="mediaDebugToggle" class="toggle-btn" data-media-debug-toggle aria-pressed="false">○</button>
             </div>
+        </div>
+
+        <div class="controls">
             <div class="control-row">
                 <label for="colorModeToggle">B/W Mode</label>
                 <button id="colorModeToggle" class="toggle-btn">○</button>
@@ -77,6 +91,7 @@
 
     <script src="data/projects-data.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/media-debug-toggle.js"></script>
     <script src="js/project-detail.js"></script>
     <script src="js/theme-toggle.js"></script>
 </body>

@@ -109,27 +109,7 @@
 // Dark Mode Toggle
 (function() {
     function initDarkMode() {
-        const toggleBtn = document.getElementById('darkModeToggle');
-        if (!toggleBtn) return;
-
-        // Načíst uloženou preferenci
-        const savedMode = localStorage.getItem('darkMode');
-        if (savedMode === 'true') {
-            document.body.classList.add('dark-mode');
-            toggleBtn.textContent = '●';
-            toggleBtn.classList.add('active');
-        }
-
-        toggleBtn.addEventListener('click', () => {
-            document.body.classList.toggle('dark-mode');
-            const isDark = document.body.classList.contains('dark-mode');
-            
-            toggleBtn.textContent = isDark ? '●' : '○';
-            toggleBtn.classList.toggle('active', isDark);
-            
-            // Uložit preferenci
-            localStorage.setItem('darkMode', isDark);
-        });
+        document.body.classList.toggle('dark-mode', document.documentElement.classList.contains('dark-mode'));
     }
 
     if (document.readyState === 'loading') {

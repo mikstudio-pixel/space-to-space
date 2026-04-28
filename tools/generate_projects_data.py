@@ -8,17 +8,26 @@ from collections.abc import Callable
 from datetime import datetime, timezone
 from pathlib import Path
 
+from deploy_asset_paths import build_asset_deploy_map, should_skip_asset
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
-ASSETS_ROOT = ROOT / "assets" / "projects"
+ASSETS_ROOT = ROOT / "assets"
 SELECTED_PATH = DATA_DIR / "projects-selected.json"
 PROJECTS_PATH = DATA_DIR / "projects.json"
 PROJECTS_JS_PATH = DATA_DIR / "projects-data.js"
 EXTERNAL_MEDIA_PATH = DATA_DIR / "external-media.json"
 EXTERNAL_DOCUMENTS_PATH = DATA_DIR / "external-documents.json"
 R2_UPLOAD_LIST_PATH = ROOT / "tools" / "r2-upload-paths.txt"
-FALLBACK_MENU_ASSET = "assets/site/video-thumbnail.webp"
+FALLBACK_MENU_ASSET = ""
+R2_URL_PATTERN = re.compile(r"https://[^\"'\s)]+\.r2\.dev")
+IGNORED_ASSET_DIRS = {"node_modules"}
+IGNORED_ASSET_FILES = {
+    ".DS_Store",
+    "README_works_vybrani_fianl.md",
+    "works_vybrani_fianl.json",
+}
 
 EXTERNAL_MEDIA_EXTENSIONS = {".mp4", ".m4v", ".mov", ".gif"}
 DOCUMENT_EXTENSIONS = {".pdf", ".doc", ".docx", ".odt", ".txt", ".ppt", ".pptx", ".xlsx", ".rtf"}
@@ -75,6 +84,44 @@ def asset_type_for_path(path: str) -> str:
     return "other"
 
 
+def format_bytes_human(bytes_count: int) -> str:
+    if bytes_count <= 0:
+        return "size unavailable"
+
+    units = ["B", "KB", "MB", "GB"]
+    value = float(bytes_count)
+    unit_index = 0
+
+    while value >= 1024 and unit_index < len(units) - 1:
+        value /= 1024
+        unit_index += 1
+
+    if unit_index == 0 or value >= 100:
+        precision = 0
+    elif value >= 10:
+        precision = 1
+    else:
+        precision = 2
+
+    return f"{value:.{precision}f} {units[unit_index]}"
+
+
+def detect_media_base() -> str:
+    if not PROJECTS_PATH.exists():
+        return ""
+    try:
+        payload = json.loads(PROJECTS_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        payload = None
+    if isinstance(payload, dict):
+        media_base = payload.get("mediaBase")
+        if isinstance(media_base, str) and media_base.strip():
+            return media_base.strip().rstrip("/")
+    text = PROJECTS_PATH.read_text(encoding="utf-8")
+    match = R2_URL_PATTERN.search(text)
+    return match.group(0).rstrip("/") if match else ""
+
+
 def load_r2_upload_paths() -> set[str]:
     """Paths listed for R2 upload (see tools/generate_r2_manifest.py)."""
     if not R2_UPLOAD_LIST_PATH.exists():
@@ -83,7 +130,11 @@ def load_r2_upload_paths() -> set[str]:
     return {line.strip() for line in text.splitlines() if line.strip()}
 
 
-def make_media_path_rewrite(media_base: str, r2_paths: set[str]) -> Callable[[str], str]:
+def make_media_path_rewrite(
+    media_base: str,
+    r2_paths: set[str],
+    deploy_path_map: dict[str, str],
+) -> Callable[[str], str]:
     """If SPACE_TO_SPACE_MEDIA_BASE is set, rewrite paths that exist on R2."""
     base = media_base.strip().rstrip("/")
     if not base:
@@ -100,45 +151,64 @@ def make_media_path_rewrite(media_base: str, r2_paths: set[str]) -> Callable[[st
         if lower.startswith("http://") or lower.startswith("https://"):
             return path
         if path in r2_paths:
-            return f"{base}/{path}"
+            return f"{base}/{deploy_path_map.get(path, path)}"
         return path
 
     return rewrite
 
 
-def build_asset_index() -> dict[str, list[dict[str, object]]]:
-    index: dict[str, list[dict[str, object]]] = {}
+def build_asset_indexes() -> tuple[dict[str, list[dict[str, object]]], dict[str, list[dict[str, object]]]]:
+    basename_index: dict[str, list[dict[str, object]]] = {}
+    source_index: dict[str, list[dict[str, object]]] = {}
     if not ASSETS_ROOT.exists():
-        return index
+        return basename_index, source_index
 
     for file_path in ASSETS_ROOT.rglob("*"):
-        if not file_path.is_file() or file_path.name == ".DS_Store":
+        if should_skip_asset(file_path):
             continue
         basename = strip_known_extensions(file_path.name)
         key = normalize_for_match(basename)
         if not key:
             continue
+        asset_rel_path = file_path.relative_to(ASSETS_ROOT).as_posix()
         repo_path = file_path.relative_to(ROOT).as_posix()
-        index.setdefault(key, []).append(
-            {
-                "path": repo_path,
-                "pathKey": normalize_for_match(repo_path),
-                "basenameKey": key,
-                "type": asset_type_for_path(repo_path),
-            }
-        )
-    return index
+        file_bytes = file_path.stat().st_size
+        record = {
+            "path": repo_path,
+            "pathKey": normalize_for_match(repo_path),
+            "basenameKey": key,
+            "sourceKey": normalize_for_match(asset_rel_path),
+            "type": asset_type_for_path(repo_path),
+            "bytes": file_bytes,
+            "bytesHuman": format_bytes_human(file_bytes),
+        }
+        basename_index.setdefault(key, []).append(record)
+        source_index.setdefault(str(record["sourceKey"]), []).append(record)
+    return basename_index, source_index
 
 
 def resolve_source_path(
     source: str,
     work: dict[str, object],
-    asset_index: dict[str, list[dict[str, object]]],
+    basename_index: dict[str, list[dict[str, object]]],
+    source_index: dict[str, list[dict[str, object]]],
 ) -> dict[str, object] | None:
     basename = strip_known_extensions(Path(source).name)
     source_suffix = Path(source).suffix.lower()
     key = normalize_for_match(basename)
-    candidates = asset_index.get(key, [])
+    direct_candidates = source_index.get(normalize_for_match(source), [])
+    if direct_candidates:
+        if source_suffix:
+            exact_suffix = [
+                candidate
+                for candidate in direct_candidates
+                if Path(str(candidate["path"])).suffix.lower() == source_suffix
+            ]
+            if exact_suffix:
+                return exact_suffix[0]
+        return direct_candidates[0]
+
+    candidates = basename_index.get(key, [])
     if not candidates:
         return None
 
@@ -173,7 +243,8 @@ def resolve_source_path(
 
 def build_project_record(
     work: dict[str, object],
-    asset_index: dict[str, list[dict[str, object]]],
+    basename_index: dict[str, list[dict[str, object]]],
+    source_index: dict[str, list[dict[str, object]]],
     rewrite_path: Callable[[str], str],
 ) -> dict[str, object]:
     author = str(work.get("author", "")).strip()
@@ -187,7 +258,7 @@ def build_project_record(
 
     resolved_assets = []
     for source in sources:
-        resolved = resolve_source_path(source, work, asset_index)
+        resolved = resolve_source_path(source, work, basename_index, source_index)
         if resolved is None:
             continue
         resolved_assets.append(
@@ -195,6 +266,8 @@ def build_project_record(
                 "source": source,
                 "path": resolved["path"],
                 "type": resolved["type"],
+                "bytes": resolved["bytes"],
+                "bytesHuman": resolved["bytesHuman"],
             }
         )
 
@@ -204,8 +277,34 @@ def build_project_record(
     resolved_images = [asset["path"] for asset in resolved_assets if asset["type"] == "image"]
     resolved_videos = [asset["path"] for asset in resolved_assets if asset["type"] == "video"]
     resolved_documents = [asset["path"] for asset in resolved_assets if asset["type"] == "document"]
-    menu_asset = resolved_images[0] if resolved_images else (resolved_videos[0] if resolved_videos else rewrite_path(FALLBACK_MENU_ASSET))
-    menu_asset_type = "image" if resolved_images else ("video" if resolved_videos else "placeholder")
+    preview_source = str(work.get("preview", "")).strip()
+    preview_asset = (
+        resolve_source_path(preview_source, work, basename_index, source_index)
+        if preview_source
+        else None
+    )
+    if preview_asset and str(preview_asset.get("type")) in {"image", "video"}:
+        menu_asset = rewrite_path(str(preview_asset["path"]))
+        menu_asset_type = str(preview_asset["type"])
+        menu_asset_bytes = int(preview_asset["bytes"])
+        menu_asset_bytes_human = str(preview_asset["bytesHuman"])
+    elif resolved_images:
+        menu_asset = resolved_images[0]
+        menu_asset_type = "image"
+        image_asset = next(asset for asset in resolved_assets if asset["path"] == menu_asset and asset["type"] == "image")
+        menu_asset_bytes = int(image_asset["bytes"])
+        menu_asset_bytes_human = str(image_asset["bytesHuman"])
+    elif resolved_videos:
+        menu_asset = resolved_videos[0]
+        menu_asset_type = "video"
+        video_asset = next(asset for asset in resolved_assets if asset["path"] == menu_asset and asset["type"] == "video")
+        menu_asset_bytes = int(video_asset["bytes"])
+        menu_asset_bytes_human = str(video_asset["bytesHuman"])
+    else:
+        menu_asset = rewrite_path(FALLBACK_MENU_ASSET)
+        menu_asset_type = "placeholder"
+        menu_asset_bytes = 0
+        menu_asset_bytes_human = "size unavailable"
 
     return {
         **work,
@@ -220,17 +319,24 @@ def build_project_record(
         "resolvedDocuments": resolved_documents,
         "menuAsset": menu_asset,
         "menuAssetType": menu_asset_type,
+        "menuAssetBytes": menu_asset_bytes,
+        "menuAssetBytesHuman": menu_asset_bytes_human,
     }
 
 
 def main() -> None:
     payload = json.loads(SELECTED_PATH.read_text(encoding="utf-8"))
     works = payload.get("works", [])
-    asset_index = build_asset_index()
+    basename_index, source_index = build_asset_indexes()
+    deploy_path_map = build_asset_deploy_map()
     r2_paths = load_r2_upload_paths()
-    media_base = os.environ.get("SPACE_TO_SPACE_MEDIA_BASE", "").strip()
-    rewrite_path = make_media_path_rewrite(media_base, r2_paths)
-    generated_works = [build_project_record(work, asset_index, rewrite_path) for work in works if isinstance(work, dict)]
+    media_base = os.environ.get("SPACE_TO_SPACE_MEDIA_BASE", "").strip() or detect_media_base()
+    rewrite_path = make_media_path_rewrite(media_base, r2_paths, deploy_path_map)
+    generated_works = [
+        build_project_record(work, basename_index, source_index, rewrite_path)
+        for work in works
+        if isinstance(work, dict)
+    ]
 
     generated_payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),

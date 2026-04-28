@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const PROJECT_MEDIA_MOVE_DURATION_MS = 280;
+    const PROJECT_MEDIA_PRE_ZOOM_PAUSE_MS = 400;
+    const PROJECT_MEDIA_DISSOLVE_DURATION_MS = 220;
+    const PROJECT_MEDIA_RESTORE_PERSPECTIVE_DELAY_MS = 10;
+
     const body = document.body;
     const depthSlider = document.getElementById('depthSlider');
     const scene = document.querySelector('.scene');
@@ -29,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Check if we're on practice scene, home page or contact page
     const isPracticeScene = document.querySelector('.practice-scene') !== null;
     const isHomePage = window.location.pathname.includes('home.html');
+    const isAboutPage = window.location.pathname.includes('about.html');
     const isContactPage = window.location.pathname.includes('contact.html');
 
     let state = {
@@ -45,6 +51,16 @@ document.addEventListener('DOMContentLoaded', () => {
         animationFrame: null,
         suppressSync: false
     };
+    const projectMediaFocusState = {
+        layer: null,
+        shell: null,
+        trigger: null,
+        enterTimer: null,
+        exitTimer: null,
+        restoreTimer: null,
+        activeSrc: '',
+        activeKind: ''
+    };
 
     const tintState = {
         imageCache: new WeakMap(),
@@ -55,6 +71,9 @@ document.addEventListener('DOMContentLoaded', () => {
         sections: [],
         activeIndex: -1,
         idleTimer: null
+    };
+    const homeProjectIntroState = {
+        animationFrame: null
     };
     const tintCanvas = document.createElement('canvas');
     const tintContext = tintCanvas.getContext('2d', { willReadFrequently: true });
@@ -79,6 +98,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function setFrontViewActive(isActive) {
         frontViewState.isActive = isActive;
         body.classList.toggle('front-view-active', isActive);
+        if (!isActive && projectMediaFocusState.exitTimer === null) {
+            clearProjectMediaFocus(true);
+        }
     }
 
     function setDepthSliderValue(val) {
@@ -89,7 +111,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function animateDepthTo(targetDepth, options = {}) {
         const {
             duration = 420,
-            frontViewActive = frontViewState.isActive
+            frontViewActive = frontViewState.isActive,
+            onUpdate = null,
+            onComplete = null
         } = options;
         const startDepth = parseFloat(depthSlider.value);
         const finalDepth = parseFloat(targetDepth);
@@ -109,6 +133,12 @@ document.addEventListener('DOMContentLoaded', () => {
             frontViewState.suppressSync = true;
             setDepthSliderValue(finalDepth);
             frontViewState.suppressSync = false;
+            if (typeof onUpdate === 'function') {
+                onUpdate({ progress: 1, eased: 1, depth: finalDepth });
+            }
+            if (typeof onComplete === 'function') {
+                onComplete();
+            }
             return;
         }
 
@@ -121,6 +151,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const nextDepth = startDepth + (finalDepth - startDepth) * eased;
 
             setDepthSliderValue(nextDepth);
+            if (typeof onUpdate === 'function') {
+                onUpdate({ progress, eased, depth: nextDepth });
+            }
 
             if (progress < 1) {
                 frontViewState.animationFrame = requestAnimationFrame(step);
@@ -130,6 +163,9 @@ document.addEventListener('DOMContentLoaded', () => {
             frontViewState.animationFrame = null;
             setDepthSliderValue(finalDepth);
             frontViewState.suppressSync = false;
+            if (typeof onComplete === 'function') {
+                onComplete();
+            }
         }
 
         frontViewState.animationFrame = requestAnimationFrame(step);
@@ -221,7 +257,280 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        if (projectMediaFocusState.restoreTimer !== null) {
+            window.clearTimeout(projectMediaFocusState.restoreTimer);
+            projectMediaFocusState.restoreTimer = null;
+        }
+
+        if (projectMediaFocusState.activeSrc) {
+            clearProjectMediaFocus(true);
+            projectMediaFocusState.restoreTimer = window.setTimeout(() => {
+                animateDepthTo(frontViewState.restoreDepth, { frontViewActive: false });
+                projectMediaFocusState.restoreTimer = null;
+            }, PROJECT_MEDIA_RESTORE_PERSPECTIVE_DELAY_MS);
+            return;
+        }
+
         animateDepthTo(frontViewState.restoreDepth, { frontViewActive: false });
+    }
+
+    function finalizeProjectMediaFocusClear() {
+        if (projectMediaFocusState.enterTimer !== null) {
+            window.clearTimeout(projectMediaFocusState.enterTimer);
+        }
+
+        if (projectMediaFocusState.exitTimer !== null) {
+            window.clearTimeout(projectMediaFocusState.exitTimer);
+        }
+
+        if (projectMediaFocusState.restoreTimer !== null) {
+            window.clearTimeout(projectMediaFocusState.restoreTimer);
+        }
+
+        if (projectMediaFocusState.layer instanceof HTMLElement) {
+            projectMediaFocusState.layer.remove();
+        }
+
+        if (projectMediaFocusState.trigger instanceof HTMLElement) {
+            projectMediaFocusState.trigger.classList.remove('project-focus-source-hidden');
+        }
+
+        projectMediaFocusState.layer = null;
+        projectMediaFocusState.shell = null;
+        projectMediaFocusState.trigger = null;
+        projectMediaFocusState.enterTimer = null;
+        projectMediaFocusState.exitTimer = null;
+        projectMediaFocusState.restoreTimer = null;
+        projectMediaFocusState.activeSrc = '';
+        projectMediaFocusState.activeKind = '';
+        body.classList.remove('project-media-focus-active');
+    }
+
+    function clearProjectMediaFocus(animated = false) {
+        if (!(projectMediaFocusState.layer instanceof HTMLElement) || !(projectMediaFocusState.shell instanceof HTMLElement)) {
+            finalizeProjectMediaFocusClear();
+            return;
+        }
+
+        if (!animated || !(projectMediaFocusState.trigger instanceof HTMLElement)) {
+            finalizeProjectMediaFocusClear();
+            return;
+        }
+
+        if (projectMediaFocusState.exitTimer !== null) {
+            window.clearTimeout(projectMediaFocusState.exitTimer);
+        }
+
+        projectMediaFocusState.trigger.classList.remove('project-focus-source-hidden');
+        body.classList.remove('project-media-focus-active');
+        projectMediaFocusState.shell.classList.add('is-dissolving');
+
+        projectMediaFocusState.exitTimer = window.setTimeout(() => {
+            finalizeProjectMediaFocusClear();
+        }, PROJECT_MEDIA_DISSOLVE_DURATION_MS);
+    }
+
+    function enterFrontView(options = {}) {
+        const frontDepth = getFrontDepth();
+        const currentDepth = parseInt(depthSlider.value, 10);
+
+        if (Number.isNaN(frontDepth) || Number.isNaN(currentDepth) || frontViewState.isActive) {
+            return;
+        }
+
+        if (currentDepth !== frontDepth) {
+            frontViewState.restoreDepth = currentDepth;
+        }
+
+        animateDepthTo(frontDepth, { frontViewActive: true, ...options });
+    }
+
+    function buildProjectMediaFocusNode({ kind, src, label }) {
+        if (kind === 'video') {
+            const video = document.createElement('video');
+            video.src = src;
+            video.className = 'project-media-focus-asset';
+            video.autoplay = true;
+            video.loop = true;
+            video.muted = true;
+            video.playsInline = true;
+            video.preload = 'metadata';
+            video.setAttribute('aria-label', label || 'Focused project video');
+            return video;
+        }
+
+        if (kind === 'document') {
+            const frame = document.createElement('iframe');
+            frame.src = src;
+            frame.className = 'project-media-focus-asset project-media-focus-asset--document';
+            frame.title = label || 'Focused project document';
+            frame.loading = 'eager';
+            return frame;
+        }
+
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = label || 'Focused project image';
+        img.className = 'project-media-focus-asset';
+        img.decoding = 'async';
+        return img;
+    }
+
+    function resolveProjectFocusTrigger(trigger, src) {
+        if (trigger instanceof HTMLElement) {
+            return trigger;
+        }
+
+        if (typeof src !== 'string' || !window.CSS || typeof window.CSS.escape !== 'function') {
+            return null;
+        }
+
+        return document.querySelector(`[data-project-focus-trigger="true"][data-project-focus-src="${window.CSS.escape(src)}"]`);
+    }
+
+    function applyProjectMediaFocusRect(element, rect) {
+        element.style.left = `${rect.left}px`;
+        element.style.top = `${rect.top}px`;
+        element.style.width = `${rect.width}px`;
+        element.style.height = `${rect.height}px`;
+    }
+
+    function getProjectMediaFocusSourceRect(trigger) {
+        const source = trigger.querySelector('.project-media');
+        if (source instanceof HTMLElement) {
+            return source.getBoundingClientRect();
+        }
+
+        return trigger.getBoundingClientRect();
+    }
+
+    function getProjectMediaFocusTargetRect() {
+        const insetX = Math.max(48, Math.round(window.innerWidth * 0.08));
+        const insetY = Math.max(48, Math.round(window.innerHeight * 0.08));
+        return {
+            left: insetX,
+            top: insetY,
+            width: Math.max(0, window.innerWidth - insetX * 2),
+            height: Math.max(0, window.innerHeight - insetY * 2)
+        };
+    }
+
+    function getProjectMediaFocusPreZoomRect(fallbackRect) {
+        const polygon = getBackWallPolygon();
+        if (polygon.length !== 4) {
+            return fallbackRect;
+        }
+
+        const xs = polygon.map((point) => point.x);
+        const ys = polygon.map((point) => point.y);
+        const minX = Math.min(...xs);
+        const maxX = Math.max(...xs);
+        const minY = Math.min(...ys);
+        const maxY = Math.max(...ys);
+        const padding = Math.max(16, Math.round(Math.min(maxX - minX, maxY - minY) * 0.06));
+
+        return {
+            left: minX + padding,
+            top: minY + padding,
+            width: Math.max(0, maxX - minX - padding * 2),
+            height: Math.max(0, maxY - minY - padding * 2)
+        };
+    }
+
+    function interpolateProjectMediaFocusRect(fromRect, toRect, progress) {
+        return {
+            left: fromRect.left + (toRect.left - fromRect.left) * progress,
+            top: fromRect.top + (toRect.top - fromRect.top) * progress,
+            width: fromRect.width + (toRect.width - fromRect.width) * progress,
+            height: fromRect.height + (toRect.height - fromRect.height) * progress
+        };
+    }
+
+    function getProjectMediaFocusPerspectiveScale(sourceRect, targetRect) {
+        const widthRatio = targetRect.width > 0 ? sourceRect.width / targetRect.width : 1;
+        const heightRatio = targetRect.height > 0 ? sourceRect.height / targetRect.height : 1;
+        const coverage = Math.max(0, Math.min(1, Math.max(widthRatio, heightRatio)));
+        const distanceFactor = 1 - coverage;
+        const minScale = 1.035;
+        const maxScale = 1.14;
+        const boostedFactor = Math.pow(distanceFactor, 0.75);
+        return minScale + (maxScale - minScale) * boostedFactor;
+    }
+
+    function focusProjectMedia({ kind, src, label, trigger }) {
+        if (!isHomePage || !src) {
+            return;
+        }
+
+        const resolvedTrigger = resolveProjectFocusTrigger(trigger, src);
+        if (!(resolvedTrigger instanceof HTMLElement)) {
+            return;
+        }
+
+        clearProjectMediaFocus(false);
+
+        const layer = document.createElement('div');
+        layer.className = 'project-media-focus-layer';
+
+        const shell = document.createElement('div');
+        shell.className = 'project-media-focus-shell';
+        shell.appendChild(buildProjectMediaFocusNode({ kind, src, label }));
+        layer.appendChild(shell);
+
+        const sourceRect = getProjectMediaFocusSourceRect(resolvedTrigger);
+        const finalRect = getProjectMediaFocusTargetRect();
+        const preZoomRect = getProjectMediaFocusPreZoomRect(finalRect);
+        const perspectiveScale = getProjectMediaFocusPerspectiveScale(sourceRect, finalRect);
+        applyProjectMediaFocusRect(shell, sourceRect);
+        shell.style.transform = 'scale(1)';
+
+        body.appendChild(layer);
+        body.classList.add('project-media-focus-active');
+        resolvedTrigger.classList.add('project-focus-source-hidden');
+
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                applyProjectMediaFocusRect(shell, preZoomRect);
+            });
+        });
+
+        projectMediaFocusState.enterTimer = window.setTimeout(() => {
+            shell.classList.add('is-depth-syncing');
+            enterFrontView({
+                onUpdate: ({ eased }) => {
+                    applyProjectMediaFocusRect(shell, interpolateProjectMediaFocusRect(preZoomRect, finalRect, eased));
+                    const nextScale = 1 + (perspectiveScale - 1) * eased;
+                    shell.style.transform = `scale(${nextScale.toFixed(4)})`;
+                },
+                onComplete: () => {
+                    applyProjectMediaFocusRect(shell, finalRect);
+                    shell.style.transform = `scale(${perspectiveScale.toFixed(4)})`;
+                }
+            });
+            projectMediaFocusState.enterTimer = null;
+        }, PROJECT_MEDIA_MOVE_DURATION_MS + PROJECT_MEDIA_PRE_ZOOM_PAUSE_MS);
+
+        projectMediaFocusState.layer = layer;
+        projectMediaFocusState.shell = shell;
+        projectMediaFocusState.trigger = resolvedTrigger;
+        projectMediaFocusState.activeSrc = src;
+        projectMediaFocusState.activeKind = kind || 'image';
+    }
+
+    function getProjectFocusTriggerFromPoint(clientX, clientY) {
+        const elementsAtPoint = document.elementsFromPoint(clientX, clientY);
+        for (const element of elementsAtPoint) {
+            if (!(element instanceof HTMLElement)) {
+                continue;
+            }
+
+            const trigger = element.closest('[data-project-focus-trigger="true"]');
+            if (trigger instanceof HTMLElement) {
+                return trigger;
+            }
+        }
+
+        return null;
     }
 
     function parseRgbString(value) {
@@ -606,9 +915,145 @@ document.addEventListener('DOMContentLoaded', () => {
         scheduleDynamicTintUpdate();
     }
 
+    function waitForProjectIntroMedia(grid) {
+        const media = Array.from(grid.querySelectorAll('img, video'));
+        if (media.length === 0) {
+            return Promise.resolve();
+        }
+
+        const pending = media.filter((element) => {
+            if (element instanceof HTMLImageElement) {
+                return !element.complete;
+            }
+
+            if (element instanceof HTMLVideoElement) {
+                return element.readyState < 1;
+            }
+
+            return false;
+        });
+
+        if (pending.length === 0) {
+            return Promise.resolve();
+        }
+
+        return new Promise((resolve) => {
+            let remaining = pending.length;
+            let settled = false;
+
+            const finish = () => {
+                if (settled) {
+                    return;
+                }
+                settled = true;
+                resolve();
+            };
+
+            const timeoutId = window.setTimeout(finish, 2500);
+
+            const markReady = () => {
+                remaining -= 1;
+                if (remaining <= 0) {
+                    window.clearTimeout(timeoutId);
+                    finish();
+                }
+            };
+
+            pending.forEach((element) => {
+                if (element instanceof HTMLImageElement) {
+                    element.addEventListener('load', markReady, { once: true });
+                    element.addEventListener('error', markReady, { once: true });
+                } else if (element instanceof HTMLVideoElement) {
+                    element.addEventListener('loadedmetadata', markReady, { once: true });
+                    element.addEventListener('error', markReady, { once: true });
+                }
+            });
+        });
+    }
+
+    async function playHomeProjectIntro() {
+        if (!isHomePage || !backContent) {
+            return;
+        }
+
+        if (homeProjectIntroState.animationFrame !== null) {
+            cancelAnimationFrame(homeProjectIntroState.animationFrame);
+            homeProjectIntroState.animationFrame = null;
+        }
+
+        const leadGrid = backContent.querySelector('.project-media-grid');
+        if (!(leadGrid instanceof HTMLElement)) {
+            return;
+        }
+
+        const firstStandaloneAsset = backContent.querySelector('.project-card--image-only');
+        await Promise.all([
+            waitForProjectIntroMedia(leadGrid),
+            firstStandaloneAsset instanceof HTMLElement ? waitForProjectIntroMedia(firstStandaloneAsset) : Promise.resolve()
+        ]);
+
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                const rect = leadGrid.getBoundingClientRect();
+                const desiredCenter = Math.max(140, window.innerHeight * 0.5 - 200);
+                const gridCenter = rect.top + rect.height / 2;
+                const finalScroll = Math.max(0, state.scrollPos + (gridCenter - desiredCenter));
+                let startScroll = finalScroll + Math.max(420, window.innerHeight * 0.48);
+
+                if (firstStandaloneAsset instanceof HTMLElement) {
+                    const firstAssetRect = firstStandaloneAsset.getBoundingClientRect();
+                    const desiredAssetBottom = window.innerHeight - Math.max(32, window.innerHeight * 0.06);
+                    const assetAnchoredScroll = Math.max(0, state.scrollPos + (firstAssetRect.bottom - desiredAssetBottom));
+                    startScroll = Math.max(startScroll, assetAnchoredScroll);
+                }
+
+                const introDuration = 1800;
+                const startTime = performance.now();
+
+                state.scrollPos = startScroll;
+                targetScroll = startScroll;
+                clampTargetScroll();
+                updateContentPositions();
+                refreshWireframe();
+                updateHomeOutlineNavActive();
+
+                function step(now) {
+                    const progress = Math.min((now - startTime) / introDuration, 1);
+                    const eased = easeInOutCubic(progress);
+                    const currentScroll = startScroll + (finalScroll - startScroll) * eased;
+
+                    state.scrollPos = currentScroll;
+                    targetScroll = currentScroll;
+                    clampTargetScroll();
+                    updateContentPositions();
+                    refreshWireframe();
+                    updateHomeOutlineNavActive();
+
+                    if (progress < 1) {
+                        homeProjectIntroState.animationFrame = requestAnimationFrame(step);
+                        return;
+                    }
+
+                    homeProjectIntroState.animationFrame = null;
+                    state.scrollPos = finalScroll;
+                    targetScroll = finalScroll;
+                    clampTargetScroll();
+                    updateContentPositions();
+                    refreshWireframe();
+                    pingHomeOutlineNav();
+                    updateHomeOutlineNavActive();
+                }
+
+                homeProjectIntroState.animationFrame = requestAnimationFrame(step);
+            });
+        });
+    }
+
     if (isHomePage) {
         window.SpaceToSpaceHome = {
-            refresh: refreshHomeProjectLayout
+            refresh: refreshHomeProjectLayout,
+            focusMedia: focusProjectMedia,
+            playIntro: playHomeProjectIntro
         };
     }
 
@@ -623,7 +1068,7 @@ document.addEventListener('DOMContentLoaded', () => {
     buildHomeOutlineNav();
 
     // Intro Animation - different types based on page
-    if (!isHomePage && !isContactPage) {
+    if (!isHomePage && !isAboutPage && !isContactPage) {
         if (isPracticeScene) {
             // Practice: pouze oddálení
             performPracticeIntroAnimation();
@@ -633,29 +1078,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Dark Mode Setup
-    const darkModeToggle = document.getElementById('darkModeToggle');
-    if (darkModeToggle) {
-        // Načíst uloženou preferenci
-        const savedMode = localStorage.getItem('darkMode');
-        if (savedMode === 'true') {
-            document.body.classList.add('dark-mode');
-            darkModeToggle.textContent = '●';
-            darkModeToggle.classList.add('active');
-        }
-
-        darkModeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('dark-mode');
-            const isDark = document.body.classList.contains('dark-mode');
-            
-            darkModeToggle.textContent = isDark ? '●' : '○';
-            darkModeToggle.classList.toggle('active', isDark);
-            
-            // Uložit preferenci
-            localStorage.setItem('darkMode', isDark);
-            scheduleDynamicTintUpdate();
-        });
-    }
+    body.classList.toggle('dark-mode', document.documentElement.classList.contains('dark-mode'));
+    scheduleDynamicTintUpdate();
+    window.addEventListener('space-theme-change', scheduleDynamicTintUpdate);
 
     // Event Listeners
     depthSlider.addEventListener('input', (e) => {
@@ -666,6 +1091,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (scene) {
         scene.addEventListener('click', (e) => {
+            const focusTrigger = getProjectFocusTriggerFromPoint(e.clientX, e.clientY);
+            if (focusTrigger) {
+                e.preventDefault();
+                e.stopPropagation();
+                focusProjectMedia({
+                    kind: focusTrigger.dataset.projectFocusKind,
+                    src: focusTrigger.dataset.projectFocusSrc,
+                    label: focusTrigger.dataset.projectFocusLabel,
+                    trigger: focusTrigger
+                });
+                return;
+            }
+
             const polygon = getBackWallPolygon();
             if (polygon.length !== 4) {
                 return;
@@ -688,7 +1126,33 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    window.addEventListener('click', (e) => {
+        if (!projectMediaFocusState.activeSrc || !frontViewState.isActive) {
+            return;
+        }
+
+        e.preventDefault();
+        e.stopPropagation();
+        restoreFrontView();
+    }, true);
+
+    window.addEventListener('keydown', (e) => {
+        if (!projectMediaFocusState.activeSrc || !frontViewState.isActive) {
+            return;
+        }
+
+        if (e.key !== 'Escape') {
+            return;
+        }
+
+        e.preventDefault();
+        restoreFrontView();
+    });
+
     window.addEventListener('resize', () => {
+        if (projectMediaFocusState.shell instanceof HTMLElement && projectMediaFocusState.activeSrc) {
+            applyProjectMediaFocusRect(projectMediaFocusState.shell, getProjectMediaFocusTargetRect());
+        }
         state.roomHeight = window.innerHeight;
         updateContentPositions(); // Immediate update on resize
         refreshWireframe();

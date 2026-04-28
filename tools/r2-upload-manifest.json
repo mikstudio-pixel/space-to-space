@@ -1,405 +1,237 @@
 {
   "description": "Assety ponechané mimo GitHub kvůli velikosti; vhodné pro budoucí upload na Cloudflare R2.",
-  "generatedAt": "2026-04-17T22:13:17Z",
+  "generatedAt": "2026-04-28T16:56:33Z",
   "githubMaxBytes": 20971520,
   "githubMaxMib": 20,
   "counts": {
-    "scannedFiles": 1132,
-    "githubEligible": 1070,
-    "r2Candidates": 62
+    "scannedFiles": 798,
+    "githubEligible": 764,
+    "r2Candidates": 34
   },
   "bytes": {
-    "githubEligible": 1944749941,
-    "r2Candidates": 7865923444
+    "githubEligible": 644881945,
+    "r2Candidates": 1802053135
   },
   "kinds": {
     "githubEligible": {
-      "document": 144,
-      "image": 919,
-      "video": 7
+      "document": 166,
+      "image": 564,
+      "video": 34
     },
     "r2Candidates": {
-      "document": 9,
-      "image": 22,
-      "video": 31
+      "document": 3,
+      "image": 9,
+      "video": 22
     }
   },
   "files": [
     {
-      "path": "assets/projects/aluo-ljubljana/pre-selection/ALUO_Dizdarević_Umihana_Gorenak_Marko_Tudjan_Anja_Vranješ_Nina_BDC-Seapack.mp4",
-      "bytes": 552029418,
-      "bytesHuman": "526.46 MiB",
+      "path": "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
+      "bytes": 93115000,
+      "bytesHuman": "88.80 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/aluo-ljubljana/pre-selection/ALUO_Kordiš_Jaka_Lesjak_Matic_Štrubelj_Črt_BDC-What remains.mp4",
-      "bytes": 342376845,
-      "bytesHuman": "326.52 MiB",
+      "path": "assets/ASP Wroclaw/WOŁKOWSKI_W-DOMU/MEDIA/ASP-WROCLAW_Wolkowski_Mateusz_W-domu_web.mp4",
+      "bytes": 60654846,
+      "bytesHuman": "57.84 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/aluo-ljubljana/pre-selection/ALUO_Čepin_Zoja_Kralj_Jure_Kralj_Maša_Maček_Klara_Štupar_Leon Rojk_BDC-WOODn_t it be nice.mp4",
-      "bytes": 44763756,
-      "bytesHuman": "42.69 MiB",
+      "path": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4",
+      "bytes": 32687679,
+      "bytesHuman": "31.17 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
-      "bytes": 427574969,
-      "bytesHuman": "407.77 MiB",
+      "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4",
+      "bytes": 33621051,
+      "bytesHuman": "32.06 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/asp-wroclaw/pre-selection/wo-kowski-w-domu/media/ASP-WROCLAW_Wolkowski_Mateusz_W-domu.mp4",
-      "bytes": 349699988,
-      "bytesHuman": "333.50 MiB",
+      "path": "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4",
+      "bytes": 76005303,
+      "bytesHuman": "72.48 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/Review by λrokh.mp4",
-      "bytes": 496323350,
-      "bytesHuman": "473.33 MiB",
+      "path": "assets/BAAZ/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif",
+      "bytes": 170879046,
+      "bytesHuman": "162.96 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/BAAZ/Sunny Lustov_Nereids/media/gif.gif",
+      "bytes": 129312513,
+      "bytesHuman": "123.32 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web_web_web.mp4",
+      "bytes": 22745088,
+      "bytesHuman": "21.69 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
-      "bytes": 46219647,
-      "bytesHuman": "44.08 MiB",
+      "path": "assets/MUNI/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART_web.mp4",
+      "bytes": 22623465,
+      "bytesHuman": "21.58 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4",
-      "bytes": 239573803,
-      "bytesHuman": "228.48 MiB",
+      "path": "assets/MUNI/Fi MUNI Musil_Bronislav_Drum and Bezier/FI MUNI_Bronislav Musil - Drum and Beziere_video_web.mp4",
+      "bytes": 32804601,
+      "bytesHuman": "31.28 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/baaz-jerusalem/pre-selection/bezalel id department 2026 (1).xlsx",
-      "bytes": 28611496,
-      "bytesHuman": "27.29 MiB",
-      "kind": "document"
-    },
-    {
-      "path": "assets/projects/muni-brno/fi-mun-hai-duong-tran-spider/12-2017_Hai Duong Tran - Spider_video s popiskem.mp4",
-      "bytes": 57107991,
-      "bytesHuman": "54.46 MiB",
+      "path": "assets/MUNI/MUNI-FI_Dohnal_Marek-Toy_Design/media/MUNI-FI_Dohnal_Marek_web.mp4",
+      "bytes": 25825187,
+      "bytesHuman": "24.63 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/muni-brno/fi-mun-hai-duong-tran-spider/FI MUNI_Hai Duong Tran_Spider_video.mp4",
-      "bytes": 53057022,
-      "bytesHuman": "50.60 MiB",
+      "path": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
+      "bytes": 65490869,
+      "bytesHuman": "62.46 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/muni-brno/fi-muni-minarik-vojtech-rainbow-rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Landscape.mov",
-      "bytes": 66039566,
-      "bytesHuman": "62.98 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/fi-muni-minarik-vojtech-rainbow-rift/FI MUNI_MInarik_Vojtech_Rainbow Rift_Portrait.mov",
-      "bytes": 34008273,
-      "bytesHuman": "32.43 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/fi-muni-musil-bronislav-drum-and-bezier/FI MUNI_Bronislav Musil - Drum and Beziere_video.mp4",
-      "bytes": 123079551,
-      "bytesHuman": "117.38 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
-      "bytes": 103393083,
-      "bytesHuman": "98.60 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/fi-muni-portesova-sarka-mom-i-m-not-playing-i-m-making-art/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART.mp4",
-      "bytes": 45284057,
-      "bytesHuman": "43.19 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
-      "bytes": 270128487,
-      "bytesHuman": "257.61 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4",
-      "bytes": 139931669,
-      "bytesHuman": "133.45 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_01.tif",
+      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_01.tif",
       "bytes": 24722688,
       "bytesHuman": "23.58 MiB",
       "kind": "image"
     },
     {
-      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_02.tif",
+      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_02.tif",
       "bytes": 24722688,
       "bytesHuman": "23.58 MiB",
       "kind": "image"
     },
     {
-      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_03.tif",
+      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_03.tif",
       "bytes": 24722688,
       "bytesHuman": "23.58 MiB",
       "kind": "image"
     },
     {
-      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_04.tif",
+      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_04.tif",
       "bytes": 24722688,
       "bytesHuman": "23.58 MiB",
       "kind": "image"
     },
     {
-      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_05.tif",
+      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_05.tif",
       "bytes": 24722688,
       "bytesHuman": "23.58 MiB",
       "kind": "image"
     },
     {
-      "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_06.tif",
+      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_06.tif",
       "bytes": 24722688,
       "bytesHuman": "23.58 MiB",
       "kind": "image"
     },
     {
-      "path": "assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
-      "bytes": 103393083,
-      "bytesHuman": "98.60 MiB",
+      "path": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4",
+      "bytes": 69283867,
+      "bytesHuman": "66.07 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/muni-brno/muni-fi-dohnal-marek-illustration/552405-Dohnal_Marek-space2space_poster.pdf",
-      "bytes": 120485541,
-      "bytesHuman": "114.90 MiB",
-      "kind": "document"
-    },
-    {
-      "path": "assets/projects/muni-brno/muni-fi-dohnal-marek-toy-design/media/MUNI-FI_Dohnal_Marek.mp4",
-      "bytes": 65119813,
-      "bytesHuman": "62.10 MiB",
+      "path": "assets/TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+      "bytes": 40058229,
+      "bytesHuman": "38.20 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4",
-      "bytes": 236791208,
-      "bytesHuman": "225.82 MiB",
+      "path": "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4",
+      "bytes": 28454807,
+      "bytesHuman": "27.14 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_presentation.pptx",
-      "bytes": 40733655,
-      "bytesHuman": "38.85 MiB",
-      "kind": "document"
-    },
-    {
-      "path": "assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
-      "bytes": 143794561,
-      "bytesHuman": "137.13 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/tuzvo/pre-selection/krnacova-space-no-01/presentations/space no.01 – .pptx",
+      "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/Presentation/space_no.01_–_.pptx",
       "bytes": 39090323,
       "bytesHuman": "37.28 MiB",
       "kind": "document"
     },
     {
-      "path": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/Novosadová_Infinity loop_presentation.pptx",
+      "path": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/Novosadová_Infinity_loop_presentation.pptx",
       "bytes": 24540479,
       "bytesHuman": "23.40 MiB",
       "kind": "document"
     },
     {
-      "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4",
-      "bytes": 46756025,
-      "bytesHuman": "44.59 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4",
-      "bytes": 173986419,
-      "bytesHuman": "165.93 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
-      "bytes": 385014718,
-      "bytesHuman": "367.18 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/2.png",
-      "bytes": 23562005,
-      "bytesHuman": "22.47 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/4.png",
-      "bytes": 21924977,
-      "bytesHuman": "20.91 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/5.png",
-      "bytes": 22643253,
-      "bytesHuman": "21.59 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/ustp-austria/mav-5786/mav trailer exp1.m4v",
-      "bytes": 118499916,
-      "bytesHuman": "113.01 MiB",
-      "kind": "video"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf",
-      "bytes": 22050646,
-      "bytesHuman": "21.03 MiB",
+      "path": "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_presentation.pptx",
+      "bytes": 40733655,
+      "bytesHuman": "38.85 MiB",
       "kind": "document"
     },
     {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/brandisova-space-to-space/ant gif poster.gif",
-      "bytes": 90211110,
-      "bytesHuman": "86.03 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/jenikova-katerina/space to space_Kateřina_Jeníková_UTB.mp4",
-      "bytes": 148340385,
-      "bytesHuman": "141.47 MiB",
+      "path": "assets/TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+      "bytes": 33672203,
+      "bytesHuman": "32.11 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/kristina-hodekova-space-to-space/klauzury_kuliskova.pdf",
-      "bytes": 25381437,
-      "bytesHuman": "24.21 MiB",
-      "kind": "document"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/sona-kuliskova-space-to-space/klauzury_kuliskova.pdf",
-      "bytes": 25381437,
-      "bytesHuman": "24.21 MiB",
-      "kind": "document"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
-      "bytes": 90211110,
-      "bytesHuman": "86.03 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant poster img.jpg",
-      "bytes": 22916961,
-      "bytesHuman": "21.86 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif",
-      "bytes": 84112775,
-      "bytesHuman": "80.22 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle poster img.jpg",
-      "bytes": 21758848,
-      "bytesHuman": "20.75 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/fly gif poster.gif",
-      "bytes": 95359856,
-      "bytesHuman": "90.94 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/fly poster img.jpg",
-      "bytes": 23359425,
-      "bytesHuman": "22.28 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4",
-      "bytes": 782828255,
-      "bytesHuman": "746.56 MiB",
+      "path": "assets/UAlg/Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_01_web_web.mp4",
+      "bytes": 49080466,
+      "bytesHuman": "46.81 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/jakubekova-utb-produkt/rehabilitacna_pomocka_plagat.pdf",
-      "bytes": 45935483,
-      "bytesHuman": "43.81 MiB",
-      "kind": "document"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/ant gif poster.gif",
-      "bytes": 90211110,
-      "bytesHuman": "86.03 MiB",
+      "path": "assets/UAlg/Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_02.jpg",
+      "bytes": 50710450,
+      "bytesHuman": "48.36 MiB",
       "kind": "image"
     },
     {
-      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/beetle gif poster.gif",
-      "bytes": 84112775,
-      "bytesHuman": "80.22 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/utb-prvy-predvyber/studenti-co-sa-sami-prihlasili-z-utb/space-to-space-brandisova/space-to-space-brandisova/fly gif poster.gif",
-      "bytes": 95359856,
-      "bytesHuman": "90.94 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.png",
-      "bytes": 36257025,
-      "bytesHuman": "34.58 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_05.png",
-      "bytes": 37375806,
-      "bytesHuman": "35.64 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_06.png",
-      "bytes": 38660160,
-      "bytesHuman": "36.87 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4",
-      "bytes": 261018877,
-      "bytesHuman": "248.93 MiB",
+      "path": "assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
+      "bytes": 50389540,
+      "bytesHuman": "48.06 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4",
-      "bytes": 437063256,
-      "bytesHuman": "416.82 MiB",
+      "path": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web.mp4",
+      "bytes": 36657929,
+      "bytesHuman": "34.96 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/site/mav trailer exp1.m4v",
-      "bytes": 118499916,
-      "bytesHuman": "113.01 MiB",
+      "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_web.mp4",
+      "bytes": 182690099,
+      "bytesHuman": "174.23 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/site/mav trailer exp1.mp4",
-      "bytes": 55641860,
-      "bytesHuman": "53.06 MiB",
+      "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+      "bytes": 55958373,
+      "bytesHuman": "53.37 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web.mp4",
+      "bytes": 52350250,
+      "bytesHuman": "49.93 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web_web_web.mp4",
+      "bytes": 48690717,
+      "bytesHuman": "46.44 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4",
+      "bytes": 85590972,
+      "bytesHuman": "81.63 MiB",
       "kind": "video"
     }
   ],
   "bytesHuman": {
-    "githubEligible": "1.81 GiB",
-    "r2Candidates": "7.33 GiB"
+    "githubEligible": "615.01 MiB",
+    "r2Candidates": "1.68 GiB"
   }
 }

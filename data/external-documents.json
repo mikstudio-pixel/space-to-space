@@ -1,51 +1,15 @@
 {
-  "generatedAt": "2026-04-18T10:57:38.089041+00:00",
+  "generatedAt": "2026-04-28T16:56:33.765227+00:00",
   "generatedFrom": "data/projects-selected.json",
-  "documentCount": 5,
+  "documentCount": 1,
   "documents": [
     {
-      "workId": 54,
-      "workSlug": "viola-muchova-layra",
-      "school": "TUZVO",
-      "title": "Layra",
-      "author": "Viola Muchová",
-      "path": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation.pdf",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 3,
-      "workSlug": "alexandre-guezenoc-how",
-      "school": "ASP Wroclaw",
-      "title": "How",
-      "author": "Alexandre Guezenoc",
-      "path": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/Poster_Descirption.pdf",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 57,
-      "workSlug": "adam-canecky-orienting-the-system",
+      "workId": 67,
+      "workSlug": "jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars",
       "school": "UTB",
-      "title": "Orienting the system",
-      "author": "Adam Čanecký",
-      "path": "UTB/Adam Čanecký_Orienting the system/Adam_Canecky_prezentacia2.pdf",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 56,
-      "workSlug": "adam-kratochvil-manual-of-improper-being",
-      "school": "UTB",
-      "title": "Manual of improper being",
-      "author": "Adam Kratochvíl",
-      "path": "UTB/Adam Kratochvíl_Manual of improper being/prezentace.pdf",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 58,
-      "workSlug": "anna-chodurova-archiv-without-a-viewer",
-      "school": "UTB",
-      "title": "Archiv without a viewer",
-      "author": "Anna Chodurová",
-      "path": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova_2.pdf",
+      "title": "To Mars!!!",
+      "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
+      "path": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/annotation/UTB_Hrdina_Jakub_Na_Mars_.docx",
       "reason": "selected-source-reference"
     }
   ]

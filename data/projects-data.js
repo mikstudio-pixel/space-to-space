@@ -1,1487 +1,631 @@
 window.SpaceToSpaceProjectsData = {
-  "generatedAt": "2026-04-18T10:57:38.089041+00:00",
+  "generatedAt": "2026-04-28T16:56:33.765227+00:00",
   "generatedFrom": "data/projects-selected.json",
-  "workCount": 56,
+  "workCount": 63,
   "works": [
-    {
-      "id": 51,
-      "author": "Paulína Abrahámová",
-      "title": "Cocoon chair",
-      "school": "TUZVO",
-      "text": "ím. Cieľom bolo vytvoriť exteriérové sedenie s funkciou odievania sa pre dlhší pobyt na vzduchu. Téma space to space sa tu odohráva ako vytváranie si vlastného “spacu“ zahalením sa do nábytku. Integrovaná vesta obopína kreslo a vytvára pocit tepla, ochrany a komfortu v chladnejších mesiacoch. Vestu vieme využiť ako samostatný módny kúsok odzipsovaním od základnej formy sedenia. Sedenie bez vesty vytvára pútavé čalúnenie evokujúce povrch outdoorového zimného oblečenia. Nepremokavý materiál umožňuje používanie v exteriéri počas chladnejších večerov, vytvára unikátne sedenie na vianočné trhy či na terasy horských chát a hotelov.\n\nANGLICKÁ VERZIA:\n\nCocoon chair combines ergonomic seating with clothing. The aim was to create outdoor seating with the function of dressing for longer stays in the air. The Space to space theme is played out here as creating your own “space” by dress yourself in furniture. The integrated vest surrounds the chair and creates a feeling of warmth, protection and comfort in the colder months. The vest can be used as a separate fashion piece by unzipping it from the basic form of seating. Sitting without the vest creates an eye-catching upholstery evoking the surface of outdoor winter clothing. The waterproof material allows for outdoor use during colder evenings, creating unique seating for Christmas markets or on the terraces of mountain huts and hotels.",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA6.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA7.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA_1.png"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "paulina-abrahamova-cocoon-chair",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA6.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA7.jpg",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA_1.png"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA2.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA3.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA4.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA5.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA6.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA6.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA7.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA7.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA_1.png",
-          "path": "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA 1.png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA2.jpg",
-        "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA3.jpg",
-        "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA4.jpg",
-        "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA5.jpg",
-        "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA6.jpg",
-        "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA7.jpg",
-        "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA 1.png"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/abrahamova-paulina/media/PA2.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 48,
-      "author": "Martina Ďalogová",
-      "title": "Glitch",
-      "school": "TUZVO",
-      "text": "The project interprets the theme Space to Space as a generational shift in the way the world is perceived. Glitch, originally a digital phenomenon, is transferred into a physical object and functions as a visual metaphor for the difference between a generation raised in an analog environment and Generation Z shaped by the digital world. This generational shift highlights the moment in which old and new readings of reality no longer align.",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.JPG",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.JPG",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.JPG",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.JPG",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.JPG"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "martina-dalogova-glitch",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.JPG",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.JPG",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.JPG",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.JPG",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.JPG"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_01.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_02.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_03.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_04.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_05.JPG",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_01.JPG",
-        "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_02.JPG",
-        "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_03.JPG",
-        "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_04.JPG",
-        "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_05.JPG"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/dalogova-glitch/media/TUZVO_Ďalogová_Martina_glitch_01.JPG",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 41,
-      "author": "Hana Šegedová",
-      "title": "SPOJOVÁ school garden",
-      "school": "TUZVO",
-      "text": "The school garden was created as a connection between the school's identity and the world of children's imagination. It responds to the environment, the diversity of ages, creates a space for cooperation and quiet discovery. It is a place where children learn through touch, movement and play. The natural materials support authentic contact with the outside world and allow the garden to adapt to every season.",
-      "typeClass": "media-video",
-      "src": [
-        "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA_School_Garden_video.mp4"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "hana-segedova-spojova-school-garden",
-      "schoolSlug": "tuzvo",
-      "media": [],
-      "externalMedia": [
-        "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA_School_Garden_video.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA_School_Garden_video.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
-          "type": "video"
-        }
-      ],
-      "resolvedImages": [],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-zs-spojova-school-garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video.mp4",
-      "menuAssetType": "video"
-    },
-    {
-      "id": 42,
-      "author": "Hana Šegedová",
-      "title": "UMAMA",
-      "school": "TUZVO",
-      "text": "UMAMA is a piece of furniture inspired by the balance, strength, and ingenuity of African women and mothers. It reflects their ability to adapt, take responsibility, and turn everyday tasks into thoughtful, functional acts. It combines the tradition of carrying loads on the head with modern life, showing that heritage can naturally function today in the wider context of space.",
-      "typeClass": "mixed_video_image",
-      "src": [
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_05.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_06.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "hana-segedova-umama",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_05.jpeg",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_06.jpeg"
-      ],
-      "externalMedia": [
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_01.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_02.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_03.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_04.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_05.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_05.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_06.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_06.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4",
-          "type": "video"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_01.jpeg",
-        "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_02.jpeg",
-        "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_03.jpeg",
-        "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_04.jpeg",
-        "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_05.jpeg",
-        "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_06.jpeg"
-      ],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_video.mp4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/segedova-umama/media/TUZVO_Šegedová_Hana_UMAMA_01.jpeg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 43,
-      "author": "Hana Šegedová",
-      "title": "WARKA house",
-      "school": "TUZVO",
-      "text": "The design combines the principle of the Warka Tower with a modern interpretation of traditional African housing to address the shortage of drinking water. Water collection is integrated into the roofs, creating a single functional unit with the architecture and interior. The project uses local materials, respects local lifestyles, and aims to sustainably improve daily living conditions.",
-      "typeClass": "mixed_video_image",
-      "src": [
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.jpeg",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.jpeg",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.jpeg",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.jpeg",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_05.jpeg",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka_house_video.MP4"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "hana-segedova-warka-house",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.jpeg",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.jpeg",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.jpeg",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.jpeg",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_05.jpeg"
-      ],
-      "externalMedia": [
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka_house_video.MP4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_01.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_02.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_03.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_04.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_05.jpeg",
-          "path": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_05.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka_house_video.MP4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4",
-          "type": "video"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_01.jpeg",
-        "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_02.jpeg",
-        "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_03.jpeg",
-        "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_04.jpeg",
-        "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_05.jpeg"
-      ],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_Warka house_video.MP4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/segedova-warka-house/media/TUZVO_Šegedová_Hana_WARKA house_01.jpeg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 38,
-      "author": "Ema Kmecová",
-      "title": "Face to Face",
-      "school": "TUZVO",
-      "text": "Name: Face to „Face“ \n\nAutor: Ema Kmecová\n\nSupervisor: Mgr. art. Lucia Spišiaková Kružlicová, ArtD.\n\n\n\nAnotácia: \n\nStolička Face to „Face“ je bodom, kde sa fyzická prítomnosť stretáva s neviditeľnou sieťou digitálneho sveta a vzdialenosť sa premieňa na spojenie. Jej konštrukcia pripomína káblové vedenia a toky informácií, zatiaľ čo polykarbonát odhaľuje vnútorný svet, ako pohľad do živého systému, ktorým prechádzajú dáta aj ľudské spojenia. Stáva sa tak mostom medzi človekom, priestorom a technológiou, medzi hmotným a tým, čo existuje len ako prenos, signál a prítomnosť na diaľku.\n\nAnnotation: \n\nThe Face to „Face“ chair is a point where physical presence meets the invisible network of the digital world, transforming distance into connection. Its structure evokes cable pathways and flows of information, while the polycarbonate reveals the inner world, a glimpse into a living system through which data and human connections pass. It becomes a bridge between people, space, and technology, between the tangible and that which exists only as transmission, signal and presence at a distance.",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.JPG",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.JPG",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.JPG",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.png",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_05.png",
-        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia.png",
-        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia2.png"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [
-        "V annotations nalezeno 2 souborů, žádný s EN markerem. Použit první soubor.",
-        "Nebyl nalezen anglický marker (ENG:), použit celý text."
-      ],
-      "category": "",
-      "slug": "ema-kmecova-face-to-face",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.JPG",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.JPG",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.JPG",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.png",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_05.png",
-        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia.png",
-        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia2.png"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_01.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_02.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_03.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.png",
-          "path": "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_04.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_05.png",
-          "path": "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_05.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia.png",
-          "path": "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/vizualizacia.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia2.png",
-          "path": "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/vizualizacia2.png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_01.JPG",
-        "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_02.JPG",
-        "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_03.JPG",
-        "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_04.png",
-        "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_05.png",
-        "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/vizualizacia.png",
-        "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/vizualizacia2.png"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/kmecova-face-to-face/media/TUZVO_Kmecová_Ema_Face to Face_01.JPG",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 40,
-      "author": "Gréta Brajerová",
-      "title": "Errans",
-      "school": "TUZVO",
-      "text": "errans\n\nautor: Gréta Brajerová\n\nsupervisor: Mgr. art. Lucia Spišiaková Kružlicová, ArtD.\n\n\n\n\n\nProjekt errans (z lat. blúdiaci) je sociálno-ekologický projekt v podchode, ktorý navracia dôstojnosť ľuďom bez domova a znehodnoteným nákupným vozíkom. Funguje ako chránená dielňa: človek v núdzi si prácou na redizajne vozíkov odpracuje nocľah. Prechádza cez štyri zóny: ošetrenie, očista s reflexiou v zrkadlách, spánok vo vlastnej posteli a presklená dielňa, spájajú pomoc s prácou. Errans dáva viditeľnosť a priestor tým, ktorým bol dlho odopieraný.\n\n\n\n\n\nThe Errans project (from the Latin for 'wandering') is a socio-ecological initiative located in an underpass that restores dignity to both homeless people and discarded shopping carts. Operating as a sheltered workshop, it allows individuals in need to earn a night’s stay by working on the redesign of these carts. The process moves through four distinct zones: treatment, purification (with reflection in mirrors), sleep in a private bed, and a glass-walled workshop. By combining social aid with labor, Errans provides visibility and a dedicated space to those who have long been overlooked.",
-      "typeClass": "mixed_video_image",
-      "src": [
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.JPG",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.JPG",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.JPG",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.JPG",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_05.JPG.JPG",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [
-        "Nebyl nalezen anglický marker (ENG:), použit celý text."
-      ],
-      "category": "",
-      "slug": "greta-brajerova-errans",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.JPG",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.JPG",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.JPG",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.JPG",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_05.JPG.JPG"
-      ],
-      "externalMedia": [
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_01.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_02.JPG.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_03.JPG.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_04.JPG.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_05.JPG.JPG",
-          "path": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_05.JPG.JPG",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4",
-          "type": "video"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_01.JPG",
-        "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_02.JPG.JPG",
-        "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_03.JPG.JPG",
-        "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_04.JPG.JPG",
-        "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_05.JPG.JPG"
-      ],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_video_concept_01.mp4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/brajerova-errans/media/TUZVO_Brajerová_Gréta_errans_01.JPG",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 39,
-      "author": "Ema Kováčová",
-      "title": "DUENDE",
-      "school": "TUZVO",
-      "text": "Názov: DUENDEAutor: Ema KováčováSupervisor: doc. Mgr. art. Marián Ihring, ArtD.\n\n\n\nAnotácia:\n\nDuende je zhmotnené napätie - bod, kde sa ticho mení na vášeň a pokoj na pohyb. Objekt nesie surovú reč flamenca: plynulosť ramien bracea a dravú dynamiku zapatea tesne pred výbuchom.Ostré uhly sa tu stretávajú s jemným nádychom v dialógu mužského a ženského princípu. Nie je len sedením, ale vizuálnou stopou emócie, ktorá sa rodí hlboko vo vnútri a cez gesto nadobúda hmotnú podobu.\n\n\n\nAnnotation:\n\nDuende is embodied tension - a point where silence transforms into passion and stillness into movement. The object carries the raw language of flamenco: the fluidity of the shoulders in braceo and the fierce dynamics of zapateado just before the explosion. Sharp angles meet a gentle breath in the dialogue of masculine and feminine principles. It is not merely a seat, but a visual trace of emotion, born deep within and taking shape through gesture.",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.png",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.png",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.png",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_06.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_5.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_7.jpg"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [
-        "Nebyl nalezen anglický marker (ENG:), použit celý text."
-      ],
-      "category": "",
-      "slug": "ema-kovacova-duende",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.png",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.png",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.png",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_06.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_5.jpg",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_7.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.png",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.png",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie a.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.png",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie b.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_02.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_03.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_04.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_06.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_06.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_5.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_5.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_7.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_7.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.png",
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie a.png",
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie b.png",
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_01.jpg",
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_02.jpg",
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_03.jpg",
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_04.jpg",
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_06.jpg",
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_5.jpg",
-        "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_Kováčová _Ema_DUENDE_7.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/kovacova-duende/media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 47,
-      "author": "Martina Hatalová",
-      "title": "From Air to Ground",
-      "school": "TUZVO",
-      "text": "í pristane vo vtáčej búdke, kde si dobije baterky predtým, než znovu vzlietne.\n\nENWhat if, after placing an order, a package fell straight from the sky? What if it were delivered to its “nest” by a battery-powered carrier pigeon? I wait impatiently for it‘s arrival. Above my head, I hear the buzz of a drone aiming precisely at a circular symbol where it can safely place the package. After delivery, it lands in a birdhouse to recharge before flying again.",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.jpg",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.jpg",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.jpg",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.jpg",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.jpg"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "martina-hatalova-from-air-to-ground",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.jpg",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.jpg",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.jpg",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.jpg",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_02.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_03.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_04.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_05.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_01.jpg",
-        "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_02.jpg",
-        "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_03.jpg",
-        "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_04.jpg",
-        "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_05.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/hatalova-from-air-to-ground/media/TUZVO_Hatalová_from air to ground_01.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 52,
-      "author": "Samuel Rusnák",
-      "title": "YTERA",
-      "school": "TUZVO",
-      "text": "",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.png",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.png",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.png",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.png",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_05.png"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "samuel-rusnak-ytera",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.png",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.png",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.png",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.png",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_05.png"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.png",
-          "path": "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_01.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.png",
-          "path": "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_02.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.png",
-          "path": "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_03.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.png",
-          "path": "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_04.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_05.png",
-          "path": "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_05.png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_01.png",
-        "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_02.png",
-        "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_03.png",
-        "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_04.png",
-        "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_05.png"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/rusnak-ytera/media/TUZVO_Rusnák_Samuel_YTERA_01.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 54,
-      "author": "Viola Muchová",
-      "title": "Layra",
-      "school": "TUZVO",
-      "text": "The Layra object explores the concept of space as a changing relationship between the body, material, and form. Within the Space to Space context, it creates a dynamic space through the physical interaction of the user with layered textile material that responds through movement and deformation. The seating thus becomes an active element that transforms its form and visual character, creating a new spatial experience between the object and the human body.",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation.pdf",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_02.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_03.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_04.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_05.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra(1).jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra.jpg"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "viola-muchova-layra",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_02.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_03.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_04.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_05.jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra(1).jpg",
-        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [
-        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation.pdf"
-      ],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation.pdf",
-          "path": "assets/projects/tuzvo/pre-selection/muchova-layra/media/muchova_viola_layra_presentation.pdf",
-          "type": "document"
-        },
-        {
-          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_02.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_02.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_03.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_03.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_04.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_04.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_05.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_05.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra(1).jpg",
-          "path": "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra(1).jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_01.jpg",
-        "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_02.jpg",
-        "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_03.jpg",
-        "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_04.jpg",
-        "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_05.jpg",
-        "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra(1).jpg",
-        "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [
-        "assets/projects/tuzvo/pre-selection/muchova-layra/media/muchova_viola_layra_presentation.pdf"
-      ],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/muchova-layra/media/tuzvo_muchová_viola_layra_01.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 3,
-      "author": "Alexandre Guezenoc",
-      "title": "How",
-      "school": "ASP Wroclaw",
-      "text": "SPACE_TO_SPACE (2026). The poster series interprets SPACE TO SPACE as a relationship between physical and mental space. Intense colors, irony, and metaphors of transition confront cosmic expansion with questions of responsibility, consumerism, and freedom of choice. The works ask whether, without a shift in perspective, we are capable of designing empathetic and ethical futures.\n\n\n\nPL:\n\nSPACE_TO_SPACE (2026). Cykl plakatów interpretuje SPACE TO SPACE jako relację między przestrzenią fizyczną i mentalną. Intensywna kolorystyka, ironia i metafory przejścia zestawiają ekspansję w kosmos z odpowiedzialnością, konsumpcją i wolnością wyboru. Prace pytają, czy bez zmiany myślenia potrafimy projektować empatyczne i etyczne przyszłości.",
-      "typeClass": "media-image",
-      "src": [
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.jpg",
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.jpg",
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.jpg",
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/Poster_Descirption.pdf"
-      ],
-      "contacts": {
-        "email": "guezenoc.studio@gmail.com",
-        "phone": ""
-      },
-      "warnings": [
-        "V annotations nalezeno 2 souborů, žádný s EN markerem. Použit první soubor."
-      ],
-      "category": "",
-      "slug": "alexandre-guezenoc-how",
-      "schoolSlug": "asp-wroclaw",
-      "media": [
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.jpg",
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.jpg",
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/Poster_Descirption.pdf"
-      ],
-      "resolvedAssets": [
-        {
-          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.jpg",
-          "path": "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.jpg",
-          "type": "image"
-        },
-        {
-          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.jpg",
-          "path": "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.jpg",
-          "type": "image"
-        },
-        {
-          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.jpg",
-          "path": "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.jpg",
-          "type": "image"
-        },
-        {
-          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/Poster_Descirption.pdf",
-          "path": "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/Poster_Descirption.pdf",
-          "type": "document"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.jpg",
-        "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.jpg",
-        "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [
-        "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/Poster_Descirption.pdf"
-      ],
-      "menuAsset": "assets/projects/asp-wroclaw/pre-selection/alexandre-guezenoc-space-to-space/media/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 8,
-      "author": "Michał Sieczka",
-      "title": "Matches",
-      "school": "ASP Wroclaw",
-      "text": "Matches(2025). This experimental documentary, shot on 16mm film, explores tree felling as a disruption of local memory and the landscape’s natural rhythm. The raw materiality of the analogue medium, with its grain and fragility, serves as a parallel narrative layer to the physical changes depicted on screen.",
-      "typeClass": "media-video",
-      "src": [
-        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches.mp4"
-      ],
-      "contacts": {
-        "email": "michal.sieczka88@gmail.com",
-        "phone": "phone: +48 881 546 580"
-      },
-      "warnings": [
-        "V annotations nalezeno 3 souborů, žádný s EN markerem. Použit první soubor."
-      ],
-      "category": "",
-      "slug": "micha-sieczka-matches",
-      "schoolSlug": "asp-wroclaw",
-      "media": [],
-      "externalMedia": [
-        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
-          "type": "video"
-        }
-      ],
-      "resolvedImages": [],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/asp-wroclaw/pre-selection/sieczka-matches/media/ASP-WROCLAW_Michał_Sieczka_Matches.mp4",
-      "menuAssetType": "video"
-    },
     {
       "id": 1,
       "author": "Jaka Kordiš, Matic Lesjak, Črt Štrubelj",
-      "title": "What remains",
+      "title": "What remains?",
       "school": "ALUO",
-      "text": "What Remains? is a speculative design project that questions how we treat death. What if the body itself became the vessel? Using blood and hair, it proposes a biodegradable urn, formed through dehydration, coagulation, and compression, that returns the deceased to earth, dissolving quietly back into the cycle of life.",
+      "text": "This speculative design project explores contemporary burial practices through transforming blood and hair into a biodegradable composite used to create an urn. The material supports the body’s return to natural cycles of decay and regeneration, while prompting reflection on death, mourning, and the legacy we leave behind within today’s consumer-driven society.",
       "typeClass": "media-image",
+      "category": "CONCEPTUAL",
       "src": [
-        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.jpg",
-        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.jpg",
-        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.jpg"
+        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.webp",
+        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
+        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.webp"
       ],
       "contacts": {
         "email": "jk66273@student.uni-lj.si, cs82117@student.uni-lj.si, ml71046@student.uni-lj.si",
-        "phone": "m: +386 68 611 803"
+        "phone": "+38 668 611 803"
       },
-      "warnings": [],
-      "category": "",
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "1",
+      "preview": "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
+      "totalSizeBytes": 1161232,
+      "fileSizes": {
+        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.webp": 412620,
+        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp": 75312,
+        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.webp": 673300
+      },
       "slug": "jaka-kordis-matic-lesjak-crt-strubelj-what-remains",
       "schoolSlug": "aluo",
       "media": [
-        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.jpg",
-        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.jpg",
-        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.jpg"
+        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.webp",
+        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
+        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.jpg",
-          "path": "assets/projects/aluo-ljubljana/what-remains/media/aluo_what-remains_01.jpg",
-          "type": "image"
+          "source": "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.webp",
+          "path": "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.webp",
+          "type": "image",
+          "bytes": 412620,
+          "bytesHuman": "403 KB"
         },
         {
-          "source": "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.jpg",
-          "path": "assets/projects/aluo-ljubljana/what-remains/media/aluo_what-remains_02.jpg",
-          "type": "image"
+          "source": "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
+          "path": "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
+          "type": "image",
+          "bytes": 75312,
+          "bytesHuman": "73.5 KB"
         },
         {
-          "source": "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.jpg",
-          "path": "assets/projects/aluo-ljubljana/what-remains/media/aluo_what-remains_03.jpg",
-          "type": "image"
+          "source": "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.webp",
+          "path": "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.webp",
+          "type": "image",
+          "bytes": 673300,
+          "bytesHuman": "658 KB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/aluo-ljubljana/what-remains/media/aluo_what-remains_01.jpg",
-        "assets/projects/aluo-ljubljana/what-remains/media/aluo_what-remains_02.jpg",
-        "assets/projects/aluo-ljubljana/what-remains/media/aluo_what-remains_03.jpg"
+        "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.webp",
+        "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
+        "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/aluo-ljubljana/what-remains/media/aluo_what-remains_01.jpg",
-      "menuAssetType": "image"
+      "menuAsset": "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 75312,
+      "menuAssetBytesHuman": "73.5 KB"
     },
     {
       "id": 2,
       "author": "Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ",
       "title": "Seapack",
       "school": "ALUO",
-      "text": "SEAPACK is a sustainable material developed from dried seagrass gathered on",
+      "text": "Seapack addresses marine biodiversity and ecosystem health through the development of a biomaterial made from dried seaweed collected on the Slovenian coast. Typically treated as waste, this resource is transformed into a biodegradable and compostable alternative to petroleum-based packaging foams. The project reduces environmental impact while proposing a circular system in which materials derived from the sea can safely return to it.",
       "typeClass": "media-image",
+      "category": "PRODUCT",
       "src": [
-        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.jpg",
-        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.png",
-        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.png"
+        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.webp",
+        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
+        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.webp"
       ],
       "contacts": {
         "email": "at94167@student.uni-lj.si",
-        "phone": "+386 51 369 848"
+        "phone": "+38 651 369 848"
       },
-      "warnings": [],
-      "category": "",
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "1",
+      "preview": "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
+      "totalSizeBytes": 368686,
+      "fileSizes": {
+        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.webp": 221770,
+        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp": 36772,
+        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.webp": 110144
+      },
       "slug": "umihana-dizdarevic-marko-gorenak-anja-tudjan-nina-vranjes-seapack",
       "schoolSlug": "aluo",
       "media": [
-        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.jpg",
-        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.png",
-        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.png"
+        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.webp",
+        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
+        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.jpg",
-          "path": "assets/projects/aluo-ljubljana/seapack/media/ALUO_Seapack_01.jpg",
-          "type": "image"
+          "source": "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.webp",
+          "path": "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.webp",
+          "type": "image",
+          "bytes": 221770,
+          "bytesHuman": "217 KB"
         },
         {
-          "source": "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.png",
-          "path": "assets/projects/aluo-ljubljana/seapack/media/ALUO_Seapack_02.png",
-          "type": "image"
+          "source": "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
+          "path": "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
+          "type": "image",
+          "bytes": 36772,
+          "bytesHuman": "35.9 KB"
         },
         {
-          "source": "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.png",
-          "path": "assets/projects/aluo-ljubljana/seapack/media/ALUO_Seapack_03.png",
-          "type": "image"
+          "source": "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.webp",
+          "path": "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.webp",
+          "type": "image",
+          "bytes": 110144,
+          "bytesHuman": "108 KB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/aluo-ljubljana/seapack/media/ALUO_Seapack_01.jpg",
-        "assets/projects/aluo-ljubljana/seapack/media/ALUO_Seapack_02.png",
-        "assets/projects/aluo-ljubljana/seapack/media/ALUO_Seapack_03.png"
+        "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.webp",
+        "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
+        "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/aluo-ljubljana/seapack/media/ALUO_Seapack_01.jpg",
-      "menuAssetType": "image"
+      "menuAsset": "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 36772,
+      "menuAssetBytesHuman": "35.9 KB"
     },
     {
-      "id": 37,
-      "author": "Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng",
-      "title": "Ning-Stones",
-      "school": "TAIPEI TECH",
-      "text": "Ning Stones enhances sensory perception and alleviates users’ everyday stress. Crafted from recycled marine glass, this design offers a multi-sensory escape via a magnetic levitation lighting, wave drums, floating oil stones, massage stones, and aromatherapy stones. Merging sustainable materials with interactive functions, it harmonizes soul and space, transforming waste into a serene, high-quality meditation experience.\n\n\n\n寧石放大感官體驗，舒緩使用者的日常壓力。以回收海廢玻璃精心打造，本設計結合磁浮燈光、波浪鼓、浮油石、按摩石與擴香石，帶來多重感官交織的沉浸式放鬆體驗。透過永續材料與互動功能的融合，調和心靈與空間，將廢棄物轉化為寧靜且高品質的冥想體驗。",
+      "id": 3,
+      "author": "Alexandre Guezenoc",
+      "title": "How?",
+      "school": "ASP Wroclaw",
+      "text": "The poster series interprets Space to Space as a relationship between physical and mental dimensions. Through intense colours, irony, and metaphors of transition, it confronts cosmic expansion with questions of responsibility, consumerism, and freedom of choice. The works question whether, without a shift in perspective, we are capable of designing empathetic and ethical futures.",
       "typeClass": "media-image",
+      "category": "GRAPHIC",
       "src": [
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_02.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_03.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_04.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_05.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_07.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.JPG"
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0000.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0001.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0004.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0005.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0006.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0007.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0008.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0009.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.webp"
       ],
       "contacts": {
-        "email": "m901372@gmail.com bernie.huang0126@gmail.com annnchiiieh@gmail.com dino2413@gmail.com",
+        "email": "guezenoc.studio@gmail.com",
         "phone": ""
       },
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
-      "slug": "kuan-yu-chen-guan-bo-huang-hsuan-wu-sung-an-chieh-cheng-ning-stones",
-      "schoolSlug": "taipei-tech",
+      "quality": "3",
+      "preview": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.webp",
+      "totalSizeBytes": 28535040,
+      "fileSizes": {
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0000.webp": 157310,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0001.webp": 599402,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002.webp": 2449378,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp": 4996422,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0004.webp": 1627832,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0005.webp": 3958800,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0006.webp": 2114608,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0007.webp": 3900428,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0008.webp": 2286954,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0009.webp": 4029842,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.webp": 1020252,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.webp": 1319008,
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.webp": 74804
+      },
+      "slug": "alexandre-guezenoc-how",
+      "schoolSlug": "asp-wroclaw",
       "media": [
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_02.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_03.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_04.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_05.jpg",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_07.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.JPG",
-        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.JPG"
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0000.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0001.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0004.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0005.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0006.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0007.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0008.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0009.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.webp",
+        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01.jpg",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_01.jpg",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0000.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0000.webp",
+          "type": "image",
+          "bytes": 157310,
+          "bytesHuman": "154 KB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_02.jpg",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_02.jpg",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0001.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0001.webp",
+          "type": "image",
+          "bytes": 599402,
+          "bytesHuman": "585 KB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_03.jpg",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_03.jpg",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002.webp",
+          "type": "image",
+          "bytes": 2449378,
+          "bytesHuman": "2.34 MB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_04.jpg",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_04.jpg",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp",
+          "type": "image",
+          "bytes": 4996422,
+          "bytesHuman": "4.76 MB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_05.jpg",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_05.jpg",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0004.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0004.webp",
+          "type": "image",
+          "bytes": 1627832,
+          "bytesHuman": "1.55 MB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.JPG",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_06.JPG",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0005.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0005.webp",
+          "type": "image",
+          "bytes": 3958800,
+          "bytesHuman": "3.78 MB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_07.JPG",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_07.JPG",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0006.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0006.webp",
+          "type": "image",
+          "bytes": 2114608,
+          "bytesHuman": "2.02 MB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.JPG",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_08.JPG",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0007.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0007.webp",
+          "type": "image",
+          "bytes": 3900428,
+          "bytesHuman": "3.72 MB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.JPG",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_09.JPG",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0008.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0008.webp",
+          "type": "image",
+          "bytes": 2286954,
+          "bytesHuman": "2.18 MB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.JPG",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_10.JPG",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0009.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0009.webp",
+          "type": "image",
+          "bytes": 4029842,
+          "bytesHuman": "3.84 MB"
         },
         {
-          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.JPG",
-          "path": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_11.JPG",
-          "type": "image"
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.webp",
+          "type": "image",
+          "bytes": 1020252,
+          "bytesHuman": "996 KB"
+        },
+        {
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.webp",
+          "type": "image",
+          "bytes": 1319008,
+          "bytesHuman": "1.26 MB"
+        },
+        {
+          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.webp",
+          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.webp",
+          "type": "image",
+          "bytes": 74804,
+          "bytesHuman": "73.1 KB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_01.jpg",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_02.jpg",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_03.jpg",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_04.jpg",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_05.jpg",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_06.JPG",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_07.JPG",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_08.JPG",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_09.JPG",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_10.JPG",
-        "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_11.JPG"
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0000.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0001.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0004.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0005.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0006.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0007.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0008.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0009.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_EVEN_HERE.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_LET_THEM_GO.webp",
+        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/taipei-tech/pre-selection/zheng-ning-stones/media/Taipei Tech_Zheng_Meng-Cong_Ning-Stones_01.jpg",
-      "menuAssetType": "image"
+      "menuAsset": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/ASP-Wroclaw_Alexandre_Guezenoc_SPACE_TO_SPACE.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 74804,
+      "menuAssetBytesHuman": "73.1 KB"
     },
     {
-      "id": 26,
-      "author": "Jozef Mikušinec",
-      "title": "Space Simulation",
-      "school": "MUNI",
-      "text": "Space Simulation\n\nJozef Mikušinec\n\n\n\nSpace Simulation simuluje objekty ve vesmíru, které ovlivňují dráhu světla a vytvářejí vizuální deformace zvoleného pozadí – v tomto případě fotografie Marsu. Ačkoliv objekty existují na 2D ploše (bez skutečného třetího rozměru), vzájemně na sebe působí gravitačně podle klasických fyzikálních zákonů, přitahují se jako skutečná nebeská tělesa. Světlo se kolem těchto objektů ohýbá způsobem podobným gravitačnímu čočkování (gravitational lensing), ale s použitím samostatného nastavitelného parametru – konstanty ohybu světla (L), která umožňuje jemně regulovat efekt deformace nezávisle na gravitačních interakcích. Výsledkem je vizuálně působivá simulace, kde vzájemná interakce hmoty a světla vytváří dynamický, neustále se měnící obraz, ilustrující jemný, přesto silný vliv gravitace na světlo.\n\n\n\nSpace Simulation simulates objects in space that influence the path of light, producing visual distortions of a chosen background image—in this case, a photograph of Mars. Although the objects exist on a 2D plane (without a true third dimension), they interact gravitationally according to classical physics, attracting one another as real celestial bodies would. Light is bent around these objects in a manner analogous to gravitational lensing, but with a separate adjustable parameter—the light-bending constant (L)—allowing for fine control of the distortion effect independent of the gravitational interactions. The result is a visually striking simulation where the interplay of mass and light creates a dynamic, ever-changing image, illustrating the subtle yet powerful influence of gravity on light.\n\n\n\nProjekt může být prezentovaný buď jako video, obrázky.",
-      "typeClass": "mixed_video_image",
+      "id": 6,
+      "author": "Ewa Kulewicz",
+      "title": "Polish Pavilion Project for World Expo 2025",
+      "school": "ASP Wroclaw",
+      "text": "The design of the pavilion is a comprehensive concept encompassing the architecture of\nthe building, its façade, interior spaces, and the visitor route. The primary inspiration was\nthe tree trunk—its grain and layered structure—interpreted as a record of history, identity,\nand cultural continuity. Wood is the dominant material, within whose structure circulation\ntunnels inspired by termite channels are carved. The project includes references to Polish\nculture and landscape, as well as a dialogue with Japan through the sculptural installation\nof the “red thread of destiny” suspended in the atrium.",
+      "typeClass": "media-image",
+      "category": "SPATIAL",
       "src": [
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_01.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_02.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_video.mp4"
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp",
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.webp",
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.webp",
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.webp"
       ],
       "contacts": {
-        "email": "<jelenalukasova@gmail.com>",
-        "phone": "phone: 420603228568"
+        "email": "marekgrzyb70@gmail.com",
+        "phone": ""
+      },
+      "warnings": [
+        "Chybí textový obsah."
+      ],
+      "quality": "3",
+      "totalSizeBytes": 7263248,
+      "fileSizes": {
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp": 18592,
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp": 1644124,
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.webp": 1743894,
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.webp": 1997046,
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.webp": 1859592
+      },
+      "preview": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
+      "slug": "ewa-kulewicz-polish-pavilion-project-for-world-expo-2025",
+      "schoolSlug": "asp-wroclaw",
+      "media": [
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp",
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.webp",
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.webp",
+        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
+          "path": "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
+          "type": "image",
+          "bytes": 18592,
+          "bytesHuman": "18.2 KB"
+        },
+        {
+          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp",
+          "path": "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp",
+          "type": "image",
+          "bytes": 1644124,
+          "bytesHuman": "1.57 MB"
+        },
+        {
+          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.webp",
+          "path": "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.webp",
+          "type": "image",
+          "bytes": 1743894,
+          "bytesHuman": "1.66 MB"
+        },
+        {
+          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.webp",
+          "path": "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.webp",
+          "type": "image",
+          "bytes": 1997046,
+          "bytesHuman": "1.90 MB"
+        },
+        {
+          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.webp",
+          "path": "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.webp",
+          "type": "image",
+          "bytes": 1859592,
+          "bytesHuman": "1.77 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
+        "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp",
+        "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.webp",
+        "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.webp",
+        "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 18592,
+      "menuAssetBytesHuman": "18.2 KB"
+    },
+    {
+      "id": 8,
+      "author": "Michał Sieczka",
+      "title": "Matches",
+      "school": "ASP Wroclaw",
+      "text": "This experimental documentary, shot on 16mm film, examines tree felling as a disruption of local memory and the natural rhythm of the landscape. The raw materiality of the analogue medium, with its grain and fragility, becomes a parallel narrative layer that reflects and intensifies the physical transformations unfolding on screen, adding emotional depth to the observed changes.",
+      "typeClass": "media-video",
+      "category": "GRAPHIC",
+      "src": [
+        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
+        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_preview.mp4"
+      ],
+      "contacts": {
+        "email": "michal.sieczka88@gmail.com",
+        "phone": "+48 881 546 580"
       },
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
-      "slug": "jozef-mikusinec-space-simulation",
-      "schoolSlug": "muni",
-      "media": [
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_01.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_02.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.png",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.png"
-      ],
-      "externalMedia": [
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_video.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_01.png",
-          "path": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_01.png",
-          "type": "image"
-        },
-        {
-          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_02.png",
-          "path": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_02.png",
-          "type": "image"
-        },
-        {
-          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.png",
-          "path": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_03.png",
-          "type": "image"
-        },
-        {
-          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.png",
-          "path": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_04.png",
-          "type": "image"
-        },
-        {
-          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.png",
-          "path": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_05.png",
-          "type": "image"
-        },
-        {
-          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.png",
-          "path": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_06.png",
-          "type": "image"
-        },
-        {
-          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_video.mp4",
-          "path": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video.mp4",
-          "type": "video"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_01.png",
-        "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_02.png",
-        "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_03.png",
-        "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_04.png",
-        "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_05.png",
-        "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_06.png"
-      ],
-      "resolvedVideos": [
-        "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video.mp4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/muni-brno/fi-muni-mikusinec-jozef-space-simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_01.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 21,
-      "author": "Adam Svoboda",
-      "title": "Nebula",
-      "school": "MUNI",
-      "text": "é pomocí geometry nodes a inspirované vizuálním jazykem rané vektorové grafiky – ostrým, minimalistickým a lehce retro. Více vrstev animovaného šumu a postupně se měnící barevné palety spolu vzájemně interagují, čímž do kompozice vnášejí hloubku, pohyb a variabilitu. Tyto prvky společně zajišťují, že se mlhovina nachází v neustálém toku a žádné dva snímky nejsou totožné, což zdůrazňuje jak nekonečnou povahu vesmíru, tak generativní proces stojící za jeho vznikem.\n\nNebula - an endless nebula generated entirely within Blender’s shader editor forms the core of this piece, unfolding as a continuously evolving cosmic environment. The scene is populated by procedurally generated asteroids, created using geometry nodes and inspired by the visual language of early vector graphics—sharp, minimal, and slightly retro. Multiple layers of animated noise and gradually shifting colour palettes interact across the composition, introducing depth, motion, and variation. Together, these elements ensure that the nebula is in constant flux, with no two frames ever appearing the same, emphasizing both the infinite nature of space and the generative process behind its creation.\n\n\n\nMůžeme přerendrovat video nebo obrazy dle požadavků.",
-      "typeClass": "mixed_video_image",
-      "src": [
-        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.png",
-        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait.mp4",
-        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short.mp4"
-      ],
-      "contacts": {
-        "email": "<jelenalukasova@gmail.com>",
-        "phone": ""
+      "quality": "5",
+      "totalSizeBytes": 93865412,
+      "fileSizes": {
+        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4": 93115000,
+        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_preview.mp4": 750412
       },
-      "warnings": [],
-      "category": "",
-      "slug": "adam-svoboda-nebula",
-      "schoolSlug": "muni",
-      "media": [
-        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.png"
-      ],
-      "externalMedia": [
-        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait.mp4",
-        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.png",
-          "path": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula.png",
-          "type": "image"
-        },
-        {
-          "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
-          "type": "video"
-        },
-        {
-          "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4",
-          "type": "video"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula.png"
-      ],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait.mp4",
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula_portrait_short.mp4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/muni-brno/fi-muni-svoboda-adam-nebula/FI MUNI_Svoboda_Adam_Nebula.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 27,
-      "author": "Martin Nastoupil",
-      "title": "Resonance in Space",
-      "school": "MUNI",
-      "text": "ím do třetího rozměru. Namísto statických stop vznikajících na vibrujících deskách se zvuk stává živým, prostorovým jevem. Hrou na klávesnici nebo vytvářením zvuku účastníci aktivují systém, který v reálném čase uvádí částice do pohybu – shlukují se, rozptylují a „tančí“ v závislosti na frekvenci a intenzitě zvukového vstupu. Dílo proměňuje zvuk v hmatatelný vizuální zážitek a zve diváky nejen k pozorování, ale i k aktivní participaci.\n\nResonance i Space xplores the intersection of acoustics and art, this project reinterprets Chladni’s 18th-century sound patterns by extending them into three-dimensional space. Instead of static traces left by vibrating plates, sound becomes a living, spatial phenomenon. By playing the keyboard or producing sound, participants activate the system, causing particles to respond in real time—gathering, dispersing, and dancing according to the frequencies and intensities of the audio input. The work transforms sound into a tangible visual experience, inviting viewers to both observe and perform.\n\n\n\nProjekt může být prezentovaný buď jako video (můžeme připravit delší stopu). Pro interaktivní instalaci je pak třeba:  leap motion, Raspberry Pi, monitor, audio výstup.",
-      "typeClass": "mixed_video_image",
-      "src": [
-        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space.mp4",
-        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.png",
-        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.png",
-        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.png"
-      ],
-      "contacts": {
-        "email": "<jelenalukasova@gmail.com>",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "martin-nastoupil-resonance-in-space",
-      "schoolSlug": "muni",
-      "media": [
-        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.png",
-        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.png",
-        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.png"
-      ],
-      "externalMedia": [
-        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4",
-          "type": "video"
-        },
-        {
-          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.png",
-          "path": "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space_01.png",
-          "type": "image"
-        },
-        {
-          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.png",
-          "path": "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space_02.png",
-          "type": "image"
-        },
-        {
-          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.png",
-          "path": "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space_03.png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space_01.png",
-        "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space_02.png",
-        "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space_03.png"
-      ],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/muni-brno/loose-imports/FI MUNI_Nastoupil_Martin_Resonance in Space.mp4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/muni-brno/fi-muni-nastoupil-martin-resonance-in-space/FI MUNI_Nastoupil_Martin_Resonance in Space_01.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 28,
-      "author": "Matúš Talčík",
-      "title": "Darwin’s Cube",
-      "school": "MUNI",
-      "text": "áší klasickou Hru života Johna Conwaye, což je buněčný automat, do pseudo-3D světa. Hra života se často používá ke zkoumání složitosti, emergentního chování a toho, jak jednoduchá pravidla mohou generovat zdánlivě nepředvídatelné vzorce – elegantní metafora života, evoluce a samo organizace. Místo nekonečné ploché mřížky se hra odehrává na povrchu krychle. Díky „obtočení“ hran pomocí kruhových pravidel se mřížka chová, jako by byla nekonečná, a vytváří tak neustále se vyvíjející vzory, které plynule pokračují přes všechny stěny krychle. Projekt se tak stává meditací o hranicích a nekonečnu – ukazuje, jak jednoduchá pravidla mohou generovat nekonečnou složitost a jak konečné struktury mohou vytvářet iluzi nekonečna.\n\n\n\nDarwin’s Cube brings the classic Conway’s Game of Life, a cellular automaton, into a pseudo-3D world. The Game of Life is often used to explore complexity, emergence, and how simple rules can generate seemingly unpredictable behavior—an elegant metaphor for life, evolution, and self-organization. Instead of an endless flat grid, the game unfolds on the surface of a cube. By “wrapping” the edges with circular rules, the grid behaves as if it were infinite, creating continuously evolving patterns that loop seamlessly across the cube’s faces. In doing so, the project becomes a meditation on boundaries and infinity—showing how simple rules can generate endless complexity, and how finite structures can give the illusion of the infinite.\n\n\n\nProjekt může být prezentovaný buď jako video, obrázky.",
-      "typeClass": "media-video",
-      "src": [
-        "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_video.mp4"
-      ],
-      "contacts": {
-        "email": "<jelenalukasova@gmail.com>",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "matus-talcik-darwin-s-cube",
-      "schoolSlug": "muni",
+      "preview": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_preview.mp4",
+      "slug": "micha-sieczka-matches",
+      "schoolSlug": "asp-wroclaw",
       "media": [],
       "externalMedia": [
-        "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_video.mp4"
+        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
+        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_preview.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_video.mp4",
-          "path": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video.mp4",
-          "type": "video"
+          "source": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
+          "path": "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
+          "type": "video",
+          "bytes": 93115000,
+          "bytesHuman": "88.8 MB"
+        },
+        {
+          "source": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_preview.mp4",
+          "path": "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_preview.mp4",
+          "type": "video",
+          "bytes": 750412,
+          "bytesHuman": "733 KB"
         }
       ],
       "resolvedImages": [],
       "resolvedVideos": [
-        "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video.mp4"
+        "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
+        "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_preview.mp4"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/muni-brno/fi-muni-talcik-matus-darwin-s-cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video.mp4",
-      "menuAssetType": "video"
+      "menuAsset": "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_preview.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 750412,
+      "menuAssetBytesHuman": "733 KB"
+    },
+    {
+      "id": 16,
+      "author": "Martin Kopera",
+      "title": "Speed of transformation",
+      "school": "AU BB",
+      "text": "The work explores the relationship between humans and machines as a reflection of the present era, where speed, performance, and technology represent both value and threat. It examines the dissolving boundary between the organic and the mechanical, suggesting a shift in societal direction. Speed becomes a metaphor for contemporary life—fascinating yet destabilising the inner balance of both individuals and systems.",
+      "typeClass": "media-image",
+      "category": "CONCEPTUAL",
+      "src": [
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_07.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_08.webp"
+      ],
+      "contacts": {
+        "email": "martinkop02@gmail.com",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "2",
+      "preview": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
+      "totalSizeBytes": 1382706,
+      "fileSizes": {
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.webp": 939124,
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp": 31140,
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp": 30366,
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp": 63340,
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.webp": 100126,
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.webp": 74290,
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_07.webp": 88586,
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_08.webp": 55734
+      },
+      "slug": "martin-kopera-speed-of-transformation",
+      "schoolSlug": "au-bb",
+      "media": [
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_07.webp",
+        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_08.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.webp",
+          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.webp",
+          "type": "image",
+          "bytes": 939124,
+          "bytesHuman": "917 KB"
+        },
+        {
+          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
+          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
+          "type": "image",
+          "bytes": 31140,
+          "bytesHuman": "30.4 KB"
+        },
+        {
+          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
+          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
+          "type": "image",
+          "bytes": 30366,
+          "bytesHuman": "29.7 KB"
+        },
+        {
+          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp",
+          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp",
+          "type": "image",
+          "bytes": 63340,
+          "bytesHuman": "61.9 KB"
+        },
+        {
+          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.webp",
+          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.webp",
+          "type": "image",
+          "bytes": 100126,
+          "bytesHuman": "97.8 KB"
+        },
+        {
+          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.webp",
+          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.webp",
+          "type": "image",
+          "bytes": 74290,
+          "bytesHuman": "72.5 KB"
+        },
+        {
+          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_07.webp",
+          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_07.webp",
+          "type": "image",
+          "bytes": 88586,
+          "bytesHuman": "86.5 KB"
+        },
+        {
+          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_08.webp",
+          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_08.webp",
+          "type": "image",
+          "bytes": 55734,
+          "bytesHuman": "54.4 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.webp",
+        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
+        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
+        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp",
+        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.webp",
+        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.webp",
+        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_07.webp",
+        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_08.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 30366,
+      "menuAssetBytesHuman": "29.7 KB"
     },
     {
       "id": 17,
       "author": "Patrik Sluka",
       "title": "Blow Me Away!",
       "school": "AU BB",
-      "text": "Blow me away! is an interactive visual of a state map with wind trajectories. By blowing into a microphone, the viewer influences the movement of cities and disrupts the stability of the system. The work addresses natural forces, geopolitics, the fragility of borders, and the need for a shift in perspective, where an individual gesture can have a huge impact on society.",
+      "text": "Blow Me Away! is an interactive visualisation of a state map shaped by wind trajectories. By blowing into a microphone, viewers influence the movement of cities and destabilise the system. The project reflects on natural forces, geopolitics, and the fragility of borders, highlighting how a small individual gesture can trigger broader societal change and shift perception of control.",
       "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
       "src": [
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.jpeg",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.jpg",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.jpg",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04.mp4",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4"
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.webp",
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.webp",
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.webp",
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4"
       ],
       "contacts": {
         "email": "psluka42@gmail.com",
@@ -1490,81 +634,106 @@ window.SpaceToSpaceProjectsData = {
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
+      "quality": "3",
+      "preview": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.webp",
+      "totalSizeBytes": 39179591,
+      "fileSizes": {
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.webp": 209846,
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.webp": 12904,
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.webp": 134358,
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4": 3183347,
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4": 2951457,
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4": 32687679
+      },
       "slug": "patrik-sluka-blow-me-away",
       "schoolSlug": "au-bb",
       "media": [
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.jpeg",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.jpg",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.jpg"
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.webp",
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.webp",
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.webp"
       ],
       "externalMedia": [
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04.mp4",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4"
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
+        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.jpeg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.jpeg",
-          "type": "image"
+          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.webp",
+          "path": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.webp",
+          "type": "image",
+          "bytes": 209846,
+          "bytesHuman": "205 KB"
         },
         {
-          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.jpg",
-          "type": "image"
+          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.webp",
+          "path": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.webp",
+          "type": "image",
+          "bytes": 12904,
+          "bytesHuman": "12.6 KB"
         },
         {
-          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.jpg",
-          "type": "image"
+          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.webp",
+          "path": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.webp",
+          "type": "image",
+          "bytes": 134358,
+          "bytesHuman": "131 KB"
         },
         {
-          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04.mp4",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04.mp4",
-          "type": "video"
+          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
+          "path": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
+          "type": "video",
+          "bytes": 3183347,
+          "bytesHuman": "3.04 MB"
         },
         {
-          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
-          "type": "video"
+          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
+          "path": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
+          "type": "video",
+          "bytes": 2951457,
+          "bytesHuman": "2.81 MB"
         },
         {
-          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4",
-          "type": "video"
+          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4",
+          "path": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4",
+          "type": "video",
+          "bytes": 32687679,
+          "bytesHuman": "31.2 MB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.jpeg",
-        "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.jpg"
+        "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.webp",
+        "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.webp",
+        "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.webp"
       ],
       "resolvedVideos": [
-        "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04.mp4",
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05.mp4",
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06.mp4"
+        "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
+        "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
+        "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/au-banska-bystrica/pre-selection/sluka-odfukni-ma/media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_01.jpeg",
-      "menuAssetType": "image"
+      "menuAsset": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 12904,
+      "menuAssetBytesHuman": "12.6 KB"
     },
     {
       "id": 18,
       "author": "Pavol Šeliga",
       "title": "AS IF NOTHING HAPPENED",
       "school": "AU BB",
-      "text": "AS_IF_NOTHING_HAPPENED \n\na VR experience\n\nFormal invitation … traversal, world and changes approximately observant of narratives within. It can feel as if nothing is truly changing. It would make you wish. What you see, might not be about pretending at all. So much for waiting. If something mattered, it is there no longer …\n\n\n\nWork attempts to frame hard to express abstract feelings and sees the visitor through numerous stages. Experience is made in form of a videogame level Mod for VR game Half-life Alyx.",
+      "text": "As If Nothing Happened is a VR experience exploring perception, memory, and transformation. The work guides the viewer through shifting environments where change remains almost imperceptible, evoking uncertainty and disorientation. Structured as a videogame level mod for Half-Life: Alyx, it stages abstract feelings through spatial narrative, inviting reflection on absence, time, and traces of what once mattered.",
       "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
       "src": [
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H.mp4"
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4"
       ],
       "contacts": {
         "email": "seliga.pavol@gmail.com",
@@ -1573,682 +742,2797 @@ window.SpaceToSpaceProjectsData = {
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
+      "quality": "4",
+      "preview": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
+      "totalSizeBytes": 35109791,
+      "fileSizes": {
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.webp": 435132,
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp": 247124,
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.webp": 63178,
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp": 53626,
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp": 216204,
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.webp": 473476,
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4": 33621051
+      },
       "slug": "pavol-seliga-as-if-nothing-happened",
       "schoolSlug": "au-bb",
       "media": [
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.jpg",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.jpg"
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp",
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.webp"
       ],
       "externalMedia": [
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H.mp4"
+        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH001.jpg",
-          "type": "image"
+          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.webp",
+          "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.webp",
+          "type": "image",
+          "bytes": 435132,
+          "bytesHuman": "425 KB"
         },
         {
-          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH002.jpg",
-          "type": "image"
+          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp",
+          "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp",
+          "type": "image",
+          "bytes": 247124,
+          "bytesHuman": "241 KB"
         },
         {
-          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH003.jpg",
-          "type": "image"
+          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.webp",
+          "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.webp",
+          "type": "image",
+          "bytes": 63178,
+          "bytesHuman": "61.7 KB"
         },
         {
-          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH004.jpg",
-          "type": "image"
+          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
+          "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
+          "type": "image",
+          "bytes": 53626,
+          "bytesHuman": "52.4 KB"
         },
         {
-          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH005.jpg",
-          "type": "image"
+          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp",
+          "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp",
+          "type": "image",
+          "bytes": 216204,
+          "bytesHuman": "211 KB"
         },
         {
-          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH006.jpg",
-          "type": "image"
+          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.webp",
+          "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.webp",
+          "type": "image",
+          "bytes": 473476,
+          "bytesHuman": "462 KB"
+        },
+        {
+          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4",
+          "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4",
+          "type": "video",
+          "bytes": 33621051,
+          "bytesHuman": "32.1 MB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH001.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH002.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH003.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH004.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH005.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH006.jpg"
+        "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.webp",
+        "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp",
+        "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.webp",
+        "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
+        "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp",
+        "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.webp"
       ],
-      "resolvedVideos": [],
+      "resolvedVideos": [
+        "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4"
+      ],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/au-banska-bystrica/pre-selection/seliga-as-if-nothing-happened/media/AINH001.jpg",
-      "menuAssetType": "image"
+      "menuAsset": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 53626,
+      "menuAssetBytesHuman": "52.4 KB"
     },
     {
-      "id": 16,
-      "author": "Martin Kopera",
-      "title": "Speed of transformation",
-      "school": "AU BB",
-      "text": "Annotation\n\n\n\nThe work explores the connection between man and machine as a symbol of the present era, in which speed, performance, and technology have become both a new value and a threat.\n\nThe objects are based on the idea that the boundary between the organic and the mechanical is disappearing. At the same time, it depicts the demise and new direction of society.\n\nThe aim of the work is to understand speed and technology as a metaphor for today's society: it fascinates, but at the same time destroys the inner balance of the universe.",
+      "id": 20,
+      "author": "Dennis Baptist",
+      "title": "Microcosmos",
+      "school": "EhB",
+      "text": "Een audiovisuele ervaring transformeren kaders in verbonden micro-werelden. Beelden veranderen wanneer een externe kracht zich tussen kaders beweegt, beïnvloedt en synchroniseert, en zo dynamische relaties tussen verschillende dimensies onthult.",
       "typeClass": "media-image",
+      "category": "CONCEPTUAL",
       "src": [
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.jpeg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_07.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_08.jpg"
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.webp",
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp",
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.webp"
       ],
       "contacts": {
-        "email": "martinkop02@gmail.com",
+        "email": "dennis.baptist@ehb.be",
         "phone": ""
       },
-      "warnings": [
-        "V annotations nalezeno 2 souborů, žádný s EN markerem. Použit první soubor.",
-        "Nebyl nalezen anglický marker (ENG:), použit celý text."
-      ],
-      "category": "",
-      "slug": "martin-kopera-speed-of-transformation",
-      "schoolSlug": "au-bb",
+      "warnings": [],
+      "quality": "3",
+      "preview": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
+      "totalSizeBytes": 123156,
+      "fileSizes": {
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.webp": 40766,
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp": 26172,
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp": 13572,
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.webp": 42646
+      },
+      "slug": "dennis-baptist-microcosmos",
+      "schoolSlug": "ehb",
       "media": [
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.jpeg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_07.jpg",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_08.jpg"
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.webp",
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp",
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
+        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.jpeg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_01.jpeg",
-          "type": "image"
+          "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.webp",
+          "path": "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.webp",
+          "type": "image",
+          "bytes": 40766,
+          "bytesHuman": "39.8 KB"
         },
         {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_02.jpg",
-          "type": "image"
+          "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp",
+          "path": "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp",
+          "type": "image",
+          "bytes": 26172,
+          "bytesHuman": "25.6 KB"
         },
         {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_03.jpg",
-          "type": "image"
+          "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
+          "path": "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
+          "type": "image",
+          "bytes": 13572,
+          "bytesHuman": "13.3 KB"
         },
         {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_04.jpg",
-          "type": "image"
-        },
-        {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_05.jpg",
-          "type": "image"
-        },
-        {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_06.jpg",
-          "type": "image"
-        },
-        {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_07.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_07.jpg",
-          "type": "image"
-        },
-        {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_08.jpg",
-          "path": "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_08.jpg",
-          "type": "image"
+          "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.webp",
+          "path": "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.webp",
+          "type": "image",
+          "bytes": 42646,
+          "bytesHuman": "41.6 KB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_01.jpeg",
-        "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_02.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_03.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_04.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_05.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_06.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_07.jpg",
-        "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_08.jpg"
+        "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.webp",
+        "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp",
+        "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
+        "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/au-banska-bystrica/pre-selection/kopera-rychlost-transformacie/media/FVUAKUBB_Kopera_Martin_Rýchlosť transformácie_01.jpeg",
-      "menuAssetType": "image"
+      "menuAsset": "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 13572,
+      "menuAssetBytesHuman": "13.3 KB"
+    },
+    {
+      "id": 21,
+      "author": "Adam Svoboda",
+      "title": "Nebula",
+      "school": "MUNI",
+      "text": "Nebula presents an endlessly evolving cosmic environment generated within Blender’s shader editor. The scene features procedurally created asteroids inspired by early vector graphics, combined with layered noise and shifting colour palettes. These elements interact to create depth and motion, forming a continuously changing composition that highlights both the infinite nature of space and the generative process behind its creation.",
+      "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
+      "src": [
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.webp",
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web.mp4",
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_web.mp4",
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web_web_web.mp4",
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_preview.mp4"
+      ],
+      "contacts": {
+        "email": "jelenalukasova@gmail.com",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "preview": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_preview.mp4",
+      "totalSizeBytes": 37975785,
+      "fileSizes": {
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.webp": 134384,
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web.mp4": 13324188,
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_web.mp4": 1213193,
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web_web_web.mp4": 22745088,
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_preview.mp4": 558932
+      },
+      "slug": "adam-svoboda-nebula",
+      "schoolSlug": "muni",
+      "media": [
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.webp"
+      ],
+      "externalMedia": [
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web.mp4",
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_web.mp4",
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web_web_web.mp4",
+        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_preview.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.webp",
+          "path": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.webp",
+          "type": "image",
+          "bytes": 134384,
+          "bytesHuman": "131 KB"
+        },
+        {
+          "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web.mp4",
+          "path": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web.mp4",
+          "type": "video",
+          "bytes": 13324188,
+          "bytesHuman": "12.7 MB"
+        },
+        {
+          "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_web.mp4",
+          "path": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_web.mp4",
+          "type": "video",
+          "bytes": 1213193,
+          "bytesHuman": "1.16 MB"
+        },
+        {
+          "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web_web_web.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/muni/adam-svoboda-nebula/fi-muni-svoboda-adam-nebula-portrait-web-web-web.mp4",
+          "type": "video",
+          "bytes": 22745088,
+          "bytesHuman": "21.7 MB"
+        },
+        {
+          "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_preview.mp4",
+          "path": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_preview.mp4",
+          "type": "video",
+          "bytes": 558932,
+          "bytesHuman": "546 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.webp"
+      ],
+      "resolvedVideos": [
+        "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web.mp4",
+        "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_web.mp4",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/muni/adam-svoboda-nebula/fi-muni-svoboda-adam-nebula-portrait-web-web-web.mp4",
+        "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_preview.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_preview.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 558932,
+      "menuAssetBytesHuman": "546 KB"
+    },
+    {
+      "id": 26,
+      "author": "Jozef Mikušinec",
+      "title": "Space Simulation",
+      "school": "MUNI",
+      "text": "The project explores how objects influence the path of light, creating distortions of a background image, here represented by a photograph of Mars. Although positioned on a 2D plane, the objects interact through simulated gravitational forces. An adjustable light-bending parameter allows precise control of distortion, resulting in a dynamic visual system that illustrates the complex relationship between mass and light.",
+      "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
+      "src": [
+        "MUNI/Jozef Mikušinec_Space Simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video_web.mp4",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_01.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_02.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp"
+      ],
+      "contacts": {
+        "email": "jelenalukasova@gmail.com",
+        "phone": "+420 603 228 568"
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "2",
+      "preview": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp",
+      "totalSizeBytes": 2951879,
+      "fileSizes": {
+        "MUNI/Jozef Mikušinec_Space Simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video_web.mp4": 2270369,
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_01.webp": 126568,
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_02.webp": 132590,
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.webp": 129224,
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.webp": 138202,
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.webp": 143176,
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp": 11750
+      },
+      "slug": "jozef-mikusinec-space-simulation",
+      "schoolSlug": "muni",
+      "media": [
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_01.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_02.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.webp",
+        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp"
+      ],
+      "externalMedia": [
+        "MUNI/Jozef Mikušinec_Space Simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video_web.mp4",
+          "path": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video_web.mp4",
+          "type": "video",
+          "bytes": 2270369,
+          "bytesHuman": "2.17 MB"
+        },
+        {
+          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_01.webp",
+          "path": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_01.webp",
+          "type": "image",
+          "bytes": 126568,
+          "bytesHuman": "124 KB"
+        },
+        {
+          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_02.webp",
+          "path": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_02.webp",
+          "type": "image",
+          "bytes": 132590,
+          "bytesHuman": "129 KB"
+        },
+        {
+          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.webp",
+          "path": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.webp",
+          "type": "image",
+          "bytes": 129224,
+          "bytesHuman": "126 KB"
+        },
+        {
+          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.webp",
+          "path": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.webp",
+          "type": "image",
+          "bytes": 138202,
+          "bytesHuman": "135 KB"
+        },
+        {
+          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.webp",
+          "path": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.webp",
+          "type": "image",
+          "bytes": 143176,
+          "bytesHuman": "140 KB"
+        },
+        {
+          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp",
+          "path": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp",
+          "type": "image",
+          "bytes": 11750,
+          "bytesHuman": "11.5 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_01.webp",
+        "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_02.webp",
+        "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.webp",
+        "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.webp",
+        "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.webp",
+        "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp"
+      ],
+      "resolvedVideos": [
+        "assets/MUNI/Jozef Mikušinec_Space Simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 11750,
+      "menuAssetBytesHuman": "11.5 KB"
+    },
+    {
+      "id": 27,
+      "author": "Martin Nastoupil",
+      "title": "Resonance in Space",
+      "school": "MUNI",
+      "text": "Resonance in Space explores the intersection of acoustics and art by reinterpreting Chladni’s sound patterns in three-dimensional space. Sound becomes a dynamic spatial phenomenon as participants activate the system through audio input. Particles respond in real time, gathering and dispersing according to frequency and intensity, transforming sound into a tangible visual experience.",
+      "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
+      "src": [
+        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
+        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.webp",
+        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.webp",
+        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.webp",
+        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_preview.mp4"
+      ],
+      "contacts": {
+        "email": "jelenalukasova@gmail.com",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "preview": "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_preview.mp4",
+      "totalSizeBytes": 70660418,
+      "fileSizes": {
+        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4": 65490869,
+        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.webp": 123460,
+        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.webp": 108024,
+        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.webp": 153888,
+        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_preview.mp4": 4784177
+      },
+      "slug": "martin-nastoupil-resonance-in-space",
+      "schoolSlug": "muni",
+      "media": [
+        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.webp",
+        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.webp",
+        "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.webp"
+      ],
+      "externalMedia": [
+        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
+        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_preview.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
+          "path": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
+          "type": "video",
+          "bytes": 65490869,
+          "bytesHuman": "62.5 MB"
+        },
+        {
+          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.webp",
+          "path": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.webp",
+          "type": "image",
+          "bytes": 123460,
+          "bytesHuman": "121 KB"
+        },
+        {
+          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.webp",
+          "path": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.webp",
+          "type": "image",
+          "bytes": 108024,
+          "bytesHuman": "105 KB"
+        },
+        {
+          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.webp",
+          "path": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.webp",
+          "type": "image",
+          "bytes": 153888,
+          "bytesHuman": "150 KB"
+        },
+        {
+          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_preview.mp4",
+          "path": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_preview.mp4",
+          "type": "video",
+          "bytes": 4784177,
+          "bytesHuman": "4.56 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.webp",
+        "assets/MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.webp",
+        "assets/MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.webp"
+      ],
+      "resolvedVideos": [
+        "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
+        "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_preview.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_preview.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 4784177,
+      "menuAssetBytesHuman": "4.56 MB"
+    },
+    {
+      "id": 28,
+      "author": "Matúš Talčík",
+      "title": "Darwin’s Cube",
+      "school": "MUNI",
+      "text": "The project reinterprets Conway’s Game of Life into a pseudo-3D environment on the surface of a cube. Instead of an infinite grid, wrapped edges simulate continuity, allowing patterns to evolve seamlessly across faces. It explores complexity, emergence, and how simple rules generate unpredictable behavior, reflecting on boundaries, infinity, and the illusion of the infinite within finite structures.",
+      "typeClass": "media-video",
+      "category": "DIGITAL",
+      "src": [
+        "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_web.mp4",
+        "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_preview.mp4"
+      ],
+      "contacts": {
+        "email": "jelenalukasova@gmail.com",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "totalSizeBytes": 7382820,
+      "fileSizes": {
+        "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_web.mp4": 7032096,
+        "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_preview.mp4": 350724
+      },
+      "preview": "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_preview.mp4",
+      "slug": "matus-talcik-darwin-s-cube",
+      "schoolSlug": "muni",
+      "media": [],
+      "externalMedia": [
+        "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_web.mp4",
+        "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_preview.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_web.mp4",
+          "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_web.mp4",
+          "type": "video",
+          "bytes": 7032096,
+          "bytesHuman": "6.71 MB"
+        },
+        {
+          "source": "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_preview.mp4",
+          "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_preview.mp4",
+          "type": "video",
+          "bytes": 350724,
+          "bytesHuman": "343 KB"
+        }
+      ],
+      "resolvedImages": [],
+      "resolvedVideos": [
+        "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_web.mp4",
+        "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_preview.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_preview.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 350724,
+      "menuAssetBytesHuman": "343 KB"
+    },
+    {
+      "id": 36,
+      "author": "Caihong Yang",
+      "title": "Orb Stone",
+      "school": "TAIPEI TECH",
+      "text": "",
+      "typeClass": "media-image",
+      "src": [
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.webp",
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.webp",
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Chybí textový obsah."
+      ],
+      "category": "PRODUCT",
+      "quality": "0",
+      "totalSizeBytes": 246272,
+      "fileSizes": {
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.webp": 20728,
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp": 14262,
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.webp": 20964,
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.webp": 190318
+      },
+      "preview": "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
+      "slug": "caihong-yang-orb-stone",
+      "schoolSlug": "taipei-tech",
+      "media": [
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.webp",
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.webp",
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.webp",
+          "path": "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.webp",
+          "type": "image",
+          "bytes": 20728,
+          "bytesHuman": "20.2 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
+          "path": "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
+          "type": "image",
+          "bytes": 14262,
+          "bytesHuman": "13.9 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.webp",
+          "path": "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.webp",
+          "type": "image",
+          "bytes": 20964,
+          "bytesHuman": "20.5 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.webp",
+        "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
+        "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 14262,
+      "menuAssetBytesHuman": "13.9 KB"
+    },
+    {
+      "id": 37,
+      "author": "Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng",
+      "title": "Ning-Stones",
+      "school": "TAIPEI TECH",
+      "text": "Ning Stones enhances sensory perception and alleviates users’ everyday stress. Crafted from recycled marine glass, this design offers a multi-sensory escape via a magnetic levitation lighting, wave drums, floating oil stones, massage stones, and aromatherapy stones. Merging sustainable materials with interactive functions, it harmonizes soul and space, transforming waste into a serene, high-quality meditation experience.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_02.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_03.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_04.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_05.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_07.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp"
+      ],
+      "contacts": {
+        "email": "m901372@gmail.com, bernie.huang0126@gmail.com, annnchiiieh@gmail.com, dino2413@gmail.com",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "preview": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.webp",
+      "totalSizeBytes": 3215796,
+      "fileSizes": {
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01.webp": 344530,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_02.webp": 206480,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_03.webp": 925402,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_04.webp": 235056,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_05.webp": 153164,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.webp": 26186,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_07.webp": 241366,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.webp": 128848,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.webp": 305692,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.webp": 359558,
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp": 289514
+      },
+      "slug": "kuan-yu-chen-guan-bo-huang-hsuan-wu-sung-an-chieh-cheng-ning-stones",
+      "schoolSlug": "taipei-tech",
+      "media": [
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_02.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_03.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_04.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_05.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_07.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.webp",
+        "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01.webp",
+          "type": "image",
+          "bytes": 344530,
+          "bytesHuman": "336 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_02.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_02.webp",
+          "type": "image",
+          "bytes": 206480,
+          "bytesHuman": "202 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_03.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_03.webp",
+          "type": "image",
+          "bytes": 925402,
+          "bytesHuman": "904 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_04.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_04.webp",
+          "type": "image",
+          "bytes": 235056,
+          "bytesHuman": "230 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_05.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_05.webp",
+          "type": "image",
+          "bytes": 153164,
+          "bytesHuman": "150 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.webp",
+          "type": "image",
+          "bytes": 26186,
+          "bytesHuman": "25.6 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_07.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_07.webp",
+          "type": "image",
+          "bytes": 241366,
+          "bytesHuman": "236 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.webp",
+          "type": "image",
+          "bytes": 128848,
+          "bytesHuman": "126 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.webp",
+          "type": "image",
+          "bytes": 305692,
+          "bytesHuman": "299 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.webp",
+          "type": "image",
+          "bytes": 359558,
+          "bytesHuman": "351 KB"
+        },
+        {
+          "source": "TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp",
+          "path": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp",
+          "type": "image",
+          "bytes": 289514,
+          "bytesHuman": "283 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_02.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_03.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_04.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_05.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_07.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.webp",
+        "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TAIPEI TECH/Kuan-Yu Chen, Guan-Bo Huang, Hsuan-Wu Sung, An-Chieh Cheng_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_06.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 26186,
+      "menuAssetBytesHuman": "25.6 KB"
+    },
+    {
+      "id": 38,
+      "author": "Ema Kmecová",
+      "title": "Face to \"Face\"",
+      "school": "TUZVO",
+      "text": "Café Face to Face is conceived as a social platform where holographic columns enable interaction across distance. It creates a hybrid space for both physical and digital encounters. The accompanying chair functions as its micro-scale counterpart, with polycarbonate elements revealing bent rods resembling digital wiring. Together, they form an environment where distance transforms into presence and space becomes a bridge between people.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_05.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia2.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "totalSizeBytes": 984954,
+      "fileSizes": {
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp": 7308,
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp": 174024,
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.webp": 196476,
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.webp": 133684,
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_05.webp": 222064,
+        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia.webp": 172214,
+        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia2.webp": 79184
+      },
+      "preview": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
+      "slug": "ema-kmecova-face-to-face",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_05.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia.webp",
+        "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia2.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
+          "path": "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
+          "type": "image",
+          "bytes": 7308,
+          "bytesHuman": "7.14 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp",
+          "path": "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp",
+          "type": "image",
+          "bytes": 174024,
+          "bytesHuman": "170 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.webp",
+          "path": "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.webp",
+          "type": "image",
+          "bytes": 196476,
+          "bytesHuman": "192 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.webp",
+          "path": "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.webp",
+          "type": "image",
+          "bytes": 133684,
+          "bytesHuman": "131 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_05.webp",
+          "path": "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_05.webp",
+          "type": "image",
+          "bytes": 222064,
+          "bytesHuman": "217 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia.webp",
+          "path": "assets/TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia.webp",
+          "type": "image",
+          "bytes": 172214,
+          "bytesHuman": "168 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia2.webp",
+          "path": "assets/TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia2.webp",
+          "type": "image",
+          "bytes": 79184,
+          "bytesHuman": "77.3 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
+        "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp",
+        "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.webp",
+        "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.webp",
+        "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_05.webp",
+        "assets/TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia.webp",
+        "assets/TUZVO/Ema Kmecová_Face to Face/Media/vizualizacia2.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 7308,
+      "menuAssetBytesHuman": "7.14 KB"
+    },
+    {
+      "id": 39,
+      "author": "Ema Kováčová",
+      "title": "DUENDE",
+      "school": "TUZVO",
+      "text": "Duende embodies tension, where silence transforms into passion and stillness into movement. The object expresses the raw language of flamenco, from the fluidity of braceo to the intensity of zapateado before its release. Sharp angles meet softness in a dialogue of masculine and feminine principles. It is not only a seat, but a visual trace of emotion shaped through gesture.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_06.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_5.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_7.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "preview": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
+      "totalSizeBytes": 1346426,
+      "fileSizes": {
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.webp": 183176,
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.webp": 33890,
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.webp": 55538,
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp": 4824,
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp": 148962,
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.webp": 121114,
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.webp": 194956,
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_06.webp": 262094,
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_5.webp": 148178,
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_7.webp": 193694
+      },
+      "slug": "ema-kovacova-duende",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_06.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_5.webp",
+        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_7.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.webp",
+          "type": "image",
+          "bytes": 183176,
+          "bytesHuman": "179 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.webp",
+          "type": "image",
+          "bytes": 33890,
+          "bytesHuman": "33.1 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.webp",
+          "type": "image",
+          "bytes": 55538,
+          "bytesHuman": "54.2 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
+          "type": "image",
+          "bytes": 4824,
+          "bytesHuman": "4.71 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp",
+          "type": "image",
+          "bytes": 148962,
+          "bytesHuman": "145 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.webp",
+          "type": "image",
+          "bytes": 121114,
+          "bytesHuman": "118 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.webp",
+          "type": "image",
+          "bytes": 194956,
+          "bytesHuman": "190 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_06.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_06.webp",
+          "type": "image",
+          "bytes": 262094,
+          "bytesHuman": "256 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_5.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_5.webp",
+          "type": "image",
+          "bytes": 148178,
+          "bytesHuman": "145 KB"
+        },
+        {
+          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_7.webp",
+          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_7.webp",
+          "type": "image",
+          "bytes": 193694,
+          "bytesHuman": "189 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_kováčová_Ema_DUENDE_inšpirácia.webp",
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.webp",
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.webp",
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp",
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.webp",
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.webp",
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_06.webp",
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_5.webp",
+        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_7.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 4824,
+      "menuAssetBytesHuman": "4.71 KB"
+    },
+    {
+      "id": 40,
+      "author": "Gréta Brajerová",
+      "title": "Errans",
+      "school": "TUZVO",
+      "text": "The Errans project (from the Latin ‘wandering’) is a socio-ecological initiative situated in an underpass, restoring dignity to both homeless people and discarded shopping carts. As a sheltered workshop, it enables individuals to earn a night’s stay by redesigning these carts. The process unfolds through four zones: treatment, purification, rest, and a glass-walled workshop, creating visibility and space for those long overlooked.",
+      "typeClass": "mixed_video_image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp",
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.webp",
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.webp",
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_05.JPG.webp",
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "totalSizeBytes": 70655115,
+      "fileSizes": {
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp": 11056,
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp": 362214,
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.webp": 167452,
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.webp": 486994,
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_05.JPG.webp": 343532,
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4": 69283867
+      },
+      "preview": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
+      "slug": "greta-brajerova-errans",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp",
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.webp",
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.webp",
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_05.JPG.webp"
+      ],
+      "externalMedia": [
+        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
+          "path": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
+          "type": "image",
+          "bytes": 11056,
+          "bytesHuman": "10.8 KB"
+        },
+        {
+          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp",
+          "path": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp",
+          "type": "image",
+          "bytes": 362214,
+          "bytesHuman": "354 KB"
+        },
+        {
+          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.webp",
+          "path": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.webp",
+          "type": "image",
+          "bytes": 167452,
+          "bytesHuman": "164 KB"
+        },
+        {
+          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.webp",
+          "path": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.webp",
+          "type": "image",
+          "bytes": 486994,
+          "bytesHuman": "476 KB"
+        },
+        {
+          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_05.JPG.webp",
+          "path": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_05.JPG.webp",
+          "type": "image",
+          "bytes": 343532,
+          "bytesHuman": "335 KB"
+        },
+        {
+          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4",
+          "path": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4",
+          "type": "video",
+          "bytes": 69283867,
+          "bytesHuman": "66.1 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
+        "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp",
+        "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.webp",
+        "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.webp",
+        "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_05.JPG.webp"
+      ],
+      "resolvedVideos": [
+        "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 11056,
+      "menuAssetBytesHuman": "10.8 KB"
+    },
+    {
+      "id": 41,
+      "author": "Hana Šegedová",
+      "title": "SPOJOVÁ school garden",
+      "school": "TUZVO",
+      "text": "Umama is a furniture piece inspired by the balance, strength, and ingenuity of African women and mothers. It reflects their ability to adapt, take responsibility, and transform everyday tasks into thoughtful, functional actions. The design reinterprets the tradition of carrying loads on the head within a contemporary context, showing how cultural heritage can naturally integrate into modern ways of living and space.",
+      "typeClass": "media-video",
+      "category": "SPATIAL",
+      "src": [
+        "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+        "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "2",
+      "totalSizeBytes": 80116458,
+      "fileSizes": {
+        "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4": 40058229,
+        "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4": 40058229
+      },
+      "preview": "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+      "slug": "hana-segedova-spojova-school-garden",
+      "schoolSlug": "tuzvo",
+      "media": [],
+      "externalMedia": [
+        "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+        "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+          "path": "assets/TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+          "type": "video",
+          "bytes": 40058229,
+          "bytesHuman": "38.2 MB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+          "path": "assets/TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+          "type": "video",
+          "bytes": 40058229,
+          "bytesHuman": "38.2 MB"
+        }
+      ],
+      "resolvedImages": [],
+      "resolvedVideos": [
+        "assets/TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+        "assets/TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 40058229,
+      "menuAssetBytesHuman": "38.2 MB"
+    },
+    {
+      "id": 42,
+      "author": "Hana Šegedová",
+      "title": "UMAMA",
+      "school": "TUZVO",
+      "text": "UMAMA is a piece of furniture inspired by the balance, strength, and ingenuity of African women and mothers. It reflects their ability to adapt, take responsibility, and turn everyday tasks into thoughtful, functional acts. It combines the tradition of carrying loads on the head with modern life, showing that heritage can naturally function today in the wider context of space.",
+      "typeClass": "mixed_video_image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_05.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_06.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video_web.mp4"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [],
+      "quality": "5",
+      "totalSizeBytes": 7636083,
+      "fileSizes": {
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp": 9166,
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp": 50588,
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.webp": 78456,
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.webp": 144598,
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_05.webp": 71004,
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_06.webp": 52342,
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video_web.mp4": 7229929
+      },
+      "preview": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
+      "slug": "hana-segedova-umama",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_05.webp",
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_06.webp"
+      ],
+      "externalMedia": [
+        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
+          "path": "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
+          "type": "image",
+          "bytes": 9166,
+          "bytesHuman": "8.95 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp",
+          "path": "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp",
+          "type": "image",
+          "bytes": 50588,
+          "bytesHuman": "49.4 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.webp",
+          "path": "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.webp",
+          "type": "image",
+          "bytes": 78456,
+          "bytesHuman": "76.6 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.webp",
+          "path": "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.webp",
+          "type": "image",
+          "bytes": 144598,
+          "bytesHuman": "141 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_05.webp",
+          "path": "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_05.webp",
+          "type": "image",
+          "bytes": 71004,
+          "bytesHuman": "69.3 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_06.webp",
+          "path": "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_06.webp",
+          "type": "image",
+          "bytes": 52342,
+          "bytesHuman": "51.1 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video_web.mp4",
+          "path": "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video_web.mp4",
+          "type": "video",
+          "bytes": 7229929,
+          "bytesHuman": "6.89 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
+        "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp",
+        "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.webp",
+        "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.webp",
+        "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_05.webp",
+        "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_06.webp"
+      ],
+      "resolvedVideos": [
+        "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 9166,
+      "menuAssetBytesHuman": "8.95 KB"
+    },
+    {
+      "id": 43,
+      "author": "Hana Šegedová",
+      "title": "WARKA house",
+      "school": "TUZVO",
+      "text": "The design combines the principle of the Warka Tower with a modern interpretation of traditional African housing to address the shortage of drinking water. Water collection is integrated into the roofs, creating a single functional unit with the architecture and interior. The project uses local materials, respects local lifestyles, and aims to sustainably improve daily living conditions.",
+      "typeClass": "mixed_video_image",
+      "category": "SPATIAL",
+      "src": [
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4",
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp",
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.webp",
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.webp",
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_05.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [],
+      "quality": "5",
+      "totalSizeBytes": 29145995,
+      "fileSizes": {
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4": 28454807,
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp": 28970,
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp": 164110,
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.webp": 205988,
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.webp": 169836,
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_05.webp": 122284
+      },
+      "preview": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
+      "slug": "hana-segedova-warka-house",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp",
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.webp",
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.webp",
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_05.webp"
+      ],
+      "externalMedia": [
+        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4",
+          "path": "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4",
+          "type": "video",
+          "bytes": 28454807,
+          "bytesHuman": "27.1 MB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
+          "path": "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
+          "type": "image",
+          "bytes": 28970,
+          "bytesHuman": "28.3 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp",
+          "path": "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp",
+          "type": "image",
+          "bytes": 164110,
+          "bytesHuman": "160 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.webp",
+          "path": "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.webp",
+          "type": "image",
+          "bytes": 205988,
+          "bytesHuman": "201 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.webp",
+          "path": "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.webp",
+          "type": "image",
+          "bytes": 169836,
+          "bytesHuman": "166 KB"
+        },
+        {
+          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_05.webp",
+          "path": "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_05.webp",
+          "type": "image",
+          "bytes": 122284,
+          "bytesHuman": "119 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
+        "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp",
+        "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.webp",
+        "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.webp",
+        "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_05.webp"
+      ],
+      "resolvedVideos": [
+        "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 28970,
+      "menuAssetBytesHuman": "28.3 KB"
+    },
+    {
+      "id": 44,
+      "author": "Kvetoslava Krnáčová",
+      "title": "Space No.01",
+      "school": "TUZVO",
+      "text": "Space No.01 explores space as a boundary between the known and the unknown. The station is not an object, but a state in which a person leaves their terrestrial identity and enters a new reality. The architecture is designed as an autonomous AI-driven system where waiting becomes a conscious process of transformation and transition into a post-terrestrial world.",
+      "typeClass": "mixed_video_image",
+      "category": "SPATIAL",
+      "src": [
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/3.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/4.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/5.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/6.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/7.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/8.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/9.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/TUZVO_Krnáčová Kvetoslava_video_web.mp4",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Chybí textový obsah."
+      ],
+      "quality": "4",
+      "totalSizeBytes": 15946897,
+      "fileSizes": {
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp": 15124,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp": 369570,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/3.webp": 230874,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/4.webp": 292660,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/5.webp": 318120,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/6.webp": 241850,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/7.webp": 237584,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/8.webp": 366950,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/9.webp": 300170,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/TUZVO_Krnáčová Kvetoslava_video_web.mp4": 13558871,
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp": 15124
+      },
+      "preview": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
+      "slug": "kvetoslava-krnacova-space-no-01",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/3.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/4.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/5.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/6.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/7.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/8.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/9.webp",
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp"
+      ],
+      "externalMedia": [
+        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/TUZVO_Krnáčová Kvetoslava_video_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
+          "type": "image",
+          "bytes": 15124,
+          "bytesHuman": "14.8 KB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp",
+          "type": "image",
+          "bytes": 369570,
+          "bytesHuman": "361 KB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/3.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/3.webp",
+          "type": "image",
+          "bytes": 230874,
+          "bytesHuman": "225 KB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/4.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/4.webp",
+          "type": "image",
+          "bytes": 292660,
+          "bytesHuman": "286 KB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/5.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/5.webp",
+          "type": "image",
+          "bytes": 318120,
+          "bytesHuman": "311 KB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/6.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/6.webp",
+          "type": "image",
+          "bytes": 241850,
+          "bytesHuman": "236 KB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/7.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/7.webp",
+          "type": "image",
+          "bytes": 237584,
+          "bytesHuman": "232 KB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/8.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/8.webp",
+          "type": "image",
+          "bytes": 366950,
+          "bytesHuman": "358 KB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/9.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/9.webp",
+          "type": "image",
+          "bytes": 300170,
+          "bytesHuman": "293 KB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/TUZVO_Krnáčová Kvetoslava_video_web.mp4",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/TUZVO_Krnáčová Kvetoslava_video_web.mp4",
+          "type": "video",
+          "bytes": 13558871,
+          "bytesHuman": "12.9 MB"
+        },
+        {
+          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
+          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
+          "type": "image",
+          "bytes": 15124,
+          "bytesHuman": "14.8 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp",
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/3.webp",
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/4.webp",
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/5.webp",
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/6.webp",
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/7.webp",
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/8.webp",
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/9.webp",
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp"
+      ],
+      "resolvedVideos": [
+        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/TUZVO_Krnáčová Kvetoslava_video_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 15124,
+      "menuAssetBytesHuman": "14.8 KB"
+    },
+    {
+      "id": 45,
+      "author": "Lujza Novosadová",
+      "title": "Infinity loop",
+      "school": "TUZVO",
+      "text": "This project offers self-sufficient ecotourism in the Egyptian desert. Underground architecture minimizes light pollution for elite stargazing. A rooftop system ensures autonomy: collectors inspired by desert lizard gills extract air moisture for water, while integrated wind turbines produce energy. It provides an authentic, eco-conscious experience focused on desert survival and beauty.",
+      "typeClass": "media-image",
+      "category": "SPATIAL",
+      "src": [
+        "TUZVO/Lujza Novosadová_Infinity loop/media/1.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/2.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/3.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/5.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/6.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/KUEPLNA_WC_Z_VONKU.Denoiser.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "preview": "TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
+      "totalSizeBytes": 579344,
+      "fileSizes": {
+        "TUZVO/Lujza Novosadová_Infinity loop/media/1.webp": 272192,
+        "TUZVO/Lujza Novosadová_Infinity loop/media/2.webp": 35716,
+        "TUZVO/Lujza Novosadová_Infinity loop/media/3.webp": 75496,
+        "TUZVO/Lujza Novosadová_Infinity loop/media/4.webp": 20522,
+        "TUZVO/Lujza Novosadová_Infinity loop/media/5.webp": 50010,
+        "TUZVO/Lujza Novosadová_Infinity loop/media/6.webp": 100008,
+        "TUZVO/Lujza Novosadová_Infinity loop/media/KUEPLNA_WC_Z_VONKU.Denoiser.webp": 25400
+      },
+      "slug": "lujza-novosadova-infinity-loop",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Lujza Novosadová_Infinity loop/media/1.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/2.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/3.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/5.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/6.webp",
+        "TUZVO/Lujza Novosadová_Infinity loop/media/KUEPLNA_WC_Z_VONKU.Denoiser.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/1.webp",
+          "path": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/1.webp",
+          "type": "image",
+          "bytes": 272192,
+          "bytesHuman": "266 KB"
+        },
+        {
+          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/2.webp",
+          "path": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/2.webp",
+          "type": "image",
+          "bytes": 35716,
+          "bytesHuman": "34.9 KB"
+        },
+        {
+          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/3.webp",
+          "path": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/3.webp",
+          "type": "image",
+          "bytes": 75496,
+          "bytesHuman": "73.7 KB"
+        },
+        {
+          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
+          "path": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
+          "type": "image",
+          "bytes": 20522,
+          "bytesHuman": "20.0 KB"
+        },
+        {
+          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/5.webp",
+          "path": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/5.webp",
+          "type": "image",
+          "bytes": 50010,
+          "bytesHuman": "48.8 KB"
+        },
+        {
+          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/6.webp",
+          "path": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/6.webp",
+          "type": "image",
+          "bytes": 100008,
+          "bytesHuman": "97.7 KB"
+        },
+        {
+          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/KUEPLNA_WC_Z_VONKU.Denoiser.webp",
+          "path": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/KUEPLNA_WC_Z_VONKU.Denoiser.webp",
+          "type": "image",
+          "bytes": 25400,
+          "bytesHuman": "24.8 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Lujza Novosadová_Infinity loop/media/1.webp",
+        "assets/TUZVO/Lujza Novosadová_Infinity loop/media/2.webp",
+        "assets/TUZVO/Lujza Novosadová_Infinity loop/media/3.webp",
+        "assets/TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
+        "assets/TUZVO/Lujza Novosadová_Infinity loop/media/5.webp",
+        "assets/TUZVO/Lujza Novosadová_Infinity loop/media/6.webp",
+        "assets/TUZVO/Lujza Novosadová_Infinity loop/media/KUEPLNA_WC_Z_VONKU.Denoiser.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 20522,
+      "menuAssetBytesHuman": "20.0 KB"
+    },
+    {
+      "id": 46,
+      "author": "Martin Žabka",
+      "title": "Shinrin",
+      "school": "TUZVO",
+      "text": "The Shinrin seating is inspired by bonsai shaping and the idea of bringing nature closer to people working in busy offices. The aim of the design is to create a quiet and calming place in the middle of the working environment that will serve as an escape from the noise and bustle of the workplace. The green color refers to tree crowns and promotes calm and concentration, while the white on the elastic covers symbolizes purity and peace.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Martin Žabka_Shinrin/media/1.webp",
+        "TUZVO/Martin Žabka_Shinrin/media/2.webp",
+        "TUZVO/Martin Žabka_Shinrin/media/3.webp",
+        "TUZVO/Martin Žabka_Shinrin/media/4.webp",
+        "TUZVO/Martin Žabka_Shinrin/media/5.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "V anotace nalezeno 2 souborů, žádný s EN markerem. Použit první soubor.",
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "totalSizeBytes": 1698126,
+      "fileSizes": {
+        "TUZVO/Martin Žabka_Shinrin/media/1.webp": 17570,
+        "TUZVO/Martin Žabka_Shinrin/media/2.webp": 525014,
+        "TUZVO/Martin Žabka_Shinrin/media/3.webp": 281570,
+        "TUZVO/Martin Žabka_Shinrin/media/4.webp": 409512,
+        "TUZVO/Martin Žabka_Shinrin/media/5.webp": 464460
+      },
+      "preview": "TUZVO/Martin Žabka_Shinrin/media/1.webp",
+      "slug": "martin-zabka-shinrin",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Martin Žabka_Shinrin/media/1.webp",
+        "TUZVO/Martin Žabka_Shinrin/media/2.webp",
+        "TUZVO/Martin Žabka_Shinrin/media/3.webp",
+        "TUZVO/Martin Žabka_Shinrin/media/4.webp",
+        "TUZVO/Martin Žabka_Shinrin/media/5.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Martin Žabka_Shinrin/media/1.webp",
+          "path": "assets/TUZVO/Martin Žabka_Shinrin/media/1.webp",
+          "type": "image",
+          "bytes": 17570,
+          "bytesHuman": "17.2 KB"
+        },
+        {
+          "source": "TUZVO/Martin Žabka_Shinrin/media/2.webp",
+          "path": "assets/TUZVO/Martin Žabka_Shinrin/media/2.webp",
+          "type": "image",
+          "bytes": 525014,
+          "bytesHuman": "513 KB"
+        },
+        {
+          "source": "TUZVO/Martin Žabka_Shinrin/media/3.webp",
+          "path": "assets/TUZVO/Martin Žabka_Shinrin/media/3.webp",
+          "type": "image",
+          "bytes": 281570,
+          "bytesHuman": "275 KB"
+        },
+        {
+          "source": "TUZVO/Martin Žabka_Shinrin/media/4.webp",
+          "path": "assets/TUZVO/Martin Žabka_Shinrin/media/4.webp",
+          "type": "image",
+          "bytes": 409512,
+          "bytesHuman": "400 KB"
+        },
+        {
+          "source": "TUZVO/Martin Žabka_Shinrin/media/5.webp",
+          "path": "assets/TUZVO/Martin Žabka_Shinrin/media/5.webp",
+          "type": "image",
+          "bytes": 464460,
+          "bytesHuman": "454 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Martin Žabka_Shinrin/media/1.webp",
+        "assets/TUZVO/Martin Žabka_Shinrin/media/2.webp",
+        "assets/TUZVO/Martin Žabka_Shinrin/media/3.webp",
+        "assets/TUZVO/Martin Žabka_Shinrin/media/4.webp",
+        "assets/TUZVO/Martin Žabka_Shinrin/media/5.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Martin Žabka_Shinrin/media/1.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 17570,
+      "menuAssetBytesHuman": "17.2 KB"
+    },
+    {
+      "id": 47,
+      "author": "Martina Hatalová",
+      "title": "From Air to Ground",
+      "school": "TUZVO",
+      "text": "What if a package, once ordered, arrived directly from the sky? Delivered to its “nest” by a battery-powered carrier pigeon, the concept imagines a new form of aerial logistics. A drone targets a circular landing point to place the package safely, then returns to a birdhouse-like station to recharge before its next flight, redefining delivery as a seamless spatial experience.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.webp",
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp",
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.webp",
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "preview": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
+      "totalSizeBytes": 1269652,
+      "fileSizes": {
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.webp": 233828,
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp": 2952,
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp": 330852,
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.webp": 383476,
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.webp": 318544
+      },
+      "slug": "martina-hatalova-from-air-to-ground",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.webp",
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp",
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.webp",
+        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.webp",
+          "path": "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.webp",
+          "type": "image",
+          "bytes": 233828,
+          "bytesHuman": "228 KB"
+        },
+        {
+          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
+          "path": "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
+          "type": "image",
+          "bytes": 2952,
+          "bytesHuman": "2.88 KB"
+        },
+        {
+          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp",
+          "path": "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp",
+          "type": "image",
+          "bytes": 330852,
+          "bytesHuman": "323 KB"
+        },
+        {
+          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.webp",
+          "path": "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.webp",
+          "type": "image",
+          "bytes": 383476,
+          "bytesHuman": "374 KB"
+        },
+        {
+          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.webp",
+          "path": "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.webp",
+          "type": "image",
+          "bytes": 318544,
+          "bytesHuman": "311 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.webp",
+        "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
+        "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp",
+        "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.webp",
+        "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 2952,
+      "menuAssetBytesHuman": "2.88 KB"
+    },
+    {
+      "id": 48,
+      "author": "Martina Ďalogová",
+      "title": "Glitch",
+      "school": "TUZVO",
+      "text": "The project interprets the Space to Space theme as a generational shift in perception. Glitch, originally a digital phenomenon, is translated into a physical object and serves as a visual metaphor for the divide between generations raised in analog and digital environments. It reflects a moment when established and emerging interpretations of reality no longer align.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.webp",
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.webp",
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp",
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.webp",
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "preview": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.webp",
+      "totalSizeBytes": 1807212,
+      "fileSizes": {
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.webp": 345516,
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.webp": 11206,
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp": 319690,
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.webp": 447602,
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.webp": 683198
+      },
+      "slug": "martina-dalogova-glitch",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.webp",
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.webp",
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp",
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.webp",
+        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.webp",
+          "path": "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.webp",
+          "type": "image",
+          "bytes": 345516,
+          "bytesHuman": "337 KB"
+        },
+        {
+          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.webp",
+          "path": "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.webp",
+          "type": "image",
+          "bytes": 11206,
+          "bytesHuman": "10.9 KB"
+        },
+        {
+          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp",
+          "path": "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp",
+          "type": "image",
+          "bytes": 319690,
+          "bytesHuman": "312 KB"
+        },
+        {
+          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.webp",
+          "path": "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.webp",
+          "type": "image",
+          "bytes": 447602,
+          "bytesHuman": "437 KB"
+        },
+        {
+          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.webp",
+          "path": "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.webp",
+          "type": "image",
+          "bytes": 683198,
+          "bytesHuman": "667 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.webp",
+        "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.webp",
+        "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp",
+        "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.webp",
+        "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_02.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 11206,
+      "menuAssetBytesHuman": "10.9 KB"
+    },
+    {
+      "id": 49,
+      "author": "Monika Koišová",
+      "title": "Spojova Hub",
+      "school": "TUZVO",
+      "text": "The SPOJOVÁ HUB project focuses on the revitalization of an underutilized space behind Spojová Primary School in Banská Bystrica. The aim of the design is to create a multifunctional playground that supports movement, play, and relaxation for different age groups. The space connects after-school activities with areas for older students, forming a place for meeting, interaction, and everyday school life.",
+      "typeClass": "media-video",
+      "category": "SPATIAL",
+      "src": [
+        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_preview.mp4"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [],
+      "quality": "3",
+      "totalSizeBytes": 67958551,
+      "fileSizes": {
+        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4": 33672203,
+        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4": 33672203,
+        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_preview.mp4": 614145
+      },
+      "preview": "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_preview.mp4",
+      "slug": "monika-koisova-spojova-hub",
+      "schoolSlug": "tuzvo",
+      "media": [],
+      "externalMedia": [
+        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_preview.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+          "path": "assets/TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+          "type": "video",
+          "bytes": 33672203,
+          "bytesHuman": "32.1 MB"
+        },
+        {
+          "source": "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+          "path": "assets/TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+          "type": "video",
+          "bytes": 33672203,
+          "bytesHuman": "32.1 MB"
+        },
+        {
+          "source": "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_preview.mp4",
+          "path": "assets/TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_preview.mp4",
+          "type": "video",
+          "bytes": 614145,
+          "bytesHuman": "600 KB"
+        }
+      ],
+      "resolvedImages": [],
+      "resolvedVideos": [
+        "assets/TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+        "assets/TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+        "assets/TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_preview.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_preview.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 614145,
+      "menuAssetBytesHuman": "600 KB"
+    },
+    {
+      "id": 50,
+      "author": "Natália Gajdošová",
+      "title": "breO2",
+      "school": "TUZVO",
+      "text": "The breO₂ project presents an autonomous oxygen cell formed by a bio-technological system. Photobioreactor, hydroponic towers, and diffuser ceiling produce oxygen and shape the space's atmosphere. The flowing design invites short pauses for the user. The stool reflects the towers’ vertical rhythm. Chrome finish lightens the volume, reflects light and movement, creating contrast with the organic matter and technological core.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp",
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.webp",
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.webp",
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Chybí textový obsah."
+      ],
+      "quality": "4",
+      "totalSizeBytes": 132980,
+      "fileSizes": {
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp": 3182,
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp": 27610,
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.webp": 29312,
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.webp": 42974,
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.webp": 29902
+      },
+      "preview": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
+      "slug": "natalia-gajdosova-breo2",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp",
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.webp",
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.webp",
+        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
+          "path": "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
+          "type": "image",
+          "bytes": 3182,
+          "bytesHuman": "3.11 KB"
+        },
+        {
+          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp",
+          "path": "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp",
+          "type": "image",
+          "bytes": 27610,
+          "bytesHuman": "27.0 KB"
+        },
+        {
+          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.webp",
+          "path": "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.webp",
+          "type": "image",
+          "bytes": 29312,
+          "bytesHuman": "28.6 KB"
+        },
+        {
+          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.webp",
+          "path": "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.webp",
+          "type": "image",
+          "bytes": 42974,
+          "bytesHuman": "42.0 KB"
+        },
+        {
+          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.webp",
+          "path": "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.webp",
+          "type": "image",
+          "bytes": 29902,
+          "bytesHuman": "29.2 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
+        "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp",
+        "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.webp",
+        "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.webp",
+        "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 3182,
+      "menuAssetBytesHuman": "3.11 KB"
+    },
+    {
+      "id": 51,
+      "author": "Paulína Abrahámová",
+      "title": "Cocoon chair",
+      "school": "TUZVO",
+      "text": "The Cocoon Chair merges ergonomic seating with wearable design. It creates a personal micro-space by allowing users to “dress” the chair. An integrated vest provides warmth, comfort, and protection in colder conditions, while also functioning as a detachable garment. Without it, the chair reveals upholstery inspired by outdoor winter clothing, suitable for terraces or seasonal markets.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA6.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA7.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA_1.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "totalSizeBytes": 2913476,
+      "fileSizes": {
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp": 9684,
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp": 824272,
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.webp": 383258,
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.webp": 276752,
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA6.webp": 692118,
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA7.webp": 653880,
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA_1.webp": 73512
+      },
+      "preview": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
+      "slug": "paulina-abrahamova-cocoon-chair",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA6.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA7.webp",
+        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA_1.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
+          "path": "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
+          "type": "image",
+          "bytes": 9684,
+          "bytesHuman": "9.46 KB"
+        },
+        {
+          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp",
+          "path": "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp",
+          "type": "image",
+          "bytes": 824272,
+          "bytesHuman": "805 KB"
+        },
+        {
+          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.webp",
+          "path": "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.webp",
+          "type": "image",
+          "bytes": 383258,
+          "bytesHuman": "374 KB"
+        },
+        {
+          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.webp",
+          "path": "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.webp",
+          "type": "image",
+          "bytes": 276752,
+          "bytesHuman": "270 KB"
+        },
+        {
+          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA6.webp",
+          "path": "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA6.webp",
+          "type": "image",
+          "bytes": 692118,
+          "bytesHuman": "676 KB"
+        },
+        {
+          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA7.webp",
+          "path": "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA7.webp",
+          "type": "image",
+          "bytes": 653880,
+          "bytesHuman": "639 KB"
+        },
+        {
+          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA_1.webp",
+          "path": "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA_1.webp",
+          "type": "image",
+          "bytes": 73512,
+          "bytesHuman": "71.8 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
+        "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp",
+        "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.webp",
+        "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.webp",
+        "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA6.webp",
+        "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA7.webp",
+        "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA_1.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 9684,
+      "menuAssetBytesHuman": "9.46 KB"
+    },
+    {
+      "id": 52,
+      "author": "Samuel Rusnák",
+      "title": "YTERA",
+      "school": "TUZVO",
+      "text": "The project explores the evolving meaning of seating across time. It begins with the ancient Egyptian headrest as an archetypal form of the past, while the present is embodied by YTERA as a static illusion. The future is represented by its eighth generation as a sound frequency, imagining a world where the human body is no longer essential and furniture becomes a distant echo.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp",
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.webp",
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.webp",
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_05.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "status": "ok",
+      "totalSizeBytes": 147278,
+      "fileSizes": {
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp": 8524,
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp": 38520,
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.webp": 36176,
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.webp": 31040,
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_05.webp": 33018
+      },
+      "preview": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
+      "slug": "samuel-rusnak-ytera",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp",
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.webp",
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.webp",
+        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_05.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
+          "path": "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
+          "type": "image",
+          "bytes": 8524,
+          "bytesHuman": "8.32 KB"
+        },
+        {
+          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp",
+          "path": "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp",
+          "type": "image",
+          "bytes": 38520,
+          "bytesHuman": "37.6 KB"
+        },
+        {
+          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.webp",
+          "path": "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.webp",
+          "type": "image",
+          "bytes": 36176,
+          "bytesHuman": "35.3 KB"
+        },
+        {
+          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.webp",
+          "path": "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.webp",
+          "type": "image",
+          "bytes": 31040,
+          "bytesHuman": "30.3 KB"
+        },
+        {
+          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_05.webp",
+          "path": "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_05.webp",
+          "type": "image",
+          "bytes": 33018,
+          "bytesHuman": "32.2 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
+        "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp",
+        "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.webp",
+        "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.webp",
+        "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_05.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 8524,
+      "menuAssetBytesHuman": "8.32 KB"
+    },
+    {
+      "id": 53,
+      "author": "Viktória Palúchová",
+      "title": "Y-Domatia",
+      "school": "TUZVO",
+      "text": "The Y-Domatia project is based on an imaginary future scenario in which a massive celestial body approaches Earth, threatening its existence. Humanity responds with the intervention of technology – an extremely precise laser beam capable of transforming even the hardest matter from a distance. The destructive body is thus “tamed” and transformed into a functional object: a chair. The resulting artifact represents a fusion of chaos and control, nature and human ingenuity. What was once an apocalyptic threat becomes a sculptural object with a utilitarian function, carrying traces of its origin and the process of transformation. The upholstered armchair allows for multiple seating positions. In the context of “space to space,” it represents a transfer of energy from a threat into the intimate zone of the body as a place of safety.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_1.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [],
+      "quality": "5",
+      "preview": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
+      "totalSizeBytes": 3218854,
+      "fileSizes": {
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_1.webp": 414236,
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.webp": 593384,
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.webp": 1124748,
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp": 5100,
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp": 287738,
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.webp": 538654,
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.webp": 254994
+      },
+      "slug": "viktoria-paluchova-y-domatia",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_1.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.webp",
+        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_1.webp",
+          "path": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_1.webp",
+          "type": "image",
+          "bytes": 414236,
+          "bytesHuman": "405 KB"
+        },
+        {
+          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.webp",
+          "path": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.webp",
+          "type": "image",
+          "bytes": 593384,
+          "bytesHuman": "579 KB"
+        },
+        {
+          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.webp",
+          "path": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.webp",
+          "type": "image",
+          "bytes": 1124748,
+          "bytesHuman": "1.07 MB"
+        },
+        {
+          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
+          "path": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
+          "type": "image",
+          "bytes": 5100,
+          "bytesHuman": "4.98 KB"
+        },
+        {
+          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
+          "path": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
+          "type": "image",
+          "bytes": 287738,
+          "bytesHuman": "281 KB"
+        },
+        {
+          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.webp",
+          "path": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.webp",
+          "type": "image",
+          "bytes": 538654,
+          "bytesHuman": "526 KB"
+        },
+        {
+          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.webp",
+          "path": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.webp",
+          "type": "image",
+          "bytes": 254994,
+          "bytesHuman": "249 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_1.webp",
+        "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.webp",
+        "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.webp",
+        "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
+        "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
+        "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.webp",
+        "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 5100,
+      "menuAssetBytesHuman": "4.98 KB"
+    },
+    {
+      "id": 54,
+      "author": "Viola Muchová",
+      "title": "Layra",
+      "school": "TUZVO",
+      "text": "Layra explores space as a shifting relationship between body, material, and form. Within the Space to Space context, it generates a dynamic environment through physical interaction with layered textile structures that respond through movement and deformation. The seating becomes an active element, transforming its form and visual character, and shaping a new spatial experience between the object and the user.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-1.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-10.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-2.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-3.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-4.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-7.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-8.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-9.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_02.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_03.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_04.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_05.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra(1).webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "preview": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
+      "totalSizeBytes": 2658610,
+      "fileSizes": {
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-1.webp": 137216,
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-10.webp": 29432,
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-2.webp": 89414,
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-3.webp": 108926,
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-4.webp": 60562,
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp": 26096,
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp": 78672,
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-7.webp": 65766,
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-8.webp": 33706,
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-9.webp": 213856,
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.webp": 502760,
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_02.webp": 563980,
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_03.webp": 257832,
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_04.webp": 183866,
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_05.webp": 224162,
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra(1).webp": 52286,
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra.webp": 30078
+      },
+      "slug": "viola-muchova-layra",
+      "schoolSlug": "tuzvo",
+      "media": [
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-1.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-10.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-2.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-3.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-4.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-7.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-8.webp",
+        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-9.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_02.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_03.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_04.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_05.webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra(1).webp",
+        "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-1.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-1.webp",
+          "type": "image",
+          "bytes": 137216,
+          "bytesHuman": "134 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-10.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-10.webp",
+          "type": "image",
+          "bytes": 29432,
+          "bytesHuman": "28.7 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-2.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-2.webp",
+          "type": "image",
+          "bytes": 89414,
+          "bytesHuman": "87.3 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-3.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-3.webp",
+          "type": "image",
+          "bytes": 108926,
+          "bytesHuman": "106 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-4.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-4.webp",
+          "type": "image",
+          "bytes": 60562,
+          "bytesHuman": "59.1 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
+          "type": "image",
+          "bytes": 26096,
+          "bytesHuman": "25.5 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp",
+          "type": "image",
+          "bytes": 78672,
+          "bytesHuman": "76.8 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-7.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-7.webp",
+          "type": "image",
+          "bytes": 65766,
+          "bytesHuman": "64.2 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-8.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-8.webp",
+          "type": "image",
+          "bytes": 33706,
+          "bytesHuman": "32.9 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-9.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-9.webp",
+          "type": "image",
+          "bytes": 213856,
+          "bytesHuman": "209 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.webp",
+          "type": "image",
+          "bytes": 502760,
+          "bytesHuman": "491 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_02.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_02.webp",
+          "type": "image",
+          "bytes": 563980,
+          "bytesHuman": "551 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_03.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_03.webp",
+          "type": "image",
+          "bytes": 257832,
+          "bytesHuman": "252 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_04.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_04.webp",
+          "type": "image",
+          "bytes": 183866,
+          "bytesHuman": "180 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_05.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_05.webp",
+          "type": "image",
+          "bytes": 224162,
+          "bytesHuman": "219 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra(1).webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra(1).webp",
+          "type": "image",
+          "bytes": 52286,
+          "bytesHuman": "51.1 KB"
+        },
+        {
+          "source": "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra.webp",
+          "path": "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra.webp",
+          "type": "image",
+          "bytes": 30078,
+          "bytesHuman": "29.4 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-1.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-10.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-2.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-3.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-4.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-7.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-8.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-9.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_02.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_03.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_04.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_05.webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra(1).webp",
+        "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 26096,
+      "menuAssetBytesHuman": "25.5 KB"
     },
     {
       "id": 55,
       "author": "Ron Feldman, Felix Stängle, Kateryna Simson",
       "title": "Lucid Dreams MAV 5786",
       "school": "USTP",
-      "text": "",
-      "typeClass": "media-unknown",
-      "src": [],
+      "text": "MAV 5786 is an interactive installation that places visitors’ emotional states at its core. Acting as an empathetic interface between human and machine, it materialises a personal “Happy Palace” as a space of inner refuge. The system captures emotions and translates them into frequencies, creating a synesthetic environment that blurs the boundary between observer and artwork.",
+      "typeClass": "media-video",
+      "src": [
+        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
+        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4"
+      ],
       "contacts": {
-        "email": "<dd251510@ustp-students.at>",
-        "phone": "Phone +436764218801"
+        "email": "dd251510@ustp-students.at",
+        "phone": "+436 764 218 801"
       },
       "warnings": [
-        "Chybí média.",
-        "Chybí textový obsah."
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
+      "category": "DIGITAL",
+      "quality": "5",
+      "totalSizeBytes": 100779080,
+      "fileSizes": {
+        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4": 50389540,
+        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4": 50389540
+      },
+      "preview": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
       "slug": "ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786",
       "schoolSlug": "ustp",
       "media": [],
-      "externalMedia": [],
+      "externalMedia": [
+        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
+        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4"
+      ],
       "documents": [],
-      "resolvedAssets": [],
-      "resolvedImages": [],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/site/video-thumbnail.webp",
-      "menuAssetType": "placeholder"
-    },
-    {
-      "id": 57,
-      "author": "Adam Čanecký",
-      "title": "Orienting the system",
-      "school": "UTB",
-      "text": "",
-      "typeClass": "media-pdf",
-      "src": [
-        "UTB/Adam Čanecký_Orienting the system/Adam_Canecky_prezentacia2.pdf"
-      ],
-      "contacts": {
-        "email": "AGD",
-        "phone": ""
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "adam-canecky-orienting-the-system",
-      "schoolSlug": "utb",
-      "media": [],
-      "externalMedia": [],
-      "documents": [
-        "UTB/Adam Čanecký_Orienting the system/Adam_Canecky_prezentacia2.pdf"
-      ],
       "resolvedAssets": [
         {
-          "source": "UTB/Adam Čanecký_Orienting the system/Adam_Canecky_prezentacia2.pdf",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf",
-          "type": "document"
+          "source": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/ustp/ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786/media/mav-trailer-exp1-web.mp4",
+          "type": "video",
+          "bytes": 50389540,
+          "bytesHuman": "48.1 MB"
+        },
+        {
+          "source": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/ustp/ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786/media/mav-trailer-exp1-web.mp4",
+          "type": "video",
+          "bytes": 50389540,
+          "bytesHuman": "48.1 MB"
         }
       ],
       "resolvedImages": [],
-      "resolvedVideos": [],
-      "resolvedDocuments": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/Adam_Canecký_prezentacia2.pdf"
+      "resolvedVideos": [
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/ustp/ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786/media/mav-trailer-exp1-web.mp4",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/ustp/ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786/media/mav-trailer-exp1-web.mp4"
       ],
-      "menuAsset": "assets/site/video-thumbnail.webp",
-      "menuAssetType": "placeholder"
+      "resolvedDocuments": [],
+      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/ustp/ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786/media/mav-trailer-exp1-web.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 50389540,
+      "menuAssetBytesHuman": "48.1 MB"
     },
     {
       "id": 56,
       "author": "Adam Kratochvíl",
       "title": "Manual of improper being",
       "school": "UTB",
-      "text": "",
-      "typeClass": "media-pdf",
-      "src": [
-        "UTB/Adam Kratochvíl_Manual of improper being/prezentace.pdf"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "adam-kratochvil-manual-of-improper-being",
-      "schoolSlug": "utb",
-      "media": [],
-      "externalMedia": [],
-      "documents": [
-        "UTB/Adam Kratochvíl_Manual of improper being/prezentace.pdf"
-      ],
-      "resolvedAssets": [],
-      "resolvedImages": [],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/site/video-thumbnail.webp",
-      "menuAssetType": "placeholder"
-    },
-    {
-      "id": 58,
-      "author": "Anna Chodurová",
-      "title": "Archiv without a viewer",
-      "school": "UTB",
-      "text": "",
-      "typeClass": "media-pdf",
-      "src": [
-        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova_2.pdf"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "anna-chodurova-archiv-without-a-viewer",
-      "schoolSlug": "utb",
-      "media": [],
-      "externalMedia": [],
-      "documents": [
-        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova_2.pdf"
-      ],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova_2.pdf",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-graficky-design/space_to_space_prezentace_anna_chodurova 2.pdf",
-          "type": "document"
-        }
-      ],
-      "resolvedImages": [],
-      "resolvedVideos": [],
-      "resolvedDocuments": [
-        "assets/projects/utb-prvy-predvyber/atelier-graficky-design/space_to_space_prezentace_anna_chodurova 2.pdf"
-      ],
-      "menuAsset": "assets/site/video-thumbnail.webp",
-      "menuAssetType": "placeholder"
-    },
-    {
-      "id": 69,
-      "author": "Marietta Brandisová",
-      "title": "Between Nature and Technology",
-      "school": "UTB",
-      "text": "",
+      "text": "The leporello presents instructions on how to behave in situations where no correct behavior exists. It highlights the paradox of spaces that are not destinations but part of the journey. These places are meant for passage or temporary presence and share a sense of uncertainty—we do not fully know how to behave, as they are neither for staying nor for complete movement.",
       "typeClass": "media-image",
       "src": [
-        "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.gif",
-        "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.gif"
-      ],
-      "contacts": {
-        "email": "<mariettka.brandisova@gmail.com>",
-        "phone": ""
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "marietta-brandisova-between-nature-and-technology",
-      "schoolSlug": "utb",
-      "media": [],
-      "externalMedia": [
-        "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.gif",
-        "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.gif"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.gif",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
-          "type": "video"
-        },
-        {
-          "source": "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.gif",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif",
-          "type": "video"
-        }
-      ],
-      "resolvedImages": [],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/beetle gif poster.gif"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/atelier-graficky-design/vyber-na-vystavu/marietta-brandisova/ant gif poster.gif",
-      "menuAssetType": "video"
-    },
-    {
-      "id": 79,
-      "author": "Zuzana Buňatická",
-      "title": "Lamp",
-      "school": "UTB",
-      "text": "",
-      "typeClass": "media-unknown",
-      "src": [],
-      "contacts": {
-        "email": "z_bunaticka@utb.cz,",
-        "phone": "420 724 256 776"
-      },
-      "warnings": [
-        "Chybí média.",
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "zuzana-bunaticka-lamp",
-      "schoolSlug": "utb",
-      "media": [],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [],
-      "resolvedImages": [],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/site/video-thumbnail.webp",
-      "menuAssetType": "placeholder"
-    },
-    {
-      "id": 77,
-      "author": "Tereza Sedláčková",
-      "title": "Asmo",
-      "school": "UTB",
-      "text": "",
-      "typeClass": "media-image",
-      "src": [
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.png",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.png",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.png",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.png",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_05.png"
-      ],
-      "contacts": {
-        "email": "<t_sedlackova@utb.cz>",
-        "phone": "733 411 959"
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "tereza-sedlackova-asmo",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.png",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.png",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.png",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.png",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_05.png"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_01.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_02.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_03.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_04.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_05.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_05.png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_01.png",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_02.png",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_03.png",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_04.png",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_05.png"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/sedlackova-asmo/utb_sedlackova_tereza_asmo_01.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 74,
-      "author": "Pavla Hajná",
-      "title": "Children's Canopy",
-      "school": "UTB",
-      "text": "",
-      "typeClass": "media-image",
-      "src": [
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_01.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_02.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_04.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_05.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_06.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_07.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_08.jpg"
-      ],
-      "contacts": {
-        "email": "<p_hajna@utb.cz>",
-        "phone": "phone +420 731 632 281"
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "pavla-hajna-children-s-canopy",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_01.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_02.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_04.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_05.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_06.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_07.jpg",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_08.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_01.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_02.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_02.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_03.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_04.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_04.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_05.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_05.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_06.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_06.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_07.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_07.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_08.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_08.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_01.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_02.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_03.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_04.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_05.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_06.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_07.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_08.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-produkt-design/hajna-nebesa/utb_hajna_pavla_nebesa_01.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 71,
-      "author": "Matej Masaryk",
-      "title": "Reflections",
-      "school": "UTB",
-      "text": "",
-      "typeClass": "mixed_video_image",
-      "src": [
-        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01.mp4",
-        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.png"
-      ],
-      "contacts": {
-        "email": "m_masaryk@utb.cz",
-        "phone": ""
-      },
-      "warnings": [
-        "Nebyl nalezen anglický marker (ENG:), použit celý text.",
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "matej-masaryk-reflections",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.png"
-      ],
-      "externalMedia": [
-        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [],
-      "resolvedImages": [],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/site/video-thumbnail.webp",
-      "menuAssetType": "placeholder"
-    },
-    {
-      "id": 78,
-      "author": "Theo Fekar",
-      "title": "Testimonies of the Future",
-      "school": "UTB",
-      "text": "",
-      "typeClass": "media-video",
-      "src": [
-        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01.mp4"
-      ],
-      "contacts": {
-        "email": "t_fekar@utb.cz",
-        "phone": ""
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "theo-fekar-testimonies-of-the-future",
-      "schoolSlug": "utb",
-      "media": [],
-      "externalMedia": [
-        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [],
-      "resolvedImages": [],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/site/video-thumbnail.webp",
-      "menuAssetType": "placeholder"
-    },
-    {
-      "id": 59,
-      "author": "Barbora Gajdošová",
-      "title": "Consume",
-      "school": "UTB",
-      "text": "ve tvaru vidličky, na svém vrcholu nese onyx. Při přiložení vidličky ke rtům se prázdné místo vyplní onyxem. Sada se zaměřuje na problém nadměrné konzumace v dnešní době. Symbolizuje, jak jsou lidé vedeni k iluzi sebeprázdnoty, kterou potřebují vyplnit materiálními potřebami. Toto prázdno ale není přirozené, ale uměle vytvořené korporacemi. \n\nThe copper lip jewelry has an empty hole in the shape of an onyx. The ring is shaped like a fork, with an onyx sitting at its top. When the fork is placed against the lip, the empty space is filled with the onyx. The set focuses on overconsumption. It symbolizes how people are led to the illusion of emptiness, which they need to fill with material needs. However, this emptiness is not natural, but artificially created by corporations.",
-      "typeClass": "media-image",
-      "src": [
-        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.jpg",
-        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.jpg",
-        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.jpg"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "barbora-gajdosova-consume",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.jpg",
-        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.jpg",
-        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/gajdosova-consume/utb_gajdosova_barbova_consume_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/gajdosova-consume/utb_gajdosova_barbova_consume_02.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/gajdosova-consume/utb_gajdosova_barbova_consume_03.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/gajdosova-consume/utb_gajdosova_barbova_consume_01.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/gajdosova-consume/utb_gajdosova_barbova_consume_02.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/gajdosova-consume/utb_gajdosova_barbova_consume_03.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/gajdosova-consume/utb_gajdosova_barbova_consume_01.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 66,
-      "author": "Kateřina Vyroubalová",
-      "title": "Elsewhere",
-      "school": "UTB",
-      "text": "Jinde\nKolekce prstenu a přívěsku z mědi a achátů vznikla na téma Space to Space. Inspirací je představa života mimo naši planetu, nikoli však v podobě bytostí podobných člověku. Organismy, které šperky evokují, jsou prostorové struktury připomínající mikroorganismy či energetické formy. Kolekce reaguje na lidskou tendenci chápat neznámé skrze známé vzorce /space/ a otevírá prostor pro svobodnější imaginaci /to space/.\n \nElsewhere\nThe collection of a ring and a pendant made of copper and agates was created under the theme Space to Space. It draws on the idea of life beyond our planet, not human-like forms. The organisms evoked by the jewellery are spatial structures resembling microorganisms or energy forms. The collection reflects the human tendency to interpret the unknown through familiar patterns /space/ and opens space for freer imagination /to space/.",
-      "typeClass": "media-image",
-      "src": [
-        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.jpeg",
-        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.jpeg",
-        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.jpeg"
+        "UTB/Adam Kratochvíl_Manual of improper being/front all.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/IMG_2767.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/IMG_2769.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-1.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-2.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-3.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-4.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-5.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-6.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-7.webp"
       ],
       "contacts": {
         "email": "",
@@ -2257,169 +3541,1591 @@ window.SpaceToSpaceProjectsData = {
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
-      "slug": "katerina-vyroubalova-elsewhere",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.jpeg",
-        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.jpeg",
-        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.jpeg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.jpeg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/vyroubalova-jinde/utb_vyroubalova_jinde_01.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.jpeg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/vyroubalova-jinde/utb_vyroubalova_jinde_02.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.jpeg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/vyroubalova-jinde/utb_vyroubalova_jinde_03.jpeg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/vyroubalova-jinde/utb_vyroubalova_jinde_01.jpeg",
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/vyroubalova-jinde/utb_vyroubalova_jinde_02.jpeg",
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/vyroubalova-jinde/utb_vyroubalova_jinde_03.jpeg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/vyroubalova-jinde/utb_vyroubalova_jinde_01.jpeg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 73,
-      "author": "Michal Grzebinski",
-      "title": "Relic",
-      "school": "UTB",
-      "text": "a držen v minimálních bodech, čímž vzniká napětí mezi přírodou a konstrukcí.\n\rThis jewelry piece explores the theme of space to space as a transfer from an original space into a new one. The raw stone holds the memory of its place and time of origin, shaped without human intervention. A geometric structure reflects human order and control. The stone is not set harmoniously but forced into place and held at minimal points, creating tension between nature and construction.",
-      "typeClass": "media-image",
-      "src": [
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.jpg",
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.jpg",
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.jpg"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
+      "category": "GRAPHIC",
+      "quality": "3",
+      "preview": "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-4.webp",
+      "totalSizeBytes": 3042060,
+      "fileSizes": {
+        "UTB/Adam Kratochvíl_Manual of improper being/front all.webp": 282468,
+        "UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp": 197198,
+        "UTB/Adam Kratochvíl_Manual of improper being/IMG_2767.webp": 201338,
+        "UTB/Adam Kratochvíl_Manual of improper being/IMG_2769.webp": 191924,
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-1.webp": 203494,
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-2.webp": 433882,
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-3.webp": 452234,
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-4.webp": 16200,
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-5.webp": 265608,
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-6.webp": 287436,
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-7.webp": 510278
       },
-      "warnings": [],
-      "category": "",
-      "slug": "michal-grzebinski-relic",
+      "slug": "adam-kratochvil-manual-of-improper-being",
       "schoolSlug": "utb",
       "media": [
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.jpg",
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.jpg",
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.jpg"
+        "UTB/Adam Kratochvíl_Manual of improper being/front all.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/IMG_2767.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/IMG_2769.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-1.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-2.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-3.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-4.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-5.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-6.webp",
+        "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-7.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/grzebinksi-less-is-more/utb_grzebinski_space-to-space_01.jpg",
-          "type": "image"
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/front all.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/front all.webp",
+          "type": "image",
+          "bytes": 282468,
+          "bytesHuman": "276 KB"
         },
         {
-          "source": "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/grzebinksi-less-is-more/utb_grzebinski_space-to-space_02.jpg",
-          "type": "image"
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp",
+          "type": "image",
+          "bytes": 197198,
+          "bytesHuman": "193 KB"
         },
         {
-          "source": "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/grzebinksi-less-is-more/utb_grzebinski_space-to-space_03.jpg",
-          "type": "image"
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/IMG_2767.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/IMG_2767.webp",
+          "type": "image",
+          "bytes": 201338,
+          "bytesHuman": "197 KB"
+        },
+        {
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/IMG_2769.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/IMG_2769.webp",
+          "type": "image",
+          "bytes": 191924,
+          "bytesHuman": "187 KB"
+        },
+        {
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-1.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-1.webp",
+          "type": "image",
+          "bytes": 203494,
+          "bytesHuman": "199 KB"
+        },
+        {
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-2.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-2.webp",
+          "type": "image",
+          "bytes": 433882,
+          "bytesHuman": "424 KB"
+        },
+        {
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-3.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-3.webp",
+          "type": "image",
+          "bytes": 452234,
+          "bytesHuman": "442 KB"
+        },
+        {
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-4.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-4.webp",
+          "type": "image",
+          "bytes": 16200,
+          "bytesHuman": "15.8 KB"
+        },
+        {
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-5.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-5.webp",
+          "type": "image",
+          "bytes": 265608,
+          "bytesHuman": "259 KB"
+        },
+        {
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-6.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-6.webp",
+          "type": "image",
+          "bytes": 287436,
+          "bytesHuman": "281 KB"
+        },
+        {
+          "source": "UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-7.webp",
+          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-7.webp",
+          "type": "image",
+          "bytes": 510278,
+          "bytesHuman": "498 KB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/grzebinksi-less-is-more/utb_grzebinski_space-to-space_01.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/grzebinksi-less-is-more/utb_grzebinski_space-to-space_02.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/grzebinksi-less-is-more/utb_grzebinski_space-to-space_03.jpg"
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/front all.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/IMG_2767.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/IMG_2769.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-1.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-2.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-3.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-4.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-5.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-6.webp",
+        "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-7.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/grzebinksi-less-is-more/utb_grzebinski_space-to-space_01.jpg",
-      "menuAssetType": "image"
+      "menuAsset": "assets/UTB/Adam Kratochvíl_Manual of improper being/Space to Space prezentace-4.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 16200,
+      "menuAssetBytesHuman": "15.8 KB"
     },
     {
-      "id": 76,
-      "author": "Sára Timošová",
-      "title": "There was one house",
+      "id": 57,
+      "author": "Adam Čanecký",
+      "title": "Orienting the system",
       "school": "UTB",
-      "text": "",
+      "text": "Today’s world is not just a set of physical places, but a network of interconnected systems we navigate simultaneously. Each has its own logic, rules, and rhythm. Though often invisible, they shape our behavior, decisions, and perception of reality. The poster series explores orientation within biological, mental, digital, and social systems shaping everyday life.",
       "typeClass": "media-image",
       "src": [
-        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.jpeg",
-        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.jpeg",
-        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.jpeg"
+        "UTB/Adam Čanecký_Orienting the system/Digital space.webp",
+        "UTB/Adam Čanecký_Orienting the system/Mental space.webp",
+        "UTB/Adam Čanecký_Orienting the system/Physical space.webp",
+        "UTB/Adam Čanecký_Orienting the system/Social space.webp"
       ],
       "contacts": {
         "email": "",
         "phone": ""
       },
       "warnings": [
-        "Chybí textový obsah."
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
-      "slug": "sara-timosova-there-was-one-house",
+      "category": "GRAPHIC",
+      "quality": "4",
+      "preview": "UTB/Adam Čanecký_Orienting the system/Physical space.webp",
+      "totalSizeBytes": 817726,
+      "fileSizes": {
+        "UTB/Adam Čanecký_Orienting the system/Digital space.webp": 241734,
+        "UTB/Adam Čanecký_Orienting the system/Mental space.webp": 239102,
+        "UTB/Adam Čanecký_Orienting the system/Physical space.webp": 74014,
+        "UTB/Adam Čanecký_Orienting the system/Social space.webp": 262876
+      },
+      "slug": "adam-canecky-orienting-the-system",
       "schoolSlug": "utb",
       "media": [
-        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.jpeg",
-        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.jpeg",
-        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.jpeg"
+        "UTB/Adam Čanecký_Orienting the system/Digital space.webp",
+        "UTB/Adam Čanecký_Orienting the system/Mental space.webp",
+        "UTB/Adam Čanecký_Orienting the system/Physical space.webp",
+        "UTB/Adam Čanecký_Orienting the system/Social space.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.jpeg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/timosova-byl-jeden-domecek/utb_timosova_byl-jeden-domecek_01.jpeg",
-          "type": "image"
+          "source": "UTB/Adam Čanecký_Orienting the system/Digital space.webp",
+          "path": "assets/UTB/Adam Čanecký_Orienting the system/Digital space.webp",
+          "type": "image",
+          "bytes": 241734,
+          "bytesHuman": "236 KB"
         },
         {
-          "source": "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.jpeg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/timosova-byl-jeden-domecek/utb_timosova_byl-jeden-domecek_02.jpeg",
-          "type": "image"
+          "source": "UTB/Adam Čanecký_Orienting the system/Mental space.webp",
+          "path": "assets/UTB/Adam Čanecký_Orienting the system/Mental space.webp",
+          "type": "image",
+          "bytes": 239102,
+          "bytesHuman": "233 KB"
         },
         {
-          "source": "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.jpeg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/timosova-byl-jeden-domecek/utb_timosova_byl-jeden-domecek_03.jpeg",
-          "type": "image"
+          "source": "UTB/Adam Čanecký_Orienting the system/Physical space.webp",
+          "path": "assets/UTB/Adam Čanecký_Orienting the system/Physical space.webp",
+          "type": "image",
+          "bytes": 74014,
+          "bytesHuman": "72.3 KB"
+        },
+        {
+          "source": "UTB/Adam Čanecký_Orienting the system/Social space.webp",
+          "path": "assets/UTB/Adam Čanecký_Orienting the system/Social space.webp",
+          "type": "image",
+          "bytes": 262876,
+          "bytesHuman": "257 KB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/timosova-byl-jeden-domecek/utb_timosova_byl-jeden-domecek_01.jpeg",
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/timosova-byl-jeden-domecek/utb_timosova_byl-jeden-domecek_02.jpeg",
-        "assets/projects/utb-prvy-predvyber/atelier-design-sperku/timosova-byl-jeden-domecek/utb_timosova_byl-jeden-domecek_03.jpeg"
+        "assets/UTB/Adam Čanecký_Orienting the system/Digital space.webp",
+        "assets/UTB/Adam Čanecký_Orienting the system/Mental space.webp",
+        "assets/UTB/Adam Čanecký_Orienting the system/Physical space.webp",
+        "assets/UTB/Adam Čanecký_Orienting the system/Social space.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-design-sperku/timosova-byl-jeden-domecek/utb_timosova_byl-jeden-domecek_01.jpeg",
-      "menuAssetType": "image"
+      "menuAsset": "assets/UTB/Adam Čanecký_Orienting the system/Physical space.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 74014,
+      "menuAssetBytesHuman": "72.3 KB"
+    },
+    {
+      "id": 61,
+      "author": "Anna Chodurová",
+      "title": "Archiv without a viewer",
+      "school": "UTB",
+      "text": "The project explores the relationship between reality and its digital capture. Instead of fully experiencing the present, moments are transferred into archives where images accumulate without continued attention. The work reveals the gap between lived experience and its representation, questioning the value of preservation and asking for whom these images exist if they are no longer meaningfully revisited.",
+      "typeClass": "media-image",
+      "category": "GRAPHIC",
+      "src": [
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_1.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_2 (1).webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_3.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_4.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-1.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-2.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-3.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-4.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-5.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-6.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-7.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-8.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "preview": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-4.webp",
+      "totalSizeBytes": 1062724,
+      "fileSizes": {
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_1.webp": 113726,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_2 (1).webp": 214842,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_3.webp": 265968,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_4.webp": 180922,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-1.webp": 34212,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-2.webp": 26902,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-3.webp": 39862,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-4.webp": 42966,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-5.webp": 47842,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-6.webp": 47360,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-7.webp": 29924,
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-8.webp": 18198
+      },
+      "slug": "anna-chodurova-archiv-without-a-viewer",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_1.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_2 (1).webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_3.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_4.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-1.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-2.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-3.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-4.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-5.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-6.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-7.webp",
+        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-8.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_1.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_1.webp",
+          "type": "image",
+          "bytes": 113726,
+          "bytesHuman": "111 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_2 (1).webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_2 (1).webp",
+          "type": "image",
+          "bytes": 214842,
+          "bytesHuman": "210 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_3.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_3.webp",
+          "type": "image",
+          "bytes": 265968,
+          "bytesHuman": "260 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_4.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_4.webp",
+          "type": "image",
+          "bytes": 180922,
+          "bytesHuman": "177 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-1.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-1.webp",
+          "type": "image",
+          "bytes": 34212,
+          "bytesHuman": "33.4 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-2.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-2.webp",
+          "type": "image",
+          "bytes": 26902,
+          "bytesHuman": "26.3 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-3.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-3.webp",
+          "type": "image",
+          "bytes": 39862,
+          "bytesHuman": "38.9 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-4.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-4.webp",
+          "type": "image",
+          "bytes": 42966,
+          "bytesHuman": "42.0 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-5.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-5.webp",
+          "type": "image",
+          "bytes": 47842,
+          "bytesHuman": "46.7 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-6.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-6.webp",
+          "type": "image",
+          "bytes": 47360,
+          "bytesHuman": "46.2 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-7.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-7.webp",
+          "type": "image",
+          "bytes": 29924,
+          "bytesHuman": "29.2 KB"
+        },
+        {
+          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-8.webp",
+          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-8.webp",
+          "type": "image",
+          "bytes": 18198,
+          "bytesHuman": "17.8 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_1.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_2 (1).webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_3.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_4.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-1.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-2.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-3.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-4.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-5.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-6.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-7.webp",
+        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-8.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2-4.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 42966,
+      "menuAssetBytesHuman": "42.0 KB"
+    },
+    {
+      "id": 62,
+      "author": "Barbora Gajdošová",
+      "title": "Consume",
+      "school": "UTB",
+      "text": "Consume presents a set of copper lip jewellery and a ring shaped like a fork, both incorporating onyx elements that complete one another when brought together. The work reflects on overconsumption and the illusion of emptiness that drives material desire. It suggests that this perceived lack is not natural, but constructed, pointing to the influence of external systems shaping human needs and behaviour.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
+        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp",
+        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "totalSizeBytes": 93544,
+      "fileSizes": {
+        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp": 22220,
+        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp": 22920,
+        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.webp": 48404
+      },
+      "preview": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
+      "slug": "barbora-gajdosova-consume",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
+        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp",
+        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
+          "path": "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
+          "type": "image",
+          "bytes": 22220,
+          "bytesHuman": "21.7 KB"
+        },
+        {
+          "source": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp",
+          "path": "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp",
+          "type": "image",
+          "bytes": 22920,
+          "bytesHuman": "22.4 KB"
+        },
+        {
+          "source": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.webp",
+          "path": "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.webp",
+          "type": "image",
+          "bytes": 48404,
+          "bytesHuman": "47.3 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
+        "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp",
+        "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 22220,
+      "menuAssetBytesHuman": "21.7 KB"
+    },
+    {
+      "id": 63,
+      "author": "Elizabeth Bugyiová",
+      "title": "Interspace",
+      "school": "UTB",
+      "text": "Interspace connects traditional drawing with digital light in an interactive dialogue between inner and outer worlds. A scratched image on plexiglass responds to the viewer—its illumination intensifies with proximity, creating a subtle animation. Three figures express uncertainty, loneliness, and hope, suggesting that emotions shift through human contact and are shaped by the presence of others.",
+      "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
+      "src": [
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_01.webp",
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_02.webp",
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web.mp4",
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_web.mp4",
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_preview.mp4"
+      ],
+      "contacts": {
+        "email": "e_bugyiova@utb.cz",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "2",
+      "preview": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_preview.mp4",
+      "totalSizeBytes": 49965598,
+      "fileSizes": {
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_01.webp": 94800,
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_02.webp": 242364,
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web.mp4": 36657929,
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_web.mp4": 6791189,
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_preview.mp4": 6179316
+      },
+      "slug": "elizabeth-bugyiova-interspace",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_01.webp",
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_02.webp"
+      ],
+      "externalMedia": [
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web.mp4",
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_web.mp4",
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_preview.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_01.webp",
+          "path": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_01.webp",
+          "type": "image",
+          "bytes": 94800,
+          "bytesHuman": "92.6 KB"
+        },
+        {
+          "source": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_02.webp",
+          "path": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_02.webp",
+          "type": "image",
+          "bytes": 242364,
+          "bytesHuman": "237 KB"
+        },
+        {
+          "source": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/elizabeth-bugyiova-interspace/media/utb-bugyiova-elizabeth-interspace-video-web-web-web.mp4",
+          "type": "video",
+          "bytes": 36657929,
+          "bytesHuman": "35.0 MB"
+        },
+        {
+          "source": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_web.mp4",
+          "path": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_web.mp4",
+          "type": "video",
+          "bytes": 6791189,
+          "bytesHuman": "6.48 MB"
+        },
+        {
+          "source": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_preview.mp4",
+          "path": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_preview.mp4",
+          "type": "video",
+          "bytes": 6179316,
+          "bytesHuman": "5.89 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_01.webp",
+        "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_02.webp"
+      ],
+      "resolvedVideos": [
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/elizabeth-bugyiova-interspace/media/utb-bugyiova-elizabeth-interspace-video-web-web-web.mp4",
+        "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_web.mp4",
+        "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_preview.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_preview.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 6179316,
+      "menuAssetBytesHuman": "5.89 MB"
+    },
+    {
+      "id": 64,
+      "author": "Gabriela Metzová",
+      "title": "Rescue Robot",
+      "school": "UTB",
+      "text": "Rescue Robot is designed to locate people in hard-to-reach environments and establish audiovisual contact during emergency situations. Equipped with night vision, thermal imaging, and signal detection systems, it enhances search efficiency. Its tendon-driven mechanism and flexible joints enable movement in multiple directions. The robot can operate via cable for stable transmission or as a battery-powered unit.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_06.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_07.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_08.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_09.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_4.webp"
+      ],
+      "contacts": {
+        "email": "g_metzova@utb.cz",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "3",
+      "totalSizeBytes": 945786,
+      "fileSizes": {
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp": 68124,
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp": 146234,
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.webp": 118158,
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.webp": 92826,
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_06.webp": 115752,
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_07.webp": 116860,
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_08.webp": 81264,
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_09.webp": 77420,
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_4.webp": 129148
+      },
+      "preview": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
+      "slug": "gabriela-metzova-rescue-robot",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_06.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_07.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_08.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_09.webp",
+        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_4.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
+          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
+          "type": "image",
+          "bytes": 68124,
+          "bytesHuman": "66.5 KB"
+        },
+        {
+          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp",
+          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp",
+          "type": "image",
+          "bytes": 146234,
+          "bytesHuman": "143 KB"
+        },
+        {
+          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.webp",
+          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.webp",
+          "type": "image",
+          "bytes": 118158,
+          "bytesHuman": "115 KB"
+        },
+        {
+          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.webp",
+          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.webp",
+          "type": "image",
+          "bytes": 92826,
+          "bytesHuman": "90.7 KB"
+        },
+        {
+          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_06.webp",
+          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_06.webp",
+          "type": "image",
+          "bytes": 115752,
+          "bytesHuman": "113 KB"
+        },
+        {
+          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_07.webp",
+          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_07.webp",
+          "type": "image",
+          "bytes": 116860,
+          "bytesHuman": "114 KB"
+        },
+        {
+          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_08.webp",
+          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_08.webp",
+          "type": "image",
+          "bytes": 81264,
+          "bytesHuman": "79.4 KB"
+        },
+        {
+          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_09.webp",
+          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_09.webp",
+          "type": "image",
+          "bytes": 77420,
+          "bytesHuman": "75.6 KB"
+        },
+        {
+          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_4.webp",
+          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_4.webp",
+          "type": "image",
+          "bytes": 129148,
+          "bytesHuman": "126 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
+        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp",
+        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.webp",
+        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.webp",
+        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_06.webp",
+        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_07.webp",
+        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_08.webp",
+        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_09.webp",
+        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_4.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 68124,
+      "menuAssetBytesHuman": "66.5 KB"
+    },
+    {
+      "id": 65,
+      "author": "Jan Kroulík",
+      "title": "MUV Modular Utility Vehicle",
+      "school": "UTB",
+      "text": "MUV redefines utility mobility as an adaptable platform for future logistics and emergency operations. Its autonomous, symmetrical base enables rapid integration of specialised modules, from cargo transport to rescue systems. Swappable battery packs reduce downtime and support renewable energy use, while all-wheel drive and steering ensure agile movement in both urban environments and challenging off-road conditions.",
+      "typeClass": "media-image",
+      "src": [
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_01.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_02.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_03.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_10.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_11.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_12.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_13.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_14.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_15.webp"
+      ],
+      "contacts": {
+        "email": "j_kroulik@utb.cz",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "category": "PRODUCT",
+      "quality": "2",
+      "preview": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
+      "totalSizeBytes": 3635374,
+      "fileSizes": {
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_01.webp": 112700,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_02.webp": 227320,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_03.webp": 136922,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.webp": 319970,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.webp": 140250,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp": 12094,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp": 95938,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.webp": 191064,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.webp": 258674,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_10.webp": 275916,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_11.webp": 238068,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_12.webp": 176792,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_13.webp": 156006,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_14.webp": 1119628,
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_15.webp": 174032
+      },
+      "slug": "jan-kroulik-muv-modular-utility-vehicle",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_01.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_02.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_03.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_10.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_11.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_12.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_13.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_14.webp",
+        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_15.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_01.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_01.webp",
+          "type": "image",
+          "bytes": 112700,
+          "bytesHuman": "110 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_02.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_02.webp",
+          "type": "image",
+          "bytes": 227320,
+          "bytesHuman": "222 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_03.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_03.webp",
+          "type": "image",
+          "bytes": 136922,
+          "bytesHuman": "134 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.webp",
+          "type": "image",
+          "bytes": 319970,
+          "bytesHuman": "312 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.webp",
+          "type": "image",
+          "bytes": 140250,
+          "bytesHuman": "137 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
+          "type": "image",
+          "bytes": 12094,
+          "bytesHuman": "11.8 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp",
+          "type": "image",
+          "bytes": 95938,
+          "bytesHuman": "93.7 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.webp",
+          "type": "image",
+          "bytes": 191064,
+          "bytesHuman": "187 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.webp",
+          "type": "image",
+          "bytes": 258674,
+          "bytesHuman": "253 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_10.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_10.webp",
+          "type": "image",
+          "bytes": 275916,
+          "bytesHuman": "269 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_11.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_11.webp",
+          "type": "image",
+          "bytes": 238068,
+          "bytesHuman": "232 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_12.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_12.webp",
+          "type": "image",
+          "bytes": 176792,
+          "bytesHuman": "173 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_13.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_13.webp",
+          "type": "image",
+          "bytes": 156006,
+          "bytesHuman": "152 KB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_14.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_14.webp",
+          "type": "image",
+          "bytes": 1119628,
+          "bytesHuman": "1.07 MB"
+        },
+        {
+          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_15.webp",
+          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_15.webp",
+          "type": "image",
+          "bytes": 174032,
+          "bytesHuman": "170 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_01.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_02.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_03.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_10.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_11.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_12.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_13.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_14.webp",
+        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_15.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 12094,
+      "menuAssetBytesHuman": "11.8 KB"
     },
     {
       "id": 67,
+      "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
+      "title": "To Mars!!!",
+      "school": "UTB",
+      "text": "To Mars!!! is a design research experiment exploring the shift from object design to speculative worldbuilding. Using generative AI and video synthesis, it presents an audiovisual study of Martian infrastructure without human presence. The use of a CCTV aesthetic serves as an analytical lens, examining operations in extreme environments while expanding the methodological boundaries of contemporary industrial design.",
+      "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
+      "src": [
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/annotation/UTB_Hrdina_Jakub_Na_Mars_.docx",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(0).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(1).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(10).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(11).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(12).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(13).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(14).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(15).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(16).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(17).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(18).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(19).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2)a.webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(20).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(21).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(22).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(23).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(24).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(25).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(26).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(27).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(28).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(29).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(30).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(31).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(32).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(4).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(5).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(6).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(7).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(8).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(9).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_web.mp4",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_preview.mp4"
+      ],
+      "contacts": {
+        "email": "jhrdina@utb.cz",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "3",
+      "totalSizeBytes": 187172752,
+      "fileSizes": {
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/annotation/UTB_Hrdina_Jakub_Na_Mars_.docx": 317081,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(0).webp": 95700,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(1).webp": 76526,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(10).webp": 58570,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(11).webp": 64550,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(12).webp": 36722,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(13).webp": 35418,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(14).webp": 54640,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(15).webp": 91852,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(16).webp": 190512,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(17).webp": 200274,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(18).webp": 133986,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(19).webp": 108794,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2).webp": 15456,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2)a.webp": 124302,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(20).webp": 92802,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(21).webp": 52582,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(22).webp": 47186,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(23).webp": 83338,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(24).webp": 244896,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(25).webp": 224064,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(26).webp": 128848,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(27).webp": 166620,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(28).webp": 79204,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(29).webp": 89322,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).webp": 20396,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(30).webp": 90766,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(31).webp": 119716,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(32).webp": 188718,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(4).webp": 152772,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(5).webp": 190698,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(6).webp": 54588,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(7).webp": 160562,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(8).webp": 142486,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(9).webp": 48542,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_web.mp4": 182690099,
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_preview.mp4": 500164
+      },
+      "preview": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_preview.mp4",
+      "slug": "jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(0).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(1).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(10).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(11).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(12).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(13).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(14).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(15).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(16).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(17).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(18).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(19).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2)a.webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(20).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(21).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(22).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(23).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(24).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(25).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(26).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(27).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(28).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(29).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(30).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(31).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(32).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(4).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(5).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(6).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(7).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(8).webp",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(9).webp"
+      ],
+      "externalMedia": [
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_web.mp4",
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_preview.mp4"
+      ],
+      "documents": [
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/annotation/UTB_Hrdina_Jakub_Na_Mars_.docx"
+      ],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/annotation/UTB_Hrdina_Jakub_Na_Mars_.docx",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/annotation/UTB_Hrdina_Jakub_Na_Mars_.docx",
+          "type": "document",
+          "bytes": 317081,
+          "bytesHuman": "310 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(0).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(0).webp",
+          "type": "image",
+          "bytes": 95700,
+          "bytesHuman": "93.5 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(1).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(1).webp",
+          "type": "image",
+          "bytes": 76526,
+          "bytesHuman": "74.7 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(10).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(10).webp",
+          "type": "image",
+          "bytes": 58570,
+          "bytesHuman": "57.2 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(11).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(11).webp",
+          "type": "image",
+          "bytes": 64550,
+          "bytesHuman": "63.0 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(12).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(12).webp",
+          "type": "image",
+          "bytes": 36722,
+          "bytesHuman": "35.9 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(13).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(13).webp",
+          "type": "image",
+          "bytes": 35418,
+          "bytesHuman": "34.6 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(14).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(14).webp",
+          "type": "image",
+          "bytes": 54640,
+          "bytesHuman": "53.4 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(15).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(15).webp",
+          "type": "image",
+          "bytes": 91852,
+          "bytesHuman": "89.7 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(16).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(16).webp",
+          "type": "image",
+          "bytes": 190512,
+          "bytesHuman": "186 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(17).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(17).webp",
+          "type": "image",
+          "bytes": 200274,
+          "bytesHuman": "196 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(18).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(18).webp",
+          "type": "image",
+          "bytes": 133986,
+          "bytesHuman": "131 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(19).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(19).webp",
+          "type": "image",
+          "bytes": 108794,
+          "bytesHuman": "106 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2).webp",
+          "type": "image",
+          "bytes": 15456,
+          "bytesHuman": "15.1 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2)a.webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2)a.webp",
+          "type": "image",
+          "bytes": 124302,
+          "bytesHuman": "121 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(20).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(20).webp",
+          "type": "image",
+          "bytes": 92802,
+          "bytesHuman": "90.6 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(21).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(21).webp",
+          "type": "image",
+          "bytes": 52582,
+          "bytesHuman": "51.3 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(22).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(22).webp",
+          "type": "image",
+          "bytes": 47186,
+          "bytesHuman": "46.1 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(23).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(23).webp",
+          "type": "image",
+          "bytes": 83338,
+          "bytesHuman": "81.4 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(24).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(24).webp",
+          "type": "image",
+          "bytes": 244896,
+          "bytesHuman": "239 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(25).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(25).webp",
+          "type": "image",
+          "bytes": 224064,
+          "bytesHuman": "219 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(26).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(26).webp",
+          "type": "image",
+          "bytes": 128848,
+          "bytesHuman": "126 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(27).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(27).webp",
+          "type": "image",
+          "bytes": 166620,
+          "bytesHuman": "163 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(28).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(28).webp",
+          "type": "image",
+          "bytes": 79204,
+          "bytesHuman": "77.3 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(29).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(29).webp",
+          "type": "image",
+          "bytes": 89322,
+          "bytesHuman": "87.2 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).webp",
+          "type": "image",
+          "bytes": 20396,
+          "bytesHuman": "19.9 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(30).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(30).webp",
+          "type": "image",
+          "bytes": 90766,
+          "bytesHuman": "88.6 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(31).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(31).webp",
+          "type": "image",
+          "bytes": 119716,
+          "bytesHuman": "117 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(32).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(32).webp",
+          "type": "image",
+          "bytes": 188718,
+          "bytesHuman": "184 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(4).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(4).webp",
+          "type": "image",
+          "bytes": 152772,
+          "bytesHuman": "149 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(5).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(5).webp",
+          "type": "image",
+          "bytes": 190698,
+          "bytesHuman": "186 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(6).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(6).webp",
+          "type": "image",
+          "bytes": 54588,
+          "bytesHuman": "53.3 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(7).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(7).webp",
+          "type": "image",
+          "bytes": 160562,
+          "bytesHuman": "157 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(8).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(8).webp",
+          "type": "image",
+          "bytes": 142486,
+          "bytesHuman": "139 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(9).webp",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(9).webp",
+          "type": "image",
+          "bytes": 48542,
+          "bytesHuman": "47.4 KB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_web.mp4",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_web.mp4",
+          "type": "video",
+          "bytes": 182690099,
+          "bytesHuman": "174 MB"
+        },
+        {
+          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_preview.mp4",
+          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_preview.mp4",
+          "type": "video",
+          "bytes": 500164,
+          "bytesHuman": "488 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(0).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(1).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(10).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(11).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(12).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(13).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(14).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(15).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(16).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(17).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(18).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(19).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2)a.webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(20).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(21).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(22).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(23).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(24).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(25).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(26).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(27).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(28).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(29).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(30).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(31).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(32).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(4).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(5).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(6).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(7).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(8).webp",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(9).webp"
+      ],
+      "resolvedVideos": [
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_web.mp4",
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_preview.mp4"
+      ],
+      "resolvedDocuments": [
+        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/annotation/UTB_Hrdina_Jakub_Na_Mars_.docx"
+      ],
+      "menuAsset": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_preview.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 500164,
+      "menuAssetBytesHuman": "488 KB"
+    },
+    {
+      "id": 68,
+      "author": "Lukáš Kučera",
+      "title": "Sinequo",
+      "school": "UTB",
+      "text": "Sinequo is a combat-racing game set in a mechanical Renaissance, where horses are replaced by early self-propelled machines. The gameplay centres on switching between immersive 3D racing and a 2D blueprint mode, where the environment becomes a dynamic sketch. This planning dimension allows players to modify their machines in real time, respond to track conditions, and develop strategies during the race.",
+      "typeClass": "media-image",
+      "src": [
+        "UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_08.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_09.webp"
+      ],
+      "contacts": {
+        "email": "lampehku@gmail.com",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "category": "DIGITAL",
+      "quality": "2",
+      "preview": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
+      "totalSizeBytes": 2960152,
+      "fileSizes": {
+        "UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.webp": 39180,
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp": 93258,
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp": 343642,
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.webp": 481392,
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.webp": 444294,
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.webp": 523260,
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.webp": 369438,
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.webp": 231452,
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_08.webp": 228792,
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_09.webp": 205444
+      },
+      "slug": "lukas-kucera-sinequo",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_08.webp",
+        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_09.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.webp",
+          "type": "image",
+          "bytes": 39180,
+          "bytesHuman": "38.3 KB"
+        },
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
+          "type": "image",
+          "bytes": 93258,
+          "bytesHuman": "91.1 KB"
+        },
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp",
+          "type": "image",
+          "bytes": 343642,
+          "bytesHuman": "336 KB"
+        },
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.webp",
+          "type": "image",
+          "bytes": 481392,
+          "bytesHuman": "470 KB"
+        },
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.webp",
+          "type": "image",
+          "bytes": 444294,
+          "bytesHuman": "434 KB"
+        },
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.webp",
+          "type": "image",
+          "bytes": 523260,
+          "bytesHuman": "511 KB"
+        },
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.webp",
+          "type": "image",
+          "bytes": 369438,
+          "bytesHuman": "361 KB"
+        },
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.webp",
+          "type": "image",
+          "bytes": 231452,
+          "bytesHuman": "226 KB"
+        },
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_08.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_08.webp",
+          "type": "image",
+          "bytes": 228792,
+          "bytesHuman": "223 KB"
+        },
+        {
+          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_09.webp",
+          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_09.webp",
+          "type": "image",
+          "bytes": 205444,
+          "bytesHuman": "201 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.webp",
+        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
+        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp",
+        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.webp",
+        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.webp",
+        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.webp",
+        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.webp",
+        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.webp",
+        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_08.webp",
+        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_09.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 93258,
+      "menuAssetBytesHuman": "91.1 KB"
+    },
+    {
+      "id": 70,
+      "author": "Kateřina Vyroubalová",
+      "title": "Elsewhere",
+      "school": "UTB",
+      "text": "Elsewhere is a jewellery collection of a ring and pendant made of copper and agates, inspired by the idea of life beyond Earth. The forms evoke spatial structures resembling microorganisms or energy entities rather than human-like figures. The project reflects the tendency to interpret the unknown through familiar patterns, while opening space for imagination and alternative ways of perceiving other worlds.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
+        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp",
+        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "totalSizeBytes": 2527634,
+      "fileSizes": {
+        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp": 11752,
+        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp": 1377200,
+        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.webp": 1138682
+      },
+      "preview": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
+      "slug": "katerina-vyroubalova-elsewhere",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
+        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp",
+        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
+          "path": "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
+          "type": "image",
+          "bytes": 11752,
+          "bytesHuman": "11.5 KB"
+        },
+        {
+          "source": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp",
+          "path": "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp",
+          "type": "image",
+          "bytes": 1377200,
+          "bytesHuman": "1.31 MB"
+        },
+        {
+          "source": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.webp",
+          "path": "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.webp",
+          "type": "image",
+          "bytes": 1138682,
+          "bytesHuman": "1.09 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
+        "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp",
+        "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 11752,
+      "menuAssetBytesHuman": "11.5 KB"
+    },
+    {
+      "id": 71,
       "author": "Lena Navrátilová",
       "title": "Jasmina",
       "school": "UTB",
-      "text": "Jasmina is an isometric journey into the unconscious, gamifying therapy into a \ntangible narrative. Through dreamlike metaphors and evidence-based methods, it \nteaches players to navigate anxiety and depression. This digital sanctuary is more \nthan a game - it’s an empathetic tool for personal growth, helping players find clarity \neven in the darkest places.",
+      "text": "Jasmina is an isometric journey into the unconscious that transforms therapeutic processes into an interactive narrative. Through dreamlike metaphors and evidence-based approaches, it guides players in navigating anxiety and depression. As a digital sanctuary, it functions as an empathetic tool for personal growth, offering support, reflection, and clarity even in moments of emotional uncertainty.",
       "typeClass": "media-image",
+      "category": "DIGITAL",
       "src": [
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_06.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_07.png",
-        "UTB/Lena Navrátilová_Jasmina/qrcode_lenazena.itch.io.png"
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_06.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_07.webp",
+        "UTB/Lena Navrátilová_Jasmina/qrcode_lenazena.itch.io.webp"
       ],
       "contacts": {
         "email": "lenasek0123@gmail.com",
@@ -2428,181 +5134,440 @@ window.SpaceToSpaceProjectsData = {
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
+      "quality": "5",
+      "totalSizeBytes": 817692,
+      "fileSizes": {
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp": 25160,
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.webp": 118904,
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp": 175978,
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.webp": 134826,
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.webp": 125478,
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_06.webp": 120648,
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_07.webp": 84576,
+        "UTB/Lena Navrátilová_Jasmina/qrcode_lenazena.itch.io.webp": 32122
+      },
+      "preview": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
       "slug": "lena-navratilova-jasmina",
       "schoolSlug": "utb",
       "media": [
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_06.png",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_07.png",
-        "UTB/Lena Navrátilová_Jasmina/qrcode_lenazena.itch.io.png"
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_06.webp",
+        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_07.webp",
+        "UTB/Lena Navrátilová_Jasmina/qrcode_lenazena.itch.io.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_01.png",
-          "type": "image"
+          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
+          "path": "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
+          "type": "image",
+          "bytes": 25160,
+          "bytesHuman": "24.6 KB"
         },
         {
-          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_02.png",
-          "type": "image"
+          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.webp",
+          "path": "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.webp",
+          "type": "image",
+          "bytes": 118904,
+          "bytesHuman": "116 KB"
         },
         {
-          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_03.png",
-          "type": "image"
+          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp",
+          "path": "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp",
+          "type": "image",
+          "bytes": 175978,
+          "bytesHuman": "172 KB"
         },
         {
-          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_04.png",
-          "type": "image"
+          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.webp",
+          "path": "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.webp",
+          "type": "image",
+          "bytes": 134826,
+          "bytesHuman": "132 KB"
         },
         {
-          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_05.png",
-          "type": "image"
+          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.webp",
+          "path": "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.webp",
+          "type": "image",
+          "bytes": 125478,
+          "bytesHuman": "123 KB"
         },
         {
-          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_06.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_06.png",
-          "type": "image"
+          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_06.webp",
+          "path": "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_06.webp",
+          "type": "image",
+          "bytes": 120648,
+          "bytesHuman": "118 KB"
         },
         {
-          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_07.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_07.png",
-          "type": "image"
+          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_07.webp",
+          "path": "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_07.webp",
+          "type": "image",
+          "bytes": 84576,
+          "bytesHuman": "82.6 KB"
+        },
+        {
+          "source": "UTB/Lena Navrátilová_Jasmina/qrcode_lenazena.itch.io.webp",
+          "path": "assets/UTB/Lena Navrátilová_Jasmina/qrcode_lenazena.itch.io.webp",
+          "type": "image",
+          "bytes": 32122,
+          "bytesHuman": "31.4 KB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_01.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_02.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_03.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_04.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_05.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_06.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_07.png"
+        "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
+        "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.webp",
+        "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp",
+        "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.webp",
+        "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.webp",
+        "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_06.webp",
+        "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_07.webp",
+        "assets/UTB/Lena Navrátilová_Jasmina/qrcode_lenazena.itch.io.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-game-design/navratilova-jasmina/media/UTB_Navratilova_Lena_Jsmina_01.png",
-      "menuAssetType": "image"
+      "menuAsset": "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 25160,
+      "menuAssetBytesHuman": "24.6 KB"
     },
     {
-      "id": 68,
-      "author": "Lukáš Kučera",
-      "title": "Sinequo",
+      "id": 73,
+      "author": "Marietta Brandisová",
+      "title": "Between Nature and Technology",
       "school": "UTB",
-      "text": "Annotation\n\nSINEQUO is a combat-racing game that takes players into the era of the mechanical Renaissance, where horses have been replaced by the first self-propelled steel machines. At the core of the gameplay is a unique mechanic for switching between intense 3D racing and a 2D technical blueprint dimension. In this “planning” mode, the world transforms into a living sketchbook, allowing players to strategically modify their machine mid-race, adapt to track hazards, and strategize.",
+      "text": "This poster series explores the shifting relationship between the organic world of nature and the synthetic realm of technology. Through animated compositions, it visualises moments where these environments intersect, overlap, and influence one another. The project suggests that technology is not separate from nature, but emerges from its principles, structures, and processes, revealing a continuous dialogue between both domains.",
       "typeClass": "media-image",
+      "category": "PRODUCT",
       "src": [
-        "UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_08.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_09.png"
+        "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp"
       ],
       "contacts": {
-        "email": "lampehku@gmail.com",
+        "email": "mariettka.brandisova@gmail.com",
         "phone": ""
       },
       "warnings": [
-        "V annotations nalezeno 2 souborů, žádný s EN markerem. Použit první soubor.",
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
-      "slug": "lukas-kucera-sinequo",
+      "quality": "3",
+      "totalSizeBytes": 28443104,
+      "fileSizes": {
+        "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.webp": 47590,
+        "UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp": 5211226,
+        "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp": 3281648,
+        "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.webp": 3099508,
+        "UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp": 4876726,
+        "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp": 3099508,
+        "UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp": 3310158,
+        "UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp": 5516740
+      },
+      "preview": "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.webp",
+      "slug": "marietta-brandisova-between-nature-and-technology",
       "schoolSlug": "utb",
       "media": [
-        "UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_08.png",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_09.png"
+        "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
+        "UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.png",
-          "type": "image"
+          "source": "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
+          "type": "image",
+          "bytes": 3281648,
+          "bytesHuman": "3.13 MB"
         },
         {
-          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.png",
-          "type": "image"
+          "source": "UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
+          "type": "image",
+          "bytes": 5211226,
+          "bytesHuman": "4.97 MB"
         },
         {
-          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.png",
-          "type": "image"
+          "source": "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
+          "type": "image",
+          "bytes": 3281648,
+          "bytesHuman": "3.13 MB"
         },
         {
-          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.png",
-          "type": "image"
+          "source": "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
+          "type": "image",
+          "bytes": 3099508,
+          "bytesHuman": "2.96 MB"
         },
         {
-          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.png",
-          "type": "image"
+          "source": "UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
+          "type": "image",
+          "bytes": 4876726,
+          "bytesHuman": "4.65 MB"
         },
         {
-          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.png",
-          "type": "image"
+          "source": "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
+          "type": "image",
+          "bytes": 3099508,
+          "bytesHuman": "2.96 MB"
         },
         {
-          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.png",
-          "type": "image"
+          "source": "UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
+          "type": "image",
+          "bytes": 3310158,
+          "bytesHuman": "3.16 MB"
+        },
+        {
+          "source": "UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp",
+          "type": "image",
+          "bytes": 5516740,
+          "bytesHuman": "5.26 MB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_05.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_06.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_07.png"
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-game-design/kucera-sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.png",
-      "menuAssetType": "image"
+      "menuAsset": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 3281648,
+      "menuAssetBytesHuman": "3.13 MB"
     },
     {
-      "id": 72,
+      "id": 74,
+      "author": "Martin Mejvald",
+      "title": "NIAD Filtration System",
+      "school": "UTB",
+      "text": "NIAD is a portable water filtration system that combines functionality with a refined, durable design. Its rounded form enhances impact resistance while maintaining a clear aesthetic. The system enables filtration from common sources and efficient rainwater collection. Equipped with an adjustable shoulder strap, it offers convenient access to drinking water during travel without occupying space in a backpack.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_06.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_07.webp"
+      ],
+      "contacts": {
+        "email": "m_mejvald@utb.cz",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "3",
+      "totalSizeBytes": 1694310,
+      "fileSizes": {
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp": 6874,
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.webp": 86984,
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp": 121374,
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.webp": 74990,
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.webp": 78708,
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_06.webp": 914772,
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_07.webp": 410608
+      },
+      "preview": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
+      "slug": "martin-mejvald-niad-filtration-system",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_06.webp",
+        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_07.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
+          "path": "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
+          "type": "image",
+          "bytes": 6874,
+          "bytesHuman": "6.71 KB"
+        },
+        {
+          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.webp",
+          "path": "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.webp",
+          "type": "image",
+          "bytes": 86984,
+          "bytesHuman": "84.9 KB"
+        },
+        {
+          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp",
+          "path": "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp",
+          "type": "image",
+          "bytes": 121374,
+          "bytesHuman": "119 KB"
+        },
+        {
+          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.webp",
+          "path": "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.webp",
+          "type": "image",
+          "bytes": 74990,
+          "bytesHuman": "73.2 KB"
+        },
+        {
+          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.webp",
+          "path": "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.webp",
+          "type": "image",
+          "bytes": 78708,
+          "bytesHuman": "76.9 KB"
+        },
+        {
+          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_06.webp",
+          "path": "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_06.webp",
+          "type": "image",
+          "bytes": 914772,
+          "bytesHuman": "893 KB"
+        },
+        {
+          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_07.webp",
+          "path": "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_07.webp",
+          "type": "image",
+          "bytes": 410608,
+          "bytesHuman": "401 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
+        "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.webp",
+        "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp",
+        "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.webp",
+        "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.webp",
+        "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_06.webp",
+        "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_07.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 6874,
+      "menuAssetBytesHuman": "6.71 KB"
+    },
+    {
+      "id": 75,
+      "author": "Matej Masaryk",
+      "title": "Reflections",
+      "school": "UTB",
+      "text": "Reflections translates physical space into a digital layer using TouchDesigner to generate a real-time point cloud from a camera. Acting as a digital mirror, it presents viewers and their surroundings as abstract data images. The work shifts perception and reveals how technology shapes our understanding of reality, offering an alternative perspective on what is seen, interpreted, and often overlooked.",
+      "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
+      "src": [
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp",
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_preview.mp4"
+      ],
+      "contacts": {
+        "email": "m_masaryk@utb.cz",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "totalSizeBytes": 1860904,
+      "fileSizes": {
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4": 1217373,
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp": 146492,
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_preview.mp4": 497039
+      },
+      "preview": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_preview.mp4",
+      "slug": "matej-masaryk-reflections",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp"
+      ],
+      "externalMedia": [
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_preview.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
+          "path": "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
+          "type": "video",
+          "bytes": 1217373,
+          "bytesHuman": "1.16 MB"
+        },
+        {
+          "source": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp",
+          "path": "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp",
+          "type": "image",
+          "bytes": 146492,
+          "bytesHuman": "143 KB"
+        },
+        {
+          "source": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_preview.mp4",
+          "path": "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_preview.mp4",
+          "type": "video",
+          "bytes": 497039,
+          "bytesHuman": "485 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp"
+      ],
+      "resolvedVideos": [
+        "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
+        "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_preview.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_preview.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 497039,
+      "menuAssetBytesHuman": "485 KB"
+    },
+    {
+      "id": 76,
       "author": "Matouš Marek",
       "title": "Revenant Earth 2",
       "school": "UTB",
-      "text": "Revenant Earth is a 2D pixel-art strategy-adventure game focused on restoring a planet \ndevastated by climate change. As the last human, the player controls weather, soil, \nplant growth, and technology to bring balance back to Earth. The game simulates \necosystem processes and promotes understanding of sustainability, environmental \nsystems, and the impact of human activity, helping to develop ecological awareness and \nresponsible attitudes toward nature.",
+      "text": "Revenant Earth 2 is a 2D pixel-art strategy game focused on restoring a planet affected by climate change. As the last human, the player controls weather, soil, plant growth, and technology to re-establish balance. The game simulates ecosystem processes and highlights the impact of human activity, encouraging environmental awareness and responsible attitudes toward nature.",
       "typeClass": "media-image",
+      "category": "PRODUCT",
       "src": [
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.png",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.png",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.png",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.png",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_05.png",
-        "UTB/Matouš Marek_Revenant Earth 2/revenant-earth_itch_qr-code_1.png"
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_05.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/revenant-earth_itch_qr-code_1.webp"
       ],
       "contacts": {
         "email": "darkfejzr@gmail.com",
@@ -2611,961 +5576,100 @@ window.SpaceToSpaceProjectsData = {
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
+      "quality": "3",
+      "totalSizeBytes": 334022,
+      "fileSizes": {
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp": 25040,
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp": 47294,
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.webp": 53524,
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.webp": 99776,
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_05.webp": 99618,
+        "UTB/Matouš Marek_Revenant Earth 2/revenant-earth_itch_qr-code_1.webp": 8770
+      },
+      "preview": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
       "slug": "matous-marek-revenant-earth-2",
       "schoolSlug": "utb",
       "media": [
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.png",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.png",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.png",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.png",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_05.png",
-        "UTB/Matouš Marek_Revenant Earth 2/revenant-earth_itch_qr-code_1.png"
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_05.webp",
+        "UTB/Matouš Marek_Revenant Earth 2/revenant-earth_itch_qr-code_1.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_01.png",
-          "type": "image"
+          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
+          "path": "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
+          "type": "image",
+          "bytes": 25040,
+          "bytesHuman": "24.5 KB"
         },
         {
-          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_02.png",
-          "type": "image"
+          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp",
+          "path": "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp",
+          "type": "image",
+          "bytes": 47294,
+          "bytesHuman": "46.2 KB"
         },
         {
-          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_03.png",
-          "type": "image"
+          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.webp",
+          "path": "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.webp",
+          "type": "image",
+          "bytes": 53524,
+          "bytesHuman": "52.3 KB"
         },
         {
-          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_04.png",
-          "type": "image"
+          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.webp",
+          "path": "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.webp",
+          "type": "image",
+          "bytes": 99776,
+          "bytesHuman": "97.4 KB"
         },
         {
-          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_05.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_05.png",
-          "type": "image"
+          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_05.webp",
+          "path": "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_05.webp",
+          "type": "image",
+          "bytes": 99618,
+          "bytesHuman": "97.3 KB"
         },
         {
-          "source": "UTB/Matouš Marek_Revenant Earth 2/revenant-earth_itch_qr-code_1.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/revenant-earth_itch_qr-code 1.png",
-          "type": "image"
+          "source": "UTB/Matouš Marek_Revenant Earth 2/revenant-earth_itch_qr-code_1.webp",
+          "path": "assets/UTB/Matouš Marek_Revenant Earth 2/revenant-earth_itch_qr-code_1.webp",
+          "type": "image",
+          "bytes": 8770,
+          "bytesHuman": "8.56 KB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_01.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_02.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_03.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_04.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_05.png",
-        "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/revenant-earth_itch_qr-code 1.png"
+        "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
+        "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp",
+        "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.webp",
+        "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.webp",
+        "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_05.webp",
+        "assets/UTB/Matouš Marek_Revenant Earth 2/revenant-earth_itch_qr-code_1.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-game-design/marek-revenant-earth-2/media/UTB_Marek_Matouš_RE2_01.png",
-      "menuAssetType": "image"
+      "menuAsset": "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 25040,
+      "menuAssetBytesHuman": "24.5 KB"
     },
     {
-      "id": 62,
-      "author": "Jagošová",
-      "title": "Liferaft",
+      "id": 77,
+      "author": "Michal Grzebinski",
+      "title": "Relic",
       "school": "UTB",
-      "text": "á část pod hladinou výrazně usnadňuje záchranu tonoucího.\n\n\n\nEN\n\nThe rescue raft project addresses water safety by reducing response time and improving the accessibility of assistance in emergency situations. Its modular system allows flexible use and easy adaptation to specific conditions, while the raft can also serve as a resting point for swimmers. The design includes integrated lifebuoys and an emergency button with a visual beacon. A specially lowered section below the water surface significantly facilitates the rescue of a person in distress.",
+      "text": "Relic explores the concept of transfer between spaces, where a raw stone carries the memory of its origin, shaped without human intervention. In contrast, a geometric structure represents human order and control. The stone is not set harmoniously but constrained within the form, held at minimal points, creating tension between natural processes and constructed systems, and revealing the fragile balance between both.",
       "typeClass": "media-image",
+      "category": "PRODUCT",
       "src": [
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_05.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_06.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_07.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_CZ.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_EN.jpg"
-      ],
-      "contacts": {
-        "email": "j_jagosova@utb.cz",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "jagosova-liferaft",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_05.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_06.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_07.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_CZ.jpg",
-        "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_EN.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_03.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_04.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_05.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_05.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_06.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_06.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_07.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_07.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_CZ.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_storyboard_CZ.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_EN.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_storyboard_EN.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_01.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_03.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_04.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_05.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_06.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_07.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_storyboard_CZ.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_storyboard_EN.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/jagosova-vor/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_01.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 65,
-      "author": "Jan Kroulík",
-      "title": "MUV Modular Utility Vehicle",
-      "school": "UTB",
-      "text": "MUV redefines utility mobility as an adaptable infrastructural tool for future logistics and emergency operations. The autonomous symmetrical platform enables rapid integration of specialized modules. From cargo transport to tracked rescue systems. Swappable battery–pack reduce downtime and enable the use of renewable energy sources, while all-wheel drive and steering ensure agile mobility in both urban and extreme off-road conditions.",
-      "typeClass": "media-image",
-      "src": [
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_01.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_02.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_03.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_10.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_11.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_12.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_13.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_14.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_15.jpg"
-      ],
-      "contacts": {
-        "email": "j_kroulik@utb.cz",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "jan-kroulik-muv-modular-utility-vehicle",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_01.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_02.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_03.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_10.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_11.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_12.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_13.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_14.jpg",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_15.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_01.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_02.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_02.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_03.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_03.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_04.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_05.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_06.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_07.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_08.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_09.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_10.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_10.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_11.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_11.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_12.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_12.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_13.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_13.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_14.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_14.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_15.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_15.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_01.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_02.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_03.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_04.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_05.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_06.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_07.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_08.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_09.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_10.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_11.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_12.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_13.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_14.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_15.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/kroulik-muv-modular-utility-vehicle/media/Tomas Bata University_Kroulík_Jan_MUV_01.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 60,
-      "author": "Gabriela Metzová",
-      "title": "Rescue Robot",
-      "school": "UTB",
-      "text": "pro záchranné složky a jeho hlavním účelem je lokalizovat osoby v těžko dostupných místech a navázat s nimi audiovizuální kontakt. Je vybaven systémy jako kamery s nočním viděním, termovizí, reproduktory a mikrofonem, senzory elektromagnetického pole, signálu apod. Pohyb je umožněn pomocí tzv.tendon-driven mechanismu a ohebných kloubů, které umožňují pohyb do všech směrů. \n\nRobot by byl poté napájen přes kabel, který mimo jiné umožňuje také stabilní přenos signálu, ale je možná i varianta na baterii.\n\n\n\nAbstract\n\nThis robot was designed for rescue services and its main purpose is to locate people in hard-to-reach places and establish audiovisual contact with them. It is equipped with systems such as night vision cameras, thermal imaging, speakers and microphones, electromagnetic field sensors, signal sensors, etc. Movement is enabled by a tendon-driven mechanism and flexible joints that allow movement in all directions. The robot would then be powered via a cable, which also allows stable signal transmission, but a battery-powered variant is also possible.",
-      "typeClass": "media-image",
-      "src": [
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_06.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_07.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_08.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_09.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_4.jpg"
-      ],
-      "contacts": {
-        "email": "g_metzova@utb.cz",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "gabriela-metzova-rescue-robot",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_06.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_07.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_08.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_09.jpg",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_4.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_02.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_03.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_05.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_06.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_06.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_07.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_07.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_08.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_08.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_09.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_09.jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_4.jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_4.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_01.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_02.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_03.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_05.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_06.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_07.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_08.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_09.jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_4.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/metzova-gabriela-zachranny-robot/media/UTB_Metzová_Gabriela_Záchranný robot_01.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 70,
-      "author": "Martin Mejvald",
-      "title": "NIAD Filtration System",
-      "school": "UTB",
-      "text": "A portable water filter that combines functionality and style. It stands out with simple, rounded shapes, thanks to which it is not only aesthetic but also resistant to impacts. The unique construction allows not only filtration from common sources but is designed also for effective collection and purification of rainwater. For comfort during travel, the filter is equipped with an adjustable shoulder strap, so you have a source of drinking water always at hand, without it taking up space in a backpack.",
-      "typeClass": "media-image",
-      "src": [
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_06.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_07.png"
-      ],
-      "contacts": {
-        "email": "m_mejvald@utb.cz",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "martin-mejvald-niad-filtration-system",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_06.png",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_07.png"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_01.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_02.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_03.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_04.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_05.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_06.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_06.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_07.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_07.png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_01.png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_02.png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_03.png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_04.png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_05.png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_06.png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_07.png"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/mejvald-niad-filtration-system/media/Tomas Bata University in Zlín_Mejvald_Martin_NIAD Filtration System_01.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 63,
-      "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
-      "title": "To Mars!!!",
-      "school": "UTB",
-      "text": "Na Mars!!! \n\n\n\nMgA. Jakub Hrdina, Ph.D.\n\nMgA. Marek Ondřej\n\nMgA. Vladimír Vykoukal\n\n\n\nAteliér Průmyslový design, FMK, Univerzita Tomáše Bati ve Zlíně / \n\nIndustrial Design Studio, FMC, Tomas Bata University in Zlín\n\n\n\nAnotace: \n\nVýzkumný designérský experiment Na Mars!!! zkoumá posun disciplíny od navrhování solitérů k ucelené světotvorbě. Prostřednictvím generativních AI nástrojů při tvorbě videa vznikla komplexní audiovizuální studie marsovské infrastruktury bez lidských aktérů. Aplikovaná estetika dohledových kamer slouží jako analytický nástroj k reflexi provozu v extrémním prostředí, čímž inovuje metodologii průmyslového designu.\n\n\n\nAnnotation:\n\nThe Na Mars!!! design research experiment investigates the discipline's shift from solitary object design to comprehensive worldbuilding. Utilizing generative AI tools in video synthesis, it presents a complex audiovisual study of Martian infrastructure devoid of human actors. The applied CCTV aesthetic serves as an analytical tool to reflect on operations in extreme environments, innovating industrial design methodology.",
-      "typeClass": "mixed_video_image",
-      "src": [
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars!!!_video.mp4",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(0).jpg",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(1).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(10).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(11).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(12).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(13).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(14).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(15).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(16).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(17).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(18).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(19).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2).jpg",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2)a.png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(20).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(21).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(22).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(23).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(24).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(25).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(26).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(27).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(28).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(29).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).jpg",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(30).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(31).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(32).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(4).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(5).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(6).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(7).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(8).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(9).png"
-      ],
-      "contacts": {
-        "email": "Jhrdina@utb.cz",
-        "phone": ""
-      },
-      "warnings": [
-        "Nebyl nalezen anglický marker (ENG:), použit celý text."
-      ],
-      "category": "",
-      "slug": "jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars",
-      "schoolSlug": "utb",
-      "media": [
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(0).jpg",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(1).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(10).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(11).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(12).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(13).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(14).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(15).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(16).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(17).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(18).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(19).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2).jpg",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2)a.png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(20).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(21).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(22).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(23).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(24).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(25).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(26).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(27).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(28).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(29).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).jpg",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(30).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(31).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(32).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(4).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(5).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(6).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(7).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(8).png",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(9).png"
-      ],
-      "externalMedia": [
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars!!!_video.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars!!!_video.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4",
-          "type": "video"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(0).jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (0).jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(1).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (1).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(10).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (10).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(11).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (11).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(12).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (12).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(13).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (13).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(14).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (14).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(15).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (15).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(16).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (16).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(17).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (17).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(18).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (18).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(19).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (19).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2).jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (2).jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(2)a.png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (2)a.png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(20).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (20).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(21).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (21).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(22).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (22).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(23).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (23).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(24).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (24).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(25).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (25).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(26).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (26).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(27).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (27).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(28).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (28).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(29).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (29).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).jpg",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (3).jpg",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(3).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (3).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(30).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (30).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(31).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (31).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(32).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (32).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(4).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (4).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(5).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (5).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(6).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (6).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(7).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (7).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(8).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (8).png",
-          "type": "image"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_!!!__photo__(9).png",
-          "path": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (9).png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (0).jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (1).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (10).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (11).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (12).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (13).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (14).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (15).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (16).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (17).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (18).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (19).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (2).jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (2)a.png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (20).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (21).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (22).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (23).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (24).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (25).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (26).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (27).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (28).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (29).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (3).jpg",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (3).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (30).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (31).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (32).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (4).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (5).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (6).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (7).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (8).png",
-        "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (9).png"
-      ],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/utb-prvy-predvyber/loose-imports/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/video/UTB_Hrdina_Jakub_Na Mars!!! video.mp4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/utb-prvy-predvyber/atelier-prumyslovy-design/hrdina-na-mars/media/media/UTB_Hrdina_jakub_Na Mars !!!_ photo_ (0).jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 81,
-      "author": "Michaela Krčová",
-      "title": "It’s about you",
-      "school": "VŠVU",
-      "text": "The project sees space as a state of mind. It creates places for slowing down, silence, and attention to small natural details. Instead of outside noise and constant movement, it invites people to turn their focus inward – to the present moment, personal calm, and awareness of themselves allowing a quiet pause within everyday life.",
-      "typeClass": "mixed_video_image",
-      "src": [
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_05.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_06.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_07.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08.mp4",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_09.jpeg",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_10.jpeg",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_11.jpeg"
-      ],
-      "contacts": {
-        "email": "miskakrcova18@gmail.com",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "michaela-krcova-it-s-about-you",
-      "schoolSlug": "vsvu",
-      "media": [
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_05.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_06.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_07.png",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_09.jpeg",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_10.jpeg",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_11.jpeg"
-      ],
-      "externalMedia": [
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08.mp4"
-      ],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.png",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_01.png",
-          "type": "image"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.png",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_02.png",
-          "type": "image"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.png",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_03.png",
-          "type": "image"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.png",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_04.png",
-          "type": "image"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_05.png",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_05.png",
-          "type": "image"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_06.png",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_06.png",
-          "type": "image"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_07.png",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_07.png",
-          "type": "image"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4",
-          "type": "video"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_09.jpeg",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_09.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_10.jpeg",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_10.jpeg",
-          "type": "image"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_11.jpeg",
-          "path": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_11.jpeg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_01.png",
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_02.png",
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_03.png",
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_04.png",
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_05.png",
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_06.png",
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_07.png",
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_09.jpeg",
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_10.jpeg",
-        "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_11.jpeg"
-      ],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_08.mp4"
-      ],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/vsvu/krcova-michaela-i/VŠVU_Krčová_Michaela_I_01.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 80,
-      "author": "Filip Huraj",
-      "title": "MARS53",
-      "school": "VŠVU",
-      "text": "The Mars 53 \nAnnotation – Filip Huraj  \n \nThe Mars 53 project presents a concept of minimal housing in a colonized Mars environment in \nthe year 2140. Modular dwellings in dome cities respond to extreme conditions and limited \nresources. The design addresses basic human needs, uses local materials, 3D printing, and a \nflexible interior that supports movement and long-term sustainability.  \n \n \n \nMars 53 \nAnotácia – Filip Huraj  \n \n \nProjekt Mars 53 predstavuje koncept minimálneho bývania v podmienkach kolonizovaného \nMarsu v roku 2140. Modulárne obydlia v kupolových mestách reagujú na extrémne prostredie a \nobmedzené zdroje. Návrh rieši primárne potreby človeka, využíva lokálne materiály, 3D tlač a \nvariabilný interiér podporujúci pohyb a dlhodobú udržateľnosť.",
-      "typeClass": "mixed_video_image",
-      "src": [
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp",
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_03.webp",
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_04.webp",
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_05.webp",
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_06.webp",
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS_53..mp4"
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.webp",
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.webp",
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp"
       ],
       "contacts": {
         "email": "",
@@ -3574,7 +5678,656 @@ window.SpaceToSpaceProjectsData = {
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
+      "quality": "3",
+      "preview": "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp",
+      "totalSizeBytes": 813866,
+      "fileSizes": {
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.webp": 575906,
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.webp": 226948,
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp": 11012
+      },
+      "slug": "michal-grzebinski-relic",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.webp",
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.webp",
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.webp",
+          "path": "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.webp",
+          "type": "image",
+          "bytes": 575906,
+          "bytesHuman": "562 KB"
+        },
+        {
+          "source": "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.webp",
+          "path": "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.webp",
+          "type": "image",
+          "bytes": 226948,
+          "bytesHuman": "222 KB"
+        },
+        {
+          "source": "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp",
+          "path": "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp",
+          "type": "image",
+          "bytes": 11012,
+          "bytesHuman": "10.8 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.webp",
+        "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.webp",
+        "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 11012,
+      "menuAssetBytesHuman": "10.8 KB"
+    },
+    {
+      "id": 78,
+      "author": "Pavla Hajná",
+      "title": "Children's Canopy",
+      "school": "UTB",
+      "text": "Children’s Canopy defines a space within a space, separating the child’s world from the adult environment. Inspired by motifs such as a starry night sky, the design evolves with age, shifting from a playful mobile to immersive structures like a bunker or castle. Made from lightweight Vylen foam, it encourages imagination and adaptability, supporting children’s creativity and changing modes of play.",
+      "typeClass": "media-image",
+      "category": "DIGITAL",
+      "src": [
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp"
+      ],
+      "contacts": {
+        "email": "p_hajna@utb.cz",
+        "phone": "+420 731 632 281"
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "3",
+      "preview": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
+      "totalSizeBytes": 1062732,
+      "fileSizes": {
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp": 126574,
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp": 251904,
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp": 36392,
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp": 221934,
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp": 232376,
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp": 90436,
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp": 69742,
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp": 33374
+      },
+      "slug": "pavla-hajna-children-s-canopy",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
+          "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
+          "type": "image",
+          "bytes": 126574,
+          "bytesHuman": "124 KB"
+        },
+        {
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
+          "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
+          "type": "image",
+          "bytes": 251904,
+          "bytesHuman": "246 KB"
+        },
+        {
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
+          "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
+          "type": "image",
+          "bytes": 36392,
+          "bytesHuman": "35.5 KB"
+        },
+        {
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
+          "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
+          "type": "image",
+          "bytes": 221934,
+          "bytesHuman": "217 KB"
+        },
+        {
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
+          "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
+          "type": "image",
+          "bytes": 232376,
+          "bytesHuman": "227 KB"
+        },
+        {
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
+          "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
+          "type": "image",
+          "bytes": 90436,
+          "bytesHuman": "88.3 KB"
+        },
+        {
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp",
+          "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp",
+          "type": "image",
+          "bytes": 69742,
+          "bytesHuman": "68.1 KB"
+        },
+        {
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp",
+          "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp",
+          "type": "image",
+          "bytes": 33374,
+          "bytesHuman": "32.6 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
+        "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
+        "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
+        "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
+        "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
+        "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
+        "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp",
+        "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 36392,
+      "menuAssetBytesHuman": "35.5 KB"
+    },
+    {
+      "id": 79,
+      "author": "Zuzana Buňatická",
+      "title": "Lamp",
+      "school": "UTB",
+      "text": "This light object is created through upcycling a lampshade from a broken vintage lamp, transforming a utilitarian element into an expressive piece balancing on the edge of kitsch. The original diffuser is replaced with dichroic film, interacting with daylight to disperse coloured reflections. At night, it becomes an autonomous light source, acting as a dominant focal point within the surrounding space.",
+      "typeClass": "media-image",
+      "src": [
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0869.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0872.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0879.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0881.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0883.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0888.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0890.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp"
+      ],
+      "contacts": {
+        "email": "z_bunaticka@utb.cz",
+        "phone": "+420 724 256 776"
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "category": "PRODUCT",
+      "quality": "4",
+      "totalSizeBytes": 4865060,
+      "fileSizes": {
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0869.webp": 688900,
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp": 303268,
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0872.webp": 297168,
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0879.webp": 348142,
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0881.webp": 614386,
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0883.webp": 904260,
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp": 40954,
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0888.webp": 980116,
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0890.webp": 646912,
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp": 40954
+      },
+      "preview": "UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp",
+      "slug": "zuzana-bunaticka-lamp",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0869.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0872.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0879.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0881.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0883.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0888.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0890.webp",
+        "UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0869.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0869.webp",
+          "type": "image",
+          "bytes": 688900,
+          "bytesHuman": "673 KB"
+        },
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp",
+          "type": "image",
+          "bytes": 303268,
+          "bytesHuman": "296 KB"
+        },
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0872.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0872.webp",
+          "type": "image",
+          "bytes": 297168,
+          "bytesHuman": "290 KB"
+        },
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0879.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0879.webp",
+          "type": "image",
+          "bytes": 348142,
+          "bytesHuman": "340 KB"
+        },
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0881.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0881.webp",
+          "type": "image",
+          "bytes": 614386,
+          "bytesHuman": "600 KB"
+        },
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0883.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0883.webp",
+          "type": "image",
+          "bytes": 904260,
+          "bytesHuman": "883 KB"
+        },
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp",
+          "type": "image",
+          "bytes": 40954,
+          "bytesHuman": "40.0 KB"
+        },
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0888.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0888.webp",
+          "type": "image",
+          "bytes": 980116,
+          "bytesHuman": "957 KB"
+        },
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0890.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0890.webp",
+          "type": "image",
+          "bytes": 646912,
+          "bytesHuman": "632 KB"
+        },
+        {
+          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp",
+          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp",
+          "type": "image",
+          "bytes": 40954,
+          "bytesHuman": "40.0 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0869.webp",
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp",
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0872.webp",
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0879.webp",
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0881.webp",
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0883.webp",
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp",
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0888.webp",
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0890.webp",
+        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0887.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 40954,
+      "menuAssetBytesHuman": "40.0 KB"
+    },
+    {
+      "id": 80,
+      "author": "Sára Timošová",
+      "title": "There was one house",
+      "school": "UTB",
+      "text": "There Was One House is a ring inspired by the form of a signet, symbolising home as a space of memory and relationships. The house motif reflects what remains hidden behind closed doors and how these experiences shape identity. Archival photographs evoke intimate family moments, centred around a table embedded within a structure of brass, plexiglass, and printed foil, forming a layered narrative of personal history.",
+      "typeClass": "media-image",
+      "category": "SPATIAL",
+      "src": [
+        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
+        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp",
+        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "4",
+      "totalSizeBytes": 226088,
+      "fileSizes": {
+        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp": 14284,
+        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp": 64656,
+        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.webp": 147148
+      },
+      "preview": "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
+      "slug": "sara-timosova-there-was-one-house",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
+        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp",
+        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
+          "path": "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
+          "type": "image",
+          "bytes": 14284,
+          "bytesHuman": "13.9 KB"
+        },
+        {
+          "source": "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp",
+          "path": "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp",
+          "type": "image",
+          "bytes": 64656,
+          "bytesHuman": "63.1 KB"
+        },
+        {
+          "source": "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.webp",
+          "path": "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.webp",
+          "type": "image",
+          "bytes": 147148,
+          "bytesHuman": "144 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
+        "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp",
+        "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 14284,
+      "menuAssetBytesHuman": "13.9 KB"
+    },
+    {
+      "id": 81,
+      "author": "Tereza Sedláčková",
+      "title": "Asmo",
+      "school": "UTB",
+      "text": "Asmo is an indoor climbing structure for bearded dragons that combines 3D printing and wood to support natural movement outside the terrarium. Its elements mimic branches and driftwood, while the textured surfaces enhance grip and mobility. The modular system consists of climbing holds and rods connected by joints, allowing flexible configurations that enrich the animal’s environment and encourage active behaviour.",
+      "typeClass": "media-image",
+      "category": "CONCEPTUAL",
+      "src": [
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.webp",
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp",
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.webp",
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_05.webp"
+      ],
+      "contacts": {
+        "email": "t_sedlackova@utb.cz",
+        "phone": "+420 733 411 959"
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "3",
+      "preview": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
+      "totalSizeBytes": 2532532,
+      "fileSizes": {
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.webp": 605810,
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp": 634508,
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.webp": 422104,
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp": 23264,
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_05.webp": 846846
+      },
+      "slug": "tereza-sedlackova-asmo",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.webp",
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp",
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.webp",
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
+        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_05.webp"
+      ],
+      "externalMedia": [],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.webp",
+          "path": "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.webp",
+          "type": "image",
+          "bytes": 605810,
+          "bytesHuman": "592 KB"
+        },
+        {
+          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp",
+          "path": "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp",
+          "type": "image",
+          "bytes": 634508,
+          "bytesHuman": "620 KB"
+        },
+        {
+          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.webp",
+          "path": "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.webp",
+          "type": "image",
+          "bytes": 422104,
+          "bytesHuman": "412 KB"
+        },
+        {
+          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
+          "path": "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
+          "type": "image",
+          "bytes": 23264,
+          "bytesHuman": "22.7 KB"
+        },
+        {
+          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_05.webp",
+          "path": "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_05.webp",
+          "type": "image",
+          "bytes": 846846,
+          "bytesHuman": "827 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.webp",
+        "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp",
+        "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.webp",
+        "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
+        "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_05.webp"
+      ],
+      "resolvedVideos": [],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 23264,
+      "menuAssetBytesHuman": "22.7 KB"
+    },
+    {
+      "id": 82,
+      "author": "Theo Fekar",
+      "title": "Testimonies of the Future",
+      "school": "UTB",
+      "text": "Testimonies of the Future is a web-based project presenting two diaries of adolescents set in different timelines. One follows a boy remaining on Earth after the departure of privileged groups to colonise a new planet, while the other reflects the life of a girl growing up in a controlled environment on that planet. The work explores inequality, separation, and contrasting visions of future existence.",
+      "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
+      "src": [
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_01.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_02.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_03.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_04.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_05.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_06.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web_web_web.mp4"
+      ],
+      "contacts": {
+        "email": "t_fekar@utb.cz",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "3",
+      "preview": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_04.webp",
+      "totalSizeBytes": 49383897,
+      "fileSizes": {
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_01.webp": 84066,
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_02.webp": 168592,
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_03.webp": 87586,
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_04.webp": 73524,
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_05.webp": 206722,
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_06.webp": 72690,
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web_web_web.mp4": 48690717
+      },
+      "slug": "theo-fekar-testimonies-of-the-future",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_01.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_02.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_03.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_04.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_05.webp",
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_06.webp"
+      ],
+      "externalMedia": [
+        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web_web_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_01.webp",
+          "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_01.webp",
+          "type": "image",
+          "bytes": 84066,
+          "bytesHuman": "82.1 KB"
+        },
+        {
+          "source": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_02.webp",
+          "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_02.webp",
+          "type": "image",
+          "bytes": 168592,
+          "bytesHuman": "165 KB"
+        },
+        {
+          "source": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_03.webp",
+          "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_03.webp",
+          "type": "image",
+          "bytes": 87586,
+          "bytesHuman": "85.5 KB"
+        },
+        {
+          "source": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_04.webp",
+          "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_04.webp",
+          "type": "image",
+          "bytes": 73524,
+          "bytesHuman": "71.8 KB"
+        },
+        {
+          "source": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_05.webp",
+          "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_05.webp",
+          "type": "image",
+          "bytes": 206722,
+          "bytesHuman": "202 KB"
+        },
+        {
+          "source": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_06.webp",
+          "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_06.webp",
+          "type": "image",
+          "bytes": 72690,
+          "bytesHuman": "71.0 KB"
+        },
+        {
+          "source": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web_web_web.mp4",
+          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/theo-fekar-testimonies-of-the-future/media/utb-fekar-theo-testimonies-video-02-web-web-web.mp4",
+          "type": "video",
+          "bytes": 48690717,
+          "bytesHuman": "46.4 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_01.webp",
+        "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_02.webp",
+        "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_03.webp",
+        "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_04.webp",
+        "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_05.webp",
+        "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_06.webp"
+      ],
+      "resolvedVideos": [
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/theo-fekar-testimonies-of-the-future/media/utb-fekar-theo-testimonies-video-02-web-web-web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_04.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 73524,
+      "menuAssetBytesHuman": "71.8 KB"
+    },
+    {
+      "id": 84,
+      "author": "Filip Huraj",
+      "title": "MARS53",
+      "school": "VŠVU",
+      "text": "Mars 53 presents a concept of minimal housing in a colonised Martian environment in the year 2140. Modular dwellings within dome-based settlements respond to extreme conditions and limited resources. The design addresses essential human needs through the use of local materials, 3D printing, and adaptable interiors, supporting movement, resilience, and long-term sustainable living beyond Earth.",
+      "typeClass": "mixed_video_image",
+      "category": "SPATIAL",
+      "src": [
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp",
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_03.webp",
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_04.webp",
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_05.webp",
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_06.webp",
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "quality": "5",
+      "status": "",
+      "missingReason": "",
+      "totalSizeBytes": 93909100,
+      "fileSizes": {
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp": 30752,
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp": 298656,
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_03.webp": 425208,
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_04.webp": 949116,
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_05.webp": 2970394,
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_06.webp": 3644002,
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4": 85590972
+      },
+      "preview": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
       "slug": "filip-huraj-mars53",
       "schoolSlug": "vsvu",
       "media": [
@@ -3586,640 +6339,1237 @@ window.SpaceToSpaceProjectsData = {
         "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_06.webp"
       ],
       "externalMedia": [
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS_53..mp4"
+        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.webp",
-          "type": "image"
+          "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
+          "type": "image",
+          "bytes": 30752,
+          "bytesHuman": "30.0 KB"
         },
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_02.webp",
-          "type": "image"
+          "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp",
+          "type": "image",
+          "bytes": 298656,
+          "bytesHuman": "292 KB"
         },
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_03.webp",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_03.webp",
-          "type": "image"
+          "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_03.webp",
+          "type": "image",
+          "bytes": 425208,
+          "bytesHuman": "415 KB"
         },
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_04.webp",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_04.webp",
-          "type": "image"
+          "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_04.webp",
+          "type": "image",
+          "bytes": 949116,
+          "bytesHuman": "927 KB"
         },
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_05.webp",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_05.webp",
-          "type": "image"
+          "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_05.webp",
+          "type": "image",
+          "bytes": 2970394,
+          "bytesHuman": "2.83 MB"
         },
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_06.webp",
-          "path": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_06.webp",
-          "type": "image"
+          "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_06.webp",
+          "type": "image",
+          "bytes": 3644002,
+          "bytesHuman": "3.48 MB"
         },
         {
-          "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS_53..mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4",
-          "type": "video"
+          "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4",
+          "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4",
+          "type": "video",
+          "bytes": 85590972,
+          "bytesHuman": "81.6 MB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.webp",
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_02.webp",
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_03.webp",
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_04.webp",
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_05.webp",
-        "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_06.webp"
+        "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
+        "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp",
+        "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_03.webp",
+        "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_04.webp",
+        "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_05.webp",
+        "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_06.webp"
       ],
       "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_animácia_MARS 53..mp4"
+        "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/vsvu/huraj-filip-mars53/media/vsvu_huraj_filip_01.webp",
-      "menuAssetType": "image"
+      "menuAsset": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 30752,
+      "menuAssetBytesHuman": "30.0 KB"
     },
     {
-      "id": 53,
-      "author": "Viktória Palúchová",
-      "title": "Y-Domatia",
-      "school": "TUZVO",
-      "text": "translation:\n\nThe Y-Domatia project imagines a future where a threatening celestial meteor body is reshaped by a precise laser into an upholstered chair. The object fuses chaos and control, nature and human ingenuity, turning an apocalyptic threat into a functional sculpture. In “space to space,” the energy of danger becomes an intimate place of safety—we sit on what once threatened us.\n\n__________________________________________________________________________________________________\n\nPlná verzia (full version):\n\n Slovenská verzia:\n\nProjekt Y-Domatia vychádza z imaginárneho scenára budúcnosti, v ktorom sa k Zemi približuje masívne vesmírne teleso ohrozujúce jej existenciu. Ľudstvo reaguje zásahom technológie – extrémne presného laserového lúča, schopného na diaľku transformovať aj najtvrdšiu hmotu. Deštruktívne teleso je týmto zásahom „skrotené“ a pretvorené na funkčný objekt: kreslo. Výsledný artefakt predstavuje spojenie chaosu a kontroly, prírody a ľudskej invencie.Pôvodne apokalyptická hrozba sa mení na sochársky objekt s úžitkovou funkciou, ktorý nesie stopu svojho pôvodu aj procesu transformácie. Dielo reflektuje schopnosť človeka nielen ničiť, ale aj pretvárať práve to deštruktívne – a dávať novej forme nový význam. Čalúnené kreslo umožňuje viac možností usadenia sa. V kontexte “space to space” ide o presun energie z hrozby do intímnej zóny tela ako miesta bezpečia. \n\n  „prečo kreslo?“: \n\n  „Pretože kreslo je objekt, ktorý vyžaduje dôveru tela – sadáme si na niečo, čo nás \n\n predtým ohrozovalo.“ \n\nEnglish translation:\n\nThe Y-Domatia project is based on an imaginary future scenario in which a massive celestial body approaches Earth, threatening its existence. Humanity responds with the intervention of technology – an extremely precise laser beam capable of transforming even the hardest matter from a distance. The destructive body is thus “tamed” and transformed into a functional object: a chair. The resulting artifact represents a fusion of chaos and control, nature and human ingenuity. What was once an apocalyptic threat becomes a sculptural object with a utilitarian function, carrying traces of its origin and the process of transformation. The upholstered armchair allows for multiple seating positions. In the context of “space to space,” it represents a transfer of energy from a threat into the intimate zone of the body as a place of safety.\n\n“Why a chair?” “Because a chair is an object that requires the trust of the body – we sit on something that once threatened us.”",
-      "typeClass": "media-image",
+      "id": 85,
+      "author": "Michaela Krčová",
+      "title": "It’s about you",
+      "school": "VŠVU",
+      "text": "The project understands space as a state of mind, creating environments for slowing down, silence, and attentive perception of subtle natural details. In contrast to external noise and constant movement, it encourages a shift inward toward the present moment, personal calm, and self-awareness. It offers a quiet pause within everyday life, inviting reflection and a more mindful connection to one’s surroundings.",
+      "typeClass": "mixed_video_image",
+      "category": "CONCEPTUAL",
       "src": [
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_1.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.jpg"
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_05.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_06.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_07.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08_web.mp4",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_09.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_10.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_11.webp"
       ],
       "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "viktoria-paluchova-y-domatia",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_1.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.jpg",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_1.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_1.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_2.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_3.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_4.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_5.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_6.jpg",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.jpg",
-          "path": "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_7.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_1.jpg",
-        "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_2.jpg",
-        "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_3.jpg",
-        "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_4.jpg",
-        "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_5.jpg",
-        "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_6.jpg",
-        "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_7.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/paluchova-y-domatia/media/VP_y-domatia_1.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 45,
-      "author": "Lujza Novosadová",
-      "title": "Infinity loop",
-      "school": "TUZVO",
-      "text": "Infinity loop\n\nAutor: Lujza Novosadová\n\nSupervisor: doc. Ing. Zuzana Tončíková, ArtD.\n\n\n\nThis project offers self-sufficient ecotourism in the Egyptian desert. Underground architecture minimizes light pollution for elite stargazing. A rooftop system ensures autonomy: collectors inspired by desert lizard gills extract air moisture for water, while integrated wind turbines produce energy. It provides an authentic, eco-conscious experience focused on desert survival and beauty.",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Lujza Novosadová_Infinity loop/media/1.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/2.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/3.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/4.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/5.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/6.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/KUEPLNA_WC_Z_VONKU.Denoiser.png"
-      ],
-      "contacts": {
-        "email": "",
+        "email": "miskakrcova18@gmail.com",
         "phone": ""
       },
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
-      "slug": "lujza-novosadova-infinity-loop",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Lujza Novosadová_Infinity loop/media/1.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/2.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/3.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/4.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/5.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/6.png",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/KUEPLNA_WC_Z_VONKU.Denoiser.png"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/1.png",
-          "path": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/1.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/2.png",
-          "path": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/2.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/3.png",
-          "path": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/3.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/4.png",
-          "path": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/4.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/5.png",
-          "path": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/5.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/6.png",
-          "path": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/6.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/KUEPLNA_WC_Z_VONKU.Denoiser.png",
-          "path": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/KUEPLNA WC Z VONKU.Denoiser.png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/1.png",
-        "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/2.png",
-        "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/3.png",
-        "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/4.png",
-        "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/5.png",
-        "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/6.png",
-        "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/KUEPLNA WC Z VONKU.Denoiser.png"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/novosadova-infinity-loop/media/1.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 46,
-      "author": "Martin Žabka",
-      "title": "Shinrin",
-      "school": "TUZVO",
-      "text": "Názov: ShinrinAutor: Martin Žabka\tSupervisor: doc. Mgr. art. Marián Ihring, ArtD.\n\nFilozofia:\n\nSlovensky:\n\nSedenie Shinrin je inšpirované tvarovaním bonsajov a myšlienkou priniesť prírodu bližšie k človeku pracujúcemu v rušnej kancelarií. Cieľom návrhu je vytvoriť tiché a upokojujúce miesto uprostered pracovného prostredia, ktoré bude slúžiť ako únik od hluku a ruchu pracoviska. Zelená farba odkazuje na koruny stromov a podporuje kľud a sústrredenie, zatiaľ čo biela na elastických poťahoch symbolizuje čistotu a mier.\n\n\n\nAnglicky:\n\n\tThe Shinrin seating is inspired by bonsai shaping and the idea of bringing nature closer to people working in busy offices. The aim of the design is to create a quiet and calming place in the middle of the working environment that will serve as an escape from the noise and bustle of the workplace. The green color refers to tree crowns and promotes calm and concentration, while the white on the elastic covers symbolizes purity and peace.",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Martin Žabka_Shinrin/media/1.png",
-        "TUZVO/Martin Žabka_Shinrin/media/2.png",
-        "TUZVO/Martin Žabka_Shinrin/media/3.png",
-        "TUZVO/Martin Žabka_Shinrin/media/4.png",
-        "TUZVO/Martin Žabka_Shinrin/media/5.png"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
+      "quality": "3",
+      "status": "",
+      "missingReason": "",
+      "totalSizeBytes": 15189916,
+      "fileSizes": {
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.webp": 335110,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp": 27352,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.webp": 340924,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.webp": 370494,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_05.webp": 220424,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_06.webp": 51986,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_07.webp": 33624,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08_web.mp4": 13547390,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_09.webp": 89996,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_10.webp": 130706,
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_11.webp": 41910
       },
-      "warnings": [
-        "V annotations nalezeno 2 souborů, žádný s EN markerem. Použit první soubor.",
-        "Nebyl nalezen anglický marker (ENG:), použit celý text."
-      ],
-      "category": "",
-      "slug": "martin-zabka-shinrin",
-      "schoolSlug": "tuzvo",
+      "preview": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
+      "slug": "michaela-krcova-it-s-about-you",
+      "schoolSlug": "vsvu",
       "media": [
-        "TUZVO/Martin Žabka_Shinrin/media/1.png",
-        "TUZVO/Martin Žabka_Shinrin/media/2.png",
-        "TUZVO/Martin Žabka_Shinrin/media/3.png",
-        "TUZVO/Martin Žabka_Shinrin/media/4.png",
-        "TUZVO/Martin Žabka_Shinrin/media/5.png"
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_05.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_06.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_07.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_09.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_10.webp",
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_11.webp"
       ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Martin Žabka_Shinrin/media/1.png",
-          "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/1.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martin Žabka_Shinrin/media/2.png",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/2.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martin Žabka_Shinrin/media/3.png",
-          "path": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/3.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martin Žabka_Shinrin/media/4.png",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/4.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Martin Žabka_Shinrin/media/5.png",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/5.png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/1.png",
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/2.png",
-        "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/3.png",
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/4.png",
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/zabka-shinrin/media/5.png"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/zabka-shinrin/media/1.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 50,
-      "author": "Natália Gajdošová",
-      "title": "breO2",
-      "school": "TUZVO",
-      "text": "",
-      "typeClass": "media-image",
-      "src": [
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.png",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.png",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.png",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.png",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.png"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "natalia-gajdosova-breo2",
-      "schoolSlug": "tuzvo",
-      "media": [
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.png",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.png",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.png",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.png",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.png"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.png",
-          "path": "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.png",
-          "path": "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.png",
-          "path": "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.png",
-          "path": "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.png",
-          "type": "image"
-        },
-        {
-          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.png",
-          "path": "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.png",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.png",
-        "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.png",
-        "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.png",
-        "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.png",
-        "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_05.png.png"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/tuzvo/pre-selection/gajdosova-breo2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.png",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 49,
-      "author": "Monika Koišová",
-      "title": "Spojova Hub",
-      "school": "TUZVO",
-      "text": "The SPOJOVÁ HUB project focuses on the revitalization of an underutilized space behind Spojová Primary School in Banská Bystrica. The aim of the design is to create a multifunctional playground that supports movement, play, and relaxation for different age groups. The space connects after-school activities with areas for older students, forming a place for meeting, interaction, and everyday school life.",
-      "typeClass": "media-video",
-      "src": [
-        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ_HUB_video.mp4"
-      ],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "monika-koisova-spojova-hub",
-      "schoolSlug": "tuzvo",
-      "media": [],
       "externalMedia": [
-        "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ_HUB_video.mp4"
+        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ_HUB_video.mp4",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
-          "type": "video"
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.webp",
+          "type": "image",
+          "bytes": 335110,
+          "bytesHuman": "327 KB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
+          "type": "image",
+          "bytes": 27352,
+          "bytesHuman": "26.7 KB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.webp",
+          "type": "image",
+          "bytes": 340924,
+          "bytesHuman": "333 KB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.webp",
+          "type": "image",
+          "bytes": 370494,
+          "bytesHuman": "362 KB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_05.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_05.webp",
+          "type": "image",
+          "bytes": 220424,
+          "bytesHuman": "215 KB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_06.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_06.webp",
+          "type": "image",
+          "bytes": 51986,
+          "bytesHuman": "50.8 KB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_07.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_07.webp",
+          "type": "image",
+          "bytes": 33624,
+          "bytesHuman": "32.8 KB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08_web.mp4",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08_web.mp4",
+          "type": "video",
+          "bytes": 13547390,
+          "bytesHuman": "12.9 MB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_09.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_09.webp",
+          "type": "image",
+          "bytes": 89996,
+          "bytesHuman": "87.9 KB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_10.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_10.webp",
+          "type": "image",
+          "bytes": 130706,
+          "bytesHuman": "128 KB"
+        },
+        {
+          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_11.webp",
+          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_11.webp",
+          "type": "image",
+          "bytes": 41910,
+          "bytesHuman": "40.9 KB"
         }
       ],
-      "resolvedImages": [],
+      "resolvedImages": [
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.webp",
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.webp",
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.webp",
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_05.webp",
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_06.webp",
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_07.webp",
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_09.webp",
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_10.webp",
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_11.webp"
+      ],
       "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4"
+        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08_web.mp4"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/projects/tuzvo/pre-selection/koisova-spojova-hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video.mp4",
-      "menuAssetType": "video"
+      "menuAsset": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 27352,
+      "menuAssetBytesHuman": "26.7 KB"
     },
     {
-      "id": 44,
-      "author": "Kvetoslava Krnáčová",
-      "title": "Space No.01",
-      "school": "TUZVO",
-      "text": "",
-      "typeClass": "media-unknown",
-      "src": [],
-      "contacts": {
-        "email": "",
-        "phone": ""
-      },
-      "warnings": [
-        "Chybí média.",
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "kvetoslava-krnacova-space-no-01",
-      "schoolSlug": "tuzvo",
-      "media": [],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [],
-      "resolvedImages": [],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/site/video-thumbnail.webp",
-      "menuAssetType": "placeholder"
-    },
-    {
-      "id": 6,
-      "author": "Ewa Kulewicz",
-      "title": "Polish Pavilion Project for World Expo 2025",
-      "school": "ASP Wroclaw",
-      "text": "",
-      "typeClass": "media-image",
+      "id": 86,
+      "author": "Danna Bernhard",
+      "title": "Tiny Moves",
+      "school": "BAAZ",
+      "text": "Tiny Moves explores the transformation of childhood play into a constructed world of imagination. The project presents a modular dollhouse designed as a set for stop-motion filmmaking, where figures are animated through incremental movement. By revealing the materiality of toys while reactivating the illusion of life, it invites viewers to suspend scale and perception, becoming immersed in a world shaped by gesture and narrative.",
+      "typeClass": "mixed_video_image",
+      "category": "PRODUCT",
       "src": [
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.jpg",
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.jpg",
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.jpg",
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.jpg",
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.jpg"
-      ],
-      "contacts": {
-        "email": "<marekgrzyb70@gmail.com>",
-        "phone": ""
-      },
-      "warnings": [
-        "Chybí textový obsah."
-      ],
-      "category": "",
-      "slug": "ewa-kulewicz-polish-pavilion-project-for-world-expo-2025",
-      "schoolSlug": "asp-wroclaw",
-      "media": [
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.jpg",
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.jpg",
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.jpg",
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.jpg",
-        "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.jpg",
-          "path": "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.jpg",
-          "path": "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.jpg",
-          "type": "image"
-        },
-        {
-          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.jpg",
-          "path": "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.jpg",
-          "type": "image"
-        },
-        {
-          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.jpg",
-          "path": "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.jpg",
-          "type": "image"
-        },
-        {
-          "source": "ASP Wroclaw/Ewa Kulewicz_Polish Pavilion Project for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.jpg",
-          "path": "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.jpg",
-        "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.jpg",
-        "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.jpg",
-        "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.jpg",
-        "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_05.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/asp-wroclaw/pre-selection/kulewicz-polish-pavilion-expo/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 20,
-      "author": "Dennis Baptist",
-      "title": "Microcosmos",
-      "school": "EhB",
-      "text": "een audiovisuele ervaring transformeren \nkaders in verbonden micro-werelden. Beelden veranderen wanneer \neen externe kracht zich tussen kaders beweegt, beïnvloedt en \nsynchroniseert, en zo dynamische relaties tussen verschillende \ndimensies onthult.\nMicrocosms\nAnnotation\nEN\nNL",
-      "typeClass": "media-image",
-      "src": [
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.jpg",
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.jpg",
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.jpg",
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.jpg"
-      ],
-      "contacts": {
-        "email": "<dennis.baptist@ehb.be>",
-        "phone": ""
-      },
-      "warnings": [],
-      "category": "",
-      "slug": "dennis-baptist-microcosmos",
-      "schoolSlug": "ehb",
-      "media": [
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.jpg",
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.jpg",
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.jpg",
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.jpg"
-      ],
-      "externalMedia": [],
-      "documents": [],
-      "resolvedAssets": [
-        {
-          "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.jpg",
-          "path": "assets/projects/ehb-belgium/baptist-microcosms/media/EhB_Baptist_Dennis_Microcosms_01.jpg",
-          "type": "image"
-        },
-        {
-          "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.jpg",
-          "path": "assets/projects/ehb-belgium/baptist-microcosms/media/EhB_Baptist_Dennis_Microcosms_02.jpg",
-          "type": "image"
-        },
-        {
-          "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.jpg",
-          "path": "assets/projects/ehb-belgium/baptist-microcosms/media/EhB_Baptist_Dennis_Microcosms_03.jpg",
-          "type": "image"
-        },
-        {
-          "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.jpg",
-          "path": "assets/projects/ehb-belgium/baptist-microcosms/media/EhB_Baptist_Dennis_Microcosms_04.jpg",
-          "type": "image"
-        }
-      ],
-      "resolvedImages": [
-        "assets/projects/ehb-belgium/baptist-microcosms/media/EhB_Baptist_Dennis_Microcosms_01.jpg",
-        "assets/projects/ehb-belgium/baptist-microcosms/media/EhB_Baptist_Dennis_Microcosms_02.jpg",
-        "assets/projects/ehb-belgium/baptist-microcosms/media/EhB_Baptist_Dennis_Microcosms_03.jpg",
-        "assets/projects/ehb-belgium/baptist-microcosms/media/EhB_Baptist_Dennis_Microcosms_04.jpg"
-      ],
-      "resolvedVideos": [],
-      "resolvedDocuments": [],
-      "menuAsset": "assets/projects/ehb-belgium/baptist-microcosms/media/EhB_Baptist_Dennis_Microcosms_01.jpg",
-      "menuAssetType": "image"
-    },
-    {
-      "id": 36,
-      "author": "Caihong Yang",
-      "title": "Orb Stone",
-      "school": "TAIPEI TECH",
-      "text": "",
-      "typeClass": "media-image",
-      "src": [
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.jpg",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.jpg",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.jpg",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.png"
+        "BAAZ/Danna Bernhard_Tiny Moves/media/Tiny Moves by Danna Bernhard - Danna ber (1080p, h264)_web.mp4",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_play.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_family.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_figures_couple.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_interaction.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_overview.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_person.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_CNC.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_Prototyping.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_SoloFigure.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_stop_motion.webp"
       ],
       "contacts": {
         "email": "",
         "phone": ""
       },
       "warnings": [
-        "Chybí textový obsah."
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "category": "",
-      "slug": "caihong-yang-orb-stone",
-      "schoolSlug": "taipei-tech",
+      "preview": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
+      "quality": "4",
+      "status": "",
+      "missingReason": "",
+      "fileSizes": {
+        "BAAZ/Danna Bernhard_Tiny Moves/media/Tiny Moves by Danna Bernhard - Danna ber (1080p, h264)_web.mp4": 16515478,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp": 13536,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp": 877016,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_play.webp": 615166,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_family.webp": 416100,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_figures_couple.webp": 315268,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_interaction.webp": 478174,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_overview.webp": 450412,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_person.webp": 567828,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_CNC.webp": 334614,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_Prototyping.webp": 1488660,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_SoloFigure.webp": 209224,
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_stop_motion.webp": 354682
+      },
+      "totalSizeBytes": 22636158,
+      "slug": "danna-bernhard-tiny-moves",
+      "schoolSlug": "baaz",
       "media": [
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.jpg",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.jpg",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.jpg",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.png"
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_play.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_family.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_figures_couple.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_interaction.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_overview.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_person.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_CNC.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_Prototyping.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_SoloFigure.webp",
+        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_stop_motion.webp"
+      ],
+      "externalMedia": [
+        "BAAZ/Danna Bernhard_Tiny Moves/media/Tiny Moves by Danna Bernhard - Danna ber (1080p, h264)_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/Tiny Moves by Danna Bernhard - Danna ber (1080p, h264)_web.mp4",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/Tiny Moves by Danna Bernhard - Danna ber (1080p, h264)_web.mp4",
+          "type": "video",
+          "bytes": 16515478,
+          "bytesHuman": "15.8 MB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
+          "type": "image",
+          "bytes": 13536,
+          "bytesHuman": "13.2 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp",
+          "type": "image",
+          "bytes": 877016,
+          "bytesHuman": "856 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_play.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_play.webp",
+          "type": "image",
+          "bytes": 615166,
+          "bytesHuman": "601 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_family.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_family.webp",
+          "type": "image",
+          "bytes": 416100,
+          "bytesHuman": "406 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_figures_couple.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_figures_couple.webp",
+          "type": "image",
+          "bytes": 315268,
+          "bytesHuman": "308 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_interaction.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_interaction.webp",
+          "type": "image",
+          "bytes": 478174,
+          "bytesHuman": "467 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_overview.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_overview.webp",
+          "type": "image",
+          "bytes": 450412,
+          "bytesHuman": "440 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_person.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_person.webp",
+          "type": "image",
+          "bytes": 567828,
+          "bytesHuman": "555 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_CNC.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_CNC.webp",
+          "type": "image",
+          "bytes": 334614,
+          "bytesHuman": "327 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_Prototyping.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_Prototyping.webp",
+          "type": "image",
+          "bytes": 1488660,
+          "bytesHuman": "1.42 MB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_SoloFigure.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_SoloFigure.webp",
+          "type": "image",
+          "bytes": 209224,
+          "bytesHuman": "204 KB"
+        },
+        {
+          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_stop_motion.webp",
+          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_stop_motion.webp",
+          "type": "image",
+          "bytes": 354682,
+          "bytesHuman": "346 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_play.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_family.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_figures_couple.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_interaction.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_overview.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_person.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_CNC.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_Process_Prototyping.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_SoloFigure.webp",
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_stop_motion.webp"
+      ],
+      "resolvedVideos": [
+        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/Tiny Moves by Danna Bernhard - Danna ber (1080p, h264)_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 13536,
+      "menuAssetBytesHuman": "13.2 KB"
+    },
+    {
+      "id": 87,
+      "author": "Noa Sade Satat",
+      "title": "Gerem",
+      "school": "BAAZ",
+      "text": "Gerem presents a monolithic 3D-printed concrete staircase exploring additive manufacturing in architecture. The technology enables material efficiency, geometric freedom, and design flexibility. The layered printing process creates a woven structural texture, combining simplicity and functionality. The project shows how 3D concrete printing can be applied in domestic space and contemporary architectural design.",
+      "typeClass": "mixed_video_image",
+      "category": "PRODUCT",
+      "src": [
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_111.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_112.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_115.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_116.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/video final_web.mp4",
+        "BAAZ/Noa Sade Satat_Gerem/media/עותק של _DSC9613.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/עותק של עותק של _DSC9605.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "preview": "BAAZ/Noa Sade Satat_Gerem/media/עותק של עותק של _DSC9605.webp",
+      "quality": "5",
+      "status": "",
+      "missingReason": "",
+      "fileSizes": {
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_111.webp": 232552,
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_112.webp": 286806,
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_115.webp": 515086,
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_116.webp": 256688,
+        "BAAZ/Noa Sade Satat_Gerem/media/video final_web.mp4": 11268539,
+        "BAAZ/Noa Sade Satat_Gerem/media/עותק של _DSC9613.webp": 2890348,
+        "BAAZ/Noa Sade Satat_Gerem/media/עותק של עותק של _DSC9605.webp": 15338
+      },
+      "totalSizeBytes": 15465357,
+      "slug": "noa-sade-satat-gerem",
+      "schoolSlug": "baaz",
+      "media": [
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_111.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_112.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_115.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_116.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/עותק של _DSC9613.webp",
+        "BAAZ/Noa Sade Satat_Gerem/media/עותק של עותק של _DSC9605.webp"
+      ],
+      "externalMedia": [
+        "BAAZ/Noa Sade Satat_Gerem/media/video final_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_111.webp",
+          "path": "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_111.webp",
+          "type": "image",
+          "bytes": 232552,
+          "bytesHuman": "227 KB"
+        },
+        {
+          "source": "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_112.webp",
+          "path": "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_112.webp",
+          "type": "image",
+          "bytes": 286806,
+          "bytesHuman": "280 KB"
+        },
+        {
+          "source": "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_115.webp",
+          "path": "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_115.webp",
+          "type": "image",
+          "bytes": 515086,
+          "bytesHuman": "503 KB"
+        },
+        {
+          "source": "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_116.webp",
+          "path": "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_116.webp",
+          "type": "image",
+          "bytes": 256688,
+          "bytesHuman": "251 KB"
+        },
+        {
+          "source": "BAAZ/Noa Sade Satat_Gerem/media/video final_web.mp4",
+          "path": "assets/BAAZ/Noa Sade Satat_Gerem/media/video final_web.mp4",
+          "type": "video",
+          "bytes": 11268539,
+          "bytesHuman": "10.7 MB"
+        },
+        {
+          "source": "BAAZ/Noa Sade Satat_Gerem/media/עותק של _DSC9613.webp",
+          "path": "assets/BAAZ/Noa Sade Satat_Gerem/media/עותק של _DSC9613.webp",
+          "type": "image",
+          "bytes": 2890348,
+          "bytesHuman": "2.76 MB"
+        },
+        {
+          "source": "BAAZ/Noa Sade Satat_Gerem/media/עותק של עותק של _DSC9605.webp",
+          "path": "assets/BAAZ/Noa Sade Satat_Gerem/media/עותק של עותק של _DSC9605.webp",
+          "type": "image",
+          "bytes": 15338,
+          "bytesHuman": "15.0 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_111.webp",
+        "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_112.webp",
+        "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_115.webp",
+        "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_116.webp",
+        "assets/BAAZ/Noa Sade Satat_Gerem/media/עותק של _DSC9613.webp",
+        "assets/BAAZ/Noa Sade Satat_Gerem/media/עותק של עותק של _DSC9605.webp"
+      ],
+      "resolvedVideos": [
+        "assets/BAAZ/Noa Sade Satat_Gerem/media/video final_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/BAAZ/Noa Sade Satat_Gerem/media/עותק של עותק של _DSC9605.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 15338,
+      "menuAssetBytesHuman": "15.0 KB"
+    },
+    {
+      "id": 88,
+      "author": "Sunny Lustov",
+      "title": "Nereids",
+      "school": "BAAZ",
+      "text": "Nereids are underwater structures designed to mitigate rising ocean temperatures and their impact on coral reefs. Made from N-isopropylacrylamide (NIPA), a thermo-responsive gel, they enable continuous active cooling in vulnerable areas. Their adaptive geometry and material integration create protective sanctuaries that blend with the environment, supporting the resilience and long-term survival of coral reef ecosystems.",
+      "typeClass": "mixed_video_image",
+      "category": "PRODUCT",
+      "src": [
+        "BAAZ/Sunny Lustov_Nereids/media/1.webp",
+        "BAAZ/Sunny Lustov_Nereids/media/11-2.webp",
+        "BAAZ/Sunny Lustov_Nereids/media/2constraining layer.webp",
+        "BAAZ/Sunny Lustov_Nereids/media/6 (1).webp",
+        "BAAZ/Sunny Lustov_Nereids/media/9-5.webp",
+        "BAAZ/Sunny Lustov_Nereids/media/gif.gif",
+        "BAAZ/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif",
+        "BAAZ/Sunny Lustov_Nereids/media/NEREIDS Exhibition - by Sunny Lustov_1080p_web.mp4"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "preview": "BAAZ/Sunny Lustov_Nereids/media/gif.gif",
+      "quality": "3",
+      "status": "",
+      "missingReason": "",
+      "fileSizes": {
+        "BAAZ/Sunny Lustov_Nereids/media/1.webp": 31872,
+        "BAAZ/Sunny Lustov_Nereids/media/11-2.webp": 137450,
+        "BAAZ/Sunny Lustov_Nereids/media/2constraining layer.webp": 126396,
+        "BAAZ/Sunny Lustov_Nereids/media/6 (1).webp": 277342,
+        "BAAZ/Sunny Lustov_Nereids/media/9-5.webp": 81836,
+        "BAAZ/Sunny Lustov_Nereids/media/gif.gif": 129312513,
+        "BAAZ/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif": 170879046,
+        "BAAZ/Sunny Lustov_Nereids/media/NEREIDS Exhibition - by Sunny Lustov_1080p_web.mp4": 20405151
+      },
+      "totalSizeBytes": 321251606,
+      "slug": "sunny-lustov-nereids",
+      "schoolSlug": "baaz",
+      "media": [
+        "BAAZ/Sunny Lustov_Nereids/media/1.webp",
+        "BAAZ/Sunny Lustov_Nereids/media/11-2.webp",
+        "BAAZ/Sunny Lustov_Nereids/media/2constraining layer.webp",
+        "BAAZ/Sunny Lustov_Nereids/media/6 (1).webp",
+        "BAAZ/Sunny Lustov_Nereids/media/9-5.webp"
+      ],
+      "externalMedia": [
+        "BAAZ/Sunny Lustov_Nereids/media/gif.gif",
+        "BAAZ/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif",
+        "BAAZ/Sunny Lustov_Nereids/media/NEREIDS Exhibition - by Sunny Lustov_1080p_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "BAAZ/Sunny Lustov_Nereids/media/1.webp",
+          "path": "assets/BAAZ/Sunny Lustov_Nereids/media/1.webp",
+          "type": "image",
+          "bytes": 31872,
+          "bytesHuman": "31.1 KB"
+        },
+        {
+          "source": "BAAZ/Sunny Lustov_Nereids/media/11-2.webp",
+          "path": "assets/BAAZ/Sunny Lustov_Nereids/media/11-2.webp",
+          "type": "image",
+          "bytes": 137450,
+          "bytesHuman": "134 KB"
+        },
+        {
+          "source": "BAAZ/Sunny Lustov_Nereids/media/2constraining layer.webp",
+          "path": "assets/BAAZ/Sunny Lustov_Nereids/media/2constraining layer.webp",
+          "type": "image",
+          "bytes": 126396,
+          "bytesHuman": "123 KB"
+        },
+        {
+          "source": "BAAZ/Sunny Lustov_Nereids/media/6 (1).webp",
+          "path": "assets/BAAZ/Sunny Lustov_Nereids/media/6 (1).webp",
+          "type": "image",
+          "bytes": 277342,
+          "bytesHuman": "271 KB"
+        },
+        {
+          "source": "BAAZ/Sunny Lustov_Nereids/media/9-5.webp",
+          "path": "assets/BAAZ/Sunny Lustov_Nereids/media/9-5.webp",
+          "type": "image",
+          "bytes": 81836,
+          "bytesHuman": "79.9 KB"
+        },
+        {
+          "source": "BAAZ/Sunny Lustov_Nereids/media/gif.gif",
+          "path": "assets/BAAZ/Sunny Lustov_Nereids/media/gif.gif",
+          "type": "video",
+          "bytes": 129312513,
+          "bytesHuman": "123 MB"
+        },
+        {
+          "source": "BAAZ/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif",
+          "path": "assets/BAAZ/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif",
+          "type": "video",
+          "bytes": 170879046,
+          "bytesHuman": "163 MB"
+        },
+        {
+          "source": "BAAZ/Sunny Lustov_Nereids/media/NEREIDS Exhibition - by Sunny Lustov_1080p_web.mp4",
+          "path": "assets/BAAZ/Sunny Lustov_Nereids/media/NEREIDS Exhibition - by Sunny Lustov_1080p_web.mp4",
+          "type": "video",
+          "bytes": 20405151,
+          "bytesHuman": "19.5 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/BAAZ/Sunny Lustov_Nereids/media/1.webp",
+        "assets/BAAZ/Sunny Lustov_Nereids/media/11-2.webp",
+        "assets/BAAZ/Sunny Lustov_Nereids/media/2constraining layer.webp",
+        "assets/BAAZ/Sunny Lustov_Nereids/media/6 (1).webp",
+        "assets/BAAZ/Sunny Lustov_Nereids/media/9-5.webp"
+      ],
+      "resolvedVideos": [
+        "assets/BAAZ/Sunny Lustov_Nereids/media/gif.gif",
+        "assets/BAAZ/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif",
+        "assets/BAAZ/Sunny Lustov_Nereids/media/NEREIDS Exhibition - by Sunny Lustov_1080p_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/BAAZ/Sunny Lustov_Nereids/media/gif.gif",
+      "menuAssetType": "video",
+      "menuAssetBytes": 129312513,
+      "menuAssetBytesHuman": "123 MB"
+    },
+    {
+      "id": 89,
+      "author": "Ofir Grinboim",
+      "title": "Split identities",
+      "school": "BAAZ",
+      "text": "Split Identities explores the tension between civilian life and military service, reflecting a sudden shift in personal identity. The project translates this duality into objects that oscillate between two worlds, carrying traces of both. Through transformation of form, material, and function, familiar objects are reinterpreted, questioning their meaning and revealing new narratives shaped by conflict and transition.",
+      "typeClass": "mixed_video_image",
+      "category": "PRODUCT",
+      "src": [
+        "BAAZ/Ofir Grinboim_Split identities/media/P1040779-2.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1040854-Enhanced-NR.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050041.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050047.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050075.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050081.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050119.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/תעלה.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/שולחן 2.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/שולחן_web.mp4",
+        "BAAZ/Ofir Grinboim_Split identities/media/תעלות_web.mp4"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "preview": "BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
+      "quality": "5",
+      "status": "",
+      "missingReason": "",
+      "fileSizes": {
+        "BAAZ/Ofir Grinboim_Split identities/media/P1040779-2.webp": 1450298,
+        "BAAZ/Ofir Grinboim_Split identities/media/P1040854-Enhanced-NR.webp": 2598166,
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050041.webp": 464710,
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050047.webp": 1504596,
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050075.webp": 868474,
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050081.webp": 689690,
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050119.webp": 550844,
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp": 22168,
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp": 508948,
+        "BAAZ/Ofir Grinboim_Split identities/media/תעלה.webp": 96212,
+        "BAAZ/Ofir Grinboim_Split identities/media/שולחן 2.webp": 56278,
+        "BAAZ/Ofir Grinboim_Split identities/media/שולחן_web.mp4": 15249340,
+        "BAAZ/Ofir Grinboim_Split identities/media/תעלות_web.mp4": 7582971
+      },
+      "totalSizeBytes": 31642695,
+      "slug": "ofir-grinboim-split-identities",
+      "schoolSlug": "baaz",
+      "media": [
+        "BAAZ/Ofir Grinboim_Split identities/media/P1040779-2.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1040854-Enhanced-NR.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050041.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050047.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050075.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050081.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050119.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/תעלה.webp",
+        "BAAZ/Ofir Grinboim_Split identities/media/שולחן 2.webp"
+      ],
+      "externalMedia": [
+        "BAAZ/Ofir Grinboim_Split identities/media/שולחן_web.mp4",
+        "BAAZ/Ofir Grinboim_Split identities/media/תעלות_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1040779-2.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1040779-2.webp",
+          "type": "image",
+          "bytes": 1450298,
+          "bytesHuman": "1.38 MB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1040854-Enhanced-NR.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1040854-Enhanced-NR.webp",
+          "type": "image",
+          "bytes": 2598166,
+          "bytesHuman": "2.48 MB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1050041.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050041.webp",
+          "type": "image",
+          "bytes": 464710,
+          "bytesHuman": "454 KB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1050047.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050047.webp",
+          "type": "image",
+          "bytes": 1504596,
+          "bytesHuman": "1.43 MB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1050075.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050075.webp",
+          "type": "image",
+          "bytes": 868474,
+          "bytesHuman": "848 KB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1050081.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050081.webp",
+          "type": "image",
+          "bytes": 689690,
+          "bytesHuman": "674 KB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1050119.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050119.webp",
+          "type": "image",
+          "bytes": 550844,
+          "bytesHuman": "538 KB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
+          "type": "image",
+          "bytes": 22168,
+          "bytesHuman": "21.6 KB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
+          "type": "image",
+          "bytes": 508948,
+          "bytesHuman": "497 KB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/שולחן 2.webp",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/שולחן 2.webp",
+          "type": "image",
+          "bytes": 56278,
+          "bytesHuman": "55.0 KB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/שולחן_web.mp4",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/תעלות_web.mp4",
+          "type": "video",
+          "bytes": 7582971,
+          "bytesHuman": "7.23 MB"
+        },
+        {
+          "source": "BAAZ/Ofir Grinboim_Split identities/media/תעלות_web.mp4",
+          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/תעלות_web.mp4",
+          "type": "video",
+          "bytes": 7582971,
+          "bytesHuman": "7.23 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1040779-2.webp",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1040854-Enhanced-NR.webp",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050041.webp",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050047.webp",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050075.webp",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050081.webp",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050119.webp",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/שולחן 2.webp"
+      ],
+      "resolvedVideos": [
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/תעלות_web.mp4",
+        "assets/BAAZ/Ofir Grinboim_Split identities/media/תעלות_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 22168,
+      "menuAssetBytesHuman": "21.6 KB"
+    },
+    {
+      "id": 90,
+      "author": "Itai Orion",
+      "title": "Stairwheel",
+      "school": "BAAZ",
+      "text": "The project addresses the challenge of transporting patients in staircases where accessibility is limited. Conventional methods require lifting the full weight of the patient, placing strain on emergency crews. The design introduces a soft stretcher suspended above a central wheel, enabling smoother movement. This approach improves patient comfort while significantly reducing physical effort during emergency transport.",
+      "typeClass": "mixed_video_image",
+      "category": "PRODUCT",
+      "src": [
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1.webp",
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic3.webp",
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4",
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid02_web.mp4"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "preview": "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
+      "quality": "4",
+      "status": "",
+      "missingReason": "",
+      "fileSizes": {
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1.webp": 417330,
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp": 14164,
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic3.webp": 274812,
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4": 76005303,
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid02_web.mp4": 3951931
+      },
+      "totalSizeBytes": 80663540,
+      "slug": "itai-orion-stairwheel",
+      "schoolSlug": "baaz",
+      "media": [
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1.webp",
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic3.webp"
+      ],
+      "externalMedia": [
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4",
+        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid02_web.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1.webp",
+          "path": "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1.webp",
+          "type": "image",
+          "bytes": 417330,
+          "bytesHuman": "408 KB"
+        },
+        {
+          "source": "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
+          "path": "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
+          "type": "image",
+          "bytes": 14164,
+          "bytesHuman": "13.8 KB"
+        },
+        {
+          "source": "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic3.webp",
+          "path": "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic3.webp",
+          "type": "image",
+          "bytes": 274812,
+          "bytesHuman": "268 KB"
+        },
+        {
+          "source": "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4",
+          "path": "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4",
+          "type": "video",
+          "bytes": 76005303,
+          "bytesHuman": "72.5 MB"
+        },
+        {
+          "source": "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid02_web.mp4",
+          "path": "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid02_web.mp4",
+          "type": "video",
+          "bytes": 3951931,
+          "bytesHuman": "3.77 MB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1.webp",
+        "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
+        "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic3.webp"
+      ],
+      "resolvedVideos": [
+        "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4",
+        "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid02_web.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 14164,
+      "menuAssetBytesHuman": "13.8 KB"
+    },
+    {
+      "id": 91,
+      "author": "Šárka Nešporová",
+      "title": "Break the Cycle",
+      "school": "UTB",
+      "text": "Break the Cycle explores the relationship between space and the human body, focusing on how context shapes perception and experience. The work communicates its message through a deliberately open narrative, allowing space for individual interpretation. Created using TouchDesigner and Premiere Pro, the video invites viewers to reflect on cycles of behaviour and the subtle forces that influence human action.",
+      "typeClass": "mixed_video_image",
+      "category": "DIGITAL",
+      "src": [
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_01.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_02.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_03.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_04.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_05.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_06.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_preview.mp4"
+      ],
+      "contacts": {
+        "email": "s_nesporova@utb.cz",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "preview": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_preview.mp4",
+      "quality": "5",
+      "status": "",
+      "missingReason": "",
+      "fileSizes": {
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_01.webp": 78172,
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_02.webp": 470890,
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_03.webp": 245340,
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_04.webp": 144588,
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_05.webp": 228820,
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_06.webp": 223522,
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4": 55958373,
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4": 55958373,
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_preview.mp4": 772787
+      },
+      "totalSizeBytes": 114080865,
+      "slug": "sarka-nesporova-break-the-cycle",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_01.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_02.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_03.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_04.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_05.webp",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_06.webp"
+      ],
+      "externalMedia": [
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_preview.mp4"
+      ],
+      "documents": [],
+      "resolvedAssets": [
+        {
+          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_01.webp",
+          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_01.webp",
+          "type": "image",
+          "bytes": 78172,
+          "bytesHuman": "76.3 KB"
+        },
+        {
+          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_02.webp",
+          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_02.webp",
+          "type": "image",
+          "bytes": 470890,
+          "bytesHuman": "460 KB"
+        },
+        {
+          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_03.webp",
+          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_03.webp",
+          "type": "image",
+          "bytes": 245340,
+          "bytesHuman": "240 KB"
+        },
+        {
+          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_04.webp",
+          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_04.webp",
+          "type": "image",
+          "bytes": 144588,
+          "bytesHuman": "141 KB"
+        },
+        {
+          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_05.webp",
+          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_05.webp",
+          "type": "image",
+          "bytes": 228820,
+          "bytesHuman": "223 KB"
+        },
+        {
+          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_06.webp",
+          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_06.webp",
+          "type": "image",
+          "bytes": 223522,
+          "bytesHuman": "218 KB"
+        },
+        {
+          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+          "type": "video",
+          "bytes": 55958373,
+          "bytesHuman": "53.4 MB"
+        },
+        {
+          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+          "type": "video",
+          "bytes": 55958373,
+          "bytesHuman": "53.4 MB"
+        },
+        {
+          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_preview.mp4",
+          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_preview.mp4",
+          "type": "video",
+          "bytes": 772787,
+          "bytesHuman": "755 KB"
+        }
+      ],
+      "resolvedImages": [
+        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_01.webp",
+        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_02.webp",
+        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_03.webp",
+        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_04.webp",
+        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_05.webp",
+        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_06.webp"
+      ],
+      "resolvedVideos": [
+        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_preview.mp4"
+      ],
+      "resolvedDocuments": [],
+      "menuAsset": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_preview.mp4",
+      "menuAssetType": "video",
+      "menuAssetBytes": 772787,
+      "menuAssetBytesHuman": "755 KB"
+    },
+    {
+      "id": 92,
+      "author": "Jana Jagošová",
+      "title": "Liferaft",
+      "school": "UTB",
+      "text": "Liferaft addresses water safety by improving response time and accessibility in emergency situations. Its modular system allows flexible use and adaptation to different environments, while also serving as a resting point for swimmers. The design integrates lifebuoys and an emergency button with a visual beacon, and a lowered section below the water surface facilitates the safe rescue of a person in distress.",
+      "typeClass": "media-image",
+      "category": "PRODUCT",
+      "src": [
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_05.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_06.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_07.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_CZ.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_EN.webp"
+      ],
+      "contacts": {
+        "email": "",
+        "phone": ""
+      },
+      "warnings": [
+        "Nebyl nalezen anglický marker (ENG:), použit celý text."
+      ],
+      "preview": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.webp",
+      "quality": "3",
+      "status": "",
+      "missingReason": "",
+      "fileSizes": {
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp": 264878,
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.webp": 31774,
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.webp": 347144,
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.webp": 528366,
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_05.webp": 157554,
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_06.webp": 464926,
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_07.webp": 34990,
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_CZ.webp": 224386,
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_EN.webp": 232596
+      },
+      "totalSizeBytes": 2286614,
+      "slug": "jana-jagosova-liferaft",
+      "schoolSlug": "utb",
+      "media": [
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_05.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_06.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_07.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_CZ.webp",
+        "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_EN.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.jpg",
-          "path": "assets/projects/taipei-tech/pre-selection/caihongyang-stone/media/orbstone_product.jpg",
-          "type": "image"
+          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp",
+          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp",
+          "type": "image",
+          "bytes": 264878,
+          "bytesHuman": "259 KB"
         },
         {
-          "source": "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.jpg",
-          "path": "assets/projects/taipei-tech/pre-selection/caihongyang-stone/media/orbstone_Usage.jpg",
-          "type": "image"
+          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.webp",
+          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.webp",
+          "type": "image",
+          "bytes": 31774,
+          "bytesHuman": "31.0 KB"
         },
         {
-          "source": "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.jpg",
-          "path": "assets/projects/taipei-tech/pre-selection/caihongyang-stone/media/orbstone_useprocess.jpg",
-          "type": "image"
+          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.webp",
+          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.webp",
+          "type": "image",
+          "bytes": 347144,
+          "bytesHuman": "339 KB"
+        },
+        {
+          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.webp",
+          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.webp",
+          "type": "image",
+          "bytes": 528366,
+          "bytesHuman": "516 KB"
+        },
+        {
+          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_05.webp",
+          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_05.webp",
+          "type": "image",
+          "bytes": 157554,
+          "bytesHuman": "154 KB"
+        },
+        {
+          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_06.webp",
+          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_06.webp",
+          "type": "image",
+          "bytes": 464926,
+          "bytesHuman": "454 KB"
+        },
+        {
+          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_07.webp",
+          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_07.webp",
+          "type": "image",
+          "bytes": 34990,
+          "bytesHuman": "34.2 KB"
+        },
+        {
+          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_CZ.webp",
+          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_CZ.webp",
+          "type": "image",
+          "bytes": 224386,
+          "bytesHuman": "219 KB"
+        },
+        {
+          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_EN.webp",
+          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_EN.webp",
+          "type": "image",
+          "bytes": 232596,
+          "bytesHuman": "227 KB"
         }
       ],
       "resolvedImages": [
-        "assets/projects/taipei-tech/pre-selection/caihongyang-stone/media/orbstone_product.jpg",
-        "assets/projects/taipei-tech/pre-selection/caihongyang-stone/media/orbstone_Usage.jpg",
-        "assets/projects/taipei-tech/pre-selection/caihongyang-stone/media/orbstone_useprocess.jpg"
+        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp",
+        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.webp",
+        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.webp",
+        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.webp",
+        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_05.webp",
+        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_06.webp",
+        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_07.webp",
+        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_CZ.webp",
+        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_storyboard_EN.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "assets/projects/taipei-tech/pre-selection/caihongyang-stone/media/orbstone_product.jpg",
-      "menuAssetType": "image"
+      "menuAsset": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_02a.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 31774,
+      "menuAssetBytesHuman": "31.0 KB"
     }
   ],
   "mediaBase": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev",
-  "mediaBasePathRules": 62
+  "mediaBasePathRules": 32
 };

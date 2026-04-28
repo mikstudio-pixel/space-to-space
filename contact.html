@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Space-to-Space - Video</title>
     <script src="js/theme-preload.js"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -12,9 +15,17 @@
     <div class="overlay-ui">
         
         <nav class="side-nav left">
-            <a href="index.html">projects</a>
-            <a href="home.html">project</a>
-            <a href="contact.html" class="active">video</a>
+            <div class="side-nav-group">
+                <a href="index.html" class="side-nav-brand">SPACE TO SPACE</a>
+            </div>
+            <div class="side-nav-group">
+                <a href="index.html?intro=0">projects</a>
+                <a href="about.html">about</a>
+            </div>
+        </nav>
+
+        <nav class="theme-nav" aria-label="Theme toggle">
+            <button id="darkModeToggle" type="button">light</button>
         </nav>
         
         <nav class="side-nav right">
@@ -25,10 +36,6 @@
         </nav>
 
         <div class="controls">
-            <div class="control-row">
-                <label for="darkModeToggle">Dark Mode</label>
-                <button id="darkModeToggle" class="toggle-btn">○</button>
-            </div>
             <div class="control-row">
                 <label for="colorModeToggle">B/W Mode</label>
                 <button id="colorModeToggle" class="toggle-btn">○</button>
@@ -56,7 +63,7 @@
             <div class="wall ceiling">
                 <div class="zone-content ceiling-content video-surface">
                     <video class="surface-video is-projected" autoplay muted loop playsinline preload="metadata" data-sync-video="ceiling">
-                        <source src="assets/site/mav trailer exp1.mp4" type="video/mp4">
+                        <source src="assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4" type="video/mp4">
                     </video>
                     <canvas class="surface-canvas is-projected" data-perspective-canvas="ceiling"></canvas>
                 </div>
@@ -64,7 +71,7 @@
             <div class="wall floor">
                 <div class="zone-content floor-content video-surface">
                     <video class="surface-video is-projected" autoplay muted loop playsinline preload="metadata" data-sync-video="floor">
-                        <source src="assets/site/mav trailer exp1.mp4" type="video/mp4">
+                        <source src="assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4" type="video/mp4">
                     </video>
                     <canvas class="surface-canvas is-projected" data-perspective-canvas="floor"></canvas>
                 </div>
@@ -72,7 +79,7 @@
             <div class="wall left-wall">
                 <div class="zone-content left-content video-surface">
                     <video class="surface-video is-projected" autoplay muted loop playsinline preload="metadata" data-sync-video="left">
-                        <source src="assets/site/mav trailer exp1.mp4" type="video/mp4">
+                        <source src="assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4" type="video/mp4">
                     </video>
                     <canvas class="surface-canvas is-projected" data-perspective-canvas="left"></canvas>
                 </div>
@@ -80,7 +87,7 @@
             <div class="wall right-wall">
                 <div class="zone-content right-content video-surface">
                     <video class="surface-video is-projected" autoplay muted loop playsinline preload="metadata" data-sync-video="right">
-                        <source src="assets/site/mav trailer exp1.mp4" type="video/mp4">
+                        <source src="assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4" type="video/mp4">
                     </video>
                     <canvas class="surface-canvas is-projected" data-perspective-canvas="right"></canvas>
                 </div>
@@ -94,7 +101,7 @@
                 
                 <div class="zone-content back-content video-surface is-flat">
                     <video class="surface-video is-flat" autoplay muted loop playsinline preload="metadata" data-sync-video="back" data-sync-master="true">
-                        <source src="assets/site/mav trailer exp1.mp4" type="video/mp4">
+                        <source src="assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4" type="video/mp4">
                     </video>
                     <canvas class="surface-canvas is-flat" data-perspective-canvas="back"></canvas>
                 </div>

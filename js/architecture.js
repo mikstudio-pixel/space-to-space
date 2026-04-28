@@ -44,28 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Start intro animation
     performIntroAnimation();
     
-    // Dark Mode Setup
-    const darkModeToggle = document.getElementById('darkModeToggle');
-    if (darkModeToggle) {
-        // Načíst uloženou preferenci
-        const savedMode = localStorage.getItem('darkMode');
-        if (savedMode === 'true') {
-            document.body.classList.add('dark-mode');
-            darkModeToggle.textContent = '●';
-            darkModeToggle.classList.add('active');
-        }
-
-        darkModeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('dark-mode');
-            const isDark = document.body.classList.contains('dark-mode');
-            
-            darkModeToggle.textContent = isDark ? '●' : '○';
-            darkModeToggle.classList.toggle('active', isDark);
-            
-            // Uložit preferenci
-            localStorage.setItem('darkMode', isDark);
-        });
-    }
+    body.classList.toggle('dark-mode', document.documentElement.classList.contains('dark-mode'));
     
     // Event Listeners
     depthSlider.addEventListener('input', (e) => {

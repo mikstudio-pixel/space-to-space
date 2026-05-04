@@ -168,8 +168,6 @@ def build_asset_indexes() -> tuple[dict[str, list[dict[str, object]]], dict[str,
             continue
         basename = strip_known_extensions(file_path.name)
         key = normalize_for_match(basename)
-        if not key:
-            continue
         asset_rel_path = file_path.relative_to(ASSETS_ROOT).as_posix()
         repo_path = file_path.relative_to(ROOT).as_posix()
         file_bytes = file_path.stat().st_size
@@ -182,7 +180,8 @@ def build_asset_indexes() -> tuple[dict[str, list[dict[str, object]]], dict[str,
             "bytes": file_bytes,
             "bytesHuman": format_bytes_human(file_bytes),
         }
-        basename_index.setdefault(key, []).append(record)
+        if key:
+            basename_index.setdefault(key, []).append(record)
         source_index.setdefault(str(record["sourceKey"]), []).append(record)
     return basename_index, source_index
 

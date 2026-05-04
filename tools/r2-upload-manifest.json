@@ -1,26 +1,26 @@
 {
   "description": "Assety ponechané mimo GitHub kvůli velikosti; vhodné pro budoucí upload na Cloudflare R2.",
-  "generatedAt": "2026-04-28T16:56:33Z",
+  "generatedAt": "2026-05-04T12:39:00Z",
   "githubMaxBytes": 20971520,
   "githubMaxMib": 20,
   "counts": {
-    "scannedFiles": 798,
-    "githubEligible": 764,
-    "r2Candidates": 34
+    "scannedFiles": 858,
+    "githubEligible": 829,
+    "r2Candidates": 29
   },
   "bytes": {
-    "githubEligible": 644881945,
-    "r2Candidates": 1802053135
+    "githubEligible": 649591755,
+    "r2Candidates": 1839983629
   },
   "kinds": {
     "githubEligible": {
-      "document": 166,
-      "image": 564,
-      "video": 34
+      "document": 183,
+      "image": 610,
+      "video": 36
     },
     "r2Candidates": {
       "document": 3,
-      "image": 9,
+      "image": 4,
       "video": 22
     }
   },
@@ -68,9 +68,9 @@
       "kind": "image"
     },
     {
-      "path": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web_web_web.mp4",
-      "bytes": 22745088,
-      "bytesHuman": "21.69 MiB",
+      "path": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web.mp4",
+      "bytes": 22067294,
+      "bytesHuman": "21.05 MiB",
       "kind": "video"
     },
     {
@@ -93,45 +93,9 @@
     },
     {
       "path": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
-      "bytes": 65490869,
-      "bytesHuman": "62.46 MiB",
+      "bytes": 76105777,
+      "bytesHuman": "72.58 MiB",
       "kind": "video"
-    },
-    {
-      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_01.tif",
-      "bytes": 24722688,
-      "bytesHuman": "23.58 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_02.tif",
-      "bytes": 24722688,
-      "bytesHuman": "23.58 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_03.tif",
-      "bytes": 24722688,
-      "bytesHuman": "23.58 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_04.tif",
-      "bytes": 24722688,
-      "bytesHuman": "23.58 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_05.tif",
-      "bytes": 24722688,
-      "bytesHuman": "23.58 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_06.tif",
-      "bytes": 24722688,
-      "bytesHuman": "23.58 MiB",
-      "kind": "image"
     },
     {
       "path": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4",
@@ -170,22 +134,16 @@
       "kind": "document"
     },
     {
-      "path": "assets/TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+      "path": "assets/TUZVO/Monika Koišová_Spojová Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
       "bytes": 33672203,
       "bytesHuman": "32.11 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/UAlg/Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_01_web_web.mp4",
-      "bytes": 49080466,
-      "bytesHuman": "46.81 MiB",
+      "path": "assets/UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_01_web.mp4",
+      "bytes": 100373653,
+      "bytesHuman": "95.72 MiB",
       "kind": "video"
-    },
-    {
-      "path": "assets/UAlg/Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_02.jpg",
-      "bytes": 50710450,
-      "bytesHuman": "48.36 MiB",
-      "kind": "image"
     },
     {
       "path": "assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
@@ -194,16 +152,28 @@
       "kind": "video"
     },
     {
-      "path": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web.mp4",
-      "bytes": 36657929,
-      "bytesHuman": "34.96 MiB",
+      "path": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web.mp4",
+      "bytes": 38805711,
+      "bytesHuman": "37.01 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_web.mp4",
+      "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web.mp4",
       "bytes": 182690099,
       "bytesHuman": "174.23 MiB",
       "kind": "video"
+    },
+    {
+      "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.gif",
+      "bytes": 90211110,
+      "bytesHuman": "86.03 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.gif",
+      "bytes": 84112775,
+      "bytesHuman": "80.22 MiB",
+      "kind": "image"
     },
     {
       "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
@@ -218,9 +188,9 @@
       "kind": "video"
     },
     {
-      "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web_web_web.mp4",
-      "bytes": 48690717,
-      "bytesHuman": "46.44 MiB",
+      "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web.mp4",
+      "bytes": 47965821,
+      "bytesHuman": "45.74 MiB",
       "kind": "video"
     },
     {
@@ -231,7 +201,7 @@
     }
   ],
   "bytesHuman": {
-    "githubEligible": "615.01 MiB",
-    "r2Candidates": "1.68 GiB"
+    "githubEligible": "619.50 MiB",
+    "r2Candidates": "1.71 GiB"
   }
 }

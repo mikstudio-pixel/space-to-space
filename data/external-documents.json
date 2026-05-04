@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-04-28T16:56:33.765227+00:00",
+  "generatedAt": "2026-05-04T12:39:00.587049+00:00",
   "generatedFrom": "data/projects-selected.json",
-  "documentCount": 1,
-  "documents": [
-    {
-      "workId": 67,
-      "workSlug": "jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars",
-      "school": "UTB",
-      "title": "To Mars!!!",
-      "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
-      "path": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/annotation/UTB_Hrdina_Jakub_Na_Mars_.docx",
-      "reason": "selected-source-reference"
-    }
-  ]
+  "documentCount": 0,
+  "documents": []
 }

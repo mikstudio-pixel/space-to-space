@@ -1,161 +1,8 @@
 {
-  "generatedAt": "2026-04-28T16:56:33.765227+00:00",
+  "generatedAt": "2026-05-04T12:39:00.587049+00:00",
   "generatedFrom": "data/projects-selected.json",
   "mediaCount": 48,
   "media": [
-    {
-      "workId": 8,
-      "workSlug": "micha-sieczka-matches",
-      "school": "ASP Wroclaw",
-      "title": "Matches",
-      "author": "Michał Sieczka",
-      "path": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 8,
-      "workSlug": "micha-sieczka-matches",
-      "school": "ASP Wroclaw",
-      "title": "Matches",
-      "author": "Michał Sieczka",
-      "path": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 17,
-      "workSlug": "patrik-sluka-blow-me-away",
-      "school": "AU BB",
-      "title": "Blow Me Away!",
-      "author": "Patrik Sluka",
-      "path": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 17,
-      "workSlug": "patrik-sluka-blow-me-away",
-      "school": "AU BB",
-      "title": "Blow Me Away!",
-      "author": "Patrik Sluka",
-      "path": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 17,
-      "workSlug": "patrik-sluka-blow-me-away",
-      "school": "AU BB",
-      "title": "Blow Me Away!",
-      "author": "Patrik Sluka",
-      "path": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 18,
-      "workSlug": "pavol-seliga-as-if-nothing-happened",
-      "school": "AU BB",
-      "title": "AS IF NOTHING HAPPENED",
-      "author": "Pavol Šeliga",
-      "path": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 21,
-      "workSlug": "adam-svoboda-nebula",
-      "school": "MUNI",
-      "title": "Nebula",
-      "author": "Adam Svoboda",
-      "path": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 21,
-      "workSlug": "adam-svoboda-nebula",
-      "school": "MUNI",
-      "title": "Nebula",
-      "author": "Adam Svoboda",
-      "path": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 21,
-      "workSlug": "adam-svoboda-nebula",
-      "school": "MUNI",
-      "title": "Nebula",
-      "author": "Adam Svoboda",
-      "path": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web_web_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 21,
-      "workSlug": "adam-svoboda-nebula",
-      "school": "MUNI",
-      "title": "Nebula",
-      "author": "Adam Svoboda",
-      "path": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_web_web_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 26,
-      "workSlug": "jozef-mikusinec-space-simulation",
-      "school": "MUNI",
-      "title": "Space Simulation",
-      "author": "Jozef Mikušinec",
-      "path": "MUNI/Jozef Mikušinec_Space Simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 27,
-      "workSlug": "martin-nastoupil-resonance-in-space",
-      "school": "MUNI",
-      "title": "Resonance in Space",
-      "author": "Martin Nastoupil",
-      "path": "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 27,
-      "workSlug": "martin-nastoupil-resonance-in-space",
-      "school": "MUNI",
-      "title": "Resonance in Space",
-      "author": "Martin Nastoupil",
-      "path": "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 28,
-      "workSlug": "matus-talcik-darwin-s-cube",
-      "school": "MUNI",
-      "title": "Darwin’s Cube",
-      "author": "Matúš Talčík",
-      "path": "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 28,
-      "workSlug": "matus-talcik-darwin-s-cube",
-      "school": "MUNI",
-      "title": "Darwin’s Cube",
-      "author": "Matúš Talčík",
-      "path": "MUNI/Matúš Talčík_Darwin’s Cube/FI MUNI_Takcik_ Matus_Darwin’s Cube_video_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 40,
-      "workSlug": "greta-brajerova-errans",
-      "school": "TUZVO",
-      "title": "Errans",
-      "author": "Gréta Brajerová",
-      "path": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 41,
-      "workSlug": "hana-segedova-spojova-school-garden",
-      "school": "TUZVO",
-      "title": "SPOJOVÁ school garden",
-      "author": "Hana Šegedová",
-      "path": "TUZVO/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
-      "reason": "selected-source-reference"
-    },
     {
       "workId": 41,
       "workSlug": "hana-segedova-spojova-school-garden",
@@ -171,7 +18,7 @@
       "school": "TUZVO",
       "title": "UMAMA",
       "author": "Hana Šegedová",
-      "path": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video_web.mp4",
+      "path": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_video_web.mp4",
       "reason": "selected-source-reference"
     },
     {
@@ -180,158 +27,41 @@
       "school": "TUZVO",
       "title": "WARKA house",
       "author": "Hana Šegedová",
-      "path": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4",
+      "path": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4",
       "reason": "selected-source-reference"
     },
     {
-      "workId": 44,
-      "workSlug": "kvetoslava-krnacova-space-no-01",
+      "workId": 40,
+      "workSlug": "greta-brajerova-errans",
       "school": "TUZVO",
-      "title": "Space No.01",
-      "author": "Kvetoslava Krnáčová",
-      "path": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/TUZVO_Krnáčová Kvetoslava_video_web.mp4",
+      "title": "Errans",
+      "author": "Gréta Brajerová",
+      "path": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4",
       "reason": "selected-source-reference"
     },
     {
-      "workId": 49,
-      "workSlug": "monika-koisova-spojova-hub",
-      "school": "TUZVO",
-      "title": "Spojova Hub",
-      "author": "Monika Koišová",
-      "path": "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+      "workId": 8,
+      "workSlug": "micha-sieczka-matches",
+      "school": "ASP Wroclaw",
+      "title": "Matches",
+      "author": "Michał Sieczka",
+      "path": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
       "reason": "selected-source-reference"
     },
     {
-      "workId": 49,
-      "workSlug": "monika-koisova-spojova-hub",
-      "school": "TUZVO",
-      "title": "Spojova Hub",
-      "author": "Monika Koišová",
-      "path": "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 49,
-      "workSlug": "monika-koisova-spojova-hub",
-      "school": "TUZVO",
-      "title": "Spojova Hub",
-      "author": "Monika Koišová",
-      "path": "TUZVO/Monika Koišová_Spojova Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 55,
-      "workSlug": "ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786",
-      "school": "USTP",
-      "title": "Lucid Dreams MAV 5786",
-      "author": "Ron Feldman, Felix Stängle, Kateryna Simson",
-      "path": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 55,
-      "workSlug": "ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786",
-      "school": "USTP",
-      "title": "Lucid Dreams MAV 5786",
-      "author": "Ron Feldman, Felix Stängle, Kateryna Simson",
-      "path": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 63,
-      "workSlug": "elizabeth-bugyiova-interspace",
-      "school": "UTB",
-      "title": "Interspace",
-      "author": "Elizabeth Bugyiová",
-      "path": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 63,
-      "workSlug": "elizabeth-bugyiova-interspace",
-      "school": "UTB",
-      "title": "Interspace",
-      "author": "Elizabeth Bugyiová",
-      "path": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 63,
-      "workSlug": "elizabeth-bugyiova-interspace",
-      "school": "UTB",
-      "title": "Interspace",
-      "author": "Elizabeth Bugyiová",
-      "path": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_web_web_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 67,
-      "workSlug": "jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars",
-      "school": "UTB",
-      "title": "To Mars!!!",
-      "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
-      "path": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 67,
-      "workSlug": "jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars",
-      "school": "UTB",
-      "title": "To Mars!!!",
-      "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
-      "path": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na Mars!!! video_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 75,
-      "workSlug": "matej-masaryk-reflections",
-      "school": "UTB",
-      "title": "Reflections",
-      "author": "Matej Masaryk",
-      "path": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 75,
-      "workSlug": "matej-masaryk-reflections",
-      "school": "UTB",
-      "title": "Reflections",
-      "author": "Matej Masaryk",
-      "path": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 82,
-      "workSlug": "theo-fekar-testimonies-of-the-future",
-      "school": "UTB",
-      "title": "Testimonies of the Future",
-      "author": "Theo Fekar",
-      "path": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web_web_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 84,
-      "workSlug": "filip-huraj-mars53",
-      "school": "VŠVU",
-      "title": "MARS53",
-      "author": "Filip Huraj",
-      "path": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 85,
-      "workSlug": "michaela-krcova-it-s-about-you",
-      "school": "VŠVU",
-      "title": "It’s about you",
-      "author": "Michaela Krčová",
-      "path": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08_web.mp4",
+      "workId": 8,
+      "workSlug": "micha-sieczka-matches",
+      "school": "ASP Wroclaw",
+      "title": "Matches",
+      "author": "Michał Sieczka",
+      "path": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4",
       "reason": "selected-source-reference"
     },
     {
       "workId": 86,
-      "workSlug": "danna-bernhard-tiny-moves",
+      "workSlug": "danna-bernhard-a-dollhouse",
       "school": "BAAZ",
-      "title": "Tiny Moves",
+      "title": "A Dollhouse",
       "author": "Danna Bernhard",
       "path": "BAAZ/Danna Bernhard_Tiny Moves/media/Tiny Moves by Danna Bernhard - Danna ber (1080p, h264)_web.mp4",
       "reason": "selected-source-reference"
@@ -378,7 +108,7 @@
       "school": "BAAZ",
       "title": "Split identities",
       "author": "Ofir Grinboim",
-      "path": "BAAZ/Ofir Grinboim_Split identities/media/שולחן_web.mp4",
+      "path": "BAAZ/Ofir Grinboim_Split identities/media/channels_web.mp4",
       "reason": "selected-source-reference"
     },
     {
@@ -387,7 +117,7 @@
       "school": "BAAZ",
       "title": "Split identities",
       "author": "Ofir Grinboim",
-      "path": "BAAZ/Ofir Grinboim_Split identities/media/תעלות_web.mp4",
+      "path": "BAAZ/Ofir Grinboim_Split identities/media/table_web.mp4",
       "reason": "selected-source-reference"
     },
     {
@@ -409,12 +139,192 @@
       "reason": "selected-source-reference"
     },
     {
-      "workId": 91,
-      "workSlug": "sarka-nesporova-break-the-cycle",
+      "workId": 26,
+      "workSlug": "jozef-mikusinec-space-simulation",
+      "school": "MUNI",
+      "title": "Space Simulation",
+      "author": "Jozef Mikušinec",
+      "path": "MUNI/Jozef Mikušinec_Space Simulation/FI MUNI_Mikusinec_Jozef_Space Simulation_video_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 21,
+      "workSlug": "adam-svoboda-nebula",
+      "school": "MUNI",
+      "title": "Nebula",
+      "author": "Adam Svoboda",
+      "path": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 21,
+      "workSlug": "adam-svoboda-nebula",
+      "school": "MUNI",
+      "title": "Nebula",
+      "author": "Adam Svoboda",
+      "path": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_preview.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 21,
+      "workSlug": "adam-svoboda-nebula",
+      "school": "MUNI",
+      "title": "Nebula",
+      "author": "Adam Svoboda",
+      "path": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 27,
+      "workSlug": "martin-nastoupil-resonance-in-space",
+      "school": "MUNI",
+      "title": "Resonance in Space",
+      "author": "Martin Nastoupil",
+      "path": "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 27,
+      "workSlug": "martin-nastoupil-resonance-in-space",
+      "school": "MUNI",
+      "title": "Resonance in Space",
+      "author": "Martin Nastoupil",
+      "path": "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web_preview.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 28,
+      "workSlug": "matus-talcik-darwin-s-cube",
+      "school": "MUNI",
+      "title": "Darwin’s Cube",
+      "author": "Matúš Talčík",
+      "path": "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 28,
+      "workSlug": "matus-talcik-darwin-s-cube",
+      "school": "MUNI",
+      "title": "Darwin’s Cube",
+      "author": "Matúš Talčík",
+      "path": "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web_preview.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 17,
+      "workSlug": "patrik-sluka-blow-me-away",
+      "school": "AU BB",
+      "title": "Blow Me Away!",
+      "author": "Patrik Sluka",
+      "path": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 17,
+      "workSlug": "patrik-sluka-blow-me-away",
+      "school": "AU BB",
+      "title": "Blow Me Away!",
+      "author": "Patrik Sluka",
+      "path": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web_preview.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 17,
+      "workSlug": "patrik-sluka-blow-me-away",
+      "school": "AU BB",
+      "title": "Blow Me Away!",
+      "author": "Patrik Sluka",
+      "path": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 17,
+      "workSlug": "patrik-sluka-blow-me-away",
+      "school": "AU BB",
+      "title": "Blow Me Away!",
+      "author": "Patrik Sluka",
+      "path": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 18,
+      "workSlug": "pavol-seliga-as-if-nothing-happened",
+      "school": "AU BB",
+      "title": "AS IF NOTHING HAPPENED",
+      "author": "Pavol Šeliga",
+      "path": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 55,
+      "workSlug": "ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786",
+      "school": "USTP",
+      "title": "Lucid Dreams MAV 5786",
+      "author": "Ron Feldman, Felix Stängle, Kateryna Simson",
+      "path": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 55,
+      "workSlug": "ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786",
+      "school": "USTP",
+      "title": "Lucid Dreams MAV 5786",
+      "author": "Ron Feldman, Felix Stängle, Kateryna Simson",
+      "path": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 73,
+      "workSlug": "marietta-brandisova-between-nature-and-technology",
       "school": "UTB",
-      "title": "Break the Cycle",
-      "author": "Šárka Nešporová",
-      "path": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+      "title": "Between Nature and Technology",
+      "author": "Marietta Brandisová",
+      "path": "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.gif",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 73,
+      "workSlug": "marietta-brandisova-between-nature-and-technology",
+      "school": "UTB",
+      "title": "Between Nature and Technology",
+      "author": "Marietta Brandisová",
+      "path": "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.gif",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 63,
+      "workSlug": "elizabeth-bugyiova-interspace",
+      "school": "UTB",
+      "title": "interspace",
+      "author": "Elizabeth Bugyiová",
+      "path": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 63,
+      "workSlug": "elizabeth-bugyiova-interspace",
+      "school": "UTB",
+      "title": "interspace",
+      "author": "Elizabeth Bugyiová",
+      "path": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 75,
+      "workSlug": "matej-masaryk-reflections",
+      "school": "UTB",
+      "title": "Reflections",
+      "author": "Matej Masaryk",
+      "path": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 75,
+      "workSlug": "matej-masaryk-reflections",
+      "school": "UTB",
+      "title": "Reflections",
+      "author": "Matej Masaryk",
+      "path": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web_preview.mp4",
       "reason": "selected-source-reference"
     },
     {
@@ -432,7 +342,97 @@
       "school": "UTB",
       "title": "Break the Cycle",
       "author": "Šárka Nešporová",
-      "path": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_preview.mp4",
+      "path": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 82,
+      "workSlug": "theo-fekar-testimonies-of-the-future",
+      "school": "UTB",
+      "title": "Testimonies of the Future",
+      "author": "Theo Fekar",
+      "path": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 82,
+      "workSlug": "theo-fekar-testimonies-of-the-future",
+      "school": "UTB",
+      "title": "Testimonies of the Future",
+      "author": "Theo Fekar",
+      "path": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web_preview.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 82,
+      "workSlug": "theo-fekar-testimonies-of-the-future",
+      "school": "UTB",
+      "title": "Testimonies of the Future",
+      "author": "Theo Fekar",
+      "path": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 67,
+      "workSlug": "jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars",
+      "school": "UTB",
+      "title": "To Mars!!!",
+      "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
+      "path": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 67,
+      "workSlug": "jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars",
+      "school": "UTB",
+      "title": "To Mars!!!",
+      "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
+      "path": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web_preview.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 85,
+      "workSlug": "michaela-krcova-it-s-about-you",
+      "school": "VŠVU",
+      "title": "It’s about you",
+      "author": "Michaela Krčová",
+      "path": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_08_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 84,
+      "workSlug": "filip-huraj-mars53",
+      "school": "VŠVU",
+      "title": "MARS53",
+      "author": "Filip Huraj",
+      "path": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 49,
+      "workSlug": "monika-koisova-spojova-hub",
+      "school": "TUZVO",
+      "title": "Spojová Hub",
+      "author": "Monika Koišová",
+      "path": "TUZVO/Monika Koišová_Spojová Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 44,
+      "workSlug": "kvetoslava-krnacova-space-no-01",
+      "school": "TUZVO",
+      "title": "Space No.01",
+      "author": "Kvetoslava Krnáčová",
+      "path": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/TUZVO_Krnáčová Kvetoslava_video_web.mp4",
+      "reason": "selected-source-reference"
+    },
+    {
+      "workId": 100,
+      "workSlug": "david-voznyak-vivo",
+      "school": "UAlg",
+      "title": "VIVO",
+      "author": "David Voznyak",
+      "path": "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_01_web.mp4",
       "reason": "selected-source-reference"
     }
   ]

@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import unicodedata
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -86,15 +87,42 @@ def summarize_by_kind(entries: list[dict[str, object]]) -> dict[str, int]:
     return dict(sorted(counter.items()))
 
 
+def gitignore_path_variants(path: str) -> list[str]:
+    """Return exact and accent-tolerant ignore patterns for an asset path."""
+    variants = []
+    for source in (path, unicodedata.normalize("NFC", path)):
+        if source not in variants:
+            variants.append(source)
+
+        wildcard = []
+        previous_was_wildcard = False
+        for char in source:
+            if ord(char) < 128:
+                wildcard.append(char)
+                previous_was_wildcard = False
+                continue
+            if not previous_was_wildcard:
+                wildcard.append("*")
+            previous_was_wildcard = True
+        wildcard_path = "".join(wildcard)
+        if wildcard_path != source and wildcard_path not in variants:
+            variants.append(wildcard_path)
+
+    return variants
+
+
 def rewrite_gitignore(ignored_paths: list[str]) -> None:
     comment_lines = [
         "# Large asset files kept local until uploaded to Cloudflare R2.",
         "# Regenerate with: python3 tools/generate_r2_manifest.py",
     ]
+    ignored_patterns = []
+    for path in ignored_paths:
+        ignored_patterns.extend(gitignore_path_variants(path))
     block_lines = [
         *comment_lines,
         GITIGNORE_BEGIN,
-        *ignored_paths,
+        *ignored_patterns,
         GITIGNORE_END,
     ]
     existing_lines = GITIGNORE.read_text(encoding="utf-8").splitlines()

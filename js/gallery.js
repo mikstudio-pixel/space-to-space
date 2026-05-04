@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const wireframeOverlay = document.querySelector('.wireframe-overlay');
     const isWireframeVisible = wireframeOverlay && window.getComputedStyle(wireframeOverlay).display !== 'none';
     const shouldPlayIntro = !['0', 'false', 'skip'].includes((params.get('intro') || '').toLowerCase());
-    const mobilePreviewVideoQuery = window.matchMedia('(max-width: 767px), (hover: none) and (pointer: coarse)');
+    const previewVideoPlaybackMinViewportWidth = 1024;
 
     let projects = [];
     let galleryOutlineButtons = [];
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             menuAssetBytesHuman: typeof work.menuAssetBytesHuman === 'string' ? work.menuAssetBytesHuman : 'size unavailable',
             menuAssetIsR2: isR2AssetPath(work.menuAsset),
             position: positions[index % positions.length],
-            url: `home.html?slug=${encodeURIComponent(work.slug)}`
+            url: `project.html?slug=${encodeURIComponent(work.slug)}`
         }));
 
         if (projects.length === 0) {
@@ -455,7 +455,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function shouldDisablePreviewVideoPlayback() {
-        return mobilePreviewVideoQuery.matches;
+        return state.viewportWidth <= previewVideoPlaybackMinViewportWidth;
     }
 
     function disableProjectVideoPreview(plane) {

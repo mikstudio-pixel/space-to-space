@@ -37,9 +37,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const isAboutPage = window.location.pathname.includes('about.html');
     const isContactPage = window.location.pathname.includes('contact.html');
 
+    function getViewportSize() {
+        const visualViewport = window.visualViewport;
+        return {
+            width: Math.round(visualViewport?.width || window.innerWidth),
+            height: Math.round(visualViewport?.height || window.innerHeight)
+        };
+    }
+
     let state = {
         roomDepth: parseInt(depthSlider.value),
-        roomHeight: window.innerHeight, // Matching CSS 100vh
+        roomHeight: getViewportSize().height, // Kept in sync with CSS --app-height
         scrollPos: 0,
         maxScroll: 5000,
         initialRoomDepth: parseInt(depthSlider.value), // Store initial depth for practice scene
@@ -77,6 +85,14 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const tintCanvas = document.createElement('canvas');
     const tintContext = tintCanvas.getContext('2d', { willReadFrequently: true });
+
+    function syncViewportMetrics() {
+        const { height } = getViewportSize();
+        state.roomHeight = height;
+        rootStyle.setProperty('--app-height', `${height}px`);
+        rootStyle.setProperty('--back-content-offset', `${height}px`);
+        rootStyle.setProperty('--ceiling-content-offset', `${state.roomDepth + height}px`);
+    }
 
     // Check if wireframe is visible
     const wireframeOverlay = document.querySelector('.wireframe-overlay');
@@ -405,13 +421,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getProjectMediaFocusTargetRect() {
-        const insetX = Math.max(48, Math.round(window.innerWidth * 0.08));
-        const insetY = Math.max(48, Math.round(window.innerHeight * 0.08));
+        const viewport = getViewportSize();
+        const insetX = Math.max(48, Math.round(viewport.width * 0.08));
+        const insetY = Math.max(48, Math.round(viewport.height * 0.08));
         return {
             left: insetX,
             top: insetY,
-            width: Math.max(0, window.innerWidth - insetX * 2),
-            height: Math.max(0, window.innerHeight - insetY * 2)
+            width: Math.max(0, viewport.width - insetX * 2),
+            height: Math.max(0, viewport.height - insetY * 2)
         };
     }
 
@@ -554,8 +571,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getVisibleArea(rect) {
-        const width = Math.max(0, Math.min(rect.right, window.innerWidth) - Math.max(rect.left, 0));
-        const height = Math.max(0, Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0));
+        const viewport = getViewportSize();
+        const width = Math.max(0, Math.min(rect.right, viewport.width) - Math.max(rect.left, 0));
+        const height = Math.max(0, Math.min(rect.bottom, viewport.height) - Math.max(rect.top, 0));
         return width * height;
     }
 
@@ -834,7 +852,7 @@ document.addEventListener('DOMContentLoaded', () => {
         homeOutlineState.sections.forEach((section, index) => {
             const rect = section.card.getBoundingClientRect();
             const center = rect.top + rect.height / 2;
-            const distance = Math.abs(center - window.innerHeight / 2);
+            const distance = Math.abs(center - state.roomHeight / 2);
             if (distance < nearestDistance) {
                 nearestDistance = distance;
                 activeIndex = index;
@@ -882,7 +900,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             button.addEventListener('click', () => {
                 const rect = card.getBoundingClientRect();
-                const desiredTop = Math.max(40, window.innerHeight * 0.12);
+                const desiredTop = Math.max(40, state.roomHeight * 0.12);
                 targetScroll = state.scrollPos + (rect.top - desiredTop);
                 clampTargetScroll();
                 pingHomeOutlineNav();
@@ -995,14 +1013,14 @@ document.addEventListener('DOMContentLoaded', () => {
         requestAnimationFrame(() => {
             requestAnimationFrame(() => {
                 const rect = leadGrid.getBoundingClientRect();
-                const desiredCenter = Math.max(140, window.innerHeight * 0.5 - 200);
+                const desiredCenter = Math.max(140, state.roomHeight * 0.5 - 200);
                 const gridCenter = rect.top + rect.height / 2;
                 const finalScroll = Math.max(0, state.scrollPos + (gridCenter - desiredCenter));
-                let startScroll = finalScroll + Math.max(420, window.innerHeight * 0.48);
+                let startScroll = finalScroll + Math.max(420, state.roomHeight * 0.48);
 
                 if (firstStandaloneAsset instanceof HTMLElement) {
                     const firstAssetRect = firstStandaloneAsset.getBoundingClientRect();
-                    const desiredAssetBottom = window.innerHeight - Math.max(32, window.innerHeight * 0.06);
+                    const desiredAssetBottom = state.roomHeight - Math.max(32, state.roomHeight * 0.06);
                     const assetAnchoredScroll = Math.max(0, state.scrollPos + (firstAssetRect.bottom - desiredAssetBottom));
                     startScroll = Math.max(startScroll, assetAnchoredScroll);
                 }
@@ -1058,6 +1076,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Initial setup
+    syncViewportMetrics();
     updateRoomDepth(state.roomDepth);
     
     // Initial positions - start with first item visible
@@ -1149,16 +1168,21 @@ document.addEventListener('DOMContentLoaded', () => {
         restoreFrontView();
     });
 
-    window.addEventListener('resize', () => {
+    function handleViewportResize() {
+        syncViewportMetrics();
         if (projectMediaFocusState.shell instanceof HTMLElement && projectMediaFocusState.activeSrc) {
             applyProjectMediaFocusRect(projectMediaFocusState.shell, getProjectMediaFocusTargetRect());
         }
-        state.roomHeight = window.innerHeight;
         updateContentPositions(); // Immediate update on resize
         refreshWireframe();
         scheduleDynamicTintUpdate();
         buildHomeOutlineNav();
-    });
+    }
+
+    window.addEventListener('resize', handleViewportResize);
+    if (window.visualViewport) {
+        window.visualViewport.addEventListener('resize', handleViewportResize);
+    }
 
     // Custom Scroll Logic (mouse wheel + touch swipe)
     let targetScroll = 0;
@@ -1196,10 +1220,15 @@ document.addEventListener('DOMContentLoaded', () => {
         if (targetScroll > maxScroll) targetScroll = maxScroll;
     }
     
-    // Recalculate base content height on window resize
-    window.addEventListener('resize', () => {
+    function resetBaseContentHeight() {
         baseContentHeight = null; // Reset to recalculate
-    });
+    }
+
+    // Recalculate base content height on viewport resize
+    window.addEventListener('resize', resetBaseContentHeight);
+    if (window.visualViewport) {
+        window.visualViewport.addEventListener('resize', resetBaseContentHeight);
+    }
     
     function applyScrollDelta(deltaY) {
         if (frontViewState.isActive) {
@@ -1363,6 +1392,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateRoomDepth(val) {
         state.roomDepth = val;
         document.documentElement.style.setProperty('--room-depth', `${val}px`);
+        rootStyle.setProperty('--ceiling-content-offset', `${state.roomDepth + state.roomHeight}px`);
         
         // Specific logic for practice scene text stretching
         if (document.querySelector('.practice-scene')) {
@@ -1445,6 +1475,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateWireframe() {
+        if (!scene || !markers.tl || !markers.tr || !markers.bl || !markers.br) {
+            return;
+        }
+
+        const sceneRect = scene.getBoundingClientRect();
+        const width = sceneRect.width;
+        const height = sceneRect.height;
+        if (width <= 0 || height <= 0) {
+            return;
+        }
+
         // Get marker positions
         // Using getBoundingClientRect forces layout, but needed for exact sync with CSS 3D
         const tl = markers.tl.getBoundingClientRect();
@@ -1452,25 +1493,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const bl = markers.bl.getBoundingClientRect();
         const br = markers.br.getBoundingClientRect();
 
-        // Screen dimensions
-        const w = window.innerWidth;
-        const h = window.innerHeight;
-
         // Update Depth Lines (Corner to Corner)
         // TL: 0,0 to marker TL
-        setLine(svgLines.tl, 0, 0, tl.left, tl.top);
+        setLine(svgLines.tl, 0, 0, tl.left - sceneRect.left, tl.top - sceneRect.top);
         
         // TR: w,0 to marker TR
-        setLine(svgLines.tr, w, 0, tr.left, tr.top);
+        setLine(svgLines.tr, width, 0, tr.left - sceneRect.left, tr.top - sceneRect.top);
         
         // BL: 0,h to marker BL
-        setLine(svgLines.bl, 0, h, bl.left, bl.top);
+        setLine(svgLines.bl, 0, height, bl.left - sceneRect.left, bl.top - sceneRect.top);
         
         // BR: w,h to marker BR
-        setLine(svgLines.br, w, h, br.left, br.top);
+        setLine(svgLines.br, width, height, br.left - sceneRect.left, br.top - sceneRect.top);
 
         // Update Back Rectangle
-        const points = `${tl.left},${tl.top} ${tr.left},${tr.top} ${br.left},${br.top} ${bl.left},${bl.top}`;
+        const points = `${tl.left - sceneRect.left},${tl.top - sceneRect.top} ${tr.left - sceneRect.left},${tr.top - sceneRect.top} ${br.left - sceneRect.left},${br.top - sceneRect.top} ${bl.left - sceneRect.left},${bl.top - sceneRect.top}`;
         backRect.setAttribute('points', points);
     }
 
@@ -1496,27 +1533,15 @@ document.addEventListener('DOMContentLoaded', () => {
             // Practice scene: Use INITIAL depth for offsets so they don't change when slider moves
             // This ensures content stays in place when adjusting depth
             const fixedDepth = state.initialRoomDepth;
-            
-            // Floor content
-            floorContent.style.transform = `translateY(${-state.scrollPos}px)`;
-            
-            // Back wall content starts after floor content ends
-            backContent.style.transform = `translateY(${-state.scrollPos + fixedDepth}px)`;
-            
-            // Ceiling content starts after back wall
-            ceilingContent.style.transform = `translateY(${-state.scrollPos + fixedDepth + state.roomHeight}px)`;
+            rootStyle.setProperty('--space-scroll', `${state.scrollPos}px`);
+            rootStyle.setProperty('--back-content-offset', `${fixedDepth}px`);
+            rootStyle.setProperty('--ceiling-content-offset', `${fixedDepth + state.roomHeight}px`);
             return;
         }
         
-        // Original scroll-based logic for index page
-        // Floor: Move content towards camera
-        floorContent.style.transform = `translateY(${-state.scrollPos}px)`;
-         
-        // Back Wall: Move content up, continuous flow
-        backContent.style.transform = `translateY(${-state.scrollPos + state.roomHeight}px)`; 
-         
-        // Ceiling: Move content towards camera
-        ceilingContent.style.transform = `translateY(${-state.scrollPos + (state.roomDepth + state.roomHeight)}px)`;
+        rootStyle.setProperty('--space-scroll', `${state.scrollPos}px`);
+        rootStyle.setProperty('--back-content-offset', `${state.roomHeight}px`);
+        rootStyle.setProperty('--ceiling-content-offset', `${state.roomDepth + state.roomHeight}px`);
         scheduleDynamicTintUpdate();
         updateHomeOutlineNavActive();
     }

@@ -157,6 +157,14 @@ def make_media_path_rewrite(
     return rewrite
 
 
+def normalize_runtime_path(path: str) -> str:
+    """Use NFC paths for GitHub Pages while preserving external URLs."""
+    lower = path.lower()
+    if lower.startswith("http://") or lower.startswith("https://"):
+        return path
+    return unicodedata.normalize("NFC", path)
+
+
 def build_asset_indexes() -> tuple[dict[str, list[dict[str, object]]], dict[str, list[dict[str, object]]]]:
     basename_index: dict[str, list[dict[str, object]]] = {}
     source_index: dict[str, list[dict[str, object]]] = {}
@@ -271,7 +279,7 @@ def build_project_record(
         )
 
     for asset in resolved_assets:
-        asset["path"] = rewrite_path(asset["path"])
+        asset["path"] = normalize_runtime_path(rewrite_path(asset["path"]))
 
     resolved_images = [asset["path"] for asset in resolved_assets if asset["type"] == "image"]
     resolved_videos = [asset["path"] for asset in resolved_assets if asset["type"] == "video"]
@@ -283,7 +291,7 @@ def build_project_record(
         else None
     )
     if preview_asset and str(preview_asset.get("type")) in {"image", "video"}:
-        menu_asset = rewrite_path(str(preview_asset["path"]))
+        menu_asset = normalize_runtime_path(rewrite_path(str(preview_asset["path"])))
         menu_asset_type = str(preview_asset["type"])
         menu_asset_bytes = int(preview_asset["bytes"])
         menu_asset_bytes_human = str(preview_asset["bytesHuman"])
@@ -300,7 +308,7 @@ def build_project_record(
         menu_asset_bytes = int(video_asset["bytes"])
         menu_asset_bytes_human = str(video_asset["bytesHuman"])
     else:
-        menu_asset = rewrite_path(FALLBACK_MENU_ASSET)
+        menu_asset = normalize_runtime_path(rewrite_path(FALLBACK_MENU_ASSET))
         menu_asset_type = "placeholder"
         menu_asset_bytes = 0
         menu_asset_bytes_human = "size unavailable"

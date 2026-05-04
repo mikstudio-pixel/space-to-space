@@ -6,12 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <title>Space-to-Space | Research</title>
+    <title>Space-to-Space - Project</title>
     <script src="js/theme-preload.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/research.css">
 </head>
-<body class="research-page">
+<body class="project-page" data-page="project">
 
     <div class="overlay-ui">
         
@@ -29,12 +28,16 @@
             <button id="darkModeToggle" type="button">light</button>
         </nav>
         
-        <nav class="side-nav right">
-            <a href="practice.html">stretch</a>
-            <a href="architecture.html">depth</a>
-            <a href="research.html" class="active">crazy numbers</a>
-            <a href="index.html">default</a>
+        <nav class="outline-nav" aria-label="Page sections">
+            <div class="outline-nav-items"></div>
         </nav>
+
+        <div class="debug-controls" aria-label="Debug controls">
+            <div class="debug-control-row">
+                <label for="mediaDebugToggle">Media Debug</label>
+                <button id="mediaDebugToggle" class="toggle-btn" data-media-debug-toggle aria-pressed="false">○</button>
+            </div>
+        </div>
 
         <div class="controls">
             <div class="control-row">
@@ -42,7 +45,8 @@
                 <button id="colorModeToggle" class="toggle-btn">○</button>
             </div>
             <label for="depthSlider">Room Depth</label>
-            <input type="range" id="depthSlider" min="500" max="3000" value="1000">
+            <input type="range" id="depthSlider" min="0" max="20000" value="120">
+            <p id="projectStatus" class="project-status" hidden></p>
         </div>
     </div>
 
@@ -68,27 +72,28 @@
                 <div class="marker bl"></div>
                 <div class="marker br"></div>
                 
-                <!-- Back Wall Content Zone - Falling Numbers -->
-                <div class="zone-content back-content" id="backContent">
-                </div>
+                <!-- Back Wall Content Zone -->
+                <div class="zone-content back-content project-page-projects"></div>
             </div>
             
-            <!-- Floor Content Zone -->
+            <!-- Floor Content Zone (Placed inside room context) -->
             <div class="zone-wrapper floor-wrapper">
-                <div class="zone-content floor-content" id="floorContent">
-                </div>
+                <div class="zone-content floor-content project-page-projects"></div>
             </div>
 
             <!-- Ceiling Content Zone -->
             <div class="zone-wrapper ceiling-wrapper">
-                <div class="zone-content ceiling-content" id="ceilingContent">
-                </div>
+                <div class="zone-content ceiling-content project-page-projects"></div>
             </div>
 
         </div>
     </div>
 
-    <script src="js/research.js"></script>
+    <script src="data/projects-data.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/media-debug-toggle.js"></script>
+    <script src="js/project-detail.js"></script>
+    <script src="js/contact-video.js"></script>
     <script src="js/theme-toggle.js"></script>
 </body>
 </html>

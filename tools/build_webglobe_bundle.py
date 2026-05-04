@@ -5,6 +5,7 @@ import argparse
 import json
 import re
 import shutil
+import unicodedata
 from collections.abc import Iterable
 from pathlib import Path
 
@@ -18,6 +19,7 @@ TEXT_SUFFIXES = {".html", ".css", ".js", ".json", ".txt", ".xml", ".svg"}
 SCAN_SUFFIXES = TEXT_SUFFIXES | {".md"}
 R2_URL_PATTERN = re.compile(r"https://[^\"'\s)]+\.r2\.dev")
 ABSOLUTE_URL_PATTERN = re.compile(r"https?://[^\"'\s<>()]+")
+UNUSED_ASSET_SUFFIXES = {".zip"}
 UNUSED_RUNTIME_PATHS = {
     "data/external-documents.json",
     "data/external-media.json",
@@ -89,6 +91,9 @@ def copy_assets_with_mapping(
     for source_path in sorted(assets_root.rglob("*"), key=lambda item: item.as_posix()):
         if should_skip_asset(source_path):
             continue
+        if source_path.suffix.lower() in UNUSED_ASSET_SUFFIXES:
+            skipped_files += 1
+            continue
         raw_relative = source_path.relative_to(ROOT).as_posix()
         if should_skip_relative_path(raw_relative, excluded_paths):
             skipped_files += 1
@@ -158,6 +163,14 @@ def restore_absolute_urls(text: str, replacements: dict[str, str]) -> str:
     return restored
 
 
+def path_text_variants(path: str) -> list[str]:
+    variants: list[str] = []
+    for variant in (path, unicodedata.normalize("NFC", path), unicodedata.normalize("NFD", path)):
+        if variant not in variants:
+            variants.append(variant)
+    return variants
+
+
 def detect_media_base() -> str:
     for path in sorted(ROOT.rglob("*")):
         if not path.is_file() or path.suffix.lower() not in SCAN_SUFFIXES:
@@ -188,12 +201,15 @@ def rewrite_asset_references(
         updated = original
 
         for raw_path, safe_path in sorted(deploy_path_map.items(), key=lambda item: len(item[0]), reverse=True):
-            if raw_path in excluded_paths:
+            raw_variants = path_text_variants(raw_path)
+            if any(variant in excluded_paths for variant in raw_variants):
                 if base:
-                    updated = updated.replace(f"{base}/{raw_path}", f"{base}/{safe_path}")
-                    updated = updated.replace(raw_path, f"{base}/{safe_path}")
+                    for variant in raw_variants:
+                        updated = updated.replace(f"{base}/{variant}", f"{base}/{safe_path}")
+                        updated = updated.replace(variant, f"{base}/{safe_path}")
                 continue
-            updated = updated.replace(raw_path, safe_path)
+            for variant in raw_variants:
+                updated = updated.replace(variant, safe_path)
 
         if updated != original:
             path.write_text(updated, encoding="utf-8")
@@ -207,7 +223,11 @@ def find_unresolved_references(output_dir: Path, excluded_paths: set[str]) -> li
     for path in iter_text_files(output_dir):
         text = path.read_text(encoding="utf-8")
         protected_text, _ = protect_absolute_urls(text)
-        matches = [relative for relative in excluded_paths if relative in protected_text]
+        matches = [
+            relative
+            for relative in excluded_paths
+            if any(variant in protected_text for variant in path_text_variants(relative))
+        ]
         if matches:
             issues.append(
                 {

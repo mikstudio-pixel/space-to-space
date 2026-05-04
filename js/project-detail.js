@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const containers = Array.from(document.querySelectorAll('.home-projects'));
+    const containers = Array.from(document.querySelectorAll('.project-page-projects'));
     if (containers.length === 0) {
         return;
     }
@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             status.textContent = '';
         }
 
-        if (window.SpaceToSpaceHome && typeof window.SpaceToSpaceHome.refresh === 'function') {
-            window.SpaceToSpaceHome.refresh();
-            if (typeof window.SpaceToSpaceHome.playIntro === 'function') {
-                window.SpaceToSpaceHome.playIntro();
+        if (window.SpaceToSpaceProjectDetail && typeof window.SpaceToSpaceProjectDetail.refresh === 'function') {
+            window.SpaceToSpaceProjectDetail.refresh();
+            if (typeof window.SpaceToSpaceProjectDetail.playIntro === 'function') {
+                window.SpaceToSpaceProjectDetail.playIntro();
             }
         }
     } catch (error) {
@@ -45,9 +45,23 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function renderProject(project, containers) {
     const visualAssets = normalizeVisualAssets(project);
-    const infoCard = createInfoCard(project, visualAssets);
-    const trailingCards = visualAssets.slice(1).map((asset, index) => createVisualCard(asset, index + 2));
-    const cards = [infoCard, ...trailingCards];
+    const isVideoBackground = project.detailLayout === 'video-background';
+    const videoAssets = visualAssets.filter((asset) => asset.type === 'video');
+    const imageAssets = visualAssets.filter((asset) => asset.type === 'image');
+    const backgroundVideo = isVideoBackground ? videoAssets[0] : null;
+    const infoCard = createInfoCard(project);
+    const videoCards = videoAssets.map((asset, index) => createVisualCard(asset, `Video ${index + 1}`));
+    const imageCards = imageAssets.map((asset, index) => createVisualCard(asset, `Image ${index + 1}`));
+    const cards = isVideoBackground
+        ? [infoCard, ...videoCards, ...imageCards]
+        : [...videoCards, infoCard, ...imageCards];
+
+    document.body.classList.toggle('project-video-background-page', Boolean(backgroundVideo));
+    document.body.classList.toggle('project-video-intro-active', Boolean(backgroundVideo));
+    document.body.classList.remove('project-video-intro-transitioning', 'project-video-intro-settled');
+    renderProjectVideoProjection(project, backgroundVideo);
+    syncVideoProjectionDepth(Boolean(backgroundVideo));
+    exposeProjectVideoIntroControls();
 
     containers.forEach((container) => {
         container.innerHTML = '';
@@ -57,44 +71,21 @@ function renderProject(project, containers) {
     });
 
     bindProjectInteractions(containers);
+    playVisibleProjectVideos();
 }
 
 function normalizeVisualAssets(project) {
     const resolvedAssets = Array.isArray(project.resolvedAssets) ? project.resolvedAssets : [];
-    const visuals = resolvedAssets.filter((asset) => asset.type === 'image' || asset.type === 'video');
-
-    if (visuals.length > 0) {
-        return visuals;
-    }
-
-    const menuAsset = typeof project.menuAsset === 'string' ? project.menuAsset : 'assets/site/video-thumbnail.webp';
-    return [
-        {
-            path: menuAsset,
-            type: typeof project.menuAssetType === 'string' && project.menuAssetType === 'video' ? 'video' : 'image',
-            source: menuAsset,
-            bytes: Number.isFinite(project.menuAssetBytes) ? project.menuAssetBytes : 0,
-            bytesHuman: typeof project.menuAssetBytesHuman === 'string' ? project.menuAssetBytesHuman : 'size unavailable',
-        },
-    ];
+    return resolvedAssets.filter((asset) => (
+        (asset.type === 'image' || asset.type === 'video')
+        && !isGalleryPreviewAsset(asset, project)
+    ));
 }
 
-function createInfoCard(project, visualAssets) {
+function createInfoCard(project) {
     const article = document.createElement('article');
     article.className = 'project-card project-card--contained';
     article.dataset.navLabel = project.title || 'Project';
-
-    if (visualAssets.length > 0) {
-        const grid = document.createElement('div');
-        grid.className = 'project-media-grid';
-        grid.setAttribute('aria-label', `${project.title || 'Project'} gallery`);
-
-        visualAssets.slice(0, 5).forEach((asset, index) => {
-            const element = createMediaElement(asset, `${project.title || 'Project'} ${index + 1}`, true);
-            grid.appendChild(element);
-        });
-        article.appendChild(grid);
-    }
 
     const info = document.createElement('div');
     info.className = 'project-info';
@@ -138,12 +129,170 @@ function createInfoCard(project, visualAssets) {
     return article;
 }
 
-function createVisualCard(asset, index) {
+function createVisualCard(asset, label) {
     const article = document.createElement('article');
     article.className = 'project-card project-card--image-only';
-    article.dataset.navLabel = `Media ${index}`;
-    article.appendChild(createMediaElement(asset, `Project media ${index}`, false));
+    article.dataset.navLabel = label;
+    article.appendChild(createMediaElement(asset, `Project ${label.toLowerCase()}`, false));
     return article;
+}
+
+function renderProjectVideoProjection(project, asset) {
+    removeProjectVideoProjection();
+    document.body.dataset.videoProjectionInitialized = '';
+
+    if (!asset || asset.type !== 'video') {
+        delete document.body.dataset.videoProjectionDefault;
+        delete document.body.dataset.videoProjectionStorage;
+        return;
+    }
+
+    document.body.dataset.videoProjectionDefault = 'perspective';
+    document.body.dataset.videoProjectionStorage = 'off';
+
+    const surfaces = [
+        { wall: '.ceiling', face: 'ceiling', className: 'ceiling-content', projected: true },
+        { wall: '.floor', face: 'floor', className: 'floor-content', projected: true },
+        { wall: '.left-wall', face: 'left', className: 'left-content', projected: true },
+        { wall: '.right-wall', face: 'right', className: 'right-content', projected: true },
+        { wall: '.back-wall', face: 'back', className: 'project-video-back-content', projected: false, master: true }
+    ];
+
+    surfaces.forEach((surface) => {
+        const wall = document.querySelector(surface.wall);
+        if (!(wall instanceof HTMLElement)) {
+            return;
+        }
+
+        wall.prepend(createProjectVideoSurface(project, asset, surface));
+    });
+
+    if (window.SpaceToSpaceVideoProjection && typeof window.SpaceToSpaceVideoProjection.init === 'function') {
+        window.SpaceToSpaceVideoProjection.init();
+    }
+}
+
+function createProjectVideoSurface(project, asset, surface) {
+    const wrapper = document.createElement('div');
+    wrapper.className = `zone-content ${surface.className} video-surface project-video-surface${surface.projected ? '' : ' is-flat'}`;
+
+    const video = document.createElement('video');
+    video.className = `surface-video ${surface.projected ? 'is-projected' : 'is-flat'}`;
+    video.src = asset.path;
+    video.autoplay = true;
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+    video.preload = 'metadata';
+    video.dataset.syncVideo = surface.face;
+    video.setAttribute('aria-label', `${project.title || 'Project'} ${surface.face} video`);
+    if (surface.master) {
+        video.dataset.syncMaster = 'true';
+    }
+
+    const canvas = document.createElement('canvas');
+    canvas.className = `surface-canvas ${surface.projected ? 'is-projected' : 'is-flat'}`;
+    canvas.dataset.perspectiveCanvas = surface.face;
+
+    wrapper.appendChild(video);
+    wrapper.appendChild(canvas);
+    return wrapper;
+}
+
+function removeProjectVideoProjection() {
+    document.querySelectorAll('.project-video-surface').forEach((surface) => surface.remove());
+}
+
+function exposeProjectVideoIntroControls() {
+    window.SpaceToSpaceProjectDetail = window.SpaceToSpaceProjectDetail || {};
+    window.SpaceToSpaceProjectDetail.beginVideoIntroFadeOut = beginProjectVideoIntroFadeOut;
+    window.SpaceToSpaceProjectDetail.revealVideoIntroContent = revealProjectVideoIntroContent;
+    window.SpaceToSpaceProjectDetail.settleVideoIntro = settleProjectVideoIntro;
+    window.SpaceToSpaceProjectDetail.restoreVideoIntro = restoreProjectVideoIntro;
+    window.SpaceToSpaceProjectDetail.completeVideoIntroRestore = completeProjectVideoIntroRestore;
+    window.SpaceToSpaceProjectDetail.playVisibleVideos = playVisibleProjectVideos;
+}
+
+function beginProjectVideoIntroFadeOut() {
+    document.body.classList.add('project-video-intro-transitioning');
+}
+
+function revealProjectVideoIntroContent() {
+    document.body.classList.add('project-video-content-visible');
+    document.body.classList.remove('project-video-intro-active');
+}
+
+function settleProjectVideoIntro() {
+    document.body.classList.add('project-video-intro-transitioning');
+    document.body.classList.add('project-video-content-visible');
+    document.body.classList.remove('project-video-intro-active');
+
+    window.setTimeout(() => {
+        document.body.classList.remove(
+            'project-video-background-page',
+            'project-video-intro-transitioning',
+            'project-video-content-visible',
+            'video-mode-perspective',
+            'video-mode-copies'
+        );
+        document.body.classList.add('project-video-intro-settled');
+        delete document.body.dataset.videoProjectionDefault;
+        delete document.body.dataset.videoProjectionStorage;
+        playVisibleProjectVideos();
+    }, 520);
+}
+
+function restoreProjectVideoIntro() {
+    if (document.querySelectorAll('.project-video-surface').length === 0) {
+        return;
+    }
+
+    document.body.dataset.videoProjectionDefault = 'perspective';
+    document.body.dataset.videoProjectionStorage = 'off';
+    document.body.classList.add(
+        'project-video-background-page',
+        'project-video-intro-restoring',
+        'video-mode-perspective'
+    );
+    document.body.classList.remove(
+        'project-video-intro-settled',
+        'project-video-intro-transitioning',
+        'project-video-content-visible',
+        'video-mode-copies'
+    );
+}
+
+function completeProjectVideoIntroRestore() {
+    document.body.classList.add('project-video-intro-active');
+    document.body.classList.remove('project-video-intro-restoring');
+}
+
+function playVisibleProjectVideos() {
+    document.querySelectorAll('.project-page-projects video').forEach((video) => {
+        if (!(video instanceof HTMLVideoElement)) {
+            return;
+        }
+
+        video.muted = true;
+        video.playsInline = true;
+        video.play().catch(() => {});
+    });
+}
+
+function syncVideoProjectionDepth(isVideoBackground) {
+    if (!isVideoBackground) {
+        return;
+    }
+
+    const depthSlider = document.getElementById('depthSlider');
+    if (!(depthSlider instanceof HTMLInputElement)) {
+        return;
+    }
+
+    depthSlider.min = '1';
+    depthSlider.max = '5000';
+    depthSlider.value = '1000';
+    depthSlider.dispatchEvent(new Event('input', { bubbles: true }));
 }
 
 function createMediaElement(asset, altText, isGrid) {
@@ -203,6 +352,37 @@ function createMediaDebugOverlay(assetPath, options = {}) {
     }
 
     return overlay;
+}
+
+function isGalleryPreviewAsset(asset, project) {
+    const assetPath = normalizeAssetKey(asset.path);
+    const sourcePath = normalizeAssetKey(asset.source);
+    const previewPath = normalizeAssetKey(project.preview);
+    const menuPath = normalizeAssetKey(project.menuAsset);
+
+    return (
+        isPreviewPath(assetPath)
+        || isPreviewPath(sourcePath)
+        || (previewPath && (assetPath.endsWith(previewPath) || sourcePath === previewPath))
+        || (menuPath && assetPath === menuPath)
+    );
+}
+
+function normalizeAssetKey(value) {
+    if (typeof value !== 'string') {
+        return '';
+    }
+
+    return value
+        .split('?')[0]
+        .split('#')[0]
+        .replace(/^assets\//, '')
+        .toLowerCase();
+}
+
+function isPreviewPath(value) {
+    const filename = value.split('/').pop() || '';
+    return filename.includes('_preview.') || filename.includes('-preview.') || filename.includes(' preview.');
 }
 
 function createContacts(contacts) {
@@ -357,8 +537,8 @@ function handleProjectFocusTrigger(trigger, event) {
         return;
     }
 
-    if (window.SpaceToSpaceHome && typeof window.SpaceToSpaceHome.focusMedia === 'function') {
-        window.SpaceToSpaceHome.focusMedia({ kind, src, label, trigger });
+    if (window.SpaceToSpaceProjectDetail && typeof window.SpaceToSpaceProjectDetail.focusMedia === 'function') {
+        window.SpaceToSpaceProjectDetail.focusMedia({ kind, src, label, trigger });
         return;
     }
 

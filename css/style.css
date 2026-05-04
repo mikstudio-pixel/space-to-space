@@ -17,9 +17,19 @@
     --controls-offset: calc((var(--overlay-ui-padding) + var(--controls-reference-offset)) / 2);
     
     /* 3D Room Variables */
+    --app-height: 100vh;
+    --space-scroll: 0px;
+    --back-content-offset: var(--app-height);
+    --ceiling-content-offset: calc(var(--room-depth) + var(--app-height));
     --room-width: 100vw; /* Full viewport width */
-    --room-height: 100vh; /* Full viewport height */
+    --room-height: var(--app-height); /* Full viewport height */
     --room-depth: 1000px;
+}
+
+@supports (height: 100dvh) {
+    :root {
+        --app-height: 100dvh;
+    }
 }
 
 * {
@@ -30,7 +40,7 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: var(--app-height);
     overflow: hidden; /* We will implement custom scroll */
     background-color: var(--bg-color);
     background-image: linear-gradient(
@@ -43,8 +53,8 @@ body {
     box-shadow: inset 0 0 0 9999px rgba(var(--dynamic-tint-rgb), calc(var(--dynamic-tint-alpha) * 0.35));
 }
 
-/* Home: bez barevného nádechu z obrázků — jen černá */
-body.home-page {
+/* Detail projektu: bez barevného nádechu z obrázků — jen černá */
+body.project-page {
     --dynamic-tint-alpha: 0;
     box-shadow: none;
 }
@@ -54,8 +64,8 @@ body.about-page {
     box-shadow: none;
 }
 
-body.home-page.dark-mode,
-:root.dark-mode body.home-page {
+body.project-page.dark-mode,
+:root.dark-mode body.project-page {
     background-color: #000;
     --bg-color: #000;
 }
@@ -720,7 +730,7 @@ input[type=range] {
 .scene {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: var(--room-height);
     perspective: var(--gallery-scene-perspective, 1200px);
     display: flex;
     justify-content: center;
@@ -733,6 +743,7 @@ input[type=range] {
     z-index: 2;
     width: var(--room-width);
     height: var(--room-height);
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transform: translateZ(calc(var(--room-depth) / -2));
     /* Transition removed to prevent sync issues with JS scroll/depth updates */
@@ -770,6 +781,11 @@ input[type=range] {
     transform: translateZ(calc(var(--room-depth) / -2));
     z-index: -1;
     border: none;
+}
+
+.project-page .back-wall,
+.about-page .back-wall {
+    overflow: hidden;
 }
 
 .left-wall {
@@ -836,7 +852,8 @@ input[type=range] {
 }
 
 .animation-page .wireframe-overlay,
-.home-page .wireframe-overlay {
+.about-page .wireframe-overlay,
+.project-page .wireframe-overlay {
     z-index: 30;
 }
 
@@ -860,7 +877,13 @@ input[type=range] {
     width: 100%;
     height: 100%;
     pointer-events: none;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+}
+
+.project-page .zone-wrapper,
+.about-page .zone-wrapper {
+    overflow: hidden;
 }
 
 /* Floor Wrapper: Aligned with Floor Plane */
@@ -896,6 +919,7 @@ input[type=range] {
     left: 0;
     width: 100%;
     height: 100%;
+    transform: translate3d(0, calc(var(--back-content-offset) - var(--space-scroll)), 0);
     /* Setup flex/grid for content if needed, or absolute items */
 }
 
@@ -909,6 +933,7 @@ input[type=range] {
     position: relative;
     width: 100%;
     height: 100%;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     
     /* Flex Layout to prevent overlap */
@@ -922,6 +947,14 @@ input[type=range] {
     /* GPU optimization */
     will-change: transform;
     backface-visibility: hidden;
+}
+
+.floor-content {
+    transform: translate3d(0, calc(var(--space-scroll) * -1), 0);
+}
+
+.ceiling-content {
+    transform: translate3d(0, calc(var(--ceiling-content-offset) - var(--space-scroll)), 0);
 }
 
 /* Content Items in Zones */
@@ -940,18 +973,6 @@ input[type=range] {
     font-weight: bold;
     line-height: 1;
     color: var(--main-color);
-}
-
-.practice-text {
-    font-size: 22vw;
-    font-weight: bold;
-    line-height: 0.8;
-    color: var(--main-color);
-    width: calc(100% - 20px) !important; /* Full width minus margins */
-    margin: 0 10px; /* 10px margin on sides */
-    padding: 20px 0; /* Padding between elements */
-    text-transform: uppercase;
-    text-align: center;
 }
 
 /* Specific adjustments per zone */
@@ -997,70 +1018,6 @@ input[type=range] {
     transform: none;
 }
 
-/* Practice Scene specific overrides */
-.practice-scene .floor-content {
-    gap: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    /* Floor: items anchored at back wall (Y=depth), grow towards camera */
-    flex-direction: column;
-    justify-content: flex-end; /* Align to back wall (end of wrapper) */
-}
-
-.practice-scene .ceiling-content {
-    gap: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    /* Ceiling: items anchored at back wall, grow towards camera */
-    flex-direction: column;
-    justify-content: flex-end; /* Align to back wall */
-}
-
-.practice-scene .back-content {
-    /* Back wall content centered */
-    justify-content: center;
-    flex-direction: column;
-}
-
-.practice-scene .floor-content .content-item {
-    flex: 1;
-    height: auto;
-    display: flex;
-    align-items: flex-end; /* Align text to bottom (back wall edge) */
-    justify-content: center;
-    width: 100%;
-}
-
-.practice-scene .ceiling-content .content-item {
-    flex: 1;
-    height: auto;
-    display: flex;
-    align-items: flex-end; /* Align text to bottom (back wall edge) */
-    justify-content: center;
-    width: 100%;
-}
-
-.practice-scene .floor-content .practice-text {
-    width: 100% !important;
-    padding: 0;
-    margin: 0;
-    /* Scale from bottom (back wall) towards top (camera) */
-    transform-origin: center bottom;
-}
-
-.practice-scene .ceiling-content .practice-text {
-    width: 100% !important;
-    padding: 0;
-    margin: 0;
-    /* Scale from bottom (back wall) towards top (camera) */
-    transform-origin: center bottom;
-}
-
-/* Back wall text should NOT be stretched */
-.practice-scene .back-content .practice-text {
-    transform: none !important;
-}
-
 /* ============================================
    DARK MODE
    ============================================ */
@@ -1079,11 +1036,6 @@ body.dark-mode .wall,
 body.dark-mode .content-item,
 :root.dark-mode .content-item {
     text-shadow: 0 0 20px rgba(255, 51, 51, 0.3);
-}
-
-body.dark-mode .practice-text,
-:root.dark-mode .practice-text {
-    text-shadow: 0 0 30px rgba(255, 51, 51, 0.4);
 }
 
 body.dark-mode .falling-num,
@@ -1449,16 +1401,12 @@ body.bw-mode.dark-mode .falling-num,
 }
 
 body.bw-mode .content-item,
-body.bw-mode .practice-text,
-:root.bw-mode .content-item,
-:root.bw-mode .practice-text {
+:root.bw-mode .content-item {
     text-shadow: none !important;
 }
 
 body.bw-mode.dark-mode .content-item,
-body.bw-mode .practice-text,
-:root.bw-mode.dark-mode .content-item,
-:root.bw-mode .practice-text {
+:root.bw-mode.dark-mode .content-item {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
 }
 
@@ -1480,10 +1428,10 @@ body.bw-mode .gallery-card img,
 }
 
 /* ============================================
-   HOME PAGE - PROJECT CARDS
+   PROJECT DETAIL - PROJECT CARDS
    ============================================ */
 
-.home-projects {
+.project-page-projects {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1491,6 +1439,143 @@ body.bw-mode .gallery-card img,
     gap: 0;
     padding: 0;
     transition: opacity 220ms ease;
+}
+
+.about-page-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    padding: 0;
+}
+
+.about-card {
+    min-height: 100vh;
+}
+
+.about-info {
+    max-width: min(920px, 74vw);
+}
+
+.about-info h2 {
+    margin-bottom: 2rem;
+}
+
+.about-desc {
+    max-width: 820px;
+    margin: 0 auto;
+    font-size: clamp(1rem, 1.45vw, 1.35rem);
+    line-height: 1.55;
+}
+
+.about-logo-marquee {
+    width: min(920px, 76vw);
+    margin: clamp(2.5rem, 7vh, 5rem) auto 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.about-logo-track {
+    display: flex;
+    align-items: center;
+    gap: clamp(40px, 6vw, 96px);
+    width: max-content;
+    transform: translate3d(var(--about-logo-offset, 0px), 0, 0);
+    will-change: transform;
+}
+
+.about-logo-track img {
+    display: block;
+    width: max(760px, 70vw);
+    max-width: none;
+    height: clamp(54px, 8vw, 116px);
+    object-fit: contain;
+    flex: 0 0 auto;
+}
+
+body.dark-mode .about-logo-track img,
+body.bw-mode.dark-mode .about-logo-track img,
+::root.dark-mode body .about-logo-track img,
+::root.bw-mode.dark-mode body .about-logo-track img {
+    filter: none;
+}
+
+body.project-video-background-page,
+body.project-video-intro-settled {
+    background-color: #000;
+    --bg-color: #000;
+}
+
+body.project-video-background-page .scene {
+    z-index: 2;
+}
+
+body:is(.project-video-background-page, .project-video-intro-settled) .project-card--contained {
+    min-height: 150vh;
+    justify-content: center;
+}
+
+body:is(.project-video-background-page, .project-video-intro-settled) .project-info {
+    max-width: min(760px, 72vw);
+    padding: clamp(24px, 4vw, 56px);
+    background: color-mix(in srgb, #000 58%, transparent);
+    backdrop-filter: blur(8px);
+    text-shadow: 0 0 24px rgba(0, 0, 0, 0.68);
+}
+
+body.project-video-background-page .project-page-projects {
+    position: relative;
+    z-index: 3;
+}
+
+.project-video-surface {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    gap: 0;
+    background: #000;
+    overflow: hidden;
+    transform: translateZ(-2px);
+    backface-visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 520ms ease;
+}
+
+body.project-video-background-page .project-video-surface {
+    opacity: 1;
+}
+
+body.project-video-background-page.project-video-intro-active .project-video-surface {
+    transition: opacity 900ms ease;
+}
+
+body.project-video-intro-active .project-page-projects {
+    opacity: 0;
+    pointer-events: none;
+}
+
+body.project-video-content-visible .project-page-projects {
+    opacity: 1;
+}
+
+body.project-video-intro-restoring .project-page-projects {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 260ms ease;
+}
+
+body.project-video-intro-restoring .project-video-surface {
+    opacity: 0;
+    transition: opacity 900ms ease;
+}
+
+body.project-video-intro-transitioning .project-video-surface {
+    opacity: 0;
 }
 
 .project-card {
@@ -1510,6 +1595,14 @@ body.bw-mode .gallery-card img,
     transition: opacity 220ms ease, padding 220ms ease, min-height 220ms ease;
 }
 
+@supports (-webkit-touch-callout: none) {
+    .project-page .project-card,
+    .about-page .project-card {
+        contain: layout style;
+        will-change: auto;
+    }
+}
+
 .project-card img {
     max-width: 70%;
     max-height: 50vh;
@@ -1527,6 +1620,16 @@ body.bw-mode .gallery-card img,
     border: none;
     will-change: transform;
     backface-visibility: hidden;
+}
+
+@supports (-webkit-touch-callout: none) {
+    .project-page .project-card img,
+    .project-page .project-card video,
+    .about-page .project-card img,
+    .about-page .project-card video {
+        will-change: auto;
+        backface-visibility: visible;
+    }
 }
 
 .project-card--contained {
@@ -1555,7 +1658,7 @@ body.project-media-focus-active .project-links a {
     cursor: zoom-out;
 }
 
-body.project-media-focus-active .home-projects {
+body.project-media-focus-active .project-page-projects {
     opacity: 0;
     pointer-events: none;
 }
@@ -1822,22 +1925,22 @@ body.bw-mode .project-desc,
    CONTACT PAGE - VIDEO ROOM
    ============================================ */
 
-.contact-video-page .wall {
+:is(.contact-video-page, .project-video-background-page) .wall {
     overflow: hidden;
     border: none !important;
     background-color: #000;
 }
 
-.contact-video-page .wireframe-overlay {
+:is(.contact-video-page, .project-video-background-page) .wireframe-overlay {
     z-index: 30;
 }
 
-.contact-video-page .wireframe-overlay line,
-.contact-video-page .wireframe-overlay polygon {
+:is(.contact-video-page, .project-video-background-page) .wireframe-overlay line,
+:is(.contact-video-page, .project-video-background-page) .wireframe-overlay polygon {
     filter: drop-shadow(0 0 1px var(--bg-color)) drop-shadow(0 0 2px var(--bg-color));
 }
 
-.contact-video-page .zone-content.video-surface {
+:is(.contact-video-page, .project-video-background-page) .zone-content.video-surface {
     position: absolute;
     inset: 0;
     display: block;
@@ -1852,7 +1955,7 @@ body.bw-mode .project-desc,
     backface-visibility: hidden;
 }
 
-.contact-video-page .zone-content.video-surface::after {
+:is(.contact-video-page, .project-video-background-page) .zone-content.video-surface::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -1861,7 +1964,7 @@ body.bw-mode .project-desc,
     z-index: 2;
 }
 
-.contact-video-page .surface-video {
+:is(.contact-video-page, .project-video-background-page) .surface-video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1875,7 +1978,7 @@ body.bw-mode .project-desc,
     z-index: 1;
 }
 
-.contact-video-page .surface-canvas {
+:is(.contact-video-page, .project-video-background-page) .surface-canvas {
     position: absolute;
     inset: 0;
     display: none;
@@ -1886,19 +1989,19 @@ body.bw-mode .project-desc,
 }
 
 /* Slight overscan hides subpixel seams between transformed planes. */
-.contact-video-page .surface-video.is-projected,
-.contact-video-page .surface-canvas.is-projected {
+:is(.contact-video-page, .project-video-background-page) .surface-video.is-projected,
+:is(.contact-video-page, .project-video-background-page) .surface-canvas.is-projected {
     inset: -2px;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
 }
 
-.contact-video-page .surface-video.is-projected {
+:is(.contact-video-page, .project-video-background-page) .surface-video.is-projected {
     opacity: 0.92;
     mix-blend-mode: normal;
 }
 
-.contact-video-page.video-mode-copies .surface-video.is-projected {
+:is(.contact-video-page, .project-video-background-page).video-mode-copies .surface-video.is-projected {
     top: 50%;
     left: 50%;
     width: calc(100vw + 4px);
@@ -1907,27 +2010,27 @@ body.bw-mode .project-desc,
     object-position: center center;
 }
 
-.contact-video-page.video-mode-perspective .surface-video.is-projected {
+:is(.contact-video-page, .project-video-background-page).video-mode-perspective .surface-video.is-projected {
     display: none;
 }
 
-.contact-video-page.video-mode-perspective .surface-canvas.is-projected {
+:is(.contact-video-page, .project-video-background-page).video-mode-perspective .surface-canvas.is-projected {
     display: block;
 }
 
-.contact-video-page.video-mode-perspective .back-content .surface-video.is-flat {
+:is(.contact-video-page, .project-video-background-page).video-mode-perspective .video-surface .surface-video.is-flat {
     display: none;
 }
 
-.contact-video-page.video-mode-perspective .back-content .surface-canvas.is-flat {
+:is(.contact-video-page, .project-video-background-page).video-mode-perspective .video-surface .surface-canvas.is-flat {
     display: block;
 }
 
-.contact-video-page .back-content.video-surface {
+:is(.contact-video-page, .project-video-background-page) .video-surface.is-flat {
     border: none;
 }
 
-.contact-video-page .back-content .surface-video.is-flat {
+:is(.contact-video-page, .project-video-background-page) .video-surface .surface-video.is-flat {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -1937,20 +2040,20 @@ body.bw-mode .project-desc,
     filter: none;
 }
 
-.contact-video-page .left-content,
-.contact-video-page .right-content {
+:is(.contact-video-page, .project-video-background-page) .left-content,
+:is(.contact-video-page, .project-video-background-page) .right-content {
     width: 100%;
     height: 100%;
 }
 
-body.dark-mode.contact-video-page .zone-content.video-surface,
-body.dark-mode.contact-video-page .surface-video,
-:root.dark-mode body.contact-video-page .zone-content.video-surface,
-:root.dark-mode body.contact-video-page .surface-video {
+body.dark-mode:is(.contact-video-page, .project-video-background-page) .zone-content.video-surface,
+body.dark-mode:is(.contact-video-page, .project-video-background-page) .surface-video,
+:root.dark-mode body:is(.contact-video-page, .project-video-background-page) .zone-content.video-surface,
+:root.dark-mode body:is(.contact-video-page, .project-video-background-page) .surface-video {
     background: #000;
 }
 
-body.bw-mode.contact-video-page .surface-video,
-:root.bw-mode body.contact-video-page .surface-video {
+body.bw-mode:is(.contact-video-page, .project-video-background-page) .surface-video,
+:root.bw-mode body:is(.contact-video-page, .project-video-background-page) .surface-video {
     filter: grayscale(1) contrast(1.1);
 }

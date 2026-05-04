@@ -1,5 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
+function initSpaceToSpaceVideoProjection() {
     const body = document.body;
+    if (!body || body.dataset.videoProjectionInitialized === 'true') {
+        return;
+    }
+
     const videos = Array.from(document.querySelectorAll('[data-sync-video]'));
     if (videos.length === 0) {
         return;
@@ -13,6 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!(masterVideo instanceof HTMLVideoElement)) {
         return;
     }
+
+    body.dataset.videoProjectionInitialized = 'true';
 
     const slaveVideos = videos.filter((video) => video !== masterVideo);
     const canvases = {
@@ -41,8 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    const savedMode = localStorage.getItem(STORAGE_KEY);
-    setVideoMode(savedMode === 'true');
+    const shouldUseStorage = body.dataset.videoProjectionStorage !== 'off';
+    const savedMode = shouldUseStorage ? localStorage.getItem(STORAGE_KEY) : null;
+    const defaultPerspective = body.dataset.videoProjectionDefault === 'perspective';
+    setVideoMode(savedMode === null ? defaultPerspective : savedMode === 'true');
 
     function syncVideo(source, target) {
         if (Math.abs(source.currentTime - target.currentTime) > 0.18) {
@@ -330,7 +338,9 @@ document.addEventListener('DOMContentLoaded', () => {
         videoModeToggle.addEventListener('click', () => {
             const isPerspective = !body.classList.contains('video-mode-perspective');
             setVideoMode(isPerspective);
-            localStorage.setItem(STORAGE_KEY, String(isPerspective));
+            if (shouldUseStorage) {
+                localStorage.setItem(STORAGE_KEY, String(isPerspective));
+            }
             drawPerspectiveCanvases();
         });
     }
@@ -358,4 +368,10 @@ document.addEventListener('DOMContentLoaded', () => {
             window.cancelAnimationFrame(rafId);
         }
     });
-});
+}
+
+window.SpaceToSpaceVideoProjection = {
+    init: initSpaceToSpaceVideoProjection
+};
+
+document.addEventListener('DOMContentLoaded', initSpaceToSpaceVideoProjection);

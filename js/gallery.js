@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const outlineNavSelectedCategory = document.querySelector('.outline-nav-selected-category');
     const outlineNavFooter = document.querySelector('.outline-nav-footer');
     const status = document.getElementById('projectMenuStatus');
+    const rootStyle = document.documentElement.style;
 
     const svgLines = {
         tl: document.querySelector('.depth-line.tl'),
@@ -22,7 +23,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const backRect = document.querySelector('.back-rect');
 
     const spacing = 1400;
-    const startOffset = 120;
+    const defaultStartOffset = 120;
+    const tunnelUiGutter = 8;
+    let startOffset = defaultStartOffset;
     const positions = ['pos-center', 'pos-tl', 'pos-tr', 'pos-bl', 'pos-br'];
     const renderedTunnelSegments = 12;
     const maxRenderedScrollDistance = spacing * (renderedTunnelSegments + 2);
@@ -103,20 +106,103 @@ document.addEventListener('DOMContentLoaded', async () => {
         selectedCategory: null
     };
 
+    function getViewportWidth() {
+        return Math.round(window.visualViewport?.width || window.innerWidth);
+    }
+
+    function getViewportHeight() {
+        return Math.round(window.visualViewport?.height || window.innerHeight);
+    }
+
+    function getSceneViewportSize() {
+        const sceneRect = scene?.getBoundingClientRect();
+        const width = sceneRect && sceneRect.width > 0 ? sceneRect.width : getViewportWidth();
+        const height = sceneRect && sceneRect.height > 0 ? sceneRect.height : getViewportHeight();
+        return {
+            width: Math.round(width),
+            height: Math.round(height)
+        };
+    }
+
+    function getMaxElementEdge(selector, side) {
+        const elements = Array.from(document.querySelectorAll(selector));
+        return elements.reduce((edge, element) => {
+            if (!(element instanceof HTMLElement) || element.hidden) {
+                return edge;
+            }
+
+            const rect = element.getBoundingClientRect();
+            if (rect.width <= 0 && rect.height <= 0) {
+                return edge;
+            }
+
+            return side === 'left'
+                ? Math.max(edge, rect.right)
+                : Math.max(edge, getViewportWidth() - rect.left);
+        }, 0);
+    }
+
+    function getResponsiveTunnelInset() {
+        const leftInset = getMaxElementEdge('.side-nav.left a', 'left');
+        const rightInset = getMaxElementEdge('.outline-nav-item:not([hidden]), .outline-nav-category:not([hidden]), .outline-nav-footer', 'right');
+        const inset = Math.max(leftInset, rightInset) + tunnelUiGutter;
+        const viewportWidth = getViewportWidth();
+
+        if (!Number.isFinite(inset) || inset <= 0 || inset >= viewportWidth / 2) {
+            return null;
+        }
+
+        return inset;
+    }
+
+    function getStartOffsetForTunnelInset(inset) {
+        const viewportWidth = getViewportWidth();
+        const denominator = viewportWidth - inset * 2;
+
+        if (!Number.isFinite(denominator) || denominator <= 0) {
+            return defaultStartOffset;
+        }
+
+        return Math.max(defaultStartOffset, Math.round((2 * inset * introConfig.endPerspective) / denominator));
+    }
+
+    function syncResponsiveStartOffset() {
+        const tunnelInset = getResponsiveTunnelInset();
+        const nextStartOffset = tunnelInset === null
+            ? defaultStartOffset
+            : getStartOffsetForTunnelInset(tunnelInset);
+
+        if (!Number.isFinite(nextStartOffset) || Math.abs(startOffset - nextStartOffset) < 0.5) {
+            return false;
+        }
+
+        startOffset = nextStartOffset;
+        return true;
+    }
+
     const state = {
         scrollZ: 0,
         targetScrollZ: 0,
         maxScroll: 0,
         roomDepth: 7000,
         roomZ: 0,
-        roomHeight: window.innerHeight,
-        viewportWidth: window.innerWidth,
-        viewportHeight: window.innerHeight,
+        roomHeight: getViewportHeight(),
+        viewportWidth: getViewportWidth(),
+        viewportHeight: getViewportHeight(),
         scenePerspective: introConfig.endPerspective,
         introActive: Boolean(body && scene && intro && introTitle && shouldPlayIntro),
         introAnimationDone: false
     };
 
+    function syncGalleryViewportSize() {
+        rootStyle.setProperty('--app-height', `${getViewportHeight()}px`);
+        const sceneSize = getSceneViewportSize();
+        state.roomHeight = sceneSize.height;
+        state.viewportWidth = sceneSize.width;
+        state.viewportHeight = sceneSize.height;
+    }
+
+    syncGalleryViewportSize();
     body.classList.toggle('dark-mode', document.documentElement.classList.contains('dark-mode'));
 
     try {
@@ -126,6 +212,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         projects = eligibleWorks.map((work, index) => ({
             slug: work.slug,
             title: work.title || `Project ${index + 1}`,
+            author: work.author || '',
             category: typeof work.category === 'string'
                 ? work.category.trim()
                 : '',
@@ -135,7 +222,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             menuAssetBytesHuman: typeof work.menuAssetBytesHuman === 'string' ? work.menuAssetBytesHuman : 'size unavailable',
             menuAssetIsR2: isR2AssetPath(work.menuAsset),
             position: positions[index % positions.length],
-            url: `project.html?slug=${encodeURIComponent(work.slug)}`
+            url: `home.html?slug=${encodeURIComponent(work.slug)}`
         }));
 
         if (projects.length === 0) {
@@ -295,11 +382,18 @@ document.addEventListener('DOMContentLoaded', async () => {
             card.dataset.filterTransitionState = 'visible';
 
             const media = createGalleryMedia(project);
+            const meta = document.createElement('div');
+            meta.className = 'gallery-card-meta';
             const title = document.createElement('h2');
             title.textContent = project.title;
+            const author = document.createElement('p');
+            author.className = 'gallery-card-author';
+            author.textContent = project.author;
 
             card.appendChild(media.shell);
-            card.appendChild(title);
+            meta.appendChild(title);
+            meta.appendChild(author);
+            card.appendChild(meta);
             partition.appendChild(card);
             room.insertBefore(partition, backWall);
             const plane = {
@@ -1131,7 +1225,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const visibleEntries = getVisibleOutlineEntries();
         const itemCount = Math.max(visibleEntries.length, 1);
-        const viewportHeight = window.innerHeight;
+        const viewportHeight = state.viewportHeight;
         const totalMaxHeight = Math.max(
             outlineNavConfig.itemHeight,
             (viewportHeight - outlineNavConfig.viewportMargin) * outlineNavConfig.maxHeightRatio
@@ -1241,6 +1335,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             };
         });
 
+        syncResponsiveStartOffset();
         applyGalleryCategoryFilter({ revealState: state.introActive ? 'hidden' : 'visible' });
         pingGalleryOutlineNav();
         updateGalleryOutlineNavActive();
@@ -1367,8 +1462,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
-        const width = state.viewportWidth;
-        const height = state.viewportHeight;
+        const sceneSize = getSceneViewportSize();
+        const width = sceneSize.width;
+        const height = sceneSize.height;
+        state.viewportWidth = width;
+        state.viewportHeight = height;
+        state.roomHeight = height;
         const perspective = state.scenePerspective;
         const backWallProjection = projectPlaneToViewport(
             state.roomZ - (state.roomDepth / 2),
@@ -1382,6 +1481,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
+        wireframeOverlay?.setAttribute('viewBox', `0 0 ${width} ${height}`);
         setLine(svgLines.tl, 0, 0, backWallProjection.left, backWallProjection.top);
         setLine(svgLines.tr, width, 0, backWallProjection.right, backWallProjection.top);
         setLine(svgLines.bl, 0, height, backWallProjection.left, backWallProjection.bottom);
@@ -1399,10 +1499,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         line.setAttribute('y2', y2);
     }
 
-    window.addEventListener('resize', () => {
-        state.roomHeight = window.innerHeight;
-        state.viewportWidth = window.innerWidth;
-        state.viewportHeight = window.innerHeight;
+    function handleViewportResize() {
+        syncGalleryViewportSize();
+        syncResponsiveStartOffset();
         updateGalleryOutlineNavLayout();
         refreshGalleryScene({
             forceMedia: true,
@@ -1410,7 +1509,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             forceOutline: true,
             includeWireframe: true
         });
-    });
+    }
+
+    window.addEventListener('resize', handleViewportResize);
+    window.visualViewport?.addEventListener('resize', handleViewportResize);
 
 });
 

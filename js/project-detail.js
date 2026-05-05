@@ -1,3 +1,6 @@
+let projectContentResizeObserver = null;
+let projectContentMetricsFrame = null;
+
 document.addEventListener('DOMContentLoaded', async () => {
     const containers = Array.from(document.querySelectorAll('.project-page-projects'));
     if (containers.length === 0) {
@@ -72,6 +75,8 @@ function renderProject(project, containers) {
 
     bindProjectInteractions(containers);
     playVisibleProjectVideos();
+    watchProjectContentMetrics(containers);
+    scheduleProjectContentMetricsRefresh();
 }
 
 function normalizeVisualAssets(project) {
@@ -133,7 +138,7 @@ function createVisualCard(asset, label) {
     const article = document.createElement('article');
     article.className = 'project-card project-card--image-only';
     article.dataset.navLabel = label;
-    article.appendChild(createMediaElement(asset, `Project ${label.toLowerCase()}`, false));
+    article.appendChild(createMediaElement(asset, `Project ${label.toLowerCase()}`));
     return article;
 }
 
@@ -295,7 +300,7 @@ function syncVideoProjectionDepth(isVideoBackground) {
     depthSlider.dispatchEvent(new Event('input', { bubbles: true }));
 }
 
-function createMediaElement(asset, altText, isGrid) {
+function createMediaElement(asset, altText) {
     const frame = document.createElement('div');
     frame.className = 'project-media-frame project-focus-trigger';
     frame.setAttribute('role', 'button');
@@ -329,11 +334,49 @@ function createMediaElement(asset, altText, isGrid) {
     const img = document.createElement('img');
     img.src = asset.path;
     img.alt = altText;
-    img.loading = isGrid ? 'eager' : 'lazy';
+    img.loading = 'eager';
     img.decoding = 'async';
     img.className = 'project-media';
     frame.appendChild(img);
     return frame;
+}
+
+function watchProjectContentMetrics(containers) {
+    if (projectContentResizeObserver) {
+        projectContentResizeObserver.disconnect();
+    }
+
+    projectContentResizeObserver = typeof ResizeObserver === 'function'
+        ? new ResizeObserver(scheduleProjectContentMetricsRefresh)
+        : null;
+
+    containers.forEach((container) => {
+        if (projectContentResizeObserver) {
+            projectContentResizeObserver.observe(container);
+        }
+
+        container.querySelectorAll('img, video').forEach((element) => {
+            element.addEventListener('load', scheduleProjectContentMetricsRefresh, { once: true });
+            element.addEventListener('error', scheduleProjectContentMetricsRefresh, { once: true });
+            element.addEventListener('loadedmetadata', scheduleProjectContentMetricsRefresh, { once: true });
+        });
+    });
+}
+
+function scheduleProjectContentMetricsRefresh() {
+    if (projectContentMetricsFrame !== null) {
+        return;
+    }
+
+    projectContentMetricsFrame = window.requestAnimationFrame(() => {
+        projectContentMetricsFrame = null;
+        if (
+            window.SpaceToSpaceProjectDetail
+            && typeof window.SpaceToSpaceProjectDetail.refreshContentMetrics === 'function'
+        ) {
+            window.SpaceToSpaceProjectDetail.refreshContentMetrics();
+        }
+    });
 }
 
 function createMediaDebugOverlay(assetPath, options = {}) {

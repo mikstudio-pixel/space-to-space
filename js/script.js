@@ -31,31 +31,36 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const backRect = document.querySelector('.back-rect');
 
-    // Check if we're on practice scene, home page or contact page
-    const isPracticeScene = document.querySelector('.practice-scene') !== null;
-    const isHomePage = window.location.pathname.includes('home.html');
-    const isAboutPage = window.location.pathname.includes('about.html');
-    const isContactPage = window.location.pathname.includes('contact.html');
+    // Page roles are declared by markup so filenames can change without breaking behavior.
+    const pageName = body?.dataset.page || '';
+    const isProjectPage = pageName === 'project' || body.classList.contains('project-page');
+    const isAboutPage = pageName === 'about' || body.classList.contains('about-page');
+    const isContactPage = pageName === 'project-video' || body.classList.contains('contact-video-page');
 
-    function getViewportSize() {
-        const visualViewport = window.visualViewport;
-        return {
-            width: Math.round(visualViewport?.width || window.innerWidth),
-            height: Math.round(visualViewport?.height || window.innerHeight)
-        };
+    function getViewportHeight() {
+        return Math.round(window.visualViewport?.height || window.innerHeight);
     }
 
+    function getViewportWidth() {
+        return Math.round(window.visualViewport?.width || window.innerWidth);
+    }
+
+    const DEFAULT_ROOM_DEPTH = parseInt(depthSlider.value, 10);
+    const TUNNEL_UI_GUTTER = 8;
+
     let state = {
-        roomDepth: parseInt(depthSlider.value),
-        roomHeight: getViewportSize().height, // Kept in sync with CSS --app-height
+        roomDepth: getInitialRoomDepth(),
+        roomHeight: getViewportHeight(),
         scrollPos: 0,
         maxScroll: 5000,
-        initialRoomDepth: parseInt(depthSlider.value), // Store initial depth for practice scene
         introAnimationDone: false
     };
+    let targetScroll = 0;
+    // Cached content height is shared by project and about centering/clamping.
+    let baseContentHeight = null;
     const frontViewState = {
         isActive: false,
-        restoreDepth: parseInt(depthSlider.value, 10),
+        restoreDepth: state.roomDepth,
         animationFrame: null,
         suppressSync: false
     };
@@ -75,29 +80,142 @@ document.addEventListener('DOMContentLoaded', () => {
         cardCache: new WeakMap(),
         updateTimer: null
     };
-    const homeOutlineState = {
+    const projectOutlineState = {
         sections: [],
         activeIndex: -1,
         idleTimer: null
     };
-    const homeProjectIntroState = {
+    const projectIntroState = {
         animationFrame: null
     };
+    const VIDEO_INTRO_START_DEPTH = 1000;
+    const VIDEO_INTRO_END_DEPTH = 120;
+    const VIDEO_INTRO_FADE_BEFORE_ZOOM_MS = 360;
+    const VIDEO_INTRO_CONTENT_FADE_OUT_MS = 260;
+    const VIDEO_INTRO_NEAR_TOP_RESTORE_PX = 32;
+    const projectVideoIntroState = {
+        isTransitioning: false,
+        fadeStarted: false,
+        revealScroll: 0,
+        fadeTimer: null,
+        ignoreForwardUntil: 0,
+        restoreHintActive: false,
+        restoreHintArmed: false,
+        restoreHintPendingTop: false,
+        restoreHintBaseDepth: getProjectVideoIntroEndDepth(),
+        restoreHintOffset: 0,
+        restoreHintReleaseTimer: null
+    };
+    const aboutLogoState = {
+        offset: 0,
+        targetOffset: 0,
+        wrapWidth: 0,
+        lastFrameTime: 0
+    };
+    const ABOUT_LOGO_AUTO_SPEED_PER_SECOND = 42;
+    const ABOUT_LOGO_SCROLL_MULTIPLIER = 0.72;
     const tintCanvas = document.createElement('canvas');
     const tintContext = tintCanvas.getContext('2d', { willReadFrequently: true });
 
-    function syncViewportMetrics() {
-        const { height } = getViewportSize();
-        state.roomHeight = height;
-        rootStyle.setProperty('--app-height', `${height}px`);
-        rootStyle.setProperty('--back-content-offset', `${height}px`);
-        rootStyle.setProperty('--ceiling-content-offset', `${state.roomDepth + height}px`);
+    function getScenePerspective() {
+        const computedPerspective = scene ? parseFloat(window.getComputedStyle(scene).perspective) : Number.NaN;
+        return Number.isFinite(computedPerspective) && computedPerspective > 0 ? computedPerspective : 1200;
+    }
+
+    function getMaxElementEdge(selector, side) {
+        const elements = Array.from(document.querySelectorAll(selector));
+        return elements.reduce((edge, element) => {
+            if (!(element instanceof HTMLElement) || element.hidden) {
+                return edge;
+            }
+
+            const rect = element.getBoundingClientRect();
+            if (rect.width <= 0 && rect.height <= 0) {
+                return edge;
+            }
+
+            return side === 'left'
+                ? Math.max(edge, rect.right)
+                : Math.max(edge, getViewportWidth() - rect.left);
+        }, 0);
+    }
+
+    function getResponsiveTunnelInset() {
+        if (!(isProjectPage || isAboutPage)) {
+            return null;
+        }
+
+        const leftInset = getMaxElementEdge('.side-nav.left a', 'left');
+        const rightInset = getMaxElementEdge('.outline-nav-item:not([hidden]), .outline-nav-category:not([hidden]), .outline-nav-footer', 'right');
+        const inset = Math.max(leftInset, rightInset) + TUNNEL_UI_GUTTER;
+        const viewportWidth = getViewportWidth();
+
+        if (!Number.isFinite(inset) || inset <= 0 || inset >= viewportWidth / 2) {
+            return null;
+        }
+
+        return inset;
+    }
+
+    function getRoomDepthForTunnelInset(inset) {
+        const viewportWidth = getViewportWidth();
+        const perspective = getScenePerspective();
+        const denominator = viewportWidth - inset * 2;
+
+        if (!Number.isFinite(denominator) || denominator <= 0) {
+            return DEFAULT_ROOM_DEPTH;
+        }
+
+        return Math.max(DEFAULT_ROOM_DEPTH, Math.round((2 * inset * perspective) / denominator));
+    }
+
+    function getSettledRoomDepth() {
+        const tunnelInset = getResponsiveTunnelInset();
+        return tunnelInset === null ? DEFAULT_ROOM_DEPTH : getRoomDepthForTunnelInset(tunnelInset);
+    }
+
+    function getProjectVideoIntroEndDepth() {
+        return isProjectPage ? getSettledRoomDepth() : VIDEO_INTRO_END_DEPTH;
+    }
+
+    function getInitialRoomDepth() {
+        return getSettledRoomDepth();
+    }
+
+    function syncResponsiveRoomDepth() {
+        if (
+            !(isProjectPage || isAboutPage)
+            || frontViewState.isActive
+            || projectMediaFocusState.activeSrc
+            || projectVideoIntroState.isTransitioning
+            || body.classList.contains('project-video-intro-active')
+            || body.classList.contains('project-video-intro-restoring')
+        ) {
+            return;
+        }
+
+        const nextDepth = getSettledRoomDepth();
+        if (!Number.isFinite(nextDepth) || Math.abs(state.roomDepth - nextDepth) < 0.5) {
+            return;
+        }
+
+        frontViewState.suppressSync = true;
+        depthSlider.value = String(nextDepth);
+        updateRoomDepth(nextDepth);
+        frontViewState.suppressSync = false;
+        frontViewState.restoreDepth = nextDepth;
+        baseContentHeight = null;
     }
 
     // Check if wireframe is visible
     const wireframeOverlay = document.querySelector('.wireframe-overlay');
     const isWireframeVisible = wireframeOverlay && 
         window.getComputedStyle(wireframeOverlay).display !== 'none';
+
+    function syncAppViewportHeight() {
+        state.roomHeight = getViewportHeight();
+        rootStyle.setProperty('--app-height', `${state.roomHeight}px`);
+    }
 
     function refreshWireframe() {
         if (!isWireframeVisible) {
@@ -421,14 +539,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getProjectMediaFocusTargetRect() {
-        const viewport = getViewportSize();
-        const insetX = Math.max(48, Math.round(viewport.width * 0.08));
-        const insetY = Math.max(48, Math.round(viewport.height * 0.08));
+        const insetX = Math.max(48, Math.round(window.innerWidth * 0.08));
+        const insetY = Math.max(48, Math.round(window.innerHeight * 0.08));
         return {
             left: insetX,
             top: insetY,
-            width: Math.max(0, viewport.width - insetX * 2),
-            height: Math.max(0, viewport.height - insetY * 2)
+            width: Math.max(0, window.innerWidth - insetX * 2),
+            height: Math.max(0, window.innerHeight - insetY * 2)
         };
     }
 
@@ -475,7 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function focusProjectMedia({ kind, src, label, trigger }) {
-        if (!isHomePage || !src) {
+        if (!isProjectPage || !src) {
             return;
         }
 
@@ -571,9 +688,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getVisibleArea(rect) {
-        const viewport = getViewportSize();
-        const width = Math.max(0, Math.min(rect.right, viewport.width) - Math.max(rect.left, 0));
-        const height = Math.max(0, Math.min(rect.bottom, viewport.height) - Math.max(rect.top, 0));
+        const width = Math.max(0, Math.min(rect.right, window.innerWidth) - Math.max(rect.left, 0));
+        const height = Math.max(0, Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0));
         return width * height;
     }
 
@@ -797,21 +913,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function scheduleDynamicTintUpdate() {
-        if (!isHomePage) {
+        if (!isProjectPage) {
             return;
         }
-        /* Home má pevné černé pozadí (style.css); žádné tintování podle obrázků */
+        /* Detail projektu má pevné černé pozadí (style.css); žádné tintování podle obrázků */
     }
 
     function initDynamicTint() {
-        if (!isHomePage || !backContent) {
+        if (!isProjectPage || !backContent) {
             return;
         }
 
         applyDynamicTint(null);
     }
 
-    function getHomeSectionLabel(card, index) {
+    function getProjectSectionLabel(card, index) {
         const explicitLabel = card.dataset.navLabel;
         if (explicitLabel) {
             return explicitLabel;
@@ -826,68 +942,68 @@ document.addEventListener('DOMContentLoaded', () => {
         return alt || `Section ${index + 1}`;
     }
 
-    function pingHomeOutlineNav() {
+    function pingProjectOutlineNav() {
         if (!outlineNav) {
             return;
         }
 
         outlineNav.classList.add('is-engaged');
-        if (homeOutlineState.idleTimer !== null) {
-            window.clearTimeout(homeOutlineState.idleTimer);
+        if (projectOutlineState.idleTimer !== null) {
+            window.clearTimeout(projectOutlineState.idleTimer);
         }
-        homeOutlineState.idleTimer = window.setTimeout(() => {
+        projectOutlineState.idleTimer = window.setTimeout(() => {
             outlineNav.classList.remove('is-engaged');
-            homeOutlineState.idleTimer = null;
+            projectOutlineState.idleTimer = null;
         }, 1200);
     }
 
-    function updateHomeOutlineNavActive() {
-        if (!isHomePage || homeOutlineState.sections.length === 0) {
+    function updateProjectOutlineNavActive() {
+        if (!isProjectPage || projectOutlineState.sections.length === 0) {
             return;
         }
 
         let activeIndex = 0;
         let nearestDistance = Number.POSITIVE_INFINITY;
 
-        homeOutlineState.sections.forEach((section, index) => {
+        projectOutlineState.sections.forEach((section, index) => {
             const rect = section.card.getBoundingClientRect();
             const center = rect.top + rect.height / 2;
-            const distance = Math.abs(center - state.roomHeight / 2);
+            const distance = Math.abs(center - window.innerHeight / 2);
             if (distance < nearestDistance) {
                 nearestDistance = distance;
                 activeIndex = index;
             }
         });
 
-        if (homeOutlineState.activeIndex === activeIndex) {
+        if (projectOutlineState.activeIndex === activeIndex) {
             return;
         }
 
-        homeOutlineState.activeIndex = activeIndex;
-        homeOutlineState.sections.forEach((section, index) => {
+        projectOutlineState.activeIndex = activeIndex;
+        projectOutlineState.sections.forEach((section, index) => {
             section.button.classList.toggle('is-active', index === activeIndex);
         });
     }
 
-    function buildHomeOutlineNav() {
-        if (!isHomePage || !outlineNavItems || !backContent) {
+    function buildProjectOutlineNav() {
+        if (!isProjectPage || !outlineNavItems || !backContent) {
             return;
         }
 
         const cards = Array.from(backContent.querySelectorAll('.project-card'));
         outlineNavItems.innerHTML = '';
-        homeOutlineState.sections = cards.map((card, index) => {
+        projectOutlineState.sections = cards.map((card, index) => {
             const button = document.createElement('button');
             button.type = 'button';
             button.className = 'outline-nav-item';
-            button.setAttribute('aria-label', getHomeSectionLabel(card, index));
+            button.setAttribute('aria-label', getProjectSectionLabel(card, index));
 
             const line = document.createElement('span');
             line.className = 'outline-nav-line';
 
             const label = document.createElement('span');
             label.className = 'outline-nav-label';
-            label.textContent = getHomeSectionLabel(card, index);
+            label.textContent = getProjectSectionLabel(card, index);
 
             button.appendChild(line);
             button.appendChild(label);
@@ -900,37 +1016,148 @@ document.addEventListener('DOMContentLoaded', () => {
 
             button.addEventListener('click', () => {
                 const rect = card.getBoundingClientRect();
-                const desiredTop = Math.max(40, state.roomHeight * 0.12);
+                const desiredTop = Math.max(40, window.innerHeight * 0.12);
                 targetScroll = state.scrollPos + (rect.top - desiredTop);
                 clampTargetScroll();
-                pingHomeOutlineNav();
-                updateHomeOutlineNavActive();
+                pingProjectOutlineNav();
+                updateProjectOutlineNavActive();
             });
 
             return section;
         });
 
-        pingHomeOutlineNav();
-        updateHomeOutlineNavActive();
+        pingProjectOutlineNav();
+        updateProjectOutlineNavActive();
     }
 
-    function refreshHomeProjectLayout() {
-        if (!isHomePage) {
+    function refreshProjectDetailLayout() {
+        if (!isProjectPage) {
             return;
         }
 
         baseContentHeight = null;
         targetScroll = 0;
         state.scrollPos = 0;
-        homeOutlineState.activeIndex = -1;
+        projectOutlineState.activeIndex = -1;
         tintState.imageCache = new WeakMap();
         tintState.cardCache = new WeakMap();
 
         updateContentPositions();
         refreshWireframe();
         initDynamicTint();
-        buildHomeOutlineNav();
+        buildProjectOutlineNav();
+        syncResponsiveRoomDepth();
+        centerFirstProjectCompositionItem();
         scheduleDynamicTintUpdate();
+    }
+
+    function refreshProjectContentMetrics() {
+        if (!isProjectPage) {
+            return;
+        }
+
+        baseContentHeight = null;
+        clampTargetScroll();
+        updateContentPositions();
+        refreshWireframe();
+        buildProjectOutlineNav();
+    }
+
+    function centerFirstAboutCompositionItem() {
+        if (!isAboutPage || !backContent) {
+            return;
+        }
+
+        const firstCard = backContent.querySelector('.about-card');
+        if (!(firstCard instanceof HTMLElement)) {
+            return;
+        }
+
+        const anchor = firstCard.querySelector('.about-info') || firstCard;
+        targetScroll = getScrollToCenterElement(anchor);
+        clampTargetScroll();
+        state.scrollPos = targetScroll;
+        updateContentPositions();
+        refreshWireframe();
+    }
+
+    function measureAboutLogoWrapWidth() {
+        if (!isAboutPage) {
+            return;
+        }
+
+        const track = document.querySelector('.about-logo-track');
+        const firstLogo = track?.querySelector('img');
+        if (!(track instanceof HTMLElement) || !(firstLogo instanceof HTMLElement)) {
+            aboutLogoState.wrapWidth = 0;
+            document.documentElement.style.setProperty('--about-logo-wrap-width', '0px');
+            return;
+        }
+
+        aboutLogoState.wrapWidth = firstLogo.getBoundingClientRect().width;
+        document.documentElement.style.setProperty('--about-logo-wrap-width', `${aboutLogoState.wrapWidth}px`);
+
+        const primaryMarquee = backContent?.querySelector('.about-logo-marquee');
+        if (primaryMarquee instanceof HTMLElement) {
+            const logoCenterY = (
+                getElementOffsetTop(primaryMarquee)
+                - getElementOffsetTop(backContent)
+                + primaryMarquee.offsetHeight / 2
+                + state.roomHeight
+                - state.scrollPos
+            );
+            document.documentElement.style.setProperty('--about-logo-plane-center-y', `${logoCenterY}px`);
+        }
+    }
+
+    function getElementOffsetTop(element) {
+        let offsetTop = 0;
+        let current = element;
+
+        while (current instanceof HTMLElement) {
+            offsetTop += current.offsetTop;
+            current = current.offsetParent;
+        }
+
+        return offsetTop;
+    }
+
+    function applyAboutHorizontalScroll(deltaY) {
+        if (!isAboutPage) {
+            return;
+        }
+
+        aboutLogoState.targetOffset = Math.max(
+            0,
+            aboutLogoState.targetOffset + deltaY * ABOUT_LOGO_SCROLL_MULTIPLIER
+        );
+    }
+
+    function updateAboutLogoMarquee(now = performance.now()) {
+        if (!isAboutPage) {
+            return;
+        }
+
+        if (aboutLogoState.wrapWidth <= 0) {
+            measureAboutLogoWrapWidth();
+        }
+
+        const previousFrameTime = aboutLogoState.lastFrameTime || now;
+        const elapsedSeconds = Math.min(Math.max((now - previousFrameTime) / 1000, 0), 0.08);
+        const smoothing = 1 - Math.pow(0.88, elapsedSeconds * 60);
+
+        aboutLogoState.lastFrameTime = now;
+        aboutLogoState.targetOffset += ABOUT_LOGO_AUTO_SPEED_PER_SECOND * elapsedSeconds;
+        aboutLogoState.offset += (aboutLogoState.targetOffset - aboutLogoState.offset) * smoothing;
+
+        if (aboutLogoState.wrapWidth > 0 && aboutLogoState.offset > aboutLogoState.wrapWidth * 4) {
+            const resetDistance = Math.floor(aboutLogoState.offset / aboutLogoState.wrapWidth) * aboutLogoState.wrapWidth;
+            aboutLogoState.offset -= resetDistance;
+            aboutLogoState.targetOffset = Math.max(0, aboutLogoState.targetOffset - resetDistance);
+        }
+
+        document.documentElement.style.setProperty('--about-logo-scroll', `${aboutLogoState.offset}px`);
+        document.documentElement.style.setProperty('--about-logo-offset', `${-aboutLogoState.offset}px`);
     }
 
     function waitForProjectIntroMedia(grid) {
@@ -989,94 +1216,124 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    async function playHomeProjectIntro() {
-        if (!isHomePage || !backContent) {
+    async function playProjectIntro() {
+        if (!isProjectPage || !backContent) {
             return;
         }
 
-        if (homeProjectIntroState.animationFrame !== null) {
-            cancelAnimationFrame(homeProjectIntroState.animationFrame);
-            homeProjectIntroState.animationFrame = null;
+        if (projectIntroState.animationFrame !== null) {
+            cancelAnimationFrame(projectIntroState.animationFrame);
+            projectIntroState.animationFrame = null;
         }
 
-        const leadGrid = backContent.querySelector('.project-media-grid');
-        if (!(leadGrid instanceof HTMLElement)) {
+        const firstCard = backContent.querySelector('.project-card');
+        if (!(firstCard instanceof HTMLElement)) {
             return;
         }
 
-        const firstStandaloneAsset = backContent.querySelector('.project-card--image-only');
-        await Promise.all([
-            waitForProjectIntroMedia(leadGrid),
-            firstStandaloneAsset instanceof HTMLElement ? waitForProjectIntroMedia(firstStandaloneAsset) : Promise.resolve()
-        ]);
+        await waitForProjectIntroMedia(firstCard);
 
         requestAnimationFrame(() => {
             requestAnimationFrame(() => {
-                const rect = leadGrid.getBoundingClientRect();
-                const desiredCenter = Math.max(140, state.roomHeight * 0.5 - 200);
-                const gridCenter = rect.top + rect.height / 2;
-                const finalScroll = Math.max(0, state.scrollPos + (gridCenter - desiredCenter));
-                let startScroll = finalScroll + Math.max(420, state.roomHeight * 0.48);
-
-                if (firstStandaloneAsset instanceof HTMLElement) {
-                    const firstAssetRect = firstStandaloneAsset.getBoundingClientRect();
-                    const desiredAssetBottom = state.roomHeight - Math.max(32, state.roomHeight * 0.06);
-                    const assetAnchoredScroll = Math.max(0, state.scrollPos + (firstAssetRect.bottom - desiredAssetBottom));
-                    startScroll = Math.max(startScroll, assetAnchoredScroll);
-                }
-
-                const introDuration = 1800;
-                const startTime = performance.now();
-
-                state.scrollPos = startScroll;
-                targetScroll = startScroll;
-                clampTargetScroll();
-                updateContentPositions();
-                refreshWireframe();
-                updateHomeOutlineNavActive();
-
-                function step(now) {
-                    const progress = Math.min((now - startTime) / introDuration, 1);
-                    const eased = easeInOutCubic(progress);
-                    const currentScroll = startScroll + (finalScroll - startScroll) * eased;
-
-                    state.scrollPos = currentScroll;
-                    targetScroll = currentScroll;
-                    clampTargetScroll();
-                    updateContentPositions();
-                    refreshWireframe();
-                    updateHomeOutlineNavActive();
-
-                    if (progress < 1) {
-                        homeProjectIntroState.animationFrame = requestAnimationFrame(step);
-                        return;
-                    }
-
-                    homeProjectIntroState.animationFrame = null;
-                    state.scrollPos = finalScroll;
-                    targetScroll = finalScroll;
-                    clampTargetScroll();
-                    updateContentPositions();
-                    refreshWireframe();
-                    pingHomeOutlineNav();
-                    updateHomeOutlineNavActive();
-                }
-
-                homeProjectIntroState.animationFrame = requestAnimationFrame(step);
+                centerFirstProjectCompositionItem();
+                pingProjectOutlineNav();
             });
         });
     }
 
-    if (isHomePage) {
-        window.SpaceToSpaceHome = {
-            refresh: refreshHomeProjectLayout,
+    function getScrollToCenterElement(element) {
+        const rect = element.getBoundingClientRect();
+        const elementCenter = rect.top + rect.height / 2;
+        const viewportCenter = window.innerHeight / 2;
+        return Math.max(0, state.scrollPos + (elementCenter - viewportCenter));
+    }
+
+    function getProjectMinimumScroll() {
+        if (
+            !isProjectPage
+            || !backContent
+            || body.classList.contains('project-video-intro-active')
+            || body.classList.contains('project-video-intro-restoring')
+        ) {
+            return 0;
+        }
+
+        const firstCard = backContent.querySelector('.project-card');
+        if (!(firstCard instanceof HTMLElement)) {
+            return 0;
+        }
+
+        return getScrollToCenterElement(getProjectCompositionAnchor(firstCard));
+    }
+
+    function centerFirstProjectCompositionItem() {
+        if (!isProjectPage || !backContent) {
+            return;
+        }
+
+        const firstCard = backContent.querySelector('.project-card');
+        if (!(firstCard instanceof HTMLElement)) {
+            return;
+        }
+
+        targetScroll = getScrollToCenterElement(getProjectCompositionAnchor(firstCard));
+        clampTargetScroll();
+        state.scrollPos = targetScroll;
+        updateContentPositions();
+        refreshWireframe();
+        updateProjectOutlineNavActive();
+    }
+
+    function getProjectCompositionAnchor(card) {
+        const info = card.querySelector('.project-info');
+        if (card.classList.contains('project-card--contained') && info instanceof HTMLElement) {
+            return info;
+        }
+
+        return card;
+    }
+
+    function getProjectFirstCardCenteredScrollAtDepth(depth) {
+        if (!isProjectPage || !backContent) {
+            return targetScroll;
+        }
+
+        const firstCard = backContent.querySelector('.project-card');
+        if (!(firstCard instanceof HTMLElement)) {
+            return targetScroll;
+        }
+
+        const restoreDepth = parseFloat(depthSlider.value);
+        const restoreScroll = state.scrollPos;
+        const restoreTargetScroll = targetScroll;
+
+        setDepthSliderValue(depth);
+        state.scrollPos = restoreTargetScroll;
+        updateContentPositions();
+
+        const centeredScroll = getScrollToCenterElement(getProjectCompositionAnchor(firstCard));
+
+        setDepthSliderValue(restoreDepth);
+        targetScroll = restoreTargetScroll;
+        state.scrollPos = restoreScroll;
+        updateContentPositions();
+        refreshWireframe();
+
+        return centeredScroll;
+    }
+
+    if (isProjectPage) {
+        window.SpaceToSpaceProjectDetail = {
+            refresh: refreshProjectDetailLayout,
+            refreshContentMetrics: refreshProjectContentMetrics,
             focusMedia: focusProjectMedia,
-            playIntro: playHomeProjectIntro
+            playIntro: playProjectIntro
         };
     }
 
     // Initial setup
-    syncViewportMetrics();
+    syncAppViewportHeight();
+    depthSlider.value = String(state.roomDepth);
     updateRoomDepth(state.roomDepth);
     
     // Initial positions - start with first item visible
@@ -1084,17 +1341,17 @@ document.addEventListener('DOMContentLoaded', () => {
     updateContentPositions();
     refreshWireframe();
     initDynamicTint();
-    buildHomeOutlineNav();
+    buildProjectOutlineNav();
+    syncResponsiveRoomDepth();
+    if (isAboutPage) {
+        centerFirstAboutCompositionItem();
+        measureAboutLogoWrapWidth();
+    }
 
     // Intro Animation - different types based on page
-    if (!isHomePage && !isAboutPage && !isContactPage) {
-        if (isPracticeScene) {
-            // Practice: pouze oddálení
-            performPracticeIntroAnimation();
-        } else {
-            // Index: plná animace s scrollem
-            performIntroAnimation();
-        }
+    if (!isProjectPage && !isAboutPage && !isContactPage) {
+        // Index: plná animace s scrollem
+        performIntroAnimation();
     }
 
     body.classList.toggle('dark-mode', document.documentElement.classList.contains('dark-mode'));
@@ -1169,23 +1426,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function handleViewportResize() {
-        syncViewportMetrics();
+        syncAppViewportHeight();
+        syncResponsiveRoomDepth();
         if (projectMediaFocusState.shell instanceof HTMLElement && projectMediaFocusState.activeSrc) {
             applyProjectMediaFocusRect(projectMediaFocusState.shell, getProjectMediaFocusTargetRect());
         }
         updateContentPositions(); // Immediate update on resize
         refreshWireframe();
         scheduleDynamicTintUpdate();
-        buildHomeOutlineNav();
+        buildProjectOutlineNav();
+        if (isAboutPage) {
+            baseContentHeight = null;
+            centerFirstAboutCompositionItem();
+            measureAboutLogoWrapWidth();
+        }
     }
 
     window.addEventListener('resize', handleViewportResize);
-    if (window.visualViewport) {
-        window.visualViewport.addEventListener('resize', handleViewportResize);
-    }
+    window.visualViewport?.addEventListener('resize', handleViewportResize);
 
     // Custom Scroll Logic (mouse wheel + touch swipe)
-    let targetScroll = 0;
     let lastTouchY = null;
     const touchMultiplier = 2; // Slightly higher to compensate for shorter swipe travel
 
@@ -1198,9 +1458,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return 5000; // Fallback
     }
 
-    // Store initial content height to use as fixed reference
-    let baseContentHeight = null;
-    
     function clampTargetScroll() {
         // Calculate maxScroll based on actual content height
         // The content flows: floor -> back wall -> ceiling
@@ -1216,28 +1473,304 @@ document.addEventListener('DOMContentLoaded', () => {
         // The 2x multiplier accounts for the content appearing on floor, back wall, and ceiling
         const maxScroll = baseContentHeight * 2 + state.roomHeight * 2;
         
-        if (targetScroll < 0) targetScroll = 0;
+        const minScroll = getProjectMinimumScroll();
+        if (targetScroll < minScroll) targetScroll = minScroll;
         if (targetScroll > maxScroll) targetScroll = maxScroll;
     }
     
-    function resetBaseContentHeight() {
+    // Recalculate base content height on window resize
+    window.addEventListener('resize', () => {
         baseContentHeight = null; // Reset to recalculate
-    }
-
-    // Recalculate base content height on viewport resize
-    window.addEventListener('resize', resetBaseContentHeight);
-    if (window.visualViewport) {
-        window.visualViewport.addEventListener('resize', resetBaseContentHeight);
-    }
+    });
     
     function applyScrollDelta(deltaY) {
+        applyAboutHorizontalScroll(deltaY);
+
+        if (isAboutPage) {
+            return;
+        }
+
+        if (deltaY > 0) {
+            projectVideoIntroState.restoreHintArmed = false;
+            projectVideoIntroState.restoreHintPendingTop = false;
+        }
+
+        if (maybeRestoreProjectVideoIntro(deltaY) || maybeStartProjectVideoIntroTransition(deltaY)) {
+            return;
+        }
+
         if (frontViewState.isActive) {
             restoreFrontView();
         }
 
         targetScroll += deltaY;
         clampTargetScroll();
-        pingHomeOutlineNav();
+        pingProjectOutlineNav();
+    }
+
+    function maybeRestoreProjectVideoIntro(deltaY) {
+        const minScroll = getProjectMinimumScroll();
+        const isRestoreArmed = projectVideoIntroState.restoreHintArmed;
+        const isVisibleAtTop = state.scrollPos <= minScroll + 2;
+        const isVisibleNearTop = state.scrollPos <= minScroll + VIDEO_INTRO_NEAR_TOP_RESTORE_PX;
+        const isAtTop = targetScroll <= minScroll + 1 || isRestoreArmed || isVisibleNearTop;
+        const wouldCrossTop = targetScroll + deltaY <= minScroll + 1 || isRestoreArmed;
+        if (
+            !isProjectPage
+            || deltaY >= 0
+            || projectVideoIntroState.isTransitioning
+            || !body.classList.contains('project-video-intro-settled')
+        ) {
+            return false;
+        }
+
+        if (!wouldCrossTop) {
+            return false;
+        }
+
+        if (!isVisibleAtTop && !isVisibleNearTop) {
+            projectVideoIntroState.restoreHintPendingTop = true;
+            return false;
+        }
+
+        if (projectVideoIntroState.restoreHintActive) {
+            playProjectVideoRestoreHint(deltaY);
+            return true;
+        }
+
+        if (!isVisibleNearTop && (projectVideoIntroState.restoreHintPendingTop || !isAtTop)) {
+            projectVideoIntroState.restoreHintPendingTop = false;
+            playProjectVideoRestoreHint(deltaY);
+            return true;
+        }
+
+        projectVideoIntroState.isTransitioning = true;
+        projectVideoIntroState.restoreHintArmed = false;
+        projectVideoIntroState.restoreHintPendingTop = false;
+        projectVideoIntroState.restoreHintActive = false;
+        projectVideoIntroState.restoreHintOffset = 0;
+        if (projectVideoIntroState.restoreHintReleaseTimer !== null) {
+            window.clearTimeout(projectVideoIntroState.restoreHintReleaseTimer);
+            projectVideoIntroState.restoreHintReleaseTimer = null;
+        }
+        if (
+            window.SpaceToSpaceProjectDetail
+            && typeof window.SpaceToSpaceProjectDetail.restoreVideoIntro === 'function'
+        ) {
+            window.SpaceToSpaceProjectDetail.restoreVideoIntro();
+        }
+
+        window.setTimeout(() => {
+            targetScroll = 0;
+            state.scrollPos = 0;
+            updateContentPositions();
+            refreshWireframe();
+
+            animateDepthTo(1000, {
+                duration: 900,
+                frontViewActive: false,
+                onUpdate: () => {
+                    refreshWireframe();
+                },
+                onComplete: () => {
+                    baseContentHeight = null;
+                    targetScroll = 0;
+                    state.scrollPos = 0;
+                    updateContentPositions();
+                    refreshWireframe();
+                    buildProjectOutlineNav();
+
+                    if (
+                        window.SpaceToSpaceProjectDetail
+                        && typeof window.SpaceToSpaceProjectDetail.completeVideoIntroRestore === 'function'
+                    ) {
+                        window.SpaceToSpaceProjectDetail.completeVideoIntroRestore();
+                    }
+                    projectVideoIntroState.isTransitioning = false;
+                    projectVideoIntroState.revealScroll = 0;
+                    projectVideoIntroState.fadeStarted = false;
+                    projectVideoIntroState.ignoreForwardUntil = performance.now() + 700;
+                }
+            });
+        }, VIDEO_INTRO_CONTENT_FADE_OUT_MS);
+
+        return true;
+    }
+
+    function playProjectVideoRestoreHint(deltaY) {
+        const currentDepth = parseFloat(depthSlider.value);
+        if (!Number.isFinite(currentDepth)) {
+            return;
+        }
+
+        if (projectVideoIntroState.restoreHintReleaseTimer !== null) {
+            window.clearTimeout(projectVideoIntroState.restoreHintReleaseTimer);
+            projectVideoIntroState.restoreHintReleaseTimer = null;
+        }
+
+        if (frontViewState.animationFrame !== null) {
+            cancelAnimationFrame(frontViewState.animationFrame);
+            frontViewState.animationFrame = null;
+        }
+
+        if (!projectVideoIntroState.restoreHintActive) {
+            projectVideoIntroState.restoreHintBaseDepth = currentDepth;
+            projectVideoIntroState.restoreHintOffset = 0;
+        }
+
+        projectVideoIntroState.restoreHintActive = true;
+        projectVideoIntroState.restoreHintArmed = true;
+
+        const maxHintOffset = 90;
+        const force = Math.min(Math.abs(deltaY), 140);
+        projectVideoIntroState.restoreHintOffset = Math.min(
+            projectVideoIntroState.restoreHintOffset + force * 0.14,
+            maxHintOffset
+        );
+        const isAtHintLimit = projectVideoIntroState.restoreHintOffset >= maxHintOffset;
+
+        const easedOffset = 95 * (1 - Math.exp(-projectVideoIntroState.restoreHintOffset / 70));
+        const hintDepth = Math.min(
+            projectVideoIntroState.restoreHintBaseDepth + easedOffset,
+            VIDEO_INTRO_START_DEPTH
+        );
+
+        frontViewState.suppressSync = true;
+        setDepthSliderValue(hintDepth);
+        frontViewState.suppressSync = false;
+        refreshWireframe();
+
+        projectVideoIntroState.restoreHintReleaseTimer = window.setTimeout(() => {
+            projectVideoIntroState.restoreHintReleaseTimer = null;
+            animateDepthTo(projectVideoIntroState.restoreHintBaseDepth, {
+                duration: isAtHintLimit ? 320 : 620,
+                frontViewActive: false,
+                onUpdate: ({ progress }) => {
+                    projectVideoIntroState.restoreHintOffset *= 1 - progress * 0.12;
+                    refreshWireframe();
+                },
+                onComplete: () => {
+                    projectVideoIntroState.restoreHintActive = false;
+                    projectVideoIntroState.restoreHintOffset = 0;
+                }
+            });
+        }, isAtHintLimit ? 0 : 90);
+    }
+
+    function maybeStartProjectVideoIntroTransition(deltaY) {
+        if (
+            !isProjectPage
+            || !body.classList.contains('project-video-intro-active')
+        ) {
+            return false;
+        }
+
+        const now = performance.now();
+        if (deltaY > 0 && now < projectVideoIntroState.ignoreForwardUntil) {
+            projectVideoIntroState.ignoreForwardUntil = now + 250;
+            return true;
+        }
+
+        if (deltaY <= 0) {
+            return true;
+        }
+
+        if (projectVideoIntroState.isTransitioning) {
+            return true;
+        }
+
+        startProjectVideoIntroFadeBeforeZoom();
+
+        return true;
+    }
+
+    function startProjectVideoIntroFadeBeforeZoom() {
+        projectVideoIntroState.fadeStarted = true;
+        baseContentHeight = null;
+        const introEndDepth = getProjectVideoIntroEndDepth();
+        projectVideoIntroState.revealScroll = getProjectFirstCardCenteredScrollAtDepth(introEndDepth);
+        buildProjectOutlineNav();
+
+        if (
+            window.SpaceToSpaceProjectDetail
+            && typeof window.SpaceToSpaceProjectDetail.playVisibleVideos === 'function'
+        ) {
+            window.SpaceToSpaceProjectDetail.playVisibleVideos();
+        }
+
+        if (
+            window.SpaceToSpaceProjectDetail
+            && typeof window.SpaceToSpaceProjectDetail.beginVideoIntroFadeOut === 'function'
+        ) {
+            window.SpaceToSpaceProjectDetail.beginVideoIntroFadeOut();
+        }
+
+        if (projectVideoIntroState.fadeTimer !== null) {
+            window.clearTimeout(projectVideoIntroState.fadeTimer);
+        }
+
+        projectVideoIntroState.fadeTimer = window.setTimeout(() => {
+            projectVideoIntroState.fadeTimer = null;
+            if (
+                window.SpaceToSpaceProjectDetail
+                && typeof window.SpaceToSpaceProjectDetail.revealVideoIntroContent === 'function'
+            ) {
+                window.SpaceToSpaceProjectDetail.revealVideoIntroContent();
+            }
+        }, VIDEO_INTRO_FADE_BEFORE_ZOOM_MS);
+
+        completeProjectVideoIntroTransition();
+    }
+
+    function syncProjectVideoIntroRevealPosition(depth = parseFloat(depthSlider.value)) {
+        targetScroll = projectVideoIntroState.revealScroll;
+        state.scrollPos = projectVideoIntroState.revealScroll;
+        setDepthSliderValue(depth);
+        updateContentPositions();
+        refreshWireframe();
+    }
+
+    function completeProjectVideoIntroTransition() {
+        if (projectVideoIntroState.isTransitioning) {
+            return;
+        }
+
+        projectVideoIntroState.isTransitioning = true;
+
+        const introEndDepth = getProjectVideoIntroEndDepth();
+        animateDepthTo(introEndDepth, {
+            duration: 900,
+            frontViewActive: false,
+            onUpdate: ({ depth }) => {
+                syncProjectVideoIntroRevealPosition(depth);
+            },
+            onComplete: () => {
+                syncProjectVideoIntroRevealPosition(introEndDepth);
+                projectVideoIntroState.restoreHintBaseDepth = introEndDepth;
+                baseContentHeight = null;
+                buildProjectOutlineNav();
+
+                if (
+                    window.SpaceToSpaceProjectDetail
+                    && typeof window.SpaceToSpaceProjectDetail.playVisibleVideos === 'function'
+                ) {
+                    window.SpaceToSpaceProjectDetail.playVisibleVideos();
+                }
+
+                if (
+                    window.SpaceToSpaceProjectDetail
+                    && typeof window.SpaceToSpaceProjectDetail.settleVideoIntro === 'function'
+                ) {
+                    window.SpaceToSpaceProjectDetail.settleVideoIntro();
+                }
+
+                window.setTimeout(() => {
+                    projectVideoIntroState.revealScroll = 0;
+                    projectVideoIntroState.isTransitioning = false;
+                    projectVideoIntroState.fadeStarted = false;
+                }, 540);
+            }
+        });
     }
     
     if (!isContactPage) {
@@ -1321,40 +1854,6 @@ document.addEventListener('DOMContentLoaded', () => {
         animateIntro();
     }
     
-    // Practice Intro Animation Function - pouze oddálení
-    function performPracticeIntroAnimation() {
-        const startDepth = 500;  // Nejbližší
-        const endDepth = 3000;   // Nejvzdálenější
-        const depthDuration = 1500; // 1.5 sekundy
-        
-        const startTime = Date.now();
-        
-        // Nastavit počáteční hloubku
-        depthSlider.value = startDepth;
-        updateRoomDepth(startDepth);
-        
-        function animateIntro() {
-            const elapsed = Date.now() - startTime;
-            
-            // Animace hloubky
-            if (elapsed < depthDuration) {
-                const progress = elapsed / depthDuration;
-                const eased = easeInOutCubic(progress);
-                const currentDepth = startDepth + (endDepth - startDepth) * eased;
-                
-                depthSlider.value = currentDepth;
-                updateRoomDepth(currentDepth);
-                
-                requestAnimationFrame(animateIntro);
-            } else {
-                // Konec animace
-                state.introAnimationDone = true;
-            }
-        }
-        
-        animateIntro();
-    }
-    
     // Easing funkce pro plynulejší animaci
     function easeInOutCubic(t) {
         return t < 0.5 
@@ -1367,7 +1866,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const wireframeUpdateInterval = 2;
 
     // Animation Loop
-    function animate() {
+    function animate(now) {
+        updateAboutLogoMarquee(now);
+
         // Smooth scroll
         const diff = targetScroll - state.scrollPos;
         if (Math.abs(diff) > 0.5) {
@@ -1392,17 +1893,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateRoomDepth(val) {
         state.roomDepth = val;
         document.documentElement.style.setProperty('--room-depth', `${val}px`);
-        rootStyle.setProperty('--ceiling-content-offset', `${state.roomDepth + state.roomHeight}px`);
-        
-        // Specific logic for practice scene text stretching
-        if (document.querySelector('.practice-scene')) {
-            updatePracticeTextStretch();
-            // For practice scene, DON'T update content positions when depth changes
-            // Only stretch the text - position stays the same
-            // Wireframe still needs to update
-            refreshWireframe();
-            return;
-        }
 
         if (isContactPage) {
             refreshWireframe();
@@ -1413,102 +1903,53 @@ document.addEventListener('DOMContentLoaded', () => {
         refreshWireframe();
     }
 
-    function updatePracticeTextStretch() {
-        // Find floor and ceiling content items in practice scene
-        const items = document.querySelectorAll('.practice-scene .floor-content .practice-text, .practice-scene .ceiling-content .practice-text');
-        if (items.length === 0) return;
-        
-        // We have 2 items per zone usually. 
-        // The zone height is roomDepth.
-        // Item height (container) is roomDepth / 2.
-        // We want to stretch the text to fill this height.
-        // Standard font height is roughly 0.8em (based on line-height).
-        // But we can't easily measure em in px without computed style.
-        // Let's try to just scaleY based on a factor derived from roomDepth.
-        
-        // Base depth 1000px -> Scale 1?
-        // If depth 2000px -> Scale 2?
-        // This assumes the font-size was designed for 1000px.
-        // Current font-size is 22vw. It is width-dependent, not height-dependent.
-        // So on a wide screen, text is tall. On narrow, short.
-        // We want it to stretch to fill Depth.
-        
-        // Let's measure the natural height of the text element (unscaled).
-        // We need to reset transform to measure?
-        // Or just use a reference value.
-        
-        // Better: Compute required scale.
-        // Container Height = state.roomDepth / 2 (assuming 2 items).
-        // We need the text to be that tall.
-        
-        items.forEach(item => {
-            // Reset transform temporarily to measure? No, expensive.
-            // Assume layout gives it full height because of flex: 1
-            // But text content doesn't fill it.
-            
-            // Let's use a purely CSS variable approach if possible?
-            // No, JS is easier here.
-            
-            // We need the font's pixel height.
-            // fontSize in px approx.
-            const style = window.getComputedStyle(item);
-            const fontSize = parseFloat(style.fontSize);
-            const lineHeight = 0.8; // From CSS
-            const textHeight = fontSize * lineHeight;
-            
-            // Available height per item
-            // We assume 2 items. If more, divide by count.
-            // Count per zone.
-            const parent = item.closest('.zone-content');
-            const count = parent.querySelectorAll('.content-item').length;
-            const availableHeight = state.roomDepth / count;
-            
-            const scaleY = availableHeight / textHeight;
-            
-            item.style.transform = `scaleY(${scaleY})`;
-        });
-    }
-
     function getPositionOnTrack(distance) {
         // Deprecated function, logic moved to CSS zones
         return {};
     }
 
     function updateWireframe() {
-        if (!scene || !markers.tl || !markers.tr || !markers.bl || !markers.br) {
-            return;
-        }
-
-        const sceneRect = scene.getBoundingClientRect();
-        const width = sceneRect.width;
-        const height = sceneRect.height;
-        if (width <= 0 || height <= 0) {
+        if (!scene || !backRect) {
             return;
         }
 
         // Get marker positions
         // Using getBoundingClientRect forces layout, but needed for exact sync with CSS 3D
+        const sceneRect = scene.getBoundingClientRect();
         const tl = markers.tl.getBoundingClientRect();
         const tr = markers.tr.getBoundingClientRect();
         const bl = markers.bl.getBoundingClientRect();
         const br = markers.br.getBoundingClientRect();
 
+        const width = sceneRect.width;
+        const height = sceneRect.height;
+        const points = {
+            tl: { x: tl.left - sceneRect.left, y: tl.top - sceneRect.top },
+            tr: { x: tr.left - sceneRect.left, y: tr.top - sceneRect.top },
+            bl: { x: bl.left - sceneRect.left, y: bl.top - sceneRect.top },
+            br: { x: br.left - sceneRect.left, y: br.top - sceneRect.top }
+        };
+
+        wireframeOverlay?.setAttribute('viewBox', `0 0 ${width} ${height}`);
+
         // Update Depth Lines (Corner to Corner)
         // TL: 0,0 to marker TL
-        setLine(svgLines.tl, 0, 0, tl.left - sceneRect.left, tl.top - sceneRect.top);
+        setLine(svgLines.tl, 0, 0, points.tl.x, points.tl.y);
         
         // TR: w,0 to marker TR
-        setLine(svgLines.tr, width, 0, tr.left - sceneRect.left, tr.top - sceneRect.top);
+        setLine(svgLines.tr, width, 0, points.tr.x, points.tr.y);
         
         // BL: 0,h to marker BL
-        setLine(svgLines.bl, 0, height, bl.left - sceneRect.left, bl.top - sceneRect.top);
+        setLine(svgLines.bl, 0, height, points.bl.x, points.bl.y);
         
         // BR: w,h to marker BR
-        setLine(svgLines.br, width, height, br.left - sceneRect.left, br.top - sceneRect.top);
+        setLine(svgLines.br, width, height, points.br.x, points.br.y);
 
         // Update Back Rectangle
-        const points = `${tl.left - sceneRect.left},${tl.top - sceneRect.top} ${tr.left - sceneRect.left},${tr.top - sceneRect.top} ${br.left - sceneRect.left},${br.top - sceneRect.top} ${bl.left - sceneRect.left},${bl.top - sceneRect.top}`;
-        backRect.setAttribute('points', points);
+        backRect.setAttribute(
+            'points',
+            `${points.tl.x},${points.tl.y} ${points.tr.x},${points.tr.y} ${points.br.x},${points.br.y} ${points.bl.x},${points.bl.y}`
+        );
     }
 
     function setLine(line, x1, y1, x2, y2) {
@@ -1527,22 +1968,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const isPractice = document.querySelector('.practice-scene') !== null;
-        
-        if (isPractice) {
-            // Practice scene: Use INITIAL depth for offsets so they don't change when slider moves
-            // This ensures content stays in place when adjusting depth
-            const fixedDepth = state.initialRoomDepth;
-            rootStyle.setProperty('--space-scroll', `${state.scrollPos}px`);
-            rootStyle.setProperty('--back-content-offset', `${fixedDepth}px`);
-            rootStyle.setProperty('--ceiling-content-offset', `${fixedDepth + state.roomHeight}px`);
-            return;
-        }
-        
         rootStyle.setProperty('--space-scroll', `${state.scrollPos}px`);
         rootStyle.setProperty('--back-content-offset', `${state.roomHeight}px`);
         rootStyle.setProperty('--ceiling-content-offset', `${state.roomDepth + state.roomHeight}px`);
         scheduleDynamicTintUpdate();
-        updateHomeOutlineNavActive();
+        updateProjectOutlineNavActive();
     }
  });

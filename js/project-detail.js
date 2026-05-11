@@ -1,5 +1,6 @@
 let projectContentResizeObserver = null;
 let projectContentMetricsFrame = null;
+let projectMediaLoadingElement = null;
 
 document.addEventListener('DOMContentLoaded', async () => {
     const containers = Array.from(document.querySelectorAll('.project-page-projects'));
@@ -10,6 +11,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const status = document.getElementById('projectStatus');
     const params = new URLSearchParams(window.location.search);
     const requestedSlug = params.get('slug');
+    showProjectMediaLoading();
 
     try {
         const payload = await loadProjectsPayload();
@@ -29,11 +31,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (window.SpaceToSpaceProjectDetail && typeof window.SpaceToSpaceProjectDetail.refresh === 'function') {
             window.SpaceToSpaceProjectDetail.refresh();
-            if (typeof window.SpaceToSpaceProjectDetail.playIntro === 'function') {
-                window.SpaceToSpaceProjectDetail.playIntro();
-            }
+        }
+
+        await waitForProjectMediaLoad(containers);
+        hideProjectMediaLoading();
+
+        if (window.SpaceToSpaceProjectDetail && typeof window.SpaceToSpaceProjectDetail.playIntro === 'function') {
+            window.SpaceToSpaceProjectDetail.playIntro();
         }
     } catch (error) {
+        hideProjectMediaLoading();
         const message = error instanceof Error ? error.message : 'Unknown error';
         containers.forEach((container) => {
             container.innerHTML = '';
@@ -46,6 +53,116 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
+function showProjectMediaLoading() {
+    document.body.classList.add('project-media-loading');
+    document.body.classList.remove('project-media-loaded');
+    setProjectMediaLoadingProgress(0);
+
+    if (projectMediaLoadingElement instanceof HTMLElement) {
+        projectMediaLoadingElement.hidden = false;
+        return;
+    }
+
+    const scene = document.querySelector('.scene');
+    if (!(scene instanceof HTMLElement)) {
+        return;
+    }
+
+    const loading = document.createElement('div');
+    loading.className = 'project-loading';
+    loading.setAttribute('role', 'status');
+    loading.setAttribute('aria-live', 'polite');
+    loading.innerHTML = `
+        <span class="project-loading-label">Loading media</span>
+        <span class="project-loading-track" aria-hidden="true">
+            <span class="project-loading-bar"></span>
+        </span>
+    `;
+
+    scene.appendChild(loading);
+    projectMediaLoadingElement = loading;
+}
+
+function hideProjectMediaLoading() {
+    document.body.classList.remove('project-media-loading');
+    document.body.classList.add('project-media-loaded');
+    setProjectMediaLoadingProgress(1);
+
+    if (projectMediaLoadingElement instanceof HTMLElement) {
+        projectMediaLoadingElement.hidden = true;
+    }
+}
+
+function setProjectMediaLoadingProgress(progress) {
+    const clampedProgress = Math.max(0, Math.min(1, progress));
+    document.documentElement.style.setProperty('--project-loading-progress', clampedProgress.toFixed(4));
+}
+
+function waitForProjectMediaLoad(containers) {
+    const mediaElements = getProjectMediaElements(containers);
+    if (mediaElements.length === 0) {
+        setProjectMediaLoadingProgress(1);
+        return Promise.resolve();
+    }
+
+    let settledCount = 0;
+    setProjectMediaLoadingProgress(0);
+
+    return new Promise((resolve) => {
+        const markSettled = () => {
+            settledCount += 1;
+            setProjectMediaLoadingProgress(settledCount / mediaElements.length);
+
+            if (settledCount >= mediaElements.length) {
+                resolve();
+            }
+        };
+
+        mediaElements.forEach((element) => {
+            if (isProjectMediaReady(element)) {
+                markSettled();
+                return;
+            }
+
+            const cleanup = () => {
+                element.removeEventListener('load', handleSettled);
+                element.removeEventListener('loadeddata', handleSettled);
+                element.removeEventListener('canplay', handleSettled);
+                element.removeEventListener('error', handleSettled);
+            };
+            const handleSettled = () => {
+                cleanup();
+                markSettled();
+            };
+
+            element.addEventListener('load', handleSettled, { once: true });
+            element.addEventListener('loadeddata', handleSettled, { once: true });
+            element.addEventListener('canplay', handleSettled, { once: true });
+            element.addEventListener('error', handleSettled, { once: true });
+        });
+    });
+}
+
+function getProjectMediaElements(containers) {
+    const scopedMedia = containers.flatMap((container) => Array.from(container.querySelectorAll('img, video')));
+    const projectedVideos = Array.from(document.querySelectorAll('.project-video-surface video'));
+    return [...scopedMedia, ...projectedVideos].filter((element) => (
+        element instanceof HTMLImageElement || element instanceof HTMLVideoElement
+    ));
+}
+
+function isProjectMediaReady(element) {
+    if (element instanceof HTMLImageElement) {
+        return element.complete;
+    }
+
+    if (element instanceof HTMLVideoElement) {
+        return Boolean(element.error) || element.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA;
+    }
+
+    return true;
+}
+
 function renderProject(project, containers) {
     const visualAssets = normalizeVisualAssets(project);
     const isVideoBackground = project.detailLayout === 'video-background';
@@ -55,9 +172,10 @@ function renderProject(project, containers) {
     const infoCard = createInfoCard(project);
     const videoCards = videoAssets.map((asset, index) => createVisualCard(asset, `Video ${index + 1}`));
     const imageCards = imageAssets.map((asset, index) => createVisualCard(asset, `Image ${index + 1}`));
+    const backCard = createBackToGalleryCard();
     const cards = isVideoBackground
-        ? [infoCard, ...videoCards, ...imageCards]
-        : [...videoCards, infoCard, ...imageCards];
+        ? [infoCard, ...videoCards, ...imageCards, backCard]
+        : [...videoCards, infoCard, ...imageCards, backCard];
 
     document.body.classList.toggle('project-video-background-page', Boolean(backgroundVideo));
     document.body.classList.toggle('project-video-intro-active', Boolean(backgroundVideo));
@@ -85,6 +203,32 @@ function normalizeVisualAssets(project) {
         (asset.type === 'image' || asset.type === 'video')
         && !isGalleryPreviewAsset(asset, project)
     ));
+}
+
+function createBackToGalleryCard() {
+    const article = document.createElement('article');
+    article.className = 'project-card project-card--contained project-card--gallery-return';
+    article.dataset.navLabel = 'back to gallery';
+
+    const info = document.createElement('div');
+    info.className = 'project-info';
+
+    const actions = document.createElement('div');
+    actions.className = 'project-links project-back-to-gallery-actions';
+
+    const link = document.createElement('a');
+    link.className = 'project-back-to-gallery';
+    link.href = 'index.html?intro=0';
+    link.textContent = 'back to gallery';
+    link.setAttribute('aria-label', 'Return to the gallery at the opened project');
+    link.addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
+
+    actions.appendChild(link);
+    info.appendChild(actions);
+    article.appendChild(info);
+    return article;
 }
 
 function createInfoCard(project) {

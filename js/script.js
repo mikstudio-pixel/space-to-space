@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const ABOUT_LOGO_AUTO_SPEED_PER_SECOND = 42;
     const ABOUT_LOGO_SCROLL_MULTIPLIER = 0.72;
+    const ABOUT_VERTICAL_SCROLL_MULTIPLIER = 0.82;
     const tintCanvas = document.createElement('canvas');
     const tintContext = tintCanvas.getContext('2d', { willReadFrequently: true });
 
@@ -957,8 +958,62 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1200);
     }
 
+    function getProjectReturnLinkFromPoint(clientX, clientY) {
+        if (!isProjectPage || !backContent) {
+            return null;
+        }
+
+        const returnLink = backContent.querySelector('.project-back-to-gallery');
+        if (!(returnLink instanceof HTMLAnchorElement)) {
+            return null;
+        }
+
+        const rect = returnLink.getBoundingClientRect();
+        const isInsideRect = clientX >= rect.left
+            && clientX <= rect.right
+            && clientY >= rect.top
+            && clientY <= rect.bottom;
+
+        return isInsideRect ? returnLink : null;
+    }
+
+    function updateProjectReturnLinkHoverState(clientX, clientY) {
+        if (!isProjectPage || !backContent) {
+            body.classList.remove('project-return-link-hover');
+            return;
+        }
+
+        const returnLink = backContent.querySelector('.project-back-to-gallery');
+        if (!(returnLink instanceof HTMLAnchorElement)) {
+            body.classList.remove('project-return-link-hover');
+            return;
+        }
+
+        const hoveredLink = getProjectReturnLinkFromPoint(clientX, clientY);
+        const isHovered = hoveredLink === returnLink;
+        body.classList.toggle('project-return-link-hover', isHovered);
+        returnLink.classList.toggle('is-hover-forced', isHovered);
+    }
+
+    function updateProjectReturnLinkVisibility() {
+        if (!isProjectPage) {
+            return;
+        }
+
+        const returnCard = backContent?.querySelector('.project-card--gallery-return');
+        if (!(returnCard instanceof HTMLElement)) {
+            body.classList.remove('project-return-card-visible');
+            return;
+        }
+
+        const rect = returnCard.getBoundingClientRect();
+        const isVisible = rect.bottom > 0 && rect.top < window.innerHeight;
+        body.classList.toggle('project-return-card-visible', isVisible);
+    }
+
     function updateProjectOutlineNavActive() {
         if (!isProjectPage || projectOutlineState.sections.length === 0) {
+            updateProjectReturnLinkVisibility();
             return;
         }
 
@@ -974,6 +1029,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 activeIndex = index;
             }
         });
+
+        updateProjectReturnLinkVisibility();
 
         if (projectOutlineState.activeIndex === activeIndex) {
             return;
@@ -1096,18 +1153,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
         aboutLogoState.wrapWidth = firstLogo.getBoundingClientRect().width;
         document.documentElement.style.setProperty('--about-logo-wrap-width', `${aboutLogoState.wrapWidth}px`);
+        syncAboutLogoPlaneCenter();
+    }
+
+    function syncAboutLogoPlaneCenter() {
+        if (!isAboutPage || !(backContent instanceof HTMLElement)) {
+            return;
+        }
 
         const primaryMarquee = backContent?.querySelector('.about-logo-marquee');
-        if (primaryMarquee instanceof HTMLElement) {
-            const logoCenterY = (
-                getElementOffsetTop(primaryMarquee)
-                - getElementOffsetTop(backContent)
-                + primaryMarquee.offsetHeight / 2
-                + state.roomHeight
-                - state.scrollPos
-            );
-            document.documentElement.style.setProperty('--about-logo-plane-center-y', `${logoCenterY}px`);
+        if (!(primaryMarquee instanceof HTMLElement)) {
+            return;
         }
+
+        const logoCenterY = (
+            getElementOffsetTop(primaryMarquee)
+            - getElementOffsetTop(backContent)
+            + primaryMarquee.offsetHeight / 2
+            + state.roomHeight
+            - state.scrollPos
+        );
+        document.documentElement.style.setProperty('--about-logo-plane-center-y', `${logoCenterY}px`);
     }
 
     function getElementOffsetTop(element) {
@@ -1367,6 +1433,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (scene) {
         scene.addEventListener('click', (e) => {
+            const plainNavigationLink = e.target.closest('a[href]:not([data-project-focus-trigger="true"])');
+            if (plainNavigationLink) {
+                return;
+            }
+
+            const projectReturnLink = getProjectReturnLinkFromPoint(e.clientX, e.clientY);
+            if (projectReturnLink) {
+                e.preventDefault();
+                e.stopPropagation();
+                window.location.assign(projectReturnLink.href);
+                return;
+            }
+
             const focusTrigger = getProjectFocusTriggerFromPoint(e.clientX, e.clientY);
             if (focusTrigger) {
                 e.preventDefault();
@@ -1399,6 +1478,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.preventDefault();
                 restoreFrontView();
             }, { passive: false });
+        }
+
+        if (isProjectPage) {
+            scene.addEventListener('mousemove', (e) => {
+                updateProjectReturnLinkHoverState(e.clientX, e.clientY);
+            });
+
+            scene.addEventListener('mouseleave', () => {
+                updateProjectReturnLinkHoverState(-1, -1);
+            });
         }
     }
 
@@ -1487,6 +1576,8 @@ document.addEventListener('DOMContentLoaded', () => {
         applyAboutHorizontalScroll(deltaY);
 
         if (isAboutPage) {
+            targetScroll += deltaY * ABOUT_VERTICAL_SCROLL_MULTIPLIER;
+            clampTargetScroll();
             return;
         }
 
@@ -1971,6 +2062,7 @@ document.addEventListener('DOMContentLoaded', () => {
         rootStyle.setProperty('--space-scroll', `${state.scrollPos}px`);
         rootStyle.setProperty('--back-content-offset', `${state.roomHeight}px`);
         rootStyle.setProperty('--ceiling-content-offset', `${state.roomDepth + state.roomHeight}px`);
+        syncAboutLogoPlaneCenter();
         scheduleDynamicTintUpdate();
         updateProjectOutlineNavActive();
     }

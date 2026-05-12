@@ -1,3 +1,5 @@
+const GALLERY_RETURN_STORAGE_KEY = 'SpaceToSpaceGalleryReturn';
+
 document.addEventListener('DOMContentLoaded', async () => {
     const body = document.body;
     const params = new URLSearchParams(window.location.search);
@@ -24,6 +26,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const spacing = 1400;
     const defaultStartOffset = 120;
+    const mobileLayoutMaxWidth = 900;
+    const mobilePastVisibilityThreshold = spacing * 0.08;
     const tunnelUiGutter = 8;
     let startOffset = defaultStartOffset;
     const positions = ['pos-center', 'pos-tl', 'pos-tr', 'pos-bl', 'pos-br'];
@@ -101,6 +105,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let isCategoryTransitionActive = false;
     const wheelSpeed = 2.5;
     const touchMultiplier = 3;
+    const mobileTouchMultiplier = 7;
     const categoryState = {
         isOpen: false,
         selectedCategory: null
@@ -318,12 +323,91 @@ document.addEventListener('DOMContentLoaded', async () => {
         setRoomPosition(getBaseRoomZ() + introConfig.startRoomOffset);
     }
 
+    function saveGalleryReturnContext(projectIndex) {
+        try {
+            sessionStorage.setItem(
+                GALLERY_RETURN_STORAGE_KEY,
+                JSON.stringify({
+                    projectIndex,
+                    category: categoryState.selectedCategory
+                })
+            );
+        } catch {
+            /* quota / private mode */
+        }
+    }
+
+    function tryRestoreGalleryReturn() {
+        let payload = null;
+        try {
+            const raw = sessionStorage.getItem(GALLERY_RETURN_STORAGE_KEY);
+            if (!raw) {
+                return;
+            }
+
+            payload = JSON.parse(raw);
+            sessionStorage.removeItem(GALLERY_RETURN_STORAGE_KEY);
+        } catch {
+            return;
+        }
+
+        const projectIndex = payload?.projectIndex;
+        if (
+            typeof projectIndex !== 'number'
+            || projectIndex < 0
+            || projectIndex >= projects.length
+        ) {
+            return;
+        }
+
+        const savedCategory = typeof payload.category === 'string' && payload.category.trim() !== ''
+            ? payload.category
+            : null;
+
+        if (savedCategory !== categoryState.selectedCategory) {
+            categoryState.selectedCategory = savedCategory;
+            applyGalleryCategoryFilter({ snapToCategory: false, revealState: 'visible' });
+        }
+
+        const targetScroll = getProjectTargetScroll(projectIndex);
+        if (targetScroll === null) {
+            return;
+        }
+
+        const prefersReducedMotion = typeof window.matchMedia === 'function'
+            && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        if (prefersReducedMotion || targetScroll <= scrollEpsilon) {
+            state.scrollZ = targetScroll;
+            state.targetScrollZ = targetScroll;
+            return;
+        }
+
+        /*
+         * Gentle approach from slightly “before” the restored card so return from project detail
+         * does not feel instant. Distance is capped (tunnel spacing scale) and limited by a
+         * fraction of targetScroll so first cards never animate from the tunnel origin.
+         */
+        const approachAbsMax = clamp(Math.round(spacing * 0.34), 260, 620);
+        const approachFromRatio = targetScroll * 0.2;
+        const approachPx = Math.min(approachAbsMax, approachFromRatio);
+        const startScroll = Math.max(0, targetScroll - approachPx);
+
+        state.scrollZ = startScroll;
+        state.targetScrollZ = targetScroll;
+
+        if (targetScroll - startScroll > scrollEpsilon) {
+            requestGalleryRender();
+        }
+    }
+
     function finishGalleryIntro() {
         state.introActive = false;
         state.introAnimationDone = true;
         body.classList.remove('gallery-intro-active');
         resetIntroStyles();
         setRoomPosition(getBaseRoomZ());
+        tryRestoreGalleryReturn();
         refreshGalleryScene({
             forceMedia: true,
             forceStacking: true,
@@ -394,6 +478,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             meta.appendChild(title);
             meta.appendChild(author);
             card.appendChild(meta);
+            card.addEventListener('click', () => {
+                saveGalleryReturnContext(index);
+            });
             partition.appendChild(card);
             room.insertBefore(partition, backWall);
             const plane = {
@@ -550,6 +637,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function shouldDisablePreviewVideoPlayback() {
         return state.viewportWidth <= previewVideoPlaybackMinViewportWidth;
+    }
+
+    function isMobileGalleryLayout() {
+        return state.viewportWidth <= mobileLayoutMaxWidth;
+    }
+
+    function getGalleryTouchMultiplier() {
+        return isMobileGalleryLayout() ? mobileTouchMultiplier : touchMultiplier;
     }
 
     function disableProjectVideoPreview(plane) {
@@ -859,12 +954,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             return -1;
         }
 
-        const visibleIndex = clamp(
-            Math.round((scrollZ - startOffset) / spacing),
+        const scrollProgress = (scrollZ - startOffset) / spacing;
+        const visibleIndex = isMobileGalleryLayout()
+            ? Math.floor(scrollProgress + (1 - (mobilePastVisibilityThreshold / spacing)))
+            : Math.round(scrollProgress);
+
+        const clampedVisibleIndex = clamp(
+            visibleIndex,
             0,
             visibleProjectIndexes.length - 1
         );
-        return visibleProjectIndexes[visibleIndex];
+        return visibleProjectIndexes[clampedVisibleIndex];
     }
 
     function shouldUpdateVisibleProjectMedia(force = false) {
@@ -1259,12 +1359,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         projectPlanes.forEach((plane) => {
-            let visibilityState = 'future';
-            if (plane.index < nearestIndex) {
-                visibilityState = 'past';
-            } else if (plane.index === nearestIndex) {
-                visibilityState = 'active';
-            }
+            const visibilityState = getProjectPlaneVisibilityState(plane.index, nearestIndex);
             plane.card.dataset.visibilityState = visibilityState;
         });
 
@@ -1287,6 +1382,21 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         lastStackingNearestIndex = nearestIndex;
         lastStackingUpdateScrollZ = state.scrollZ;
+    }
+
+    function getProjectPlaneVisibilityState(index, nearestIndex) {
+        if (index === nearestIndex) {
+            return 'active';
+        }
+
+        if (isMobileGalleryLayout()) {
+            const targetScroll = getProjectTargetScroll(index);
+            return targetScroll !== null && state.scrollZ > targetScroll + mobilePastVisibilityThreshold
+                ? 'past'
+                : 'future';
+        }
+
+        return index < nearestIndex ? 'past' : 'future';
     }
 
     function buildGalleryOutlineNav() {
@@ -1412,7 +1522,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
         const currentY = event.touches[0].clientY;
-        const deltaY = (lastTouchY - currentY) * touchMultiplier;
+        const deltaY = (lastTouchY - currentY) * getGalleryTouchMultiplier();
         lastTouchY = currentY;
         applyScrollDelta(deltaY);
         event.preventDefault();

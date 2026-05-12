@@ -274,6 +274,21 @@ body.front-view-active .outline-nav {
     transform: translate(18px, -50%);
 }
 
+/* Project detail: same outline column height as gallery so bottom control aligns with "categories" */
+.project-page .outline-nav {
+    --outline-nav-total-max-height: calc((100vh - 96px) * 0.85);
+}
+
+.project-page .outline-nav-items {
+    padding-bottom: 122px;
+}
+
+a.outline-nav-footer {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
 .outline-nav-items {
     display: flex;
     flex-direction: column;
@@ -1583,6 +1598,26 @@ body.bw-mode .gallery-card img,
     visibility: hidden;
 }
 
+.about-credits {
+    max-width: min(980px, 78vw);
+    margin: clamp(2rem, 6vh, 4rem) auto 0;
+    display: grid;
+    gap: 1rem;
+}
+
+.about-credit-item {
+    margin: 0;
+    color: var(--main-color);
+    font-size: clamp(0.95rem, 1.15vw, 1.05rem);
+    line-height: 1.55;
+    opacity: 0.9;
+}
+
+.about-credit-label {
+    display: inline;
+    font-weight: 700;
+}
+
 .project-card .about-logo-track img,
 .about-side-logo-plane .about-logo-track img {
     display: block;
@@ -1692,6 +1727,70 @@ body.project-video-intro-restoring .project-video-surface {
 
 body.project-video-intro-transitioning .project-video-surface {
     opacity: 0;
+}
+
+body.project-media-loading .project-page-projects,
+body.project-media-loading .project-video-surface {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.project-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 40;
+    width: min(36vw, 360px);
+    min-width: 180px;
+    color: var(--main-color);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: opacity 220ms ease, visibility 220ms ease;
+}
+
+.project-loading[hidden],
+body:not(.project-media-loading) .project-loading {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.project-loading-label {
+    display: block;
+    margin-bottom: 0.65rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project-loading-track {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 2px;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--main-color) 20%, transparent);
+}
+
+.project-loading-bar {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: max(8%, calc(var(--project-loading-progress, 0) * 100%));
+    background: currentColor;
+    transform-origin: left center;
+    animation: project-loading-pulse 900ms ease-in-out infinite alternate;
+}
+
+@keyframes project-loading-pulse {
+    from {
+        opacity: 0.45;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .project-card {
@@ -1943,6 +2042,68 @@ body.project-media-focus-active .project-page-projects {
     color: var(--bg-color);
 }
 
+.project-card--gallery-return {
+    min-height: auto;
+    padding-top: 6vh;
+    padding-bottom: max(12vh, 4rem);
+}
+
+/*
+ * Floor & ceiling zones come after .back-wall in the DOM, so in the 3D view they often paint
+ * above the back wall. Each cloned card is ~100vh tall with pointer-events: auto, so large empty
+ * regions steal clicks from the real “Back to gallery” control on the back wall. Disable hits on
+ * floor/ceiling cards and re-enable only zoom/focus targets (not duplicate nav links).
+ */
+.project-page .floor-content,
+.project-page .ceiling-content {
+    pointer-events: none;
+}
+
+.project-page .floor-content .project-card,
+.project-page .ceiling-content .project-card {
+    pointer-events: none;
+}
+
+.project-page .floor-content .project-card:not(.project-card--gallery-return) .project-focus-trigger,
+.project-page .floor-content .project-card:not(.project-card--gallery-return) [data-project-focus-trigger="true"],
+.project-page .ceiling-content .project-card:not(.project-card--gallery-return) .project-focus-trigger,
+.project-page .ceiling-content .project-card:not(.project-card--gallery-return) [data-project-focus-trigger="true"] {
+    pointer-events: auto;
+}
+
+.project-back-to-gallery-actions {
+    margin-top: 0;
+}
+
+.project-links .project-back-to-gallery {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+.project-links .project-back-to-gallery:hover,
+.project-links .project-back-to-gallery:focus-visible,
+.project-links .project-back-to-gallery.is-hover-forced {
+    background: var(--main-color);
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+.project-page.project-return-link-hover .scene,
+.project-page.project-return-link-hover .room {
+    cursor: pointer;
+}
+
+.project-page.project-return-card-visible .project-outline-back {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(8px);
+}
+
 .project-status {
     margin-top: 1rem;
     font-size: 0.75rem;
@@ -1990,8 +2151,32 @@ body.bw-mode .project-card img,
         display: none;
     }
 
-    .gallery-page .outline-nav {
+    .gallery-page .outline-nav,
+    .project-page .outline-nav {
         display: flex;
+    }
+
+    .gallery-card.pos-tl,
+    .gallery-card.pos-tr {
+        top: 12%;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .gallery-card.pos-bl,
+    .gallery-card.pos-br {
+        right: auto;
+        bottom: 12%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .gallery-card.pos-tl:hover,
+    .gallery-card.pos-tr:hover,
+    .gallery-card.pos-bl:hover,
+    .gallery-card.pos-br:hover {
+        transform: translateX(-50%) scale(1.03);
     }
 
     .project-media-grid {

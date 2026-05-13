@@ -175,6 +175,65 @@ document.addEventListener('DOMContentLoaded', () => {
         return tunnelInset === null ? DEFAULT_ROOM_DEPTH : getRoomDepthForTunnelInset(tunnelInset);
     }
 
+    function projectPlaneToViewport(zPos, viewportWidth, viewportHeight, perspective) {
+        const denominator = perspective - zPos;
+        if (!Number.isFinite(denominator) || denominator <= 0.5) {
+            return null;
+        }
+
+        const scale = perspective / denominator;
+        if (!Number.isFinite(scale) || scale <= 0) {
+            return null;
+        }
+
+        const projectedWidth = viewportWidth * scale;
+        const projectedHeight = viewportHeight * scale;
+        const left = (viewportWidth - projectedWidth) / 2;
+        const top = (viewportHeight - projectedHeight) / 2;
+
+        return {
+            left,
+            top,
+            right: left + projectedWidth,
+            bottom: top + projectedHeight
+        };
+    }
+
+    function getProjectUiFrame(points, sceneRect) {
+        if (!isProjectPage) {
+            return {
+                left: Math.min(points.tl.x, points.bl.x) + sceneRect.left,
+                right: Math.max(points.tr.x, points.br.x) + sceneRect.left,
+                top: Math.min(points.tl.y, points.tr.y) + sceneRect.top,
+                bottom: Math.max(points.bl.y, points.br.y) + sceneRect.top
+            };
+        }
+
+        const referenceDepth = getSettledRoomDepth();
+        const referenceProjection = projectPlaneToViewport(
+            -referenceDepth,
+            sceneRect.width,
+            sceneRect.height,
+            getScenePerspective()
+        );
+
+        if (!referenceProjection) {
+            return {
+                left: Math.min(points.tl.x, points.bl.x) + sceneRect.left,
+                right: Math.max(points.tr.x, points.br.x) + sceneRect.left,
+                top: Math.min(points.tl.y, points.tr.y) + sceneRect.top,
+                bottom: Math.max(points.bl.y, points.br.y) + sceneRect.top
+            };
+        }
+
+        return {
+            left: referenceProjection.left + sceneRect.left,
+            right: referenceProjection.right + sceneRect.left,
+            top: referenceProjection.top + sceneRect.top,
+            bottom: referenceProjection.bottom + sceneRect.top
+        };
+    }
+
     function getProjectVideoIntroEndDepth() {
         return isProjectPage ? getSettledRoomDepth() : VIDEO_INTRO_END_DEPTH;
     }
@@ -2021,6 +2080,14 @@ document.addEventListener('DOMContentLoaded', () => {
             bl: { x: bl.left - sceneRect.left, y: bl.top - sceneRect.top },
             br: { x: br.left - sceneRect.left, y: br.top - sceneRect.top }
         };
+        const uiFrame = getProjectUiFrame(points, sceneRect);
+
+        if (isProjectPage) {
+            rootStyle.setProperty('--project-frame-left', `${Math.round(uiFrame.left)}px`);
+            rootStyle.setProperty('--project-frame-right', `${Math.round(uiFrame.right)}px`);
+            rootStyle.setProperty('--project-frame-top', `${Math.round(uiFrame.top)}px`);
+            rootStyle.setProperty('--project-frame-bottom', `${Math.round(uiFrame.bottom)}px`);
+        }
 
         wireframeOverlay?.setAttribute('viewBox', `0 0 ${width} ${height}`);
 

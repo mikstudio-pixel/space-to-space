@@ -533,13 +533,6 @@ function createMediaDebugOverlay(assetPath, options = {}) {
     const overlay = document.createElement('div');
     overlay.className = 'media-debug-overlay';
 
-    if (options.showR2Badge) {
-        const badge = document.createElement('span');
-        badge.className = 'media-badge-r2';
-        badge.textContent = 'R';
-        overlay.appendChild(badge);
-    }
-
     return overlay;
 }
 

@@ -171,6 +171,46 @@ document.addEventListener('DOMContentLoaded', async () => {
         return Math.max(defaultStartOffset, Math.round((2 * inset * introConfig.endPerspective) / denominator));
     }
 
+    function getReferenceRoomDepthForTunnelInset(inset) {
+        const viewportWidth = getViewportWidth();
+        const denominator = viewportWidth - inset * 2;
+
+        if (!Number.isFinite(denominator) || denominator <= 0) {
+            return spacing;
+        }
+
+        return Math.max(spacing * 0.08, Math.round((2 * inset * introConfig.endPerspective) / denominator));
+    }
+
+    function syncGalleryUiFrame() {
+        const sceneSize = getSceneViewportSize();
+        const width = sceneSize.width;
+        const height = sceneSize.height;
+        const inset = getResponsiveTunnelInset();
+
+        if (!Number.isFinite(inset) || inset <= 0 || inset >= width / 2) {
+            return;
+        }
+
+        const referenceDepth = getReferenceRoomDepthForTunnelInset(inset);
+        const referenceProjection = projectPlaneToViewport(
+            -referenceDepth,
+            width,
+            height,
+            introConfig.endPerspective,
+            minBackWireframeSize
+        );
+
+        if (!referenceProjection) {
+            return;
+        }
+
+        rootStyle.setProperty('--gallery-frame-left', `${Math.round(referenceProjection.left)}px`);
+        rootStyle.setProperty('--gallery-frame-right', `${Math.round(referenceProjection.right)}px`);
+        rootStyle.setProperty('--gallery-frame-top', `${Math.round(referenceProjection.top)}px`);
+        rootStyle.setProperty('--gallery-frame-bottom', `${Math.round(referenceProjection.bottom)}px`);
+    }
+
     function syncResponsiveStartOffset() {
         const tunnelInset = getResponsiveTunnelInset();
         const nextStartOffset = tunnelInset === null
@@ -205,6 +245,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         state.roomHeight = sceneSize.height;
         state.viewportWidth = sceneSize.width;
         state.viewportHeight = sceneSize.height;
+        syncGalleryUiFrame();
     }
 
     syncGalleryViewportSize();
@@ -551,9 +592,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             const video = document.createElement('video');
             video.className = 'gallery-card-image';
             video.muted = true;
+            video.defaultMuted = true;
             video.autoplay = !shouldDisablePreviewVideoPlayback();
             video.loop = true;
             video.playsInline = true;
+            video.setAttribute('muted', '');
+            video.setAttribute('playsinline', '');
+            video.setAttribute('webkit-playsinline', '');
             video.preload = 'none';
             video.dataset.src = project.menuAsset;
             shell.appendChild(video);
@@ -590,13 +635,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         const overlay = document.createElement('div');
         overlay.className = 'media-debug-overlay';
 
-        if (options.showR2Badge) {
-            const badge = document.createElement('span');
-            badge.className = 'media-badge-r2';
-            badge.textContent = 'R';
-            overlay.appendChild(badge);
-        }
-
         return overlay;
     }
 
@@ -607,6 +645,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             plane.mediaReady = true;
             syncProjectMediaState(plane);
+            if (plane.mediaType === 'video') {
+                syncProjectVideoPreviewPlayback();
+            }
         };
 
         const markPending = () => {
@@ -616,6 +657,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (plane.mediaType === 'video') {
             plane.mediaElement.addEventListener('loadeddata', markReady);
+            plane.mediaElement.addEventListener('canplay', markReady);
             plane.mediaElement.addEventListener('emptied', markPending);
             plane.mediaElement.addEventListener('error', markPending);
             return;
@@ -639,29 +681,38 @@ document.addEventListener('DOMContentLoaded', async () => {
         return state.viewportWidth <= previewVideoPlaybackMinViewportWidth;
     }
 
+    function shouldPlayProjectVideoPreview(plane) {
+        return plane
+            && plane.mediaType === 'video'
+            && (!shouldDisablePreviewVideoPlayback() || plane.index === getNearestProjectIndex());
+    }
+
+    function syncProjectVideoPreviewPlayback() {
+        projectPlanes.forEach((plane) => {
+            if (plane.mediaType !== 'video' || plane.mediaState !== 'attached') {
+                return;
+            }
+
+            if (shouldPlayProjectVideoPreview(plane)) {
+                plane.mediaElement.autoplay = true;
+                plane.mediaElement.preload = 'auto';
+                window.SpaceToSpaceAudio?.applyToVideo(plane.mediaElement);
+                void plane.mediaElement.play().catch(() => {});
+                return;
+            }
+
+            plane.mediaElement.autoplay = false;
+            plane.mediaElement.preload = 'metadata';
+            plane.mediaElement.pause();
+        });
+    }
+
     function isMobileGalleryLayout() {
         return state.viewportWidth <= mobileLayoutMaxWidth;
     }
 
     function getGalleryTouchMultiplier() {
         return isMobileGalleryLayout() ? mobileTouchMultiplier : touchMultiplier;
-    }
-
-    function disableProjectVideoPreview(plane) {
-        cancelQueuedProjectMedia(plane);
-        plane.mediaElement.autoplay = false;
-
-        if (plane.mediaState === 'detached' && !plane.mediaElement.hasAttribute('src')) {
-            return;
-        }
-
-        plane.mediaElement.pause();
-        plane.mediaElement.preload = 'none';
-        plane.mediaElement.removeAttribute('src');
-        plane.mediaElement.load();
-        plane.mediaState = 'detached';
-        plane.mediaReady = false;
-        syncProjectMediaState(plane);
     }
 
     function cancelQueuedProjectMedia(plane) {
@@ -733,21 +784,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const distance = Math.abs(targetScroll - state.scrollZ);
 
-        if (plane.mediaType === 'video' && shouldDisablePreviewVideoPlayback()) {
-            disableProjectVideoPreview(plane);
-            return;
-        }
-
         plane.mediaState = 'attached';
         plane.mediaReady = false;
         syncProjectMediaState(plane);
 
         if (plane.mediaType === 'video') {
-            plane.mediaElement.autoplay = true;
+            plane.mediaElement.autoplay = shouldPlayProjectVideoPreview(plane);
             plane.mediaElement.preload = 'metadata';
             plane.mediaElement.src = plane.mediaSource;
             plane.mediaElement.load();
-            void plane.mediaElement.play().catch(() => {});
+            syncProjectVideoPreviewPlayback();
             return;
         }
 
@@ -793,11 +839,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return;
             }
 
-            if (plane.mediaType === 'video' && shouldDisablePreviewVideoPlayback()) {
-                disableProjectVideoPreview(plane);
-                return;
-            }
-
             const distance = Math.abs(targetScroll - state.scrollZ);
             if (distance <= mediaAttachDistance) {
                 attachablePlanes.push(plane);
@@ -819,6 +860,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         lastMediaUpdateScrollZ = state.scrollZ;
+        syncProjectVideoPreviewPlayback();
     }
 
     function getPlaneLocalZ(index) {
@@ -993,6 +1035,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (shouldUpdateVisibleProjectMedia(forceMedia)) {
             updateVisibleProjectMedia();
         }
+        syncProjectVideoPreviewPlayback();
 
         if (shouldUpdateProjectPlaneStacking(nearestIndex, forceStacking)) {
             updateProjectPlaneStacking(nearestIndex);

@@ -91,14 +91,6 @@
         return `${value.toFixed(precision)} ${units[unitIndex]}`;
     }
 
-    function createR2Badge() {
-        const badge = document.createElement('span');
-        badge.className = 'media-badge-r2';
-        badge.textContent = 'R';
-        badge.setAttribute('aria-label', 'Asset hosted on R2');
-        return badge;
-    }
-
     function createInfoLabel(assetPath, options = {}) {
         const info = document.createElement('div');
         const name = document.createElement('span');
@@ -130,10 +122,6 @@
         overlay.className = 'media-debug-overlay';
 
         overlay.appendChild(createInfoLabel(assetPath, options));
-
-        if (options.showR2Badge) {
-            overlay.appendChild(createR2Badge());
-        }
 
         return overlay;
     }

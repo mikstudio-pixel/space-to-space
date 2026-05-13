@@ -16,6 +16,14 @@
     --outline-nav-axis-offset: calc(var(--side-ui-offset) - (var(--outline-nav-rest-line-width) / 2));
     --controls-reference-offset: 60px;
     --controls-offset: calc((var(--overlay-ui-padding) + var(--controls-reference-offset)) / 2);
+    --project-frame-left: 96px;
+    --project-frame-right: calc(100vw - 96px);
+    --project-frame-top: 96px;
+    --project-frame-bottom: calc(var(--app-height) - 96px);
+    --gallery-frame-left: var(--project-frame-left);
+    --gallery-frame-right: var(--project-frame-right);
+    --gallery-frame-top: var(--project-frame-top);
+    --gallery-frame-bottom: var(--project-frame-bottom);
     
     /* 3D Room Variables */
     --app-height: 100vh;
@@ -1266,25 +1274,6 @@ body.gallery-filter-transitioning .gallery-card {
     pointer-events: none;
 }
 
-.media-badge-r2 {
-    width: 30px;
-    height: 30px;
-    flex: 0 0 30px;
-    border-radius: 999px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--debug-accent);
-    background: rgba(0, 0, 0, 0.64);
-    color: var(--debug-accent);
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    line-height: 1;
-    text-transform: uppercase;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.18);
-}
-
 .media-debug-info {
     display: none;
     max-width: min(220px, calc(100vw - 96px));
@@ -2188,6 +2177,57 @@ body.bw-mode .project-card img,
     .gallery-page .outline-nav,
     .project-page .outline-nav {
         display: flex;
+    }
+
+    .project-page .side-nav.left {
+        top: var(--project-frame-top);
+        bottom: calc(var(--app-height) - var(--project-frame-bottom));
+        height: auto;
+        transform: none;
+    }
+
+    .project-page.front-view-active .side-nav.left {
+        transform: translateX(-18px);
+    }
+
+    .project-page .outline-nav {
+        top: var(--project-frame-top);
+        bottom: calc(var(--app-height) - var(--project-frame-bottom));
+        height: auto;
+        justify-content: space-between;
+        transform: none;
+    }
+
+    .project-page.front-view-active .outline-nav {
+        transform: translateX(18px);
+    }
+
+    .project-page .outline-nav-items {
+        flex: 1 1 auto;
+        padding-bottom: 0;
+    }
+
+    .project-page .theme-nav {
+        left: var(--project-frame-left);
+    }
+
+    .project-page .debug-controls.audio-controls {
+        right: calc(100vw - var(--project-frame-right));
+    }
+
+    .gallery-page .side-nav.left {
+        top: var(--gallery-frame-top);
+        bottom: calc(var(--app-height) - var(--gallery-frame-bottom));
+        height: auto;
+        transform: none;
+    }
+
+    .gallery-page .theme-nav {
+        left: var(--gallery-frame-left);
+    }
+
+    .gallery-page .debug-controls.audio-controls {
+        right: calc(100vw - var(--gallery-frame-right));
     }
 
     .gallery-card.pos-tl,

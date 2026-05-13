@@ -1,30 +1,42 @@
 {
   "description": "Assety ponechané mimo GitHub kvůli velikosti; vhodné pro budoucí upload na Cloudflare R2.",
-  "generatedAt": "2026-05-04T12:39:00Z",
+  "generatedAt": "2026-05-12T14:50:32Z",
   "githubMaxBytes": 20971520,
   "githubMaxMib": 20,
   "counts": {
-    "scannedFiles": 858,
-    "githubEligible": 829,
-    "r2Candidates": 29
+    "scannedFiles": 1724,
+    "githubEligible": 1668,
+    "r2Candidates": 56
   },
   "bytes": {
-    "githubEligible": 649591755,
-    "r2Candidates": 1839983629
+    "githubEligible": 1289392094,
+    "r2Candidates": 3262934023
   },
   "kinds": {
     "githubEligible": {
-      "document": 183,
-      "image": 610,
-      "video": 36
+      "document": 366,
+      "image": 1230,
+      "video": 72
     },
     "r2Candidates": {
-      "document": 3,
-      "image": 4,
-      "video": 22
+      "document": 6,
+      "image": 6,
+      "video": 44
     }
   },
   "files": [
+    {
+      "path": "assets/ASP Wroclaw 2/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
+      "bytes": 93115000,
+      "bytesHuman": "88.80 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/ASP Wroclaw 2/WOŁKOWSKI_W-DOMU/MEDIA/ASP-WROCLAW_Wolkowski_Mateusz_W-domu_web.mp4",
+      "bytes": 60654846,
+      "bytesHuman": "57.84 MiB",
+      "kind": "video"
+    },
     {
       "path": "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
       "bytes": 93115000,
@@ -35,6 +47,18 @@
       "path": "assets/ASP Wroclaw/WOŁKOWSKI_W-DOMU/MEDIA/ASP-WROCLAW_Wolkowski_Mateusz_W-domu_web.mp4",
       "bytes": 60654846,
       "bytesHuman": "57.84 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/AU BB 2/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4",
+      "bytes": 32687679,
+      "bytesHuman": "31.17 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/AU BB 2/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4",
+      "bytes": 33621051,
+      "bytesHuman": "32.06 MiB",
       "kind": "video"
     },
     {
@@ -50,6 +74,24 @@
       "kind": "video"
     },
     {
+      "path": "assets/BAAZ 2/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4",
+      "bytes": 76005303,
+      "bytesHuman": "72.48 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/BAAZ 2/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif",
+      "bytes": 170879046,
+      "bytesHuman": "162.96 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/BAAZ 2/Sunny Lustov_Nereids/media/gif.gif",
+      "bytes": 129312513,
+      "bytesHuman": "123.32 MiB",
+      "kind": "image"
+    },
+    {
       "path": "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4",
       "bytes": 76005303,
       "bytesHuman": "72.48 MiB",
@@ -57,15 +99,45 @@
     },
     {
       "path": "assets/BAAZ/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif",
-      "bytes": 170879046,
-      "bytesHuman": "162.96 MiB",
+      "bytes": 45723916,
+      "bytesHuman": "43.61 MiB",
       "kind": "image"
     },
     {
       "path": "assets/BAAZ/Sunny Lustov_Nereids/media/gif.gif",
-      "bytes": 129312513,
-      "bytesHuman": "123.32 MiB",
+      "bytes": 27266801,
+      "bytesHuman": "26.00 MiB",
       "kind": "image"
+    },
+    {
+      "path": "assets/MUNI 2/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web.mp4",
+      "bytes": 22067294,
+      "bytesHuman": "21.05 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/MUNI 2/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART/FI MUNI_Portesova_Sarka_Mom, I_m not playing, I_m making ART_web.mp4",
+      "bytes": 22623465,
+      "bytesHuman": "21.58 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/MUNI 2/Fi MUNI Musil_Bronislav_Drum and Bezier/FI MUNI_Bronislav Musil - Drum and Beziere_video_web.mp4",
+      "bytes": 32804601,
+      "bytesHuman": "31.28 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/MUNI 2/MUNI-FI_Dohnal_Marek-Toy_Design/media/MUNI-FI_Dohnal_Marek_web.mp4",
+      "bytes": 25825187,
+      "bytesHuman": "24.63 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/MUNI 2/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
+      "bytes": 76105777,
+      "bytesHuman": "72.58 MiB",
+      "kind": "video"
     },
     {
       "path": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web.mp4",
@@ -95,6 +167,48 @@
       "path": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
       "bytes": 76105777,
       "bytesHuman": "72.58 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/TUZVO 2/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_video_concept_01_web.mp4",
+      "bytes": 69283867,
+      "bytesHuman": "66.07 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/TUZVO 2/Hana Šegedová_SPOJOVÁ school garden/media/TUZVO_Šegedová_Hana_SPOJOVA School Garden_video_web.mp4",
+      "bytes": 40058229,
+      "bytesHuman": "38.20 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/TUZVO 2/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4",
+      "bytes": 28454807,
+      "bytesHuman": "27.14 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/TUZVO 2/Kvetoslava Krnáčová_Space No.01/Presentation/space_no.01_–_.pptx",
+      "bytes": 39090323,
+      "bytesHuman": "37.28 MiB",
+      "kind": "document"
+    },
+    {
+      "path": "assets/TUZVO 2/Lujza Novosadová_Infinity loop/media/Novosadová_Infinity_loop_presentation.pptx",
+      "bytes": 24540479,
+      "bytesHuman": "23.40 MiB",
+      "kind": "document"
+    },
+    {
+      "path": "assets/TUZVO 2/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_presentation.pptx",
+      "bytes": 40733655,
+      "bytesHuman": "38.85 MiB",
+      "kind": "document"
+    },
+    {
+      "path": "assets/TUZVO 2/Monika Koišová_Spojová Hub/media/TUZVO_Koišová_Monika_SPOJOVÁ HUB_video_web.mp4",
+      "bytes": 33672203,
+      "bytesHuman": "32.11 MiB",
       "kind": "video"
     },
     {
@@ -140,15 +254,69 @@
       "kind": "video"
     },
     {
+      "path": "assets/UAlg 2/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_01_web.mp4",
+      "bytes": 100373653,
+      "bytesHuman": "95.72 MiB",
+      "kind": "video"
+    },
+    {
       "path": "assets/UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_01_web.mp4",
       "bytes": 100373653,
       "bytesHuman": "95.72 MiB",
       "kind": "video"
     },
     {
-      "path": "assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
+      "path": "assets/USTP 2/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
       "bytes": 50389540,
       "bytesHuman": "48.06 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
+      "bytes": 49102067,
+      "bytesHuman": "46.83 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/UTB 2/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web.mp4",
+      "bytes": 38805711,
+      "bytesHuman": "37.01 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/UTB 2/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web.mp4",
+      "bytes": 182690099,
+      "bytesHuman": "174.23 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/UTB 2/Marietta Brandisová_Between Nature and Technology/ant gif poster.gif",
+      "bytes": 90211110,
+      "bytesHuman": "86.03 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/UTB 2/Marietta Brandisová_Between Nature and Technology/beetle gif poster.gif",
+      "bytes": 84112775,
+      "bytesHuman": "80.22 MiB",
+      "kind": "image"
+    },
+    {
+      "path": "assets/UTB 2/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
+      "bytes": 55958373,
+      "bytesHuman": "53.37 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/UTB 2/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web.mp4",
+      "bytes": 52350250,
+      "bytesHuman": "49.93 MiB",
+      "kind": "video"
+    },
+    {
+      "path": "assets/UTB 2/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web.mp4",
+      "bytes": 47965821,
+      "bytesHuman": "45.74 MiB",
       "kind": "video"
     },
     {
@@ -164,21 +332,9 @@
       "kind": "video"
     },
     {
-      "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.gif",
-      "bytes": 90211110,
-      "bytesHuman": "86.03 MiB",
-      "kind": "image"
-    },
-    {
-      "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.gif",
-      "bytes": 84112775,
-      "bytesHuman": "80.22 MiB",
-      "kind": "image"
-    },
-    {
       "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
-      "bytes": 55958373,
-      "bytesHuman": "53.37 MiB",
+      "bytes": 41737338,
+      "bytesHuman": "39.80 MiB",
       "kind": "video"
     },
     {
@@ -194,6 +350,12 @@
       "kind": "video"
     },
     {
+      "path": "assets/VŠVU 2/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4",
+      "bytes": 85590972,
+      "bytesHuman": "81.63 MiB",
+      "kind": "video"
+    },
+    {
       "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_animácia_MARS 53._web.mp4",
       "bytes": 85590972,
       "bytesHuman": "81.63 MiB",
@@ -201,7 +363,7 @@
     }
   ],
   "bytesHuman": {
-    "githubEligible": "619.50 MiB",
-    "r2Candidates": "1.71 GiB"
+    "githubEligible": "1.20 GiB",
+    "r2Candidates": "3.04 GiB"
   }
 }

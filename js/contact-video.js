@@ -315,7 +315,7 @@ function initSpaceToSpaceVideoProjection() {
     }
 
     function tryPlay(video) {
-        video.muted = true;
+        window.SpaceToSpaceAudio?.applyToVideo(video);
         video.playsInline = true;
         video.play().catch(() => {});
     }

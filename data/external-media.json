@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T14:44:45.700287+00:00",
+  "generatedAt": "2026-05-13T22:03:32.527502+00:00",
   "generatedFrom": "data/projects-selected.json",
-  "mediaCount": 48,
+  "mediaCount": 37,
   "media": [
     {
       "workId": 41,
@@ -46,15 +46,6 @@
       "title": "Matches",
       "author": "Michał Sieczka",
       "path": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 8,
-      "workSlug": "micha-sieczka-matches",
-      "school": "ASP Wroclaw",
-      "title": "Matches",
-      "author": "Michał Sieczka",
-      "path": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4",
       "reason": "selected-source-reference"
     },
     {
@@ -162,15 +153,6 @@
       "school": "MUNI",
       "title": "Nebula",
       "author": "Adam Svoboda",
-      "path": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 21,
-      "workSlug": "adam-svoboda-nebula",
-      "school": "MUNI",
-      "title": "Nebula",
-      "author": "Adam Svoboda",
       "path": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web.mp4",
       "reason": "selected-source-reference"
     },
@@ -184,15 +166,6 @@
       "reason": "selected-source-reference"
     },
     {
-      "workId": 27,
-      "workSlug": "martin-nastoupil-resonance-in-space",
-      "school": "MUNI",
-      "title": "Resonance in Space",
-      "author": "Martin Nastoupil",
-      "path": "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
       "workId": 28,
       "workSlug": "matus-talcik-darwin-s-cube",
       "school": "MUNI",
@@ -202,30 +175,12 @@
       "reason": "selected-source-reference"
     },
     {
-      "workId": 28,
-      "workSlug": "matus-talcik-darwin-s-cube",
-      "school": "MUNI",
-      "title": "Darwin’s Cube",
-      "author": "Matúš Talčík",
-      "path": "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
       "workId": 17,
       "workSlug": "patrik-sluka-blow-me-away",
       "school": "AU BB",
       "title": "Blow Me Away!",
       "author": "Patrik Sluka",
       "path": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 17,
-      "workSlug": "patrik-sluka-blow-me-away",
-      "school": "AU BB",
-      "title": "Blow Me Away!",
-      "author": "Patrik Sluka",
-      "path": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web_preview.mp4",
       "reason": "selected-source-reference"
     },
     {
@@ -265,15 +220,6 @@
       "reason": "selected-source-reference"
     },
     {
-      "workId": 55,
-      "workSlug": "ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786",
-      "school": "USTP",
-      "title": "Lucid Dreams MAV 5786",
-      "author": "Ron Feldman, Felix Stängle, Kateryna Simson",
-      "path": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
       "workId": 73,
       "workSlug": "marietta-brandisova-between-nature-and-technology",
       "school": "UTB",
@@ -301,30 +247,12 @@
       "reason": "selected-source-reference"
     },
     {
-      "workId": 63,
-      "workSlug": "elizabeth-bugyiova-interspace",
-      "school": "UTB",
-      "title": "interspace",
-      "author": "Elizabeth Bugyiová",
-      "path": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
       "workId": 75,
       "workSlug": "matej-masaryk-reflections",
       "school": "UTB",
       "title": "Reflections",
       "author": "Matej Masaryk",
       "path": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 75,
-      "workSlug": "matej-masaryk-reflections",
-      "school": "UTB",
-      "title": "Reflections",
-      "author": "Matej Masaryk",
-      "path": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web_preview.mp4",
       "reason": "selected-source-reference"
     },
     {
@@ -337,30 +265,12 @@
       "reason": "selected-source-reference"
     },
     {
-      "workId": 91,
-      "workSlug": "sarka-nesporova-break-the-cycle",
-      "school": "UTB",
-      "title": "Break the Cycle",
-      "author": "Šárka Nešporová",
-      "path": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
       "workId": 82,
       "workSlug": "theo-fekar-testimonies-of-the-future",
       "school": "UTB",
       "title": "Testimonies of the Future",
       "author": "Theo Fekar",
       "path": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 82,
-      "workSlug": "theo-fekar-testimonies-of-the-future",
-      "school": "UTB",
-      "title": "Testimonies of the Future",
-      "author": "Theo Fekar",
-      "path": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web_preview.mp4",
       "reason": "selected-source-reference"
     },
     {
@@ -379,15 +289,6 @@
       "title": "To Mars!!!",
       "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
       "path": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web.mp4",
-      "reason": "selected-source-reference"
-    },
-    {
-      "workId": 67,
-      "workSlug": "jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars",
-      "school": "UTB",
-      "title": "To Mars!!!",
-      "author": "Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal",
-      "path": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web_preview.mp4",
       "reason": "selected-source-reference"
     },
     {

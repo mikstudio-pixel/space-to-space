@@ -39,7 +39,8 @@
     }
 
     function initToggle() {
-        const initialState = readStoredState();
+        const hasToggle = document.querySelector(TOGGLE_SELECTOR) !== null;
+        const initialState = hasToggle && readStoredState();
         applyState(initialState);
 
         document.querySelectorAll(TOGGLE_SELECTOR).forEach((button) => {

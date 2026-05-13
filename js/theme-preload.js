@@ -2,8 +2,7 @@
     try {
         const root = document.documentElement;
         const savedDarkMode = localStorage.getItem('darkMode');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const isDark = savedDarkMode === null ? prefersDark : savedDarkMode === 'true';
+        const isDark = savedDarkMode === null ? true : savedDarkMode === 'true';
         const isBw = localStorage.getItem('bwMode') === 'true';
 
         root.classList.toggle('dark-mode', isDark);

@@ -1,5 +1,5 @@
 window.SpaceToSpaceProjectsData = {
-  "generatedAt": "2026-05-04T14:44:45.700287+00:00",
+  "generatedAt": "2026-05-13T22:03:32.527502+00:00",
   "generatedFrom": "data/projects-selected.json",
   "workCount": 68,
   "works": [
@@ -13,7 +13,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2_preview.webp",
         "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp",
         "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.webp",
         "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.webp",
@@ -37,7 +36,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
-        "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2_preview.webp",
         "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp",
         "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.webp",
         "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.webp",
@@ -54,13 +52,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 812048,
           "bytesHuman": "793 KB"
-        },
-        {
-          "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2_preview.webp",
-          "path": "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2_preview.webp",
-          "type": "image",
-          "bytes": 10564,
-          "bytesHuman": "10.3 KB"
         },
         {
           "source": "TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp",
@@ -107,7 +98,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2.webp",
-        "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA2_preview.webp",
         "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA3.webp",
         "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA4.webp",
         "assets/TUZVO/Paulína Abrahámová_Cocoon chair/Media/PA5.webp",
@@ -132,7 +122,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.webp",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01_preview.webp",
         "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp",
         "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.webp",
         "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.webp"
@@ -153,7 +142,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.webp",
-        "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01_preview.webp",
         "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp",
         "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.webp",
         "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.webp"
@@ -167,13 +155,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 345516,
           "bytesHuman": "337 KB"
-        },
-        {
-          "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01_preview.webp",
-          "path": "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01_preview.webp",
-          "type": "image",
-          "bytes": 13760,
-          "bytesHuman": "13.4 KB"
         },
         {
           "source": "TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp",
@@ -199,7 +180,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01.webp",
-        "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_01_preview.webp",
         "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_03.webp",
         "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_04.webp",
         "assets/TUZVO/Martina Ďalogová_Glitch/media/TUZVO_Ďalogová_Martina_glitch_05.webp"
@@ -270,7 +250,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01_preview.webp",
         "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp",
         "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.webp",
         "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.webp",
@@ -294,7 +273,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
-        "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01_preview.webp",
         "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp",
         "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.webp",
         "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.webp",
@@ -312,13 +290,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 64324,
           "bytesHuman": "62.8 KB"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01_preview.webp",
-          "path": "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01_preview.webp",
-          "type": "image",
-          "bytes": 9550,
-          "bytesHuman": "9.33 KB"
         },
         {
           "source": "TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp",
@@ -365,7 +336,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01.webp",
-        "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_01_preview.webp",
         "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_02.webp",
         "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_03.webp",
         "assets/TUZVO/Hana Šegedová_UMAMA/media/TUZVO_Šegedová_Hana_UMAMA_04.webp",
@@ -392,7 +362,6 @@ window.SpaceToSpaceProjectsData = {
       "src": [
         "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_Warka house_video_web.mp4",
         "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01_preview.webp",
         "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp",
         "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.webp",
         "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.webp",
@@ -414,7 +383,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
-        "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01_preview.webp",
         "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp",
         "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.webp",
         "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.webp",
@@ -438,13 +406,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 584030,
           "bytesHuman": "570 KB"
-        },
-        {
-          "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01_preview.webp",
-          "path": "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01_preview.webp",
-          "type": "image",
-          "bytes": 29702,
-          "bytesHuman": "29.0 KB"
         },
         {
           "source": "TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp",
@@ -477,7 +438,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01.webp",
-        "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_01_preview.webp",
         "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_02.webp",
         "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_03.webp",
         "assets/TUZVO/Hana Šegedová_WARKA house/media/TUZVO_Šegedová_Hana_WARKA_house_04.webp",
@@ -502,7 +462,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01_preview.webp",
         "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp",
         "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.webp",
         "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.webp",
@@ -526,7 +485,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
-        "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01_preview.webp",
         "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp",
         "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.webp",
         "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.webp",
@@ -543,13 +501,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 203516,
           "bytesHuman": "199 KB"
-        },
-        {
-          "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01_preview.webp",
-          "path": "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01_preview.webp",
-          "type": "image",
-          "bytes": 7646,
-          "bytesHuman": "7.47 KB"
         },
         {
           "source": "TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp",
@@ -596,7 +547,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01.webp",
-        "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_01_preview.webp",
         "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_02.webp",
         "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_03.webp",
         "assets/TUZVO/Ema Kmecová_Face to Face/Media/TUZVO_Kmecová_Ema_Face_to_Face_04.webp",
@@ -621,7 +571,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01_preview.webp",
         "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp",
         "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.webp",
         "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.webp",
@@ -644,7 +593,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
-        "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01_preview.webp",
         "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp",
         "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.webp",
         "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.webp",
@@ -661,13 +609,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 220318,
           "bytesHuman": "215 KB"
-        },
-        {
-          "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01_preview.webp",
-          "path": "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01_preview.webp",
-          "type": "image",
-          "bytes": 11540,
-          "bytesHuman": "11.3 KB"
         },
         {
           "source": "TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp",
@@ -707,7 +648,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01.webp",
-        "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_01_preview.webp",
         "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_02.JPG.webp",
         "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_03.JPG.webp",
         "assets/TUZVO/Gréta Brajerová_Errans/MEDIA/TUZVO_Brajerová_Gréta_errans_04.JPG.webp",
@@ -735,7 +675,6 @@ window.SpaceToSpaceProjectsData = {
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01_preview.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.webp",
@@ -751,7 +690,7 @@ window.SpaceToSpaceProjectsData = {
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
       "preview": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01_preview.webp",
-      "quality": "5",
+      "quality": "6",
       "fileSizes": {
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01_preview.webp": 5132
       },
@@ -762,7 +701,6 @@ window.SpaceToSpaceProjectsData = {
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
-        "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01_preview.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.webp",
         "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.webp",
@@ -800,13 +738,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 186618,
           "bytesHuman": "182 KB"
-        },
-        {
-          "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01_preview.webp",
-          "path": "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01_preview.webp",
-          "type": "image",
-          "bytes": 5132,
-          "bytesHuman": "5.01 KB"
         },
         {
           "source": "TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp",
@@ -856,7 +787,6 @@ window.SpaceToSpaceProjectsData = {
         "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_a.webp",
         "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová_Ema_DUENDE_umiestnenie_b.webp",
         "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01.webp",
-        "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_01_preview.webp",
         "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_02.webp",
         "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_03.webp",
         "assets/TUZVO/Ema Kováčová_DUENDE/Media/TUZVO_Kováčová__Ema_DUENDE_04.webp",
@@ -882,7 +812,6 @@ window.SpaceToSpaceProjectsData = {
       "src": [
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.webp",
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02_preview.webp",
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp",
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.webp",
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.webp"
@@ -904,7 +833,6 @@ window.SpaceToSpaceProjectsData = {
       "media": [
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.webp",
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
-        "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02_preview.webp",
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp",
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.webp",
         "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.webp"
@@ -925,13 +853,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 159000,
           "bytesHuman": "155 KB"
-        },
-        {
-          "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02_preview.webp",
-          "path": "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02_preview.webp",
-          "type": "image",
-          "bytes": 3072,
-          "bytesHuman": "3.00 KB"
         },
         {
           "source": "TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp",
@@ -958,7 +879,6 @@ window.SpaceToSpaceProjectsData = {
       "resolvedImages": [
         "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_01.webp",
         "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02.webp",
-        "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_02_preview.webp",
         "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_03.webp",
         "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_04.webp",
         "assets/TUZVO/Martina Hatalová_From Air to Ground/Media/TUZVO_Hatalová_from_air_to_ground_05.webp"
@@ -980,7 +900,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01_preview.webp",
         "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp",
         "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.webp",
         "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.webp",
@@ -1002,7 +921,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
-        "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01_preview.webp",
         "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp",
         "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.webp",
         "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.webp",
@@ -1017,13 +935,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 45154,
           "bytesHuman": "44.1 KB"
-        },
-        {
-          "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01_preview.webp",
-          "path": "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01_preview.webp",
-          "type": "image",
-          "bytes": 9064,
-          "bytesHuman": "8.85 KB"
         },
         {
           "source": "TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp",
@@ -1056,7 +967,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01.webp",
-        "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_01_preview.webp",
         "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_02.webp",
         "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_03.webp",
         "assets/TUZVO/Samuel Rusnák_YTERA/media/TUZVO_Rusnák_Samuel_YTERA_04.webp",
@@ -1080,7 +990,6 @@ window.SpaceToSpaceProjectsData = {
       "src": [
         "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-3.webp",
         "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
-        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5_preview.webp",
         "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp",
         "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-7.webp",
         "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.webp",
@@ -1105,7 +1014,6 @@ window.SpaceToSpaceProjectsData = {
       "media": [
         "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-3.webp",
         "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
-        "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5_preview.webp",
         "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp",
         "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-7.webp",
         "TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.webp",
@@ -1129,13 +1037,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 563980,
           "bytesHuman": "551 KB"
-        },
-        {
-          "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5_preview.webp",
-          "path": "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5_preview.webp",
-          "type": "image",
-          "bytes": 36604,
-          "bytesHuman": "35.7 KB"
         },
         {
           "source": "TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp",
@@ -1183,7 +1084,6 @@ window.SpaceToSpaceProjectsData = {
       "resolvedImages": [
         "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-3.webp",
         "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5.webp",
-        "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-5_preview.webp",
         "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-6.webp",
         "assets/TUZVO/Viola Muchová_Layra/media/muchova_viola_layra_presentation-7.webp",
         "assets/TUZVO/Viola Muchová_Layra/media/tuzvo_muchová_viola_layra_01.webp",
@@ -1208,7 +1108,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "GRAPHIC",
       "src": [
         "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002.webp",
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002_preview.webp",
         "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp",
         "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0004.webp",
         "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0005.webp",
@@ -1236,7 +1135,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "asp-wroclaw",
       "media": [
         "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002.webp",
-        "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002_preview.webp",
         "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp",
         "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0004.webp",
         "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0005.webp",
@@ -1257,13 +1155,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 2449378,
           "bytesHuman": "2.34 MB"
-        },
-        {
-          "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002_preview.webp",
-          "path": "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002_preview.webp",
-          "type": "image",
-          "bytes": 68888,
-          "bytesHuman": "67.3 KB"
         },
         {
           "source": "ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp",
@@ -1338,7 +1229,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002.webp",
-        "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0002_preview.webp",
         "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0003.webp",
         "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0004.webp",
         "assets/ASP Wroclaw/Alexandre Guezenoc_How/MEDIA/5c6cf830-5cb8-4423-8da3-d46749d392a7-0005.webp",
@@ -1366,8 +1256,7 @@ window.SpaceToSpaceProjectsData = {
       "typeClass": "media-video",
       "category": "CONCEPTUAL",
       "src": [
-        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
-        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4"
+        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4"
       ],
       "contacts": {
         "email": "michal.sieczka88@gmail.com",
@@ -1377,7 +1266,7 @@ window.SpaceToSpaceProjectsData = {
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
       "preview": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4",
-      "quality": "5",
+      "quality": "6",
       "fileSizes": {
         "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4": 434221
       },
@@ -1385,8 +1274,7 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "asp-wroclaw",
       "media": [],
       "externalMedia": [
-        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4",
-        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4"
+        "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
@@ -1396,25 +1284,17 @@ window.SpaceToSpaceProjectsData = {
           "type": "video",
           "bytes": 93115000,
           "bytesHuman": "88.8 MB"
-        },
-        {
-          "source": "ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4",
-          "path": "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4",
-          "type": "video",
-          "bytes": 434221,
-          "bytesHuman": "424 KB"
         }
       ],
       "resolvedImages": [],
       "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/asp-wroclaw/micha-sieczka-matches/media/asp-wroclaw-micha-sieczka-matches-web.mp4",
-        "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/asp-wroclaw/micha-sieczka-matches/media/asp-wroclaw-micha-sieczka-matches-web.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/ASP Wroclaw/Michał Sieczka_Matches/MEDIA/ASP-WROCLAW_Michał_Sieczka_Matches_web_preview.mp4",
       "menuAssetType": "video",
-      "menuAssetBytes": 434221,
-      "menuAssetBytesHuman": "424 KB"
+      "menuAssetBytes": 1034681,
+      "menuAssetBytesHuman": "1010 KB"
     },
     {
       "id": 1,
@@ -1426,7 +1306,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.webp",
-        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01_preview.webp",
         "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
         "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.webp"
       ],
@@ -1446,7 +1325,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "aluo",
       "media": [
         "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.webp",
-        "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01_preview.webp",
         "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
         "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.webp"
       ],
@@ -1459,13 +1337,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 412620,
           "bytesHuman": "403 KB"
-        },
-        {
-          "source": "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01_preview.webp",
-          "path": "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01_preview.webp",
-          "type": "image",
-          "bytes": 66780,
-          "bytesHuman": "65.2 KB"
         },
         {
           "source": "ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
@@ -1484,7 +1355,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01.webp",
-        "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_01_preview.webp",
         "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_02.webp",
         "assets/ALUO/Jaka Kordiš, Matic Lesjak, Črt Štrubelj_What remains/media/aluo_what-remains_03.webp"
       ],
@@ -1505,7 +1375,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.webp",
-        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01_preview.webp",
         "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
         "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.webp"
       ],
@@ -1525,7 +1394,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "aluo",
       "media": [
         "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.webp",
-        "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01_preview.webp",
         "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
         "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.webp"
       ],
@@ -1538,13 +1406,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 221770,
           "bytesHuman": "217 KB"
-        },
-        {
-          "source": "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01_preview.webp",
-          "path": "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01_preview.webp",
-          "type": "image",
-          "bytes": 36790,
-          "bytesHuman": "35.9 KB"
         },
         {
           "source": "ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
@@ -1563,7 +1424,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01.webp",
-        "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_01_preview.webp",
         "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_02.webp",
         "assets/ALUO/Umihana Dizdarević, Marko Gorenak, Anja Tudjan, Nina Vranješ_Seapack/media/ALUO_Seapack_03.webp"
       ],
@@ -1585,7 +1445,6 @@ window.SpaceToSpaceProjectsData = {
       "src": [
         "BAAZ/Danna Bernhard_Tiny Moves/media/Tiny Moves by Danna Bernhard - Danna ber (1080p, h264)_web.mp4",
         "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
-        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house_preview.webp",
         "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp",
         "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_play.webp",
         "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_family.webp",
@@ -1614,7 +1473,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "baaz",
       "media": [
         "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
-        "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house_preview.webp",
         "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp",
         "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_play.webp",
         "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_family.webp",
@@ -1645,13 +1503,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 268086,
           "bytesHuman": "262 KB"
-        },
-        {
-          "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house_preview.webp",
-          "path": "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house_preview.webp",
-          "type": "image",
-          "bytes": 13536,
-          "bytesHuman": "13.2 KB"
         },
         {
           "source": "BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp",
@@ -1733,7 +1584,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house.webp",
-        "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_assembled_house_preview.webp",
         "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_peeking.webp",
         "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_child_play.webp",
         "assets/BAAZ/Danna Bernhard_Tiny Moves/media/TinyMoves_family.webp",
@@ -1765,7 +1615,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "SPATIAL",
       "src": [
         "BAAZ/Noa Sade Satat_Gerem/media/copy_of_copy_of__DSC9605.webp",
-        "BAAZ/Noa Sade Satat_Gerem/media/copy_of_copy_of__DSC9605_preview.webp",
         "BAAZ/Noa Sade Satat_Gerem/media/copy_of__DSC9613.webp",
         "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_111.webp",
         "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_112.webp",
@@ -1789,7 +1638,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "baaz",
       "media": [
         "BAAZ/Noa Sade Satat_Gerem/media/copy_of_copy_of__DSC9605.webp",
-        "BAAZ/Noa Sade Satat_Gerem/media/copy_of_copy_of__DSC9605_preview.webp",
         "BAAZ/Noa Sade Satat_Gerem/media/copy_of__DSC9613.webp",
         "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_111.webp",
         "BAAZ/Noa Sade Satat_Gerem/media/ID0725E_112.webp",
@@ -1807,13 +1655,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 1107084,
           "bytesHuman": "1.06 MB"
-        },
-        {
-          "source": "BAAZ/Noa Sade Satat_Gerem/media/copy_of_copy_of__DSC9605_preview.webp",
-          "path": "assets/BAAZ/Noa Sade Satat_Gerem/media/copy_of_copy_of__DSC9605_preview.webp",
-          "type": "image",
-          "bytes": 15338,
-          "bytesHuman": "15.0 KB"
         },
         {
           "source": "BAAZ/Noa Sade Satat_Gerem/media/copy_of__DSC9613.webp",
@@ -1860,7 +1701,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/BAAZ/Noa Sade Satat_Gerem/media/copy_of_copy_of__DSC9605.webp",
-        "assets/BAAZ/Noa Sade Satat_Gerem/media/copy_of_copy_of__DSC9605_preview.webp",
         "assets/BAAZ/Noa Sade Satat_Gerem/media/copy_of__DSC9613.webp",
         "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_111.webp",
         "assets/BAAZ/Noa Sade Satat_Gerem/media/ID0725E_112.webp",
@@ -1901,7 +1741,7 @@ window.SpaceToSpaceProjectsData = {
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "preview": "BAAZ/Sunny Lustov_Nereids/media/gif.gif",
+      "preview": "BAAZ/Sunny Lustov_Nereids/media/9-5.webp",
       "quality": "3",
       "slug": "sunny-lustov-nereids",
       "schoolSlug": "baaz",
@@ -1957,16 +1797,16 @@ window.SpaceToSpaceProjectsData = {
         {
           "source": "BAAZ/Sunny Lustov_Nereids/media/gif.gif",
           "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/baaz/sunny-lustov-nereids/media/gif.gif",
-          "type": "video",
-          "bytes": 129312513,
-          "bytesHuman": "123 MB"
+          "type": "image",
+          "bytes": 27266801,
+          "bytesHuman": "26.0 MB"
         },
         {
           "source": "BAAZ/Sunny Lustov_Nereids/media/Nereids - Sunny Lustov2.gif",
           "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/baaz/sunny-lustov-nereids/media/nereids-sunny-lustov2.gif",
-          "type": "video",
-          "bytes": 170879046,
-          "bytesHuman": "163 MB"
+          "type": "image",
+          "bytes": 45723916,
+          "bytesHuman": "43.6 MB"
         },
         {
           "source": "BAAZ/Sunny Lustov_Nereids/media/NEREIDS Exhibition - by Sunny Lustov_1080p_web.mp4",
@@ -1981,18 +1821,18 @@ window.SpaceToSpaceProjectsData = {
         "assets/BAAZ/Sunny Lustov_Nereids/media/11-2.webp",
         "assets/BAAZ/Sunny Lustov_Nereids/media/2constraining layer.webp",
         "assets/BAAZ/Sunny Lustov_Nereids/media/6 (1).webp",
-        "assets/BAAZ/Sunny Lustov_Nereids/media/9-5.webp"
+        "assets/BAAZ/Sunny Lustov_Nereids/media/9-5.webp",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/baaz/sunny-lustov-nereids/media/gif.gif",
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/baaz/sunny-lustov-nereids/media/nereids-sunny-lustov2.gif"
       ],
       "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/baaz/sunny-lustov-nereids/media/gif.gif",
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/baaz/sunny-lustov-nereids/media/nereids-sunny-lustov2.gif",
         "assets/BAAZ/Sunny Lustov_Nereids/media/NEREIDS Exhibition - by Sunny Lustov_1080p_web.mp4"
       ],
       "resolvedDocuments": [],
-      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/baaz/sunny-lustov-nereids/media/gif.gif",
-      "menuAssetType": "video",
-      "menuAssetBytes": 129312513,
-      "menuAssetBytesHuman": "123 MB"
+      "menuAsset": "assets/BAAZ/Sunny Lustov_Nereids/media/9-5.webp",
+      "menuAssetType": "image",
+      "menuAssetBytes": 81836,
+      "menuAssetBytesHuman": "79.9 KB"
     },
     {
       "id": 89,
@@ -2013,7 +1853,6 @@ window.SpaceToSpaceProjectsData = {
         "BAAZ/Ofir Grinboim_Split identities/media/P1050081.webp",
         "BAAZ/Ofir Grinboim_Split identities/media/P1050119.webp",
         "BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
-        "BAAZ/Ofir Grinboim_Split identities/media/P1050155_preview.webp",
         "BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
         "BAAZ/Ofir Grinboim_Split identities/media/table_2.webp",
         "BAAZ/Ofir Grinboim_Split identities/media/table_web.mp4"
@@ -2026,7 +1865,7 @@ window.SpaceToSpaceProjectsData = {
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
       "preview": "BAAZ/Ofir Grinboim_Split identities/media/P1050155_preview.webp",
-      "quality": "5",
+      "quality": "6",
       "fileSizes": {
         "BAAZ/Ofir Grinboim_Split identities/media/P1050155_preview.webp": 22168
       },
@@ -2042,7 +1881,6 @@ window.SpaceToSpaceProjectsData = {
         "BAAZ/Ofir Grinboim_Split identities/media/P1050081.webp",
         "BAAZ/Ofir Grinboim_Split identities/media/P1050119.webp",
         "BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
-        "BAAZ/Ofir Grinboim_Split identities/media/P1050155_preview.webp",
         "BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
         "BAAZ/Ofir Grinboim_Split identities/media/table_2.webp"
       ],
@@ -2123,13 +1961,6 @@ window.SpaceToSpaceProjectsData = {
           "bytesHuman": "308 KB"
         },
         {
-          "source": "BAAZ/Ofir Grinboim_Split identities/media/P1050155_preview.webp",
-          "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050155_preview.webp",
-          "type": "image",
-          "bytes": 22168,
-          "bytesHuman": "21.6 KB"
-        },
-        {
           "source": "BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
           "path": "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
           "type": "image",
@@ -2161,7 +1992,6 @@ window.SpaceToSpaceProjectsData = {
         "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050081.webp",
         "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050119.webp",
         "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050155.webp",
-        "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050155_preview.webp",
         "assets/BAAZ/Ofir Grinboim_Split identities/media/P1050164 fix 3.webp",
         "assets/BAAZ/Ofir Grinboim_Split identities/media/table_2.webp"
       ],
@@ -2185,7 +2015,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1.webp",
-        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1_preview.webp",
         "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
         "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic3.webp",
         "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Vid01_web.mp4",
@@ -2207,7 +2036,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "baaz",
       "media": [
         "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1.webp",
-        "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1_preview.webp",
         "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
         "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic3.webp"
       ],
@@ -2223,13 +2051,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 417330,
           "bytesHuman": "408 KB"
-        },
-        {
-          "source": "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1_preview.webp",
-          "path": "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1_preview.webp",
-          "type": "image",
-          "bytes": 15344,
-          "bytesHuman": "15.0 KB"
         },
         {
           "source": "BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
@@ -2262,7 +2083,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1.webp",
-        "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic1_preview.webp",
         "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic2.webp",
         "assets/BAAZ/Itai Orion_Stairwheel/media/BAAZ_Orion_Itai_Stairwheel_Pic3.webp"
       ],
@@ -2291,7 +2111,6 @@ window.SpaceToSpaceProjectsData = {
         "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.webp",
         "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.webp",
         "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.webp",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05_preview.webp",
         "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp"
       ],
       "contacts": {
@@ -2314,7 +2133,6 @@ window.SpaceToSpaceProjectsData = {
         "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.webp",
         "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.webp",
         "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.webp",
-        "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05_preview.webp",
         "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp"
       ],
       "externalMedia": [
@@ -2365,13 +2183,6 @@ window.SpaceToSpaceProjectsData = {
           "bytesHuman": "140 KB"
         },
         {
-          "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05_preview.webp",
-          "path": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05_preview.webp",
-          "type": "image",
-          "bytes": 12996,
-          "bytesHuman": "12.7 KB"
-        },
-        {
           "source": "MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp",
           "path": "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp",
           "type": "image",
@@ -2385,7 +2196,6 @@ window.SpaceToSpaceProjectsData = {
         "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_03.webp",
         "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_04.webp",
         "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05.webp",
-        "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_05_preview.webp",
         "assets/MUNI/Jozef Mikušinec_Space Simulation/FI_MUNI_Mikusinec_Jozef_Space_Simulation_06.webp"
       ],
       "resolvedVideos": [
@@ -2409,7 +2219,6 @@ window.SpaceToSpaceProjectsData = {
       "src": [
         "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula.webp",
         "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web.mp4",
-        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_preview.mp4",
         "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web.mp4"
       ],
       "contacts": {
@@ -2431,7 +2240,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "externalMedia": [
         "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web.mp4",
-        "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_preview.mp4",
         "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web.mp4"
       ],
       "documents": [],
@@ -2451,13 +2259,6 @@ window.SpaceToSpaceProjectsData = {
           "bytesHuman": "13.1 MB"
         },
         {
-          "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_preview.mp4",
-          "path": "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_preview.mp4",
-          "type": "video",
-          "bytes": 362884,
-          "bytesHuman": "354 KB"
-        },
-        {
           "source": "MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_web.mp4",
           "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/muni/adam-svoboda-nebula/fi-muni-svoboda-adam-nebula-portrait-web.mp4",
           "type": "video",
@@ -2470,7 +2271,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedVideos": [
         "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web.mp4",
-        "assets/MUNI/Adam Svoboda_Nebula/FI_MUNI_Svoboda_Adam_Nebula_portrait_short_web_preview.mp4",
         "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/muni/adam-svoboda-nebula/fi-muni-svoboda-adam-nebula-portrait-web.mp4"
       ],
       "resolvedDocuments": [],
@@ -2489,7 +2289,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "DIGITAL",
       "src": [
         "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
-        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web_preview.mp4",
         "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.webp",
         "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_02.webp",
         "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.webp"
@@ -2514,8 +2313,7 @@ window.SpaceToSpaceProjectsData = {
         "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.webp"
       ],
       "externalMedia": [
-        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4",
-        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web_preview.mp4"
+        "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
@@ -2525,13 +2323,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "video",
           "bytes": 76105777,
           "bytesHuman": "72.6 MB"
-        },
-        {
-          "source": "MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web_preview.mp4",
-          "path": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web_preview.mp4",
-          "type": "video",
-          "bytes": 2806009,
-          "bytesHuman": "2.68 MB"
         },
         {
           "source": "MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_01.webp",
@@ -2561,8 +2352,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/MUNI/Martin Nastoupil_Resonance in Space/FI_MUNI_Nastoupil_Martin_Resonance_in_Space_03.webp"
       ],
       "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/muni/martin-nastoupil-resonance-in-space/fi-muni-nastoupil-martin-resonance-in-space-web.mp4",
-        "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web_preview.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/muni/martin-nastoupil-resonance-in-space/fi-muni-nastoupil-martin-resonance-in-space-web.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/MUNI/Martin Nastoupil_Resonance in Space/FI MUNI_Nastoupil_Martin_Resonance in Space_web_preview.mp4",
@@ -2585,8 +2375,7 @@ window.SpaceToSpaceProjectsData = {
         "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_04.webp",
         "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_05.webp",
         "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_06.webp",
-        "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web.mp4",
-        "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web_preview.mp4"
+        "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web.mp4"
       ],
       "contacts": {
         "email": "jelenalukasova@gmail.com",
@@ -2611,8 +2400,7 @@ window.SpaceToSpaceProjectsData = {
         "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_06.webp"
       ],
       "externalMedia": [
-        "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web.mp4",
-        "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web_preview.mp4"
+        "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
@@ -2664,13 +2452,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "video",
           "bytes": 7032096,
           "bytesHuman": "6.71 MB"
-        },
-        {
-          "source": "MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web_preview.mp4",
-          "path": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web_preview.mp4",
-          "type": "video",
-          "bytes": 184551,
-          "bytesHuman": "180 KB"
         }
       ],
       "resolvedImages": [
@@ -2682,8 +2463,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Takcik__Matus_Darwin’s_Cube_06.webp"
       ],
       "resolvedVideos": [
-        "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web.mp4",
-        "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web_preview.mp4"
+        "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/MUNI/Matúš Talčík_Darwin’s Cube/FI_MUNI_Talcik_Matus_Darwins_Cube_video_web_preview.mp4",
@@ -2704,7 +2484,6 @@ window.SpaceToSpaceProjectsData = {
         "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_02.webp",
         "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_03.webp",
         "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web_preview.mp4",
         "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
         "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4"
       ],
@@ -2729,7 +2508,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "externalMedia": [
         "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
-        "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web_preview.mp4",
         "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
         "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_06_web.mp4"
       ],
@@ -2764,13 +2542,6 @@ window.SpaceToSpaceProjectsData = {
           "bytesHuman": "3.04 MB"
         },
         {
-          "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web_preview.mp4",
-          "path": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web_preview.mp4",
-          "type": "video",
-          "bytes": 272081,
-          "bytesHuman": "266 KB"
-        },
-        {
           "source": "AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
           "path": "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
           "type": "video",
@@ -2792,7 +2563,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedVideos": [
         "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web.mp4",
-        "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_04_web_preview.mp4",
         "assets/AU BB/Patrik Sluka_Blow Me Away!/Media/FVUAKUBB_Sluka_Patrik_Blow_me_away_!_05_web.mp4",
         "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/au-bb/patrik-sluka-blow-me-away/media/fvuakubb-sluka-patrik-blow-me-away-06-web.mp4"
       ],
@@ -2812,11 +2582,9 @@ window.SpaceToSpaceProjectsData = {
       "category": "DIGITAL",
       "src": [
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.webp",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001_preview.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004_preview.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/A_I_N_H_web.mp4"
@@ -2837,11 +2605,9 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "au-bb",
       "media": [
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.webp",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001_preview.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
-        "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004_preview.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp",
         "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.webp"
       ],
@@ -2856,13 +2622,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 435132,
           "bytesHuman": "425 KB"
-        },
-        {
-          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001_preview.webp",
-          "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001_preview.webp",
-          "type": "image",
-          "bytes": 108362,
-          "bytesHuman": "106 KB"
         },
         {
           "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp",
@@ -2884,13 +2643,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 51800,
           "bytesHuman": "50.6 KB"
-        },
-        {
-          "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004_preview.webp",
-          "path": "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004_preview.webp",
-          "type": "image",
-          "bytes": 51608,
-          "bytesHuman": "50.4 KB"
         },
         {
           "source": "AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp",
@@ -2916,11 +2668,9 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001.webp",
-        "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH001_preview.webp",
         "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH002.webp",
         "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH003.webp",
         "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004.webp",
-        "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH004_preview.webp",
         "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH005.webp",
         "assets/AU BB/Pavol Šeliga_AS IF NOTHING HAPPENED/Media/AINH006.webp"
       ],
@@ -2943,10 +2693,8 @@ window.SpaceToSpaceProjectsData = {
       "category": "CONCEPTUAL",
       "src": [
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.webp",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01_preview.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03_preview.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.webp",
@@ -2969,10 +2717,8 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "au-bb",
       "media": [
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.webp",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01_preview.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
-        "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03_preview.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.webp",
         "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.webp",
@@ -2990,13 +2736,6 @@ window.SpaceToSpaceProjectsData = {
           "bytesHuman": "917 KB"
         },
         {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01_preview.webp",
-          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01_preview.webp",
-          "type": "image",
-          "bytes": 21536,
-          "bytesHuman": "21.0 KB"
-        },
-        {
           "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
           "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
           "type": "image",
@@ -3009,13 +2748,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 28972,
           "bytesHuman": "28.3 KB"
-        },
-        {
-          "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03_preview.webp",
-          "path": "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03_preview.webp",
-          "type": "image",
-          "bytes": 28878,
-          "bytesHuman": "28.2 KB"
         },
         {
           "source": "AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp",
@@ -3055,10 +2787,8 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01.webp",
-        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_01_preview.webp",
         "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_02.webp",
         "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03.webp",
-        "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_03_preview.webp",
         "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_04.webp",
         "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_05.webp",
         "assets/AU BB/Martin Kopera_Speed of transformation/media/FVUAKUBB_Kopera_Martin_Rýchlosť_transformácie_06.webp",
@@ -3082,8 +2812,7 @@ window.SpaceToSpaceProjectsData = {
       "detailLayout": "video-background",
       "category": "DIGITAL",
       "src": [
-        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
-        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4"
+        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4"
       ],
       "contacts": {
         "email": "dd251510@ustp-students.at",
@@ -3093,7 +2822,7 @@ window.SpaceToSpaceProjectsData = {
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
       "preview": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4",
-      "quality": "5",
+      "quality": "6",
       "fileSizes": {
         "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4": 689304
       },
@@ -3101,8 +2830,7 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "ustp",
       "media": [],
       "externalMedia": [
-        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
-        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4"
+        "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
@@ -3110,21 +2838,13 @@ window.SpaceToSpaceProjectsData = {
           "source": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web.mp4",
           "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/ustp/ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786/media/mav-trailer-exp1-web.mp4",
           "type": "video",
-          "bytes": 50389540,
-          "bytesHuman": "48.1 MB"
-        },
-        {
-          "source": "USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4",
-          "path": "assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4",
-          "type": "video",
-          "bytes": 689304,
-          "bytesHuman": "673 KB"
+          "bytes": 49102067,
+          "bytesHuman": "46.8 MB"
         }
       ],
       "resolvedImages": [],
       "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/ustp/ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786/media/mav-trailer-exp1-web.mp4",
-        "assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/ustp/ron-feldman-felix-stangle-kateryna-simson-lucid-dreams-mav-5786/media/mav-trailer-exp1-web.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/USTP/Ron Feldman, Felix Stängle, Kateryna Simson_Lucid Dreams MAV 5786/Media/mav_trailer_exp1_web_preview.mp4",
@@ -3144,7 +2864,6 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Adam Čanecký_Orienting the system/Digital space.webp",
         "UTB/Adam Čanecký_Orienting the system/Mental space.webp",
         "UTB/Adam Čanecký_Orienting the system/Physical space.webp",
-        "UTB/Adam Čanecký_Orienting the system/Physical space_preview.webp",
         "UTB/Adam Čanecký_Orienting the system/Social space.webp"
       ],
       "contacts": {
@@ -3165,7 +2884,6 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Adam Čanecký_Orienting the system/Digital space.webp",
         "UTB/Adam Čanecký_Orienting the system/Mental space.webp",
         "UTB/Adam Čanecký_Orienting the system/Physical space.webp",
-        "UTB/Adam Čanecký_Orienting the system/Physical space_preview.webp",
         "UTB/Adam Čanecký_Orienting the system/Social space.webp"
       ],
       "externalMedia": [],
@@ -3193,13 +2911,6 @@ window.SpaceToSpaceProjectsData = {
           "bytesHuman": "71.6 KB"
         },
         {
-          "source": "UTB/Adam Čanecký_Orienting the system/Physical space_preview.webp",
-          "path": "assets/UTB/Adam Čanecký_Orienting the system/Physical space_preview.webp",
-          "type": "image",
-          "bytes": 73316,
-          "bytesHuman": "71.6 KB"
-        },
-        {
           "source": "UTB/Adam Čanecký_Orienting the system/Social space.webp",
           "path": "assets/UTB/Adam Čanecký_Orienting the system/Social space.webp",
           "type": "image",
@@ -3211,7 +2922,6 @@ window.SpaceToSpaceProjectsData = {
         "assets/UTB/Adam Čanecký_Orienting the system/Digital space.webp",
         "assets/UTB/Adam Čanecký_Orienting the system/Mental space.webp",
         "assets/UTB/Adam Čanecký_Orienting the system/Physical space.webp",
-        "assets/UTB/Adam Čanecký_Orienting the system/Physical space_preview.webp",
         "assets/UTB/Adam Čanecký_Orienting the system/Social space.webp"
       ],
       "resolvedVideos": [],
@@ -3231,7 +2941,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "GRAPHIC",
       "src": [
         "UTB/Adam Kratochvíl_Manual of improper being/front all.webp",
-        "UTB/Adam Kratochvíl_Manual of improper being/front all_preview.webp",
         "UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp",
         "UTB/Adam Kratochvíl_Manual of improper being/IMG_2767.webp",
         "UTB/Adam Kratochvíl_Manual of improper being/IMG_2769.webp",
@@ -3255,7 +2964,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "utb",
       "media": [
         "UTB/Adam Kratochvíl_Manual of improper being/front all.webp",
-        "UTB/Adam Kratochvíl_Manual of improper being/front all_preview.webp",
         "UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp",
         "UTB/Adam Kratochvíl_Manual of improper being/IMG_2767.webp",
         "UTB/Adam Kratochvíl_Manual of improper being/IMG_2769.webp",
@@ -3272,13 +2980,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 282468,
           "bytesHuman": "276 KB"
-        },
-        {
-          "source": "UTB/Adam Kratochvíl_Manual of improper being/front all_preview.webp",
-          "path": "assets/UTB/Adam Kratochvíl_Manual of improper being/front all_preview.webp",
-          "type": "image",
-          "bytes": 13964,
-          "bytesHuman": "13.6 KB"
         },
         {
           "source": "UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp",
@@ -3325,7 +3026,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UTB/Adam Kratochvíl_Manual of improper being/front all.webp",
-        "assets/UTB/Adam Kratochvíl_Manual of improper being/front all_preview.webp",
         "assets/UTB/Adam Kratochvíl_Manual of improper being/IMG_2757.webp",
         "assets/UTB/Adam Kratochvíl_Manual of improper being/IMG_2767.webp",
         "assets/UTB/Adam Kratochvíl_Manual of improper being/IMG_2769.webp",
@@ -3353,7 +3053,6 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0002.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0003.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004.webp",
-        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004_preview.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0005.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0006.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0007.webp",
@@ -3367,7 +3066,7 @@ window.SpaceToSpaceProjectsData = {
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
       "preview": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004_preview.webp",
-      "quality": "5",
+      "quality": "6",
       "fileSizes": {
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004_preview.webp": 73056
       },
@@ -3378,7 +3077,6 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0002.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0003.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004.webp",
-        "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004_preview.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0005.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0006.webp",
         "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0007.webp",
@@ -3416,13 +3114,6 @@ window.SpaceToSpaceProjectsData = {
           "bytesHuman": "201 KB"
         },
         {
-          "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004_preview.webp",
-          "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004_preview.webp",
-          "type": "image",
-          "bytes": 73056,
-          "bytesHuman": "71.3 KB"
-        },
-        {
           "source": "UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0005.webp",
           "path": "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0005.webp",
           "type": "image",
@@ -3456,7 +3147,6 @@ window.SpaceToSpaceProjectsData = {
         "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0002.webp",
         "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0003.webp",
         "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004.webp",
-        "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0004_preview.webp",
         "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0005.webp",
         "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0006.webp",
         "assets/UTB/Anna Chodurová_Archiv without a viewer/space_to_space_prezentace_anna_chodurova 2_page-0007.webp",
@@ -3479,13 +3169,7 @@ window.SpaceToSpaceProjectsData = {
       "category": "GRAPHIC",
       "src": [
         "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.gif",
-        "UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
-        "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
         "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.gif",
-        "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.webp",
-        "UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
-        "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
-        "UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
         "UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp"
       ],
       "contacts": {
@@ -3495,17 +3179,11 @@ window.SpaceToSpaceProjectsData = {
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "preview": "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.gif",
+      "preview": "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster_preview.gif",
       "quality": "4",
       "slug": "marietta-brandisova-between-nature-and-technology",
       "schoolSlug": "utb",
       "media": [
-        "UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
-        "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
-        "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.webp",
-        "UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
-        "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
-        "UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
         "UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp"
       ],
       "externalMedia": [
@@ -3516,59 +3194,17 @@ window.SpaceToSpaceProjectsData = {
       "resolvedAssets": [
         {
           "source": "UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.gif",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/marietta-brandisova-between-nature-and-technology/ant-gif-poster.gif",
-          "type": "video",
-          "bytes": 90211110,
-          "bytesHuman": "86.0 MB"
-        },
-        {
-          "source": "UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
-          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.gif",
           "type": "image",
-          "bytes": 5211226,
-          "bytesHuman": "4.97 MB"
-        },
-        {
-          "source": "UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
-          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
-          "type": "image",
-          "bytes": 3281648,
-          "bytesHuman": "3.13 MB"
+          "bytes": 2940455,
+          "bytesHuman": "2.80 MB"
         },
         {
           "source": "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.gif",
-          "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/marietta-brandisova-between-nature-and-technology/beetle-gif-poster.gif",
-          "type": "video",
-          "bytes": 84112775,
-          "bytesHuman": "80.2 MB"
-        },
-        {
-          "source": "UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.webp",
-          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
+          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.gif",
           "type": "image",
-          "bytes": 3099508,
-          "bytesHuman": "2.96 MB"
-        },
-        {
-          "source": "UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
-          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
-          "type": "image",
-          "bytes": 4876726,
-          "bytesHuman": "4.65 MB"
-        },
-        {
-          "source": "UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
-          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
-          "type": "image",
-          "bytes": 3099508,
-          "bytesHuman": "2.96 MB"
-        },
-        {
-          "source": "UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
-          "path": "assets/UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
-          "type": "image",
-          "bytes": 3310158,
-          "bytesHuman": "3.16 MB"
+          "bytes": 5190023,
+          "bytesHuman": "4.95 MB"
         },
         {
           "source": "UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp",
@@ -3579,23 +3215,16 @@ window.SpaceToSpaceProjectsData = {
         }
       ],
       "resolvedImages": [
-        "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant poster img.webp",
-        "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant_gif_poster.webp",
-        "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
-        "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle poster img.webp",
-        "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle_gif_poster.webp",
-        "assets/UTB/Marietta Brandisová_Between Nature and Technology/fly gif poster.webp",
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster.gif",
+        "assets/UTB/Marietta Brandisová_Between Nature and Technology/beetle gif poster.gif",
         "assets/UTB/Marietta Brandisová_Between Nature and Technology/fly poster img.webp"
       ],
-      "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/marietta-brandisova-between-nature-and-technology/ant-gif-poster.gif",
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/marietta-brandisova-between-nature-and-technology/beetle-gif-poster.gif"
-      ],
+      "resolvedVideos": [],
       "resolvedDocuments": [],
-      "menuAsset": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/marietta-brandisova-between-nature-and-technology/ant-gif-poster.gif",
-      "menuAssetType": "video",
-      "menuAssetBytes": 90211110,
-      "menuAssetBytesHuman": "86.0 MB"
+      "menuAsset": "assets/UTB/Marietta Brandisová_Between Nature and Technology/ant gif poster_preview.gif",
+      "menuAssetType": "image",
+      "menuAssetBytes": 1657494,
+      "menuAssetBytesHuman": "1.58 MB"
     },
     {
       "id": 79,
@@ -3607,7 +3236,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "UTB/Zuzana Buňatická_Lamp/media/DSC_0869.webp",
-        "UTB/Zuzana Buňatická_Lamp/media/DSC_0869_preview.webp",
         "UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp",
         "UTB/Zuzana Buňatická_Lamp/media/DSC_0872.webp",
         "UTB/Zuzana Buňatická_Lamp/media/DSC_0879.webp",
@@ -3632,7 +3260,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "utb",
       "media": [
         "UTB/Zuzana Buňatická_Lamp/media/DSC_0869.webp",
-        "UTB/Zuzana Buňatická_Lamp/media/DSC_0869_preview.webp",
         "UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp",
         "UTB/Zuzana Buňatická_Lamp/media/DSC_0872.webp",
         "UTB/Zuzana Buňatická_Lamp/media/DSC_0879.webp",
@@ -3650,13 +3277,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 688900,
           "bytesHuman": "673 KB"
-        },
-        {
-          "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0869_preview.webp",
-          "path": "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0869_preview.webp",
-          "type": "image",
-          "bytes": 32136,
-          "bytesHuman": "31.4 KB"
         },
         {
           "source": "UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp",
@@ -3710,7 +3330,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0869.webp",
-        "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0869_preview.webp",
         "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0871.webp",
         "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0872.webp",
         "assets/UTB/Zuzana Buňatická_Lamp/media/DSC_0879.webp",
@@ -3736,7 +3355,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.webp",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01_preview.webp",
         "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp",
         "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.webp",
         "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
@@ -3758,7 +3376,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "utb",
       "media": [
         "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.webp",
-        "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01_preview.webp",
         "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp",
         "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.webp",
         "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
@@ -3773,13 +3390,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 605810,
           "bytesHuman": "592 KB"
-        },
-        {
-          "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01_preview.webp",
-          "path": "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01_preview.webp",
-          "type": "image",
-          "bytes": 36488,
-          "bytesHuman": "35.6 KB"
         },
         {
           "source": "UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp",
@@ -3812,7 +3422,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01.webp",
-        "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_01_preview.webp",
         "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_02.webp",
         "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_03.webp",
         "assets/UTB/Tereza Sedláčková_Asmo/utb_sedlackova_tereza_asmo_04.webp",
@@ -3834,15 +3443,14 @@ window.SpaceToSpaceProjectsData = {
       "typeClass": "media-image",
       "category": "PRODUCT",
       "src": [
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_01.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_02.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03_preview.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_04.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_05.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_06.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_07.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_08.webp"
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp"
       ],
       "contacts": {
         "email": "p_hajna@utb.cz",
@@ -3851,85 +3459,77 @@ window.SpaceToSpaceProjectsData = {
       "warnings": [
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
-      "preview": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03_preview.webp",
+      "preview": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03_preview.webp",
       "quality": "3",
       "fileSizes": {
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03_preview.webp": 34700
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03_preview.webp": 34700
       },
       "slug": "pavla-hajna-children-s-canopy",
       "schoolSlug": "utb",
       "media": [
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_01.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_02.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03_preview.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_04.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_05.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_06.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_07.webp",
-        "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_08.webp"
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp",
+        "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp"
       ],
       "externalMedia": [],
       "documents": [],
       "resolvedAssets": [
         {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_01.webp",
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
           "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
           "type": "image",
           "bytes": 126574,
           "bytesHuman": "124 KB"
         },
         {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_02.webp",
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
           "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
           "type": "image",
           "bytes": 251904,
           "bytesHuman": "246 KB"
         },
         {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03.webp",
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
           "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
           "type": "image",
           "bytes": 34820,
           "bytesHuman": "34.0 KB"
         },
         {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_03_preview.webp",
-          "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03_preview.webp",
-          "type": "image",
-          "bytes": 34700,
-          "bytesHuman": "33.9 KB"
-        },
-        {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_04.webp",
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
           "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
           "type": "image",
           "bytes": 221934,
           "bytesHuman": "217 KB"
         },
         {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_05.webp",
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
           "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
           "type": "image",
           "bytes": 232376,
           "bytesHuman": "227 KB"
         },
         {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_06.webp",
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
           "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
           "type": "image",
           "bytes": 90436,
           "bytesHuman": "88.3 KB"
         },
         {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_07.webp",
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp",
           "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_07.webp",
           "type": "image",
           "bytes": 69742,
           "bytesHuman": "68.1 KB"
         },
         {
-          "source": "UTB/Pavla Hajná_Children's Canopy/utb_hajna_pavla_nebesa_08.webp",
+          "source": "UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp",
           "path": "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_08.webp",
           "type": "image",
           "bytes": 33374,
@@ -3940,7 +3540,6 @@ window.SpaceToSpaceProjectsData = {
         "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_01.webp",
         "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_02.webp",
         "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03.webp",
-        "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_03_preview.webp",
         "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_04.webp",
         "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_05.webp",
         "assets/UTB/Pavla Hajná_Children_s Canopy/utb_hajna_pavla_nebesa_06.webp",
@@ -3965,8 +3564,7 @@ window.SpaceToSpaceProjectsData = {
       "src": [
         "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_01.webp",
         "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_02.webp",
-        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web.mp4",
-        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4"
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web.mp4"
       ],
       "contacts": {
         "email": "e_bugyiova@utb.cz",
@@ -3976,7 +3574,7 @@ window.SpaceToSpaceProjectsData = {
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
       "preview": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4",
-      "quality": "2",
+      "quality": "6",
       "fileSizes": {
         "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4": 3780861
       },
@@ -3987,8 +3585,7 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_02.webp"
       ],
       "externalMedia": [
-        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web.mp4",
-        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4"
+        "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
@@ -4012,13 +3609,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "video",
           "bytes": 38805711,
           "bytesHuman": "37.0 MB"
-        },
-        {
-          "source": "UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4",
-          "path": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4",
-          "type": "video",
-          "bytes": 3780861,
-          "bytesHuman": "3.61 MB"
         }
       ],
       "resolvedImages": [
@@ -4026,8 +3616,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_ELizabeth_Interspace_02.webp"
       ],
       "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/elizabeth-bugyiova-interspace/media/utb-bugyiova-elizabeth-interspace-video-web.mp4",
-        "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/elizabeth-bugyiova-interspace/media/utb-bugyiova-elizabeth-interspace-video-web.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/UTB/Elizabeth Bugyiová_interspace/media/UTB_Bugyiova_Elizabeth_Interspace_video_web_preview.mp4",
@@ -4045,7 +3634,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "DIGITAL",
       "src": [
         "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
-        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web_preview.mp4",
         "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp"
       ],
       "contacts": {
@@ -4066,8 +3654,7 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp"
       ],
       "externalMedia": [
-        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
-        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web_preview.mp4"
+        "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
@@ -4077,13 +3664,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "video",
           "bytes": 1217373,
           "bytesHuman": "1.16 MB"
-        },
-        {
-          "source": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web_preview.mp4",
-          "path": "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web_preview.mp4",
-          "type": "video",
-          "bytes": 212717,
-          "bytesHuman": "208 KB"
         },
         {
           "source": "UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp",
@@ -4097,8 +3677,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_02.webp"
       ],
       "resolvedVideos": [
-        "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4",
-        "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web_preview.mp4"
+        "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/UTB/Matej Masaryk_Reflections/media/UTB_Masaryk_Matej_Reflections_01_web_preview.mp4",
@@ -4121,8 +3700,7 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_04.webp",
         "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_05.webp",
         "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_06.webp",
-        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
-        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4"
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4"
       ],
       "contacts": {
         "email": "s_nesporova@utb.cz",
@@ -4132,7 +3710,7 @@ window.SpaceToSpaceProjectsData = {
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
       "preview": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4",
-      "quality": "5",
+      "quality": "6",
       "fileSizes": {
         "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4": 471884
       },
@@ -4147,8 +3725,7 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_06.webp"
       ],
       "externalMedia": [
-        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
-        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4"
+        "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
@@ -4198,15 +3775,8 @@ window.SpaceToSpaceProjectsData = {
           "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web.mp4",
           "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/sarka-nesporova-break-the-cycle/media/utb-nesporova-sarka-break-the-cycle-07-web.mp4",
           "type": "video",
-          "bytes": 55958373,
-          "bytesHuman": "53.4 MB"
-        },
-        {
-          "source": "UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4",
-          "path": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4",
-          "type": "video",
-          "bytes": 471884,
-          "bytesHuman": "461 KB"
+          "bytes": 41737338,
+          "bytesHuman": "39.8 MB"
         }
       ],
       "resolvedImages": [
@@ -4218,8 +3788,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_06.webp"
       ],
       "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/sarka-nesporova-break-the-cycle/media/utb-nesporova-sarka-break-the-cycle-07-web.mp4",
-        "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/sarka-nesporova-break-the-cycle/media/utb-nesporova-sarka-break-the-cycle-07-web.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/UTB/Šárka Nešporová_Break the Cycle/media/UTB_Nešporová_Šárka_Break_The_Cycle_07_web_preview.mp4",
@@ -4243,7 +3812,6 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_05.webp",
         "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_06.webp",
         "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web.mp4",
-        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web_preview.mp4",
         "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web.mp4"
       ],
       "contacts": {
@@ -4270,7 +3838,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "externalMedia": [
         "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web.mp4",
-        "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web_preview.mp4",
         "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web.mp4"
       ],
       "documents": [],
@@ -4325,13 +3892,6 @@ window.SpaceToSpaceProjectsData = {
           "bytesHuman": "49.9 MB"
         },
         {
-          "source": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web_preview.mp4",
-          "path": "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web_preview.mp4",
-          "type": "video",
-          "bytes": 283814,
-          "bytesHuman": "277 KB"
-        },
-        {
           "source": "UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_02_web.mp4",
           "path": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/theo-fekar-testimonies-of-the-future/media/utb-fekar-theo-testimonies-video-02-web.mp4",
           "type": "video",
@@ -4349,7 +3909,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedVideos": [
         "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/theo-fekar-testimonies-of-the-future/media/utb-fekar-theo-testimonies-video-01-web.mp4",
-        "assets/UTB/Theo Fekar_Testimonies of the Future/media/UTB_Fekar_Theo_testimonies_video_01_web_preview.mp4",
         "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/theo-fekar-testimonies-of-the-future/media/utb-fekar-theo-testimonies-video-02-web.mp4"
       ],
       "resolvedDocuments": [],
@@ -4365,10 +3924,9 @@ window.SpaceToSpaceProjectsData = {
       "school": "UTB",
       "text": "Consume presents a set of copper lip jewellery and a ring shaped like a fork, both incorporating onyx elements that complete one another when brought together. The work reflects on overconsumption and the illusion of emptiness that drives material desire. It suggests that this perceived lack is not natural, but constructed, pointing to the influence of external systems shaping human needs and behaviour.",
       "typeClass": "media-image",
-      "category": "PRODUCT",
+      "category": "JEWELRY",
       "src": [
         "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
-        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01_preview.webp",
         "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp",
         "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.webp"
       ],
@@ -4380,7 +3938,7 @@ window.SpaceToSpaceProjectsData = {
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
       "preview": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01_preview.webp",
-      "quality": "4",
+      "quality": "5",
       "fileSizes": {
         "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01_preview.webp": 24686
       },
@@ -4388,7 +3946,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "utb",
       "media": [
         "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
-        "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01_preview.webp",
         "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp",
         "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.webp"
       ],
@@ -4401,13 +3958,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 47050,
           "bytesHuman": "45.9 KB"
-        },
-        {
-          "source": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01_preview.webp",
-          "path": "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01_preview.webp",
-          "type": "image",
-          "bytes": 24686,
-          "bytesHuman": "24.1 KB"
         },
         {
           "source": "UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp",
@@ -4426,7 +3976,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01.webp",
-        "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_01_preview.webp",
         "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_02.webp",
         "assets/UTB/Barbora Gajdošová_Consume/utb_gajdosova_barbova_consume_03.webp"
       ],
@@ -4444,10 +3993,9 @@ window.SpaceToSpaceProjectsData = {
       "school": "UTB",
       "text": "Elsewhere is a jewellery collection of a ring and pendant made of copper and agates, inspired by the idea of life beyond Earth. The forms evoke spatial structures resembling microorganisms or energy entities rather than human-like figures. The project reflects the tendency to interpret the unknown through familiar patterns, while opening space for imagination and alternative ways of perceiving other worlds.",
       "typeClass": "media-image",
-      "category": "PRODUCT",
+      "category": "JEWELRY",
       "src": [
         "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
-        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01_preview.webp",
         "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp",
         "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.webp"
       ],
@@ -4459,7 +4007,7 @@ window.SpaceToSpaceProjectsData = {
         "Nebyl nalezen anglický marker (ENG:), použit celý text."
       ],
       "preview": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01_preview.webp",
-      "quality": "4",
+      "quality": "5",
       "fileSizes": {
         "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01_preview.webp": 12922
       },
@@ -4467,7 +4015,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "utb",
       "media": [
         "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
-        "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01_preview.webp",
         "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp",
         "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.webp"
       ],
@@ -4480,13 +4027,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 1765162,
           "bytesHuman": "1.68 MB"
-        },
-        {
-          "source": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01_preview.webp",
-          "path": "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01_preview.webp",
-          "type": "image",
-          "bytes": 12922,
-          "bytesHuman": "12.6 KB"
         },
         {
           "source": "UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp",
@@ -4505,7 +4045,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01.webp",
-        "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_01_preview.webp",
         "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_02.webp",
         "assets/UTB/Kateřina Vyroubalová_Elsewhere/utb_vyroubalova_jinde_03.webp"
       ],
@@ -4523,12 +4062,11 @@ window.SpaceToSpaceProjectsData = {
       "school": "UTB",
       "text": "Relic explores the concept of transfer between spaces, where a raw stone carries the memory of its origin, shaped without human intervention. In contrast, a geometric structure represents human order and control. The stone is not set harmoniously but constrained within the form, held at minimal points, creating tension between natural processes and constructed systems, and revealing the fragile balance between both.",
       "typeClass": "media-image",
-      "category": "PRODUCT",
+      "category": "JEWELRY",
       "src": [
         "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.webp",
         "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.webp",
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp",
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03_preview.webp"
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp"
       ],
       "contacts": {
         "email": "",
@@ -4547,8 +4085,7 @@ window.SpaceToSpaceProjectsData = {
       "media": [
         "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.webp",
         "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.webp",
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp",
-        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03_preview.webp"
+        "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp"
       ],
       "externalMedia": [],
       "documents": [],
@@ -4573,20 +4110,12 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 271810,
           "bytesHuman": "265 KB"
-        },
-        {
-          "source": "UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03_preview.webp",
-          "path": "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03_preview.webp",
-          "type": "image",
-          "bytes": 12190,
-          "bytesHuman": "11.9 KB"
         }
       ],
       "resolvedImages": [
         "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_01.webp",
         "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_02.webp",
-        "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp",
-        "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03_preview.webp"
+        "assets/UTB/Michal Grzebinski_Relic/utb_grzebinski_space-to-space_03.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
@@ -4602,10 +4131,9 @@ window.SpaceToSpaceProjectsData = {
       "school": "UTB",
       "text": "There Was One House is a ring inspired by the form of a signet, symbolising home as a space of memory and relationships. The house motif reflects what remains hidden behind closed doors and how these experiences shape identity. Archival photographs evoke intimate family moments, centred around a table embedded within a structure of brass, plexiglass, and printed foil, forming a layered narrative of personal history.",
       "typeClass": "media-image",
-      "category": "PRODUCT",
+      "category": "JEWELRY",
       "src": [
         "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
-        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01_preview.webp",
         "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp",
         "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.webp"
       ],
@@ -4625,7 +4153,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "utb",
       "media": [
         "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
-        "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01_preview.webp",
         "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp",
         "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.webp"
       ],
@@ -4638,13 +4165,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 105284,
           "bytesHuman": "103 KB"
-        },
-        {
-          "source": "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01_preview.webp",
-          "path": "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01_preview.webp",
-          "type": "image",
-          "bytes": 15080,
-          "bytesHuman": "14.7 KB"
         },
         {
           "source": "UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp",
@@ -4663,7 +4183,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01.webp",
-        "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_01_preview.webp",
         "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_02.webp",
         "assets/UTB/Sára Timošová_There was one house/utb_timosova_byl-jeden-domecek_03.webp"
       ],
@@ -4681,11 +4200,10 @@ window.SpaceToSpaceProjectsData = {
       "school": "UTB",
       "text": "Jasmina is an isometric journey into the unconscious that transforms therapeutic processes into an interactive narrative. Through dreamlike metaphors and evidence-based approaches, it guides players in navigating anxiety and depression. As a digital sanctuary, it functions as an empathetic tool for personal growth, offering support, reflection, and clarity even in moments of emotional uncertainty.",
       "typeClass": "media-image",
-      "category": "DIGITAL",
+      "category": "GAME",
       "src": [
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.webp",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02_preview.webp",
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp",
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.webp",
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.webp",
@@ -4710,7 +4228,6 @@ window.SpaceToSpaceProjectsData = {
       "media": [
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.webp",
-        "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02_preview.webp",
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp",
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.webp",
         "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.webp",
@@ -4734,13 +4251,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 118904,
           "bytesHuman": "116 KB"
-        },
-        {
-          "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02_preview.webp",
-          "path": "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02_preview.webp",
-          "type": "image",
-          "bytes": 30548,
-          "bytesHuman": "29.8 KB"
         },
         {
           "source": "UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp",
@@ -4788,7 +4298,6 @@ window.SpaceToSpaceProjectsData = {
       "resolvedImages": [
         "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_01.webp",
         "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02.webp",
-        "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_02_preview.webp",
         "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_03.webp",
         "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_04.webp",
         "assets/UTB/Lena Navrátilová_Jasmina/media/UTB_Navratilova_Lena_Jsmina_05.webp",
@@ -4810,11 +4319,10 @@ window.SpaceToSpaceProjectsData = {
       "school": "UTB",
       "text": "Sinequo is a combat-racing game set in a mechanical Renaissance, where horses are replaced by early self-propelled machines. The gameplay centres on switching between immersive 3D racing and a 2D blueprint mode, where the environment becomes a dynamic sketch. This planning dimension allows players to modify their machines in real time, respond to track conditions, and develop strategies during the race.",
       "typeClass": "media-image",
-      "category": "DIGITAL",
+      "category": "GAME",
       "src": [
         "UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.webp",
         "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01_preview.webp",
         "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp",
         "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.webp",
         "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.webp",
@@ -4841,7 +4349,6 @@ window.SpaceToSpaceProjectsData = {
       "media": [
         "UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.webp",
         "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
-        "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01_preview.webp",
         "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp",
         "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.webp",
         "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.webp",
@@ -4867,13 +4374,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 90308,
           "bytesHuman": "88.2 KB"
-        },
-        {
-          "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01_preview.webp",
-          "path": "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01_preview.webp",
-          "type": "image",
-          "bytes": 90038,
-          "bytesHuman": "87.9 KB"
         },
         {
           "source": "UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp",
@@ -4935,7 +4435,6 @@ window.SpaceToSpaceProjectsData = {
       "resolvedImages": [
         "assets/UTB/Lukáš Kučera_Sinequo/media/QRCode_Sinequo.webp",
         "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01.webp",
-        "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_01_preview.webp",
         "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_02.webp",
         "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_03.webp",
         "assets/UTB/Lukáš Kučera_Sinequo/media/UTB_Kučera_Lukáš_Sinequo_04.webp",
@@ -4959,10 +4458,9 @@ window.SpaceToSpaceProjectsData = {
       "school": "UTB",
       "text": "Revenant Earth 2 is a 2D pixel-art strategy game focused on restoring a planet affected by climate change. As the last human, the player controls weather, soil, plant growth, and technology to re-establish balance. The game simulates ecosystem processes and highlights the impact of human activity, encouraging environmental awareness and responsible attitudes toward nature.",
       "typeClass": "media-image",
-      "category": "DIGITAL",
+      "category": "GAME",
       "src": [
         "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01_preview.webp",
         "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp",
         "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.webp",
         "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.webp",
@@ -4985,7 +4483,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "utb",
       "media": [
         "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
-        "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01_preview.webp",
         "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp",
         "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.webp",
         "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.webp",
@@ -5001,13 +4498,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 90002,
           "bytesHuman": "87.9 KB"
-        },
-        {
-          "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01_preview.webp",
-          "path": "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01_preview.webp",
-          "type": "image",
-          "bytes": 25898,
-          "bytesHuman": "25.3 KB"
         },
         {
           "source": "UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp",
@@ -5047,7 +4537,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01.webp",
-        "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_01_preview.webp",
         "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_02.webp",
         "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_03.webp",
         "assets/UTB/Matouš Marek_Revenant Earth 2/media/UTB_Marek_Matouš_RE2_04.webp",
@@ -5071,7 +4560,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "UTB/Jana Jagošová_Liferaft/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a.webp",
-        "UTB/Jana Jagošová_Liferaft/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a_preview.webp",
         "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp",
         "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.webp",
         "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.webp",
@@ -5096,7 +4584,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "utb",
       "media": [
         "UTB/Jana Jagošová_Liferaft/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a.webp",
-        "UTB/Jana Jagošová_Liferaft/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a_preview.webp",
         "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp",
         "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.webp",
         "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.webp",
@@ -5114,13 +4601,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 402296,
           "bytesHuman": "393 KB"
-        },
-        {
-          "source": "UTB/Jana Jagošová_Liferaft/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a_preview.webp",
-          "path": "assets/UTB/Jana Jagošová_Liferaft/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a_preview.webp",
-          "type": "image",
-          "bytes": 33350,
-          "bytesHuman": "32.6 KB"
         },
         {
           "source": "UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp",
@@ -5174,7 +4654,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UTB/Jana Jagošová_Liferaft/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a.webp",
-        "assets/UTB/Jana Jagošová_Liferaft/media/Tomas Bata University in Zlín_Jagošová_Jana_Vor_02a_preview.webp",
         "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_01.webp",
         "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_03.webp",
         "assets/UTB/Jana Jagošová_Liferaft/media/Tomas_Bata_University_in_Zlín_Jagošová_Jana_Vor_04.webp",
@@ -5205,7 +4684,6 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06_preview.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.webp",
@@ -5237,7 +4715,6 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
-        "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06_preview.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.webp",
         "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.webp",
@@ -5292,13 +4769,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 184824,
           "bytesHuman": "180 KB"
-        },
-        {
-          "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06_preview.webp",
-          "path": "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06_preview.webp",
-          "type": "image",
-          "bytes": 13112,
-          "bytesHuman": "12.8 KB"
         },
         {
           "source": "UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp",
@@ -5371,7 +4841,6 @@ window.SpaceToSpaceProjectsData = {
         "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_04.webp",
         "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_05.webp",
         "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06.webp",
-        "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_06_preview.webp",
         "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_07.webp",
         "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_08.webp",
         "assets/UTB/Jan Kroulík_MUV Modular Utility Vehicle/Media/Tomas_Bata_University_Kroulík_Jan_MUV_09.webp",
@@ -5399,7 +4868,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01_preview.webp",
         "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp",
         "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.webp",
         "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.webp",
@@ -5425,7 +4893,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "utb",
       "media": [
         "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
-        "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01_preview.webp",
         "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp",
         "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.webp",
         "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.webp",
@@ -5444,13 +4911,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 208622,
           "bytesHuman": "204 KB"
-        },
-        {
-          "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01_preview.webp",
-          "path": "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01_preview.webp",
-          "type": "image",
-          "bytes": 71010,
-          "bytesHuman": "69.3 KB"
         },
         {
           "source": "UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp",
@@ -5511,7 +4971,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01.webp",
-        "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_01_preview.webp",
         "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_02.webp",
         "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_03.webp",
         "assets/UTB/Gabriela Metzová_Rescue Robot/media/UTB_Metzová_Gabriela_Záchranný_robot_05.webp",
@@ -5539,7 +4998,6 @@ window.SpaceToSpaceProjectsData = {
       "src": [
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.webp",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02_preview.webp",
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp",
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.webp",
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.webp",
@@ -5563,7 +5021,6 @@ window.SpaceToSpaceProjectsData = {
       "media": [
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.webp",
-        "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02_preview.webp",
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp",
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.webp",
         "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.webp",
@@ -5586,13 +5043,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 86984,
           "bytesHuman": "84.9 KB"
-        },
-        {
-          "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02_preview.webp",
-          "path": "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02_preview.webp",
-          "type": "image",
-          "bytes": 10936,
-          "bytesHuman": "10.7 KB"
         },
         {
           "source": "UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp",
@@ -5633,7 +5083,6 @@ window.SpaceToSpaceProjectsData = {
       "resolvedImages": [
         "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_01.webp",
         "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02.webp",
-        "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_02_preview.webp",
         "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_03.webp",
         "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_04.webp",
         "assets/UTB/Martin Mejvald_NIAD Filtration System/media/Tomas_Bata_University_in_Zlín_Mejvald_Martin_NIAD_Filtration_System_05.webp",
@@ -5690,8 +5139,7 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_photo__7.webp",
         "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_photo__8.webp",
         "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_photo__9.webp",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web.mp4",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web_preview.mp4"
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web.mp4"
       ],
       "contacts": {
         "email": "jhrdina@utb.cz",
@@ -5744,8 +5192,7 @@ window.SpaceToSpaceProjectsData = {
         "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_photo__9.webp"
       ],
       "externalMedia": [
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web.mp4",
-        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web_preview.mp4"
+        "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web.mp4"
       ],
       "documents": [],
       "resolvedAssets": [
@@ -5993,13 +5440,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "video",
           "bytes": 182690099,
           "bytesHuman": "174 MB"
-        },
-        {
-          "source": "UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web_preview.mp4",
-          "path": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web_preview.mp4",
-          "type": "video",
-          "bytes": 217799,
-          "bytesHuman": "213 KB"
         }
       ],
       "resolvedImages": [
@@ -6039,8 +5479,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_jakub_Na_Mars_photo__9.webp"
       ],
       "resolvedVideos": [
-        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars/media/utb-hrdina-jakub-na-mars-video-web.mp4",
-        "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web_preview.mp4"
+        "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/utb/jakub-hrdina-marek-ondrej-vladimir-vykoukal-to-mars/media/utb-hrdina-jakub-na-mars-video-web.mp4"
       ],
       "resolvedDocuments": [],
       "menuAsset": "assets/UTB/Jakub Hrdina, Marek Ondřej, Vladimír Vykoukal_To Mars!!!/media/UTB_Hrdina_Jakub_Na_Mars_video_web_preview.mp4",
@@ -6058,7 +5497,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "SPATIAL",
       "src": [
         "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.webp",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01_preview.webp",
         "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
         "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.webp",
         "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.webp",
@@ -6086,7 +5524,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "vsvu",
       "media": [
         "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.webp",
-        "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01_preview.webp",
         "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
         "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.webp",
         "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.webp",
@@ -6108,13 +5545,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 335110,
           "bytesHuman": "327 KB"
-        },
-        {
-          "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01_preview.webp",
-          "path": "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01_preview.webp",
-          "type": "image",
-          "bytes": 24816,
-          "bytesHuman": "24.2 KB"
         },
         {
           "source": "VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
@@ -6189,7 +5619,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01.webp",
-        "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_01_preview.webp",
         "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_02.webp",
         "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_03.webp",
         "assets/VŠVU/Michaela Krčová_It’s about you/VŠVU_Krčová_Michaela_I_04.webp",
@@ -6219,7 +5648,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "SPATIAL",
       "src": [
         "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01_preview.webp",
         "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp",
         "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_03.webp",
         "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_04.webp",
@@ -6243,7 +5671,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "vsvu",
       "media": [
         "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
-        "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01_preview.webp",
         "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp",
         "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_03.webp",
         "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_04.webp",
@@ -6261,13 +5688,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 3007130,
           "bytesHuman": "2.87 MB"
-        },
-        {
-          "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01_preview.webp",
-          "path": "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01_preview.webp",
-          "type": "image",
-          "bytes": 34518,
-          "bytesHuman": "33.7 KB"
         },
         {
           "source": "VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp",
@@ -6314,7 +5734,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01.webp",
-        "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_01_preview.webp",
         "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_02.webp",
         "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_03.webp",
         "assets/VŠVU/Filip Huraj_MARS53/media/vsvu_huraj_filip_04.webp",
@@ -6343,7 +5762,6 @@ window.SpaceToSpaceProjectsData = {
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4_preview.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.webp"
@@ -6367,7 +5785,6 @@ window.SpaceToSpaceProjectsData = {
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
-        "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4_preview.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.webp",
         "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.webp"
@@ -6404,13 +5821,6 @@ window.SpaceToSpaceProjectsData = {
           "bytesHuman": "227 KB"
         },
         {
-          "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4_preview.webp",
-          "path": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4_preview.webp",
-          "type": "image",
-          "bytes": 5806,
-          "bytesHuman": "5.67 KB"
-        },
-        {
           "source": "TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
           "path": "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
           "type": "image",
@@ -6437,7 +5847,6 @@ window.SpaceToSpaceProjectsData = {
         "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_2.webp",
         "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_3.webp",
         "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4.webp",
-        "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_4_preview.webp",
         "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_5.webp",
         "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_6.webp",
         "assets/TUZVO/Viktória Palúchová_Y-Domatia/MEDIA/VP_y-domatia_7.webp"
@@ -6459,7 +5868,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "SPATIAL",
       "src": [
         "TUZVO/Lujza Novosadová_Infinity loop/media/1.webp",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/1_preview.webp",
         "TUZVO/Lujza Novosadová_Infinity loop/media/2.webp",
         "TUZVO/Lujza Novosadová_Infinity loop/media/3.webp",
         "TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
@@ -6483,7 +5891,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Lujza Novosadová_Infinity loop/media/1.webp",
-        "TUZVO/Lujza Novosadová_Infinity loop/media/1_preview.webp",
         "TUZVO/Lujza Novosadová_Infinity loop/media/2.webp",
         "TUZVO/Lujza Novosadová_Infinity loop/media/3.webp",
         "TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
@@ -6500,13 +5907,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 272192,
           "bytesHuman": "266 KB"
-        },
-        {
-          "source": "TUZVO/Lujza Novosadová_Infinity loop/media/1_preview.webp",
-          "path": "assets/TUZVO/Lujza Novosadová_Infinity loop/media/1_preview.webp",
-          "type": "image",
-          "bytes": 34126,
-          "bytesHuman": "33.3 KB"
         },
         {
           "source": "TUZVO/Lujza Novosadová_Infinity loop/media/2.webp",
@@ -6553,7 +5953,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Lujza Novosadová_Infinity loop/media/1.webp",
-        "assets/TUZVO/Lujza Novosadová_Infinity loop/media/1_preview.webp",
         "assets/TUZVO/Lujza Novosadová_Infinity loop/media/2.webp",
         "assets/TUZVO/Lujza Novosadová_Infinity loop/media/3.webp",
         "assets/TUZVO/Lujza Novosadová_Infinity loop/media/4.webp",
@@ -6578,7 +5977,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "TUZVO/Martin Žabka_Shinrin/media/1.webp",
-        "TUZVO/Martin Žabka_Shinrin/media/1_preview.webp",
         "TUZVO/Martin Žabka_Shinrin/media/2.webp",
         "TUZVO/Martin Žabka_Shinrin/media/3.webp",
         "TUZVO/Martin Žabka_Shinrin/media/4.webp",
@@ -6600,7 +5998,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Martin Žabka_Shinrin/media/1.webp",
-        "TUZVO/Martin Žabka_Shinrin/media/1_preview.webp",
         "TUZVO/Martin Žabka_Shinrin/media/2.webp",
         "TUZVO/Martin Žabka_Shinrin/media/3.webp",
         "TUZVO/Martin Žabka_Shinrin/media/4.webp",
@@ -6615,13 +6012,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 312540,
           "bytesHuman": "305 KB"
-        },
-        {
-          "source": "TUZVO/Martin Žabka_Shinrin/media/1_preview.webp",
-          "path": "assets/TUZVO/Martin Žabka_Shinrin/media/1_preview.webp",
-          "type": "image",
-          "bytes": 18982,
-          "bytesHuman": "18.5 KB"
         },
         {
           "source": "TUZVO/Martin Žabka_Shinrin/media/2.webp",
@@ -6654,7 +6044,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Martin Žabka_Shinrin/media/1.webp",
-        "assets/TUZVO/Martin Žabka_Shinrin/media/1_preview.webp",
         "assets/TUZVO/Martin Žabka_Shinrin/media/2.webp",
         "assets/TUZVO/Martin Žabka_Shinrin/media/3.webp",
         "assets/TUZVO/Martin Žabka_Shinrin/media/4.webp",
@@ -6677,7 +6066,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "PRODUCT",
       "src": [
         "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png_preview.webp",
         "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp",
         "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.webp",
         "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.webp",
@@ -6699,7 +6087,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
-        "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png_preview.webp",
         "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp",
         "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.webp",
         "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.webp",
@@ -6714,13 +6101,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 17404,
           "bytesHuman": "17.0 KB"
-        },
-        {
-          "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png_preview.webp",
-          "path": "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png_preview.webp",
-          "type": "image",
-          "bytes": 3304,
-          "bytesHuman": "3.23 KB"
         },
         {
           "source": "TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp",
@@ -6753,7 +6133,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png.webp",
-        "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_01.png_preview.webp",
         "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_02.png.webp",
         "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_03.png.webp",
         "assets/TUZVO/Natália Gajdošová_breO2/media/TUZVO_Gajdošová_Natália_breO₂_04.png.webp",
@@ -6825,7 +6204,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "SPATIAL",
       "src": [
         "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
-        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1_preview.webp",
         "TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp",
         "TUZVO/Kvetoslava Krnáčová_Space No.01/media/3.webp",
         "TUZVO/Kvetoslava Krnáčová_Space No.01/media/4.webp",
@@ -6852,7 +6230,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "tuzvo",
       "media": [
         "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
-        "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1_preview.webp",
         "TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp",
         "TUZVO/Kvetoslava Krnáčová_Space No.01/media/3.webp",
         "TUZVO/Kvetoslava Krnáčová_Space No.01/media/4.webp",
@@ -6873,13 +6250,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 388216,
           "bytesHuman": "379 KB"
-        },
-        {
-          "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/1_preview.webp",
-          "path": "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/1_preview.webp",
-          "type": "image",
-          "bytes": 15124,
-          "bytesHuman": "14.8 KB"
         },
         {
           "source": "TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp",
@@ -6947,7 +6317,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/1.webp",
-        "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/1_preview.webp",
         "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/2.webp",
         "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/3.webp",
         "assets/TUZVO/Kvetoslava Krnáčová_Space No.01/media/4.webp",
@@ -6976,7 +6345,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "SPATIAL",
       "src": [
         "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
-        "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01_preview.webp",
         "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp",
         "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.webp",
         "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.webp",
@@ -6995,7 +6363,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "asp-wroclaw",
       "media": [
         "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
-        "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01_preview.webp",
         "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp",
         "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.webp",
         "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.webp",
@@ -7010,13 +6377,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 2386708,
           "bytesHuman": "2.28 MB"
-        },
-        {
-          "source": "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01_preview.webp",
-          "path": "assets/ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01_preview.webp",
-          "type": "image",
-          "bytes": 19768,
-          "bytesHuman": "19.3 KB"
         },
         {
           "source": "ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp",
@@ -7049,7 +6409,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01.webp",
-        "assets/ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_01_preview.webp",
         "assets/ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_02.webp",
         "assets/ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_03.webp",
         "assets/ASP Wroclaw/Ewa Kulewicz_The Polish Pavilion for World Expo 2025/media/ASP_Wroclaw_Ewa_Kulewicz_dyplom_04.webp",
@@ -7074,8 +6433,7 @@ window.SpaceToSpaceProjectsData = {
         "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.webp",
         "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
         "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.webp",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.webp",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage_preview.webp"
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.webp"
       ],
       "contacts": {
         "email": "",
@@ -7095,8 +6453,7 @@ window.SpaceToSpaceProjectsData = {
         "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.webp",
         "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
         "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.webp",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.webp",
-        "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage_preview.webp"
+        "TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.webp"
       ],
       "externalMedia": [],
       "documents": [],
@@ -7128,21 +6485,13 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 190318,
           "bytesHuman": "186 KB"
-        },
-        {
-          "source": "TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage_preview.webp",
-          "path": "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage_preview.webp",
-          "type": "image",
-          "bytes": 12990,
-          "bytesHuman": "12.7 KB"
         }
       ],
       "resolvedImages": [
         "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_product.webp",
         "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage.webp",
         "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_useprocess.webp",
-        "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.webp",
-        "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/orbstone_Usage_preview.webp"
+        "assets/TAIPEI TECH/Caihong Yang_Orb Stone/media/產品介紹.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
@@ -7161,7 +6510,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "SPATIAL",
       "src": [
         "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.webp",
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01_preview.webp",
         "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp",
         "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
         "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.webp"
@@ -7182,7 +6530,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "ehb",
       "media": [
         "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.webp",
-        "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01_preview.webp",
         "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp",
         "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
         "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.webp"
@@ -7196,13 +6543,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 40766,
           "bytesHuman": "39.8 KB"
-        },
-        {
-          "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01_preview.webp",
-          "path": "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01_preview.webp",
-          "type": "image",
-          "bytes": 14344,
-          "bytesHuman": "14.0 KB"
         },
         {
           "source": "EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp",
@@ -7228,7 +6568,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01.webp",
-        "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_01_preview.webp",
         "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_02.webp",
         "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_03.webp",
         "assets/EhB/Dennis Baptist_Microcosmos/media/EhB_Baptist_Dennis_Microcosms_04.webp"
@@ -7250,7 +6589,6 @@ window.SpaceToSpaceProjectsData = {
       "category": "DIGITAL",
       "src": [
         "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz2.webp",
-        "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz2_preview.webp",
         "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz3.webp",
         "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/poster1.webp",
         "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/UAlg_Oliveira_Tainá_VR_SPACETOSPACE.webp"
@@ -7268,7 +6606,6 @@ window.SpaceToSpaceProjectsData = {
       "schoolSlug": "ualg",
       "media": [
         "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz2.webp",
-        "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz2_preview.webp",
         "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz3.webp",
         "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/poster1.webp",
         "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/UAlg_Oliveira_Tainá_VR_SPACETOSPACE.webp"
@@ -7282,13 +6619,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 28682,
           "bytesHuman": "28.0 KB"
-        },
-        {
-          "source": "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz2_preview.webp",
-          "path": "assets/UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz2_preview.webp",
-          "type": "image",
-          "bytes": 28162,
-          "bytesHuman": "27.5 KB"
         },
         {
           "source": "UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz3.webp",
@@ -7314,7 +6644,6 @@ window.SpaceToSpaceProjectsData = {
       ],
       "resolvedImages": [
         "assets/UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz2.webp",
-        "assets/UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz2_preview.webp",
         "assets/UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/cartaz3.webp",
         "assets/UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/poster1.webp",
         "assets/UAlg/Oliveira Tainá _ Space to Space — An Immersive Exhibition/media/UAlg_Oliveira_Tainá_VR_SPACETOSPACE.webp"
@@ -7335,8 +6664,7 @@ window.SpaceToSpaceProjectsData = {
       "typeClass": "media-image",
       "category": "GRAPHIC",
       "src": [
-        "UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING.webp",
-        "UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING_preview.webp"
+        "UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING.webp"
       ],
       "contacts": {
         "email": "",
@@ -7353,8 +6681,7 @@ window.SpaceToSpaceProjectsData = {
       "slug": "tiago-sequeira-the-human-spirit-of-space",
       "schoolSlug": "ualg",
       "media": [
-        "UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING.webp",
-        "UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING_preview.webp"
+        "UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING.webp"
       ],
       "externalMedia": [],
       "documents": [],
@@ -7365,25 +6692,17 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 977310,
           "bytesHuman": "954 KB"
-        },
-        {
-          "source": "UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING_preview.webp",
-          "path": "assets/UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING_preview.webp",
-          "type": "image",
-          "bytes": 11598,
-          "bytesHuman": "11.3 KB"
         }
       ],
       "resolvedImages": [
-        "assets/UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING.webp",
-        "assets/UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING_preview.webp"
+        "assets/UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
       "menuAsset": "assets/UAlg/Tiago Sequeira_The human spirit of space/Painel_Exposicao_TiagoSequeira_ING_preview.webp",
       "menuAssetType": "image",
-      "menuAssetBytes": 11598,
-      "menuAssetBytesHuman": "11.3 KB"
+      "menuAssetBytes": 267788,
+      "menuAssetBytesHuman": "262 KB"
     },
     {
       "id": 108,
@@ -7404,8 +6723,7 @@ window.SpaceToSpaceProjectsData = {
         "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.webp",
         "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.webp",
         "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.webp",
-        "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp",
-        "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01_preview.webp"
+        "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp"
       ],
       "contacts": {
         "email": "",
@@ -7432,8 +6750,7 @@ window.SpaceToSpaceProjectsData = {
         "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.webp",
         "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.webp",
         "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.webp",
-        "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp",
-        "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01_preview.webp"
+        "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp"
       ],
       "externalMedia": [],
       "documents": [],
@@ -7514,13 +6831,6 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 289514,
           "bytesHuman": "283 KB"
-        },
-        {
-          "source": "TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01_preview.webp",
-          "path": "assets/TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01_preview.webp",
-          "type": "image",
-          "bytes": 38936,
-          "bytesHuman": "38.0 KB"
         }
       ],
       "resolvedImages": [
@@ -7534,8 +6844,7 @@ window.SpaceToSpaceProjectsData = {
         "assets/TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_08.webp",
         "assets/TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_09.webp",
         "assets/TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_10.webp",
-        "assets/TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp",
-        "assets/TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_01_preview.webp"
+        "assets/TAIPEI TECH/Zheng Meng-Cong_Ning-Stones/media/Taipei_Tech_Zheng_Meng-Cong_Ning-Stones_11.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
@@ -7553,8 +6862,7 @@ window.SpaceToSpaceProjectsData = {
       "typeClass": "media-image",
       "category": "DIGITAL",
       "src": [
-        "UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA.webp",
-        "UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA_preview.webp"
+        "UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA.webp"
       ],
       "contacts": {
         "email": "",
@@ -7571,8 +6879,7 @@ window.SpaceToSpaceProjectsData = {
       "slug": "beatriz-martins-vrsa",
       "schoolSlug": "ualg",
       "media": [
-        "UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA.webp",
-        "UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA_preview.webp"
+        "UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA.webp"
       ],
       "externalMedia": [],
       "documents": [],
@@ -7583,25 +6890,17 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 833894,
           "bytesHuman": "814 KB"
-        },
-        {
-          "source": "UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA_preview.webp",
-          "path": "assets/UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA_preview.webp",
-          "type": "image",
-          "bytes": 17416,
-          "bytesHuman": "17.0 KB"
         }
       ],
       "resolvedImages": [
-        "assets/UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA.webp",
-        "assets/UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA_preview.webp"
+        "assets/UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA.webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
       "menuAsset": "assets/UAlg/Beatriz Martins_VRSA/Media/Ualg_Martins_Beatriz_VRSA_preview.webp",
       "menuAssetType": "image",
-      "menuAssetBytes": 17416,
-      "menuAssetBytesHuman": "17.0 KB"
+      "menuAssetBytes": 330624,
+      "menuAssetBytesHuman": "323 KB"
     },
     {
       "id": 99,
@@ -7612,8 +6911,7 @@ window.SpaceToSpaceProjectsData = {
       "typeClass": "media-image",
       "category": "GRAPHIC",
       "src": [
-        "UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2).webp",
-        "UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2)_preview.webp"
+        "UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2).webp"
       ],
       "contacts": {
         "email": "",
@@ -7630,8 +6928,7 @@ window.SpaceToSpaceProjectsData = {
       "slug": "eva-santos-fssolutions",
       "schoolSlug": "ualg",
       "media": [
-        "UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2).webp",
-        "UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2)_preview.webp"
+        "UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2).webp"
       ],
       "externalMedia": [],
       "documents": [],
@@ -7642,25 +6939,17 @@ window.SpaceToSpaceProjectsData = {
           "type": "image",
           "bytes": 679046,
           "bytesHuman": "663 KB"
-        },
-        {
-          "source": "UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2)_preview.webp",
-          "path": "assets/UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2)_preview.webp",
-          "type": "image",
-          "bytes": 12756,
-          "bytesHuman": "12.5 KB"
         }
       ],
       "resolvedImages": [
-        "assets/UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2).webp",
-        "assets/UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2)_preview.webp"
+        "assets/UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2).webp"
       ],
       "resolvedVideos": [],
       "resolvedDocuments": [],
       "menuAsset": "assets/UAlg/Eva Santos_FSSolutions/media/Universidade do Algarve_Escola Superior de Ensino e Comunicação_Santos_Eva_FSSolutions_01  (2)_preview.webp",
       "menuAssetType": "image",
-      "menuAssetBytes": 12756,
-      "menuAssetBytesHuman": "12.5 KB"
+      "menuAssetBytes": 242880,
+      "menuAssetBytesHuman": "237 KB"
     },
     {
       "id": 100,
@@ -7672,8 +6961,7 @@ window.SpaceToSpaceProjectsData = {
       "category": "DIGITAL",
       "src": [
         "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO.webp",
-        "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_01_web.mp4",
-        "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_preview.webp"
+        "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_01_web.mp4"
       ],
       "contacts": {
         "email": "",
@@ -7690,8 +6978,7 @@ window.SpaceToSpaceProjectsData = {
       "slug": "david-voznyak-vivo",
       "schoolSlug": "ualg",
       "media": [
-        "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO.webp",
-        "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_preview.webp"
+        "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO.webp"
       ],
       "externalMedia": [
         "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_01_web.mp4"
@@ -7711,18 +6998,10 @@ window.SpaceToSpaceProjectsData = {
           "type": "video",
           "bytes": 100373653,
           "bytesHuman": "95.7 MB"
-        },
-        {
-          "source": "UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_preview.webp",
-          "path": "assets/UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_preview.webp",
-          "type": "image",
-          "bytes": 11940,
-          "bytesHuman": "11.7 KB"
         }
       ],
       "resolvedImages": [
-        "assets/UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO.webp",
-        "assets/UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_preview.webp"
+        "assets/UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO.webp"
       ],
       "resolvedVideos": [
         "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev/assets/ualg/david-voznyak-vivo/media/ualg-voznyak-david-vivo-01-web.mp4"
@@ -7730,10 +7009,10 @@ window.SpaceToSpaceProjectsData = {
       "resolvedDocuments": [],
       "menuAsset": "assets/UAlg/David Voznyak_VIVO/media/UAlg_Voznyak_David_VIVO_preview.webp",
       "menuAssetType": "image",
-      "menuAssetBytes": 11940,
-      "menuAssetBytesHuman": "11.7 KB"
+      "menuAssetBytes": 269122,
+      "menuAssetBytesHuman": "263 KB"
     }
   ],
   "mediaBase": "https://pub-174ee6744b9c46a2ae437d403c3e6613.r2.dev",
-  "mediaBasePathRules": 29
+  "mediaBasePathRules": 56
 };

@@ -338,6 +338,7 @@ function createProjectVideoSurface(project, asset, surface) {
     if (surface.master) {
         video.dataset.syncMaster = 'true';
     }
+    window.SpaceToSpaceAudio?.applyToVideo(video);
 
     const canvas = document.createElement('canvas');
     canvas.className = `surface-canvas ${surface.projected ? 'is-projected' : 'is-flat'}`;
@@ -422,7 +423,7 @@ function playVisibleProjectVideos() {
             return;
         }
 
-        video.muted = true;
+        window.SpaceToSpaceAudio?.applyToVideo(video);
         video.playsInline = true;
         video.play().catch(() => {});
     });
@@ -471,6 +472,7 @@ function createMediaElement(asset, altText) {
         video.playsInline = true;
         video.preload = 'metadata';
         video.setAttribute('aria-label', altText);
+        window.SpaceToSpaceAudio?.applyToVideo(video);
         frame.appendChild(video);
         return frame;
     }

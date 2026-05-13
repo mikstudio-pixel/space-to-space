@@ -1,0 +1,21 @@
+The Esmeralda Pérez, M.D.D. project, created by Marek Dohnal, is a reimagining of the tooth fairy myth designed to combat odontophobia—the fear of dental procedures such as drilling and extractions. The project presents a "tooth fairy for the modern times" who focuses on preventative care and cleaning rather than the traditional exchange of lost teeth for money.
+Narrative and Backstory
+
+The project provides a rich historical context, stating Esmeralda was born around 1880 and raised by the legendary Ratón Pérez after her parents went missing. Her name originated from Ratón's partial color blindness. Her adulthood lore involves a "Sweets Pact of 1913" between trolls and dentists, which led to an increase in cavities and prompted her to found the Fae Clinic of Clandestine Dentistry.
+
+Product Design and Accessories
+
+The toy is supported by a suite of highly detailed, functional miniature accessories that mirror real-world dental tools to help desensitize children to them:
+
+    Dental Scaler: A 3D-printed tool used for removing calculus.
+
+    Headlamp: A working light made from an LED diode and battery, used to "scare tooth trolls" and navigate at night.
+
+    Mirror: A 3D-printed tool with a cut sequin to see into "crevices".
+
+    Glasses: Crafted from wire to give the character a "smart" professional appearance.
+
+The packaging is multifunctional, serving as a medical cabinet, office, and bed. It is constructed from cardboard and paper cutouts, featuring pillows filled with cotton and decorations like a miniature stethoscope and thermometer.
+Multimedia Integration
+
+Beyond the physical toy, the project includes a VR Experience designed as an induction for newly accepted tooth fairies. This digital component, approved by the fictional "Association of Ethereal Medicine," allows users to experience a night in the life of Esmeralda as she navigates dental cavities and encounters the "pickaxe clanks" of tooth-damaging trolls. Through this blend of storytelling, physical play, and technology, the project transforms a source of anxiety into an interactive, educational adventure.

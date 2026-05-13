@@ -31,8 +31,9 @@ IGNORED_ASSET_FILES = {
 
 EXTERNAL_MEDIA_EXTENSIONS = {".mp4", ".m4v", ".mov", ".gif"}
 DOCUMENT_EXTENSIONS = {".pdf", ".doc", ".docx", ".odt", ".txt", ".ppt", ".pptx", ".xlsx", ".rtf"}
-IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff"}
-VIDEO_EXTENSIONS = {".mp4", ".m4v", ".mov", ".gif"}
+# GIF patří mezi obrázky: <video src="…gif"> se v prohlížečích často nenačte a galerie čeká na loadeddata.
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff", ".gif"}
+VIDEO_EXTENSIONS = {".mp4", ".m4v", ".mov"}
 KNOWN_EXTENSIONS = IMAGE_EXTENSIONS | VIDEO_EXTENSIONS | DOCUMENT_EXTENSIONS
 
 
@@ -331,6 +332,19 @@ def build_project_record(
     }
 
 
+def patch_projects_data_script_cache_buster(version: str) -> None:
+    """Přidá ?v=… ke skriptu projects-data.js, aby prohlížeč nestáhl starou cache."""
+    pattern = re.compile(r'(src="data/projects-data\.js)(\?[^"]*)?(")')
+    for name in ("index.html", "project.html"):
+        path = ROOT / name
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        new_text, count = pattern.subn(rf"\1?v={version}\3", text, count=1)
+        if count:
+            path.write_text(new_text, encoding="utf-8")
+
+
 def main() -> None:
     payload = json.loads(SELECTED_PATH.read_text(encoding="utf-8"))
     works = payload.get("works", [])
@@ -393,6 +407,8 @@ def main() -> None:
         + ";\n",
         encoding="utf-8",
     )
+    cache_bust = str(int(datetime.now(timezone.utc).timestamp()))
+    patch_projects_data_script_cache_buster(cache_bust)
     EXTERNAL_MEDIA_PATH.write_text(
         json.dumps(
             {
@@ -428,6 +444,7 @@ def main() -> None:
         "externalDocumentCount": len(external_documents),
         "projectsPath": PROJECTS_PATH.relative_to(ROOT).as_posix(),
         "projectsJsPath": PROJECTS_JS_PATH.relative_to(ROOT).as_posix(),
+        "projectsDataCacheBust": cache_bust,
         "mediaBase": media_base or None,
         "r2UploadPathRules": len(r2_paths),
     }

@@ -491,6 +491,7 @@ document.addEventListener('DOMContentLoaded', () => {
             video.playsInline = true;
             video.preload = 'metadata';
             video.setAttribute('aria-label', label || 'Focused project video');
+            window.SpaceToSpaceAudio?.applyToVideo(video);
             return video;
         }
 

@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
     const darkModeToggle = document.getElementById('darkModeToggle');
     const colorModeToggle = document.getElementById('colorModeToggle');
-    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
     const syncRootThemeClasses = () => {
         const isDark = body.classList.contains('dark-mode');
         const isBw = body.classList.contains('bw-mode');
@@ -61,22 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    darkModeMediaQuery.addEventListener('change', (event) => {
-        if (localStorage.getItem('darkMode') !== null) {
-            return;
-        }
-
-        body.classList.toggle('dark-mode', event.matches);
-        syncRootThemeClasses();
-        updateDarkToggleState(event.matches);
-        window.dispatchEvent(new CustomEvent('space-theme-change', {
-            detail: { isDark: event.matches }
-        }));
-    });
-
     const observer = new MutationObserver(syncRootThemeClasses);
     observer.observe(body, { attributes: true, attributeFilter: ['class'] });
 });
-
 
 
